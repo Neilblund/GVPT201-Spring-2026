@@ -133,9 +133,8 @@
     "href": "Weeks/Week 01/Week-01.html",
     "title": "Week 1",
     "section": "",
-    "text": "ELMS page",
+    "text": "ELMS page\nhttps://umd.instructure.com/courses/1400577",
     "crumbs": [
-      "Week 01",
       "Week 1"
     ]
   },
@@ -144,9 +143,8 @@
     "href": "Weeks/Week 01/Week-01.html#important-links",
     "title": "Week 1",
     "section": "",
-    "text": "ELMS page",
+    "text": "ELMS page\nhttps://umd.instructure.com/courses/1400577",
     "crumbs": [
-      "Week 01",
       "Week 1"
     ]
   },
@@ -157,7 +155,6 @@
     "section": "Lecture slides",
     "text": "Lecture slides\n\nIntroductions\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\nLecture 1",
     "crumbs": [
-      "Week 01",
       "Week 1"
     ]
   },
@@ -168,7 +165,6 @@
     "section": "To-Do",
     "text": "To-Do\n\nInstall R and R-Studio by Friday so you’re ready for discussion sections.",
     "crumbs": [
-      "Week 01",
       "Week 1"
     ]
   },
