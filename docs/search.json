@@ -151,11 +151,207 @@
     ]
   },
   {
+    "objectID": "Slides/slides_00.html#lecture",
+    "href": "Slides/slides_00.html#lecture",
+    "title": "Introductions",
+    "section": "Lecture",
+    "text": "Lecture\nThis is what you’re doing right now. Expect something very much like this.\n\nChoices\n\n\nAttend in person (this is the only format where you can ask questions!)\nWatch Zoom (check the Zoom tab on ELMS)\nWatch recordings on ELMS page.\n\n\n\n\nDue dates listed on ELMS are hard deadlines."
+  },
+  {
+    "objectID": "Slides/slides_00.html#discussion-sections",
+    "href": "Slides/slides_00.html#discussion-sections",
+    "title": "Introductions",
+    "section": "Discussion sections",
+    "text": "Discussion sections\n\n\nEvery Friday, led by your TA\nJoin in person or on Zoom.\n\nZoom participants must have cameras on during the class\n\nAttendance is mandatory and participation is 10% of your grade\n\nRecordings will still be on ELMS in the “Section Recordings” folder of the Panopto tab\n\nThis is your best chance to ask homework questions, get feedback, and clarify concepts, so come prepared. (Read workbook and look at homework beforehand)"
+  },
+  {
+    "objectID": "Slides/slides_00.html#resources",
+    "href": "Slides/slides_00.html#resources",
+    "title": "Introductions",
+    "section": "Resources",
+    "text": "Resources\nThere’s additional materials on the syllabus.\nGoing forward I will generally try to link study materials on the modules tab in ELMS."
+  },
+  {
+    "objectID": "Slides/slides_00.html#political-science-research",
+    "href": "Slides/slides_00.html#political-science-research",
+    "title": "Introductions",
+    "section": "Political Science Research",
+    "text": "Political Science Research\n\n\nNormative Research\n“Ought” questions\n\nWhat constitutes a just society?\nWhat are the qualities of a good leader?\nWhat obligations do citizens have towards their governments?\n\n\nEmpirical Research\n“Is/Are” questions\n\nAre democracies less likely to go to war compared to autocracies?\nDo protests prompt political change?\nWhen are political parties most likely to be unified around a shared platform or ideology?"
+  },
+  {
+    "objectID": "Slides/slides_00.html#political-science-research-1",
+    "href": "Slides/slides_00.html#political-science-research-1",
+    "title": "Introductions",
+    "section": "Political Science Research",
+    "text": "Political Science Research\nThis course will focus primarily on the empirical and quantitative aspects of research.\n\nBut ideally, these goals should inform each other."
+  },
+  {
+    "objectID": "Slides/slides_00.html#empirical-research-goals",
+    "href": "Slides/slides_00.html#empirical-research-goals",
+    "title": "Introductions",
+    "section": "Empirical Research: goals",
+    "text": "Empirical Research: goals\n\nIdentify a research question\nDefine key concepts\nFormulate a testable hypothesis\nCollect data, conduct analysis, and assess results\nCollectively: accumulate knowledge about the world"
+  },
+  {
+    "objectID": "Slides/slides_00.html#empirical-research-stats",
+    "href": "Slides/slides_00.html#empirical-research-stats",
+    "title": "Introductions",
+    "section": "Empirical Research: Stats",
+    "text": "Empirical Research: Stats\n\n\nNumbers are for nerds, but you need some stats and basic programming skills to get through this course, this program, and probably your career and for general life stuff."
+  },
+  {
+    "objectID": "Slides/slides_00.html#conceptual-outline-of-the-course",
+    "href": "Slides/slides_00.html#conceptual-outline-of-the-course",
+    "title": "Introductions",
+    "section": "Conceptual Outline of the course",
+    "text": "Conceptual Outline of the course\n\nWeeks 1 through 3: How to measure stuff and why it matters\nWeeks 4 through 8: Description, comparison, and hypotheses\nWeeks 9 through 10: Inference and statistical tests\nWeeks 11 through 14: Correlation and regression analysis"
+  },
+  {
+    "objectID": "Slides/slides_00.html#grades",
+    "href": "Slides/slides_00.html#grades",
+    "title": "Introductions",
+    "section": "Grades",
+    "text": "Grades\n\n\nWorkbook HW (25%): R coding, usually due on Thursdays at midnight\nSurvey analysis (35%): design, distribute, and analyze a (non-representative) public opinion survey.\n\nBiggest component is an end-of-term data analysis paper\n\nExams (25%): open-notes/open book exams administered through ELMS.\nSection participation (10%): Based on engagement, not participation alone.\nLab (5%): participate in 3 studies conducted by GVPT faculty and students."
+  },
+  {
     "objectID": "Resources.html",
     "href": "Resources.html",
     "title": "Resources",
     "section": "",
     "text": "Additional resources and tips for GVPT 201 students."
+  },
+  {
+    "objectID": "Slides/slides_01.html#research-questions",
+    "href": "Slides/slides_01.html#research-questions",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nDoes religion play a role in civil wars?\nWhat causes increasing income inequality in least developed countries?\nWhy has public opinion on same sex marriage liberalized so rapidly?\nIs the U.S. becoming more polarized?\n\n\nNot everyone is going to agree on what these terms mean!\n\n\nBefore we can get anywhere researching these questions, we need to define the thing we’re studying"
+  },
+  {
+    "objectID": "Slides/slides_01.html#defining-things-harder-than-it-seems",
+    "href": "Slides/slides_01.html#defining-things-harder-than-it-seems",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Defining things: harder than it seems!",
+    "text": "Defining things: harder than it seems!\n\n\n\nReasonable definition of a chair\n\n\n\n\n\n\nChair"
+  },
+  {
+    "objectID": "Slides/slides_01.html#terms",
+    "href": "Slides/slides_01.html#terms",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Terms",
+    "text": "Terms\n\nConceptual Definition\n\nA description of the concrete, measurable properties of a concept and the unit of analysis to which it applies\n\nUnit of Analysis\n\nThe entity that that is being studied. For instance: individuals, governments, parties etc.\n\nOperational Definition\n\nA description of the instrument used to measure the concept"
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: Unit of Analysis",
+    "text": "Crafting Conceptual Definitions: Unit of Analysis\n\nWhat is the unit? What entity possesses the characteristic?\n\nThe U.S. and Canada are democracies (concept: democracy, unit: countries)\nLincoln, LBJ, and Trump are the three tallest U.S. presidents (concept: height, unit: presidents/people)\nLabour is the UK’s main center-left political party (concept: party ideology/family, unit: political party)\n\n\n\nOne way to think of this: if you put your data into a spreadsheet, what does each “row” represent? The answer to that question is the unit of analysis."
+  },
+  {
+    "objectID": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
+    "href": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Unit of analysis and the ecological fallacy",
+    "text": "Unit of analysis and the ecological fallacy\nThe ecological fallacy occurs when you attribute a characteristic of groups to individuals. For instance:\n\nHigh-income states tend to vote for Democrats, but rich people tend to vote for Republicans.\nSuicide rates in 19th century Europe were higher in Protestant countries compared to Catholic countries, but Protestant individuals were no more likely to die by suicide.\nIn the 1930 census, zip codes with more immigrants had higher literacy rates, but immigrant individuals had lower literacy rates.\n\nAll of these are fundamentally problems of ignoring the unit of analysis."
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: Key features",
+    "text": "Crafting Conceptual Definitions: Key features\n\nWhat are the essential features of the concept?\n\nIf there are cases or definitions everyone agrees on, what characteristics do they share?\nAre certain qualities necessary or sufficient for a case to belong to a category?\nWhat characteristics are most distinctive to those cases?\nWhat is most helpful for clarifying edge-cases?\n\nAre there multiple dimensions or just one? If two characteristics always occur together, you might only need to account for one of them!"
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: transparency",
+    "text": "Crafting Conceptual Definitions: transparency\nWe want to avoid being Potter Stewart:\n\nThe goal is cumulative knowledge, and a private definition can’t provide that."
+  },
+  {
+    "objectID": "Slides/slides_01.html#some-steps-to-take",
+    "href": "Slides/slides_01.html#some-steps-to-take",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Some steps to take:",
+    "text": "Some steps to take:\n\n\nIdentify the unit of analysis\nMake a list of important properties, clear examples and non-examples, and/or generally accepted definitions\nRemove items that aren’t measurable\nReduce dimensions where possible (if a characteristic is shared by positive cases and negative cases, then it isn’t useful)\nRefine as needed"
+  },
+  {
+    "objectID": "Slides/slides_01.html#conceptualizing-democracy",
+    "href": "Slides/slides_01.html#conceptualizing-democracy",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Conceptualizing Democracy",
+    "text": "Conceptualizing Democracy\nSome proposed features:\n\n\nRegular elections with meaningful alternatives\nPeaceful transfer of power\nFree expression\nA competitive media environment\nAutonomous political groups (political associations, unions, interest groups etc.) that can pressure the government\nRule of law\nChecks and balances\nProperty rights\n\n\n\nMinimalists might argue that 1 and 2 alone are necessary and sufficient. Others may argue that even these 8 are oversimplifying."
+  },
+  {
+    "objectID": "Slides/slides_01.html#conceptualizing-democracy-1",
+    "href": "Slides/slides_01.html#conceptualizing-democracy-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Conceptualizing Democracy",
+    "text": "Conceptualizing Democracy\n\nUnit of analysis: governments (usually national governments)\nCases:\n\nDefinitely democracies: U.S., U.K., Uruguay, Taiwan, Japan, Botswana\nDefinitely autocracies: North Korea, Saudi Arabia, Russia, Venezuala\nEdge cases: Hungary, Turkey, Tunisia\n\nFeatures:\n\nVoting and elections\nMultiple parties\nMeaningful civil liberties\nStability and monopoly on violence\n\n\nThis may need refinement: what about sham elections?\nThis may not be distinctive: there are stable autocracies on the list\nMinimalists might argue that we only need the elections and parties"
+  },
+  {
+    "objectID": "Slides/slides_01.html#operationalization",
+    "href": "Slides/slides_01.html#operationalization",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Operationalization",
+    "text": "Operationalization\nEven where we agree on a definition, we will need to measure a concept and there is often slippage here"
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-reliability",
+    "href": "Slides/slides_01.html#considerations-reliability",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Reliability",
+    "text": "Considerations: Reliability\nReliability refers to how consistently the same measurement instrument produces the same result\n\nTest-Retest method: asking the same questions to a new random sample should produce roughly the same result\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\n\n(One purported advantage of the minimalist definition of democracy is that its relatively stable because it allows less room for subjectivity.)"
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-validity",
+    "href": "Slides/slides_01.html#considerations-validity",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Validity",
+    "text": "Considerations: Validity\n\nValidity refers to whether an operational definition matches the concept we’re interested in.\nA challenge to validity might come from cases that seem mis-categorized in our definition. For example: the minimalist definition of democracy suggests that Japan was authoritarian for much of the latter half of the 20th century."
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-validity-and-reliability",
+    "href": "Slides/slides_01.html#considerations-validity-and-reliability",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Validity and Reliability",
+    "text": "Considerations: Validity and Reliability\n\nMeasures could be reliable but invalid: your astrological sign is a reliable measure of your political views because it doesn’t change, but it also isn’t valid because it has no real correspondence to your actual politics.\nMeasures could be valid but unreliable: an exam with a single well-written question might be a valid measure of a student’s understanding of material, but it will probably have more random variability compared to an exam with multiple poorly-written questions."
+  },
+  {
+    "objectID": "Slides/slides_01.html#measurement-error-1",
+    "href": "Slides/slides_01.html#measurement-error-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Measurement Error",
+    "text": "Measurement Error\n\nMeasurement error is a source of noise, systematic measurement error is a source of bias\nWe’ll generally find that random noise is much easier to deal with than bias because we can simply collect more data. Bias, on the other hand, presents profound challenges to research because we can only correct it if we can measure it"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id",
+    "href": "Slides/slides_01.html#party-id",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-1",
+    "href": "Slides/slides_01.html#party-id-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-2",
+    "href": "Slides/slides_01.html#party-id-2",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-3",
+    "href": "Slides/slides_01.html#party-id-3",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
   },
   {
     "objectID": "about.html",
