@@ -1,0 +1,218 @@
+[
+  {
+    "objectID": "troubleshooting.html",
+    "href": "troubleshooting.html",
+    "title": "Troubleshooting R",
+    "section": "",
+    "text": "Encountering errors and unexpected results is an inevitable part of learning any programming language. The teaching staff is here to help, but before you send an email to your TA, its good to do a little troubleshooting to make sure the problem isn’t something you can solve on your own.\nEvery problem is different, but there are some steps that I generally recommend taking when you encounter a problem in R.",
+    "crumbs": [
+      "Resources",
+      "Troubleshooting R"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#step-0-take-a-little-break",
+    "href": "troubleshooting.html#step-0-take-a-little-break",
+    "title": "Troubleshooting R",
+    "section": "Step 0: Take a little break",
+    "text": "Step 0: Take a little break\nIn my experience, 99% of errors are the result of stuff like misspelling a variable or forgetting to load a package and they’re completely obvious once you’ve spotted them. There’s no way around this, it happens to everyone. The only real advice I can offer here is: take a break and relax your brain. Go for a walk. Eat a sandwich. Pet a cat, etc. Then come back with a fresh set of eyes and retrace your steps to see if you can spot something that looks out of place.\nOnce you’ve done this, take a look at the offending output and see if you can get any clues about its origins. When you see messages like: Error in foo() : could not find function \"foo\" or Error: object 'x' not found its often either a misspelling or its the result of a variable or function that hasn’t been loaded into R yet.\nOther messages are a little harder to parse, but you can often copy-paste the error into a search engine and you’ll find that other people have gotten help for the same issue. R has a big community of users, and so there’s a good chance that someone else has encountered the same problem you’re having and has written about how to solve it. Similarly, if you’re having an issue with a particular function, consult the help file and see if you can find any useful information there.\nWhen this fails, then move on to step 1.",
+    "crumbs": [
+      "Resources",
+      "Troubleshooting R"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#step-1-clear-the-environment-and-restart-r",
+    "href": "troubleshooting.html#step-1-clear-the-environment-and-restart-r",
+    "title": "Troubleshooting R",
+    "section": "Step 1: Clear the environment and restart R",
+    "text": "Step 1: Clear the environment and restart R\nSome errors are caused by unexpected interactions between different libraries or objects in the working environment. In order to rule out issues like this, you want to start with a “fresh” environment with no packages or data loaded.\nTo restart R, you can press Ctrl + Shift + F10, or just close and reopen R-Studio. Then, to clear the environment, just press the little broom 🧹 icon in the environment pane, or enter the following command into the console:\n\nrm(list = ls())",
+    "crumbs": [
+      "Resources",
+      "Troubleshooting R"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#step-2-try-to-replicate-the-issue",
+    "href": "troubleshooting.html#step-2-try-to-replicate-the-issue",
+    "title": "Troubleshooting R",
+    "section": "Step 2: Try to replicate the issue",
+    "text": "Step 2: Try to replicate the issue\nNow that you have a fresh R instance, try to replicate your problem. Make a new script and call it something like “error_replication” and then try to replicate your error message in as few steps as possible. Remember that you’ll need to re-load any packages or data you’ve been using for your analysis first. For GVPT 201, that usually means at least running library(RCPA3) and possibly loading one of the world, nes, gss or states data sets.\nRun through each line of code one step at a time until you encounter the problem. If you want to be absolutely sure that your code can be replicated, repeat step 1 and then press the “source” button at the top right of the script editor. This will run the entire script in sequence.\nHere’s an example of a common error that comes from trying to use the max function on a variable that isn’t numeric. I might have a lot of other code in my original script, but I only need four lines to replicate this error message and you can easily recreate it yourself by copying these same lines:\n\n# Step 1: After restarting Rstudio and clearing the environment...\n# Step 2: I load the required packages ----\nlibrary(RCPA3)\n# and import the \"world\" data set and assign it to a variable\nworld&lt;-RCPA3::world\n\n# Step 3: And then I recreate my error message----\nmax(world$election.violence.post)\n\nError in Summary.factor(structure(c(1L, NA, 1L, NA, 1L, 2L, 1L, 1L, 1L, : 'max' not meaningful for factors\n\n\nIsolating the problem like this can usually make it a lot easier to spot the source of the issue, but if you can replicate the error and you’re still not sure how to fix it, then its probably time to move on to the next step.",
+    "crumbs": [
+      "Resources",
+      "Troubleshooting R"
+    ]
+  },
+  {
+    "objectID": "troubleshooting.html#step-3-send-an-email",
+    "href": "troubleshooting.html#step-3-send-an-email",
+    "title": "Troubleshooting R",
+    "section": "Step 3: Send an Email",
+    "text": "Step 3: Send an Email\nIf you’ve tried the previous steps and you still haven’t resolved your issue, its time to reach out to a classmate, TA, or the instructor. In order to make that process go as smoothly as possible, you want to be sure to pass along sufficient details about your issue so that someone else can help you troubleshoot. So generally this means including:\n\nA description of the problem and what you’re trying to do\nThe text of the error message (if applicable) or a screenshot of the problematic output\nA script that can replicate your problem in as few steps as possible (see step 2)\n\nHere’s an example of how that email might look:\n\n\n\n\n\n\n\nTo: MySectionTA@umd.edu\n\n\nFrom: me@umd.edu\n\n\nSubject: GVPT 201: Error when using max\n\n\nHello, I’m working on the homework and I keep getting an error message when I try to use the max function.\nThe error message is: Error in Summary.factor(c(1L, NA, 1L, NA, 1L, 2L, 1L, 1L, 1L, 2L, NA,:‘max’ not meaningful for factors\nI’ve attached an Rscript that replicates the error below\nThank you!\n[here, you would want to attach the error replication script from step 2]",
+    "crumbs": [
+      "Resources",
+      "Troubleshooting R"
+    ]
+  },
+  {
+    "objectID": "surveys.html",
+    "href": "surveys.html",
+    "title": "Class surveys",
+    "section": "",
+    "text": "Documentation and code for the in-class surveys."
+  },
+  {
+    "objectID": "lecture_slides.html",
+    "href": "lecture_slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Slides from previous lectures are in this section. (You’ll also see placeholders for future lecture slides. I haven’t made these yet!)"
+  },
+  {
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "FAQs",
+    "section": "",
+    "text": "This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page on basic troubleshooting in R.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "href": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "title": "FAQs",
+    "section": "How do I access the help file for a function?",
+    "text": "How do I access the help file for a function?\nYou can access the help file for a function by typing help(function name) into the console:\n\nhelp(c) # get the help file for the \"c\" function\n\nIf the function is associated with the RCPA3 package, it should have some reasonably detailed information about how each function works, but it will also have links to some short YouTube videos that illustrate how to use them, so consider giving those a watch if you’re stuck.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#when-do-i-need-to-use-weights",
+    "href": "faqs.html#when-do-i-need-to-use-weights",
+    "title": "FAQs",
+    "section": "When do I need to use weights?",
+    "text": "When do I need to use weights?\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "href": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "title": "FAQs",
+    "section": "What does the $ symbol mean (as in world$ccode)?",
+    "text": "What does the $ symbol mean (as in world$ccode)?\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\n [1] 52 22 29 50 33 29 30 35 35 45 35 45 39 44 40 48 47 53 23 37 30 38 38 60 43\n[26] 31 47 30 23 36 34 32 49 42 36 50 32 39 30 54 42 52 47 57 23 41 33 43 33 31\nattr(,\"label\")\n[1] \"% freq attend relig serv (Pew)\"\n\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "href": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "title": "FAQs",
+    "section": "Why am I getting Error: object __ not found?",
+    "text": "Why am I getting Error: object __ not found?\nOkay, there could be lots of reasons for this error message, but the most common cause is that you’ve either:\n\nMis-spelled a variable name.\nReferenced a variable without specifying the data set where that variable is stored.\nReferenced a variable that is not yet available in R.\n\nWhen you reference a variable in R, it searches for that variable in the current environment, and it returns an error message when it can’t find it. So the code below returns and error because x hasn’t been defined yet:\n\nx\n\nError: object 'x' not found\n\n\nTo access xI first need to create it by assigning a value (in this case, some text in quotation marks) to that name. This works just fine:\n\nx&lt;-\"I am a variable\"\n\nx\n\n[1] \"I am a variable\"\n\n\nThe other place this comes up is when you try to access a column from a data set without specifying the data set where that variable exists. For instance, “age” is a column in the nes data, but just typing “age” doesn’t work because R doesn’t know where to look:\n\nmean(age, na.rm=T)\n\nError: object 'age' not found\n\n\nUsing the dataset$varname syntax solves this problem:\n\nmean(nes$age, na.rm=T)\n\n[1] 51.58522",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-are-factor-variables",
+    "href": "faqs.html#what-are-factor-variables",
+    "title": "FAQs",
+    "section": "What are factor variables?",
+    "text": "What are factor variables?\nA factor variable is R’s default data type for storing categorical data. Technically, a factor is actually just a bunch of integers with a special levels attribute that specifies the labels that those integers correspond to:\n\nexample_factor &lt;- factor(c(1,1,2,2,3,4), labels = c('A', 'B', 'C', 'D'))\nexample_factor\n\n[1] A A B B C D\nLevels: A B C D\n\n\nR can also just store text, but factors have some distinct advantages. The most important is that we can easily control the ordering of a table or graph.\nIf I just have a regular character variable, R will try to list out the levels in alphabetical order:\n\nstring_vector &lt;- c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\")\ntable(string_vector)\n\nstring_vector\n                     Agree                   Disagree \n                         1                          1 \nNeither disagree nor agree \n                         1 \n\n\nBut alphabetizing this doesn’t make sense because it has a clear ordering from disagree to agree. The “levels” attribute allows me to preserve that ordering:\n\nfactor_vector &lt;- factor(string_vector, \n                        # list of the levels the order I want them to appear: \n                        levels =c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\"))\n\ntable(factor_vector)\n\nfactor_vector\n                  Disagree Neither disagree nor agree \n                         1                          1 \n                     Agree \n                         1 \n\n\nThis also means we can easily convert a factor variable to numeric so we can do things like calculate the median value of an ordered variable:\n\nmedian(as.numeric(factor_vector))\n\n[1] 2",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Additional resources and tips for GVPT 201 students.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is a site for students taking GVPT 201 in Spring 2025. While the most important course material is stored on ELMS, I’m experimenting this semester with using an external site to host some code, data, and other instructional stuff. Don’t worry! If its essential, I’ll post a link to it on the ELMS page.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "Some helpful links for students interested in learning more about political science, research methods, or R programming.\n\nTextbook Resources\n\nPoliSciData.com\n\nThis is the website for the course textbook. In addition to helpful guides and videos, they’ve got an excellent collection of political science data sets that are free and online. If you’re interested in doing your own analyses, this is a great place to start. You might also want to check out their YouTube page.\n\n\n\n\nNews and Analysis\n\nGood Authority\n\nGood Authority is the successor to The Monkey Cage, a blog previously hosted by the Washington Post. Its a great place to read new research and analysis of current events from a polisci perspective.\n\nLSE Blogs\n\nCommentary and analysis of global and European politics hosted by the London School of Economics.\n\nFiveThirtyEight\n\nData-driven analysis and commentary on current events and sports. Now hosted by ABC News.\n\nPew Research\n\nA non-partisan think tank that tracks public opinion in the U.S. and abroad. Their Decoded Blog offers some really nice hands-on tutorials for anyone interested in working with public opinion data.\n\n\n\n\nR\nThere are a ton of great free resources for learning more about R, and this is by no means an exhaustive list, but these are some books and tutorials that I think are especially useful if you’re interested in learning more about using R for analysis.\n\nR for data science\n\nThis is a free e-book written, appropriately, for people who want to use R for data science. The book assumes some basic knowledge of R programming, but its an excellent resource if you want to learn how to do things like build your own database from scratch or scrape the web.\n\nhttps://rforpoliticalscience.com/\n\nA blog with short posts detailing packages, data sources, and other small projects and tips all aimed at R-using political scientists.\n\nBig Book of R\n\nLinks to hundreds of free, open-source R tutorials arranged by topic.",
+    "crumbs": [
+      "Resources",
+      "Links"
+    ]
+  },
+  {
+    "objectID": "tips.html",
+    "href": "tips.html",
+    "title": "tips",
+    "section": "",
+    "text": "(I’ll be adding stuff to this section as I encounter it)\n\n\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.\n\n\n\nThey svyglm function is used to run a weighted regression, but the final project data doesn’t have any weights associated with it, so you don’t need any of the svy commands to do your analysis. Keep in mind, however, that these data are still not representative of the general population, so you should acknowledge that this is a non-random sample when you discuss your results.\n\n\n\nYou are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine. If you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. you just need to say that you’ve failed to reject the null. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are: you’re wrong, there’s not enough data, there’s uncontrolled confounding, or the sample is biased. You don’t need to give a definitive explanation, just show you’re thinking about your results and that you understand what it means to reject or not reject the null hypothesis.\n(If you think there’s uncontrolled confounding and it comes from a variable that already exists in the data, you might as well test it! But its entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case its fine to say “I suspect this matters, but I can’t test it”)\n\n\n\nBefore submitting your R-code, its a good idea to double-check and make sure everything runs properly. The best way to do this is: restart R, press little broom icon in the environment pane to make sure you’ve cleared all of the your data out, and then run your script one line at a time and make sure that you don’t see any errors. If you’re not able to reproduce the results in your paper, then you may need to check to make sure you have everything in the right order.\n\n\n\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n===========================================================================\n                         Mean Comparison Analysis\n===========================================================================\n\n\nTable: Mean Values of attend.pct by region\n\n              Mean    N   St. Dev.\n----------  ------  ---  ---------\nNortheast    29.56    9       5.77\nMidwest      40.83   12       4.39\nSouth        46.88   16       7.16\nWest         33.92   13       8.59\nTotal        38.94   50       9.37\n\n\n\n\n\n\n\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)\n\n===========================================================================\n                         Mean Comparison Analysis\n===========================================================================\n\n\nTable: Mean Values of states$attend.pct by states$region\n\n              Mean    N   St. Dev.\n----------  ------  ---  ---------\nNortheast    29.56    9       5.77\nMidwest      40.83   12       4.39\nSouth        46.88   16       7.16\nWest         33.92   13       8.59\nTotal        38.94   50       9.37\n\n\n\n\n\n\n\n\n\n\n\n\nna.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
+  },
+  {
+    "objectID": "tips.html#when-do-i-need-to-use-weights",
+    "href": "tips.html#when-do-i-need-to-use-weights",
+    "title": "tips",
+    "section": "",
+    "text": "You’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries."
+  },
+  {
+    "objectID": "tips.html#do-i-need-to-use-svyglm",
+    "href": "tips.html#do-i-need-to-use-svyglm",
+    "title": "tips",
+    "section": "",
+    "text": "They svyglm function is used to run a weighted regression, but the final project data doesn’t have any weights associated with it, so you don’t need any of the svy commands to do your analysis. Keep in mind, however, that these data are still not representative of the general population, so you should acknowledge that this is a non-random sample when you discuss your results."
+  },
+  {
+    "objectID": "tips.html#is-it-okay-if-my-results-are-not-significant",
+    "href": "tips.html#is-it-okay-if-my-results-are-not-significant",
+    "title": "tips",
+    "section": "",
+    "text": "You are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine. If you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. you just need to say that you’ve failed to reject the null. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are: you’re wrong, there’s not enough data, there’s uncontrolled confounding, or the sample is biased. You don’t need to give a definitive explanation, just show you’re thinking about your results and that you understand what it means to reject or not reject the null hypothesis.\n(If you think there’s uncontrolled confounding and it comes from a variable that already exists in the data, you might as well test it! But its entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case its fine to say “I suspect this matters, but I can’t test it”)"
+  },
+  {
+    "objectID": "tips.html#how-can-i-make-sure-that-my-code-is-replicable",
+    "href": "tips.html#how-can-i-make-sure-that-my-code-is-replicable",
+    "title": "tips",
+    "section": "",
+    "text": "Before submitting your R-code, its a good idea to double-check and make sure everything runs properly. The best way to do this is: restart R, press little broom icon in the environment pane to make sure you’ve cleared all of the your data out, and then run your script one line at a time and make sure that you don’t see any errors. If you’re not able to reproduce the results in your paper, then you may need to check to make sure you have everything in the right order."
+  },
+  {
+    "objectID": "tips.html#what-does-the-symbol-mean-as-inworldccode",
+    "href": "tips.html#what-does-the-symbol-mean-as-inworldccode",
+    "title": "tips",
+    "section": "",
+    "text": "The $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n===========================================================================\n                         Mean Comparison Analysis\n===========================================================================\n\n\nTable: Mean Values of attend.pct by region\n\n              Mean    N   St. Dev.\n----------  ------  ---  ---------\nNortheast    29.56    9       5.77\nMidwest      40.83   12       4.39\nSouth        46.88   16       7.16\nWest         33.92   13       8.59\nTotal        38.94   50       9.37\n\n\n\n\n\n\n\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)\n\n===========================================================================\n                         Mean Comparison Analysis\n===========================================================================\n\n\nTable: Mean Values of states$attend.pct by states$region\n\n              Mean    N   St. Dev.\n----------  ------  ---  ---------\nNortheast    29.56    9       5.77\nMidwest      40.83   12       4.39\nSouth        46.88   16       7.16\nWest         33.92   13       8.59\nTotal        38.94   50       9.37"
+  },
+  {
+    "objectID": "tips.html#what-does-na.rmt-mean",
+    "href": "tips.html#what-does-na.rmt-mean",
+    "title": "tips",
+    "section": "",
+    "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
+  }
+]
