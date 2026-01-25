@@ -62,111 +62,32 @@
     "text": "Documentation and code for the in-class surveys."
   },
   {
-    "objectID": "lecture_slides.html",
-    "href": "lecture_slides.html",
-    "title": "Slides",
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
     "section": "",
-    "text": "Slides from previous lectures are in this section. (You’ll also see placeholders for future lecture slides. I haven’t made these yet!)"
+    "text": "Some helpful links for students interested in learning more about political science, research methods, or R programming.\n\nTextbook Resources\n\nPoliSciData.com\n\nThis is the website for the course textbook. In addition to helpful guides and videos, they’ve got an excellent collection of political science data sets that are free and online. If you’re interested in doing your own analyses, this is a great place to start. You might also want to check out their YouTube page.\n\n\n\n\nNews and Analysis\n\nGood Authority\n\nGood Authority is the successor to The Monkey Cage, a blog previously hosted by the Washington Post. Its a great place to read new research and analysis of current events from a polisci perspective.\n\nLSE Blogs\n\nCommentary and analysis of global and European politics hosted by the London School of Economics.\n\nFiveThirtyEight\n\nData-driven analysis and commentary on current events and sports. Now hosted by ABC News.\n\nPew Research\n\nA non-partisan think tank that tracks public opinion in the U.S. and abroad. Their Decoded Blog offers some really nice hands-on tutorials for anyone interested in working with public opinion data.\n\n\n\n\nR\nThere are a ton of great free resources for learning more about R, and this is by no means an exhaustive list, but these are some books and tutorials that I think are especially useful if you’re interested in learning more about using R for analysis.\n\nR for data science\n\nThis is a free e-book written, appropriately, for people who want to use R for data science. The book assumes some basic knowledge of R programming, but its an excellent resource if you want to learn how to do things like build your own database from scratch or scrape the web.\n\nhttps://rforpoliticalscience.com/\n\nA blog with short posts detailing packages, data sources, and other small projects and tips all aimed at R-using political scientists.\n\nBig Book of R\n\nLinks to hundreds of free, open-source R tutorials arranged by topic.",
+    "crumbs": [
+      "Additional Resources",
+      "Links"
+    ]
   },
   {
-    "objectID": "faqs.html",
-    "href": "faqs.html",
-    "title": "FAQs",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
     "section": "",
-    "text": "This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page on basic troubleshooting in R.",
+    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I’m experimenting this semester with using an external site to host some code, data, and other instructional stuff. Don’t worry! If its essential, I’ll post a link to it on the ELMS page.",
     "crumbs": [
-      "FAQs"
+      "Home"
     ]
   },
   {
-    "objectID": "faqs.html#how-do-i-access-the-help-file-for-a-function",
-    "href": "faqs.html#how-do-i-access-the-help-file-for-a-function",
-    "title": "FAQs",
-    "section": "How do I access the help file for a function?",
-    "text": "How do I access the help file for a function?\nYou can access the help file for a function by typing help(function name) into the console:\n\nhelp(c) # get the help file for the \"c\" function\n\nIf the function is associated with the RCPA3 package, it should have some reasonably detailed information about how each function works, but it will also have links to some short YouTube videos that illustrate how to use them, so consider giving those a watch if you’re stuck.",
-    "crumbs": [
-      "FAQs"
-    ]
-  },
-  {
-    "objectID": "faqs.html#when-do-i-need-to-use-weights",
-    "href": "faqs.html#when-do-i-need-to-use-weights",
-    "title": "FAQs",
-    "section": "When do I need to use weights?",
-    "text": "When do I need to use weights?\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.",
-    "crumbs": [
-      "FAQs"
-    ]
-  },
-  {
-    "objectID": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
-    "href": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
-    "title": "FAQs",
-    "section": "What does the $ symbol mean (as in world$ccode)?",
-    "text": "What does the $ symbol mean (as in world$ccode)?\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\n [1] 52 22 29 50 33 29 30 35 35 45 35 45 39 44 40 48 47 53 23 37 30 38 38 60 43\n[26] 31 47 30 23 36 34 32 49 42 36 50 32 39 30 54 42 52 47 57 23 41 33 43 33 31\nattr(,\"label\")\n[1] \"% freq attend relig serv (Pew)\"\n\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)",
-    "crumbs": [
-      "FAQs"
-    ]
-  },
-  {
-    "objectID": "faqs.html#why-am-i-getting-error-object-__-not-found",
-    "href": "faqs.html#why-am-i-getting-error-object-__-not-found",
-    "title": "FAQs",
-    "section": "Why am I getting Error: object __ not found?",
-    "text": "Why am I getting Error: object __ not found?\nOkay, there could be lots of reasons for this error message, but the most common cause is that you’ve either:\n\nMis-spelled a variable name.\nReferenced a variable without specifying the data set where that variable is stored.\nReferenced a variable that is not yet available in R.\n\nWhen you reference a variable in R, it searches for that variable in the current environment, and it returns an error message when it can’t find it. So the code below returns and error because x hasn’t been defined yet:\n\nx\n\nError: object 'x' not found\n\n\nTo access xI first need to create it by assigning a value (in this case, some text in quotation marks) to that name. This works just fine:\n\nx&lt;-\"I am a variable\"\n\nx\n\n[1] \"I am a variable\"\n\n\nThe other place this comes up is when you try to access a column from a data set without specifying the data set where that variable exists. For instance, “age” is a column in the nes data, but just typing “age” doesn’t work because R doesn’t know where to look:\n\nmean(age, na.rm=T)\n\nError: object 'age' not found\n\n\nUsing the dataset$varname syntax solves this problem:\n\nmean(nes$age, na.rm=T)\n\n[1] 51.58522",
-    "crumbs": [
-      "FAQs"
-    ]
-  },
-  {
-    "objectID": "faqs.html#what-are-factor-variables",
-    "href": "faqs.html#what-are-factor-variables",
-    "title": "FAQs",
-    "section": "What are factor variables?",
-    "text": "What are factor variables?\nA factor variable is R’s default data type for storing categorical data. Technically, a factor is actually just a bunch of integers with a special levels attribute that specifies the labels that those integers correspond to:\n\nexample_factor &lt;- factor(c(1,1,2,2,3,4), labels = c('A', 'B', 'C', 'D'))\nexample_factor\n\n[1] A A B B C D\nLevels: A B C D\n\n\nR can also just store text, but factors have some distinct advantages. The most important is that we can easily control the ordering of a table or graph.\nIf I just have a regular character variable, R will try to list out the levels in alphabetical order:\n\nstring_vector &lt;- c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\")\ntable(string_vector)\n\nstring_vector\n                     Agree                   Disagree \n                         1                          1 \nNeither disagree nor agree \n                         1 \n\n\nBut alphabetizing this doesn’t make sense because it has a clear ordering from disagree to agree. The “levels” attribute allows me to preserve that ordering:\n\nfactor_vector &lt;- factor(string_vector, \n                        # list of the levels the order I want them to appear: \n                        levels =c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\"))\n\ntable(factor_vector)\n\nfactor_vector\n                  Disagree Neither disagree nor agree \n                         1                          1 \n                     Agree \n                         1 \n\n\nThis also means we can easily convert a factor variable to numeric so we can do things like calculate the median value of an ordered variable:\n\nmedian(as.numeric(factor_vector))\n\n[1] 2",
-    "crumbs": [
-      "FAQs"
-    ]
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-01.html",
-    "href": "Weeks/Week 01/Week-01.html",
-    "title": "Week 1",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "ELMS page\nhttps://umd.instructure.com/courses/1400577",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-01.html#important-links",
-    "href": "Weeks/Week 01/Week-01.html#important-links",
-    "title": "Week 1",
-    "section": "",
-    "text": "ELMS page\nhttps://umd.instructure.com/courses/1400577",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "title": "Week 1",
-    "section": "Lecture slides",
-    "text": "Lecture slides\n\nIntroductions\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\nLecture 1\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
-    "crumbs": [
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-01.html#to-do",
-    "href": "Weeks/Week 01/Week-01.html#to-do",
-    "title": "Week 1",
-    "section": "To-Do",
-    "text": "To-Do\n\nInstall R and R-Studio by Friday so you’re ready for discussion sections.",
-    "crumbs": [
-      "Week 1"
-    ]
+    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
   },
   {
     "objectID": "Slides/slides_00.html#lecture",
@@ -230,6 +151,76 @@
     "title": "Introductions",
     "section": "Grades",
     "text": "Grades\n\n\nWorkbook HW (25%): R coding, usually due on Thursdays at midnight\nSurvey analysis (35%): design, distribute, and analyze a (non-representative) public opinion survey.\n\nBiggest component is an end-of-term data analysis paper\n\nExams (25%): open-notes/open book exams administered through ELMS.\nSection participation (10%): Based on engagement, not participation alone.\nLab (5%): participate in 3 studies conducted by GVPT faculty and students."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html",
+    "href": "GVPT201_Syllabus.html",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "",
+    "text": "Name: Neil Lund\nEmail: nlund@umd.edu (please do not contact me through ELMS)\nOffice: 1140C Tydings Hall\nOffice Hours: Tuesday/Thursday 11:15 PM to 1:30 PM or by appointment\n\n\n\n\nLecture 1: Monday-Wednesday 1:00 - 1:50pm Tydings 0117\nLecture 2: Monday-Wednesday 2:00 - 2:50pm Lefrak 2205\nFriday Discussion: Check Testudo for schedule\n\nOtherwise otherwise noted, all class lecture meetings will be available over Zoom. Recordings will also be uploaded to ELMS. Check the ELMS page for additional detail.\n\n\n\nGraduate Teaching Assistant\n\n\n\nFlavia Batista Da Silva\nfbatista@umd.edu\n\n\n\nUndergraduate Teaching Assistants\n\n\n\nAmy Kurian\nakurian1@terpmail.umd.edu\n\n\nBriana Garcia\nbgarcia4@terpmail.umd.edu\n\n\nElla Michels\nemichels@terpmail.umd.edu\n\n\nHannah Soo-Tho\nhsootho@terpmail.umd.edu\n\n\nJames Surdez\njsurdez@terpmail.umd.edu\n\n\nLandon Townsend\nlandon20@umd.edu\n\n\nLiliana Norkaitis\nlilianan@terpmail.umd.edu\n\n\nMaxx Margob\nmmargob@terpmail.umd.edu\n\n\nMikael Gandilyan\nmgandily@terpmail.umd.edu\n\n\nRaoul Bhandoola\nrabhand@terpmail.umd.edu"
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#instructor",
+    "href": "GVPT201_Syllabus.html#instructor",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "",
+    "text": "Name: Neil Lund\nEmail: nlund@umd.edu (please do not contact me through ELMS)\nOffice: 1140C Tydings Hall\nOffice Hours: Tuesday/Thursday 11:15 PM to 1:30 PM or by appointment"
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#meetings",
+    "href": "GVPT201_Syllabus.html#meetings",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "",
+    "text": "Lecture 1: Monday-Wednesday 1:00 - 1:50pm Tydings 0117\nLecture 2: Monday-Wednesday 2:00 - 2:50pm Lefrak 2205\nFriday Discussion: Check Testudo for schedule\n\nOtherwise otherwise noted, all class lecture meetings will be available over Zoom. Recordings will also be uploaded to ELMS. Check the ELMS page for additional detail."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#teaching-team",
+    "href": "GVPT201_Syllabus.html#teaching-team",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "",
+    "text": "Graduate Teaching Assistant\n\n\n\nFlavia Batista Da Silva\nfbatista@umd.edu\n\n\n\nUndergraduate Teaching Assistants\n\n\n\nAmy Kurian\nakurian1@terpmail.umd.edu\n\n\nBriana Garcia\nbgarcia4@terpmail.umd.edu\n\n\nElla Michels\nemichels@terpmail.umd.edu\n\n\nHannah Soo-Tho\nhsootho@terpmail.umd.edu\n\n\nJames Surdez\njsurdez@terpmail.umd.edu\n\n\nLandon Townsend\nlandon20@umd.edu\n\n\nLiliana Norkaitis\nlilianan@terpmail.umd.edu\n\n\nMaxx Margob\nmmargob@terpmail.umd.edu\n\n\nMikael Gandilyan\nmgandily@terpmail.umd.edu\n\n\nRaoul Bhandoola\nrabhand@terpmail.umd.edu"
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#about-the-course",
+    "href": "GVPT201_Syllabus.html#about-the-course",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "About the Course",
+    "text": "About the Course\nThis class is an introduction to the basics of political science research. We will begin by discussing how to formulate an empirical research question, then progress through the process of data collection, description and visualization, and finally testing a hypothesis. The centerpiece of this class will be a survey project. Students will work with the teaching staff (and each other) to design the survey and distribute it to as many people as possible. Then we’ll analyze it as a class in the second part of the semester. Finally, students will select questions from the survey to analyze for a final research report. This survey will not only give students “hands on” experience in the art of crafting a survey instrument, but will also allow them to explore public opinion in “real time” on issues of their choosing."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#books",
+    "href": "GVPT201_Syllabus.html#books",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Books",
+    "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2020. The Essentials of Political Analysis Sixth Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#r-and-r-studio",
+    "href": "GVPT201_Syllabus.html#r-and-r-studio",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "R and R-studio",
+    "text": "R and R-studio\nYou will be using the R programming language for this course. R is completely FREE and works with any operating system. There are instructions on how to download R and the associated data files/packages for the homeworks in the workbook.\nYou also need to download R-Studio. You can get the free version. It’s the first option on this page.\nWe have several resources to assist you in learning the software:\n\nWe have recorded video lectures covering the material in each chapter in the R workbook. These videos are available in the workbook folder on PANOPTO (ELMS).\nThe professor will devote a portion of lecture time to R and the survey. Therefore, every week you can ask questions about R in class.\nIn Friday sections the TA’s will cover the R homework due the following Thursday and help you work on the survey. Therefore, every week you can ask questions about R and the survey in section.\n\nWhile we are happy to help you in understanding how to use R, we can only offer limited support when it comes to issues installing R onto your device. If for some reason your computer is not working you may be able to access the cloud-based Rstudio instance available to BSOS students."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#grade-components",
+    "href": "GVPT201_Syllabus.html#grade-components",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Grade components",
+    "text": "Grade components\nGrades are a percentage out of 780 possible points. The points will be distributed as follows:\n\nWorkbook Homework (25%)\n195 points distributed across 9 assignments\nThese will be short assignments from the workbook that you will submit through ELMS. In order to receive credit you must attach an R script that shows your work along with your submission.\n\n\nExams (25%)\n195 points split between two exams\nThere will be two open-notes/open book exams administered through ELMS. They will cover materials from the lecture, textbook, and discussion sections. While they aren’t cumulative, concepts from the first half of the course will be relevant to the second half, so there may be some overlap for the second exam.\n\n\nSurvey (35%)\n273 total points, distributed across 4 assignments which will be weighted as follows:\n\nPilot Design (24 points)\n\nDuring lecture and discussion sections, students will work with me and the TA’s to design a battery of questions. Students will workshop these questions with each other and individually submit questions they would like to see on the survey. The Professor will choose the finals set of questions and program the survey. Once this is complete, the Professor will distribute this draft as the “pilot” survey.\n\nPilot Analysis (32 points)\n\nPilot analysis: After the pilot survey has been in the field for about a week, the Professor will release the data to the students. Students will have to complete a basic analysis of the pilot data. In addition to the respondents’ answers to the questions, students are asked to consider the instrument itself. Did they find any questions confusing? Offensive? Needlessly complicated? Etc. Based on this feedback, the teaching staff will edit the survey instrument.\n\nVerification of Survey Distribution (16 points)\n\nOnce the final question wording has been determined, students will be responsible for distributing the survey to as wide a range of people as possible via social networking sites, such as Facebook and Twitter, and other means of communication. You can also post it on websites like Reddit and distribute via email. Students will have to provide proof of distribution in the form of a screenshot. The survey will be in the field for approximately two weeks. Students are expected to promote and distribute the survey during this time.\n\nFinal Write-up (117 points)\n\nThe final survey write up will be three memos (two “practice” that will take the form of “quizzes” online, and one final one, which will be submitted as a paper) on the data gathered via the class survey. We will provide more detailed guidelines closer to the due dates. The memos are not weighted equally; the last one is weighted most heavily. Grades will be based on consistency of 8 the analytical argument, demonstration of cumulative mastery of the material from the course, and clarity of writing. The detailed rubric for the paper is available on ELMS.\n\n\n\n\nSection Participation (10%)\nSection: Students are expected to have completed all of the assigned readings and homework for each section and be prepared to discuss them. Attendance (in person or via zoom with the camera on) is mandatory and teaching assistants record participation in section.\n(Note that your grade here is based on your participation and engagement. Attendance alone is necessary, but not sufficient for earning full credit.)\n\n\nExperimental Lab (5%)\n39 total points (2-3 studies)\nThis class will also give participation credit to students who take part in studies conducted by GVPT faculty and graduate students. Each study will take about 20-30 minutes to complete. If you prefer not to serve as a participant, you may elect to satisfy the requirement by completing an alternate assignment (HW 13). However, you must notify the Research Administrator Woohyeon Kim (whkim@umd.edu) before the last day of schedule adjustment for the semester if you wish to register for the alternate assignment. Students will receive an email with further instructions about participation when the studies are available.\nStudents who are under 18 years of age must obtain parental permission to participate in research. If you are under 18, please contact Jordan James Anthony Spencer jspeck13@umd.edu and he will provide you with instructions on how to participate in the research studies. Alternate assignments cannot be used to make up for a study at the end of the semester."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#grade-scale",
+    "href": "GVPT201_Syllabus.html#grade-scale",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Grade Scale",
+    "text": "Grade Scale\n\n\n\n% Grade\nLetter Grade\n\n\n\n\n97-100\nA+\n\n\n96-93\nA\n\n\n92-90\nA-\n\n\n89-87\nB+\n\n\n86-83\nB\n\n\n82-80\nB-\n\n\n79-77\nC+\n\n\n76-73\nC\n\n\n72-70\nC-\n\n\n69-67\nD+\n\n\n66-65\nD\n\n\n62-60\nD-\n\n\nbelow 60\nF\n\n\n\n(Note: % grades will be rounded to the nearest whole number)"
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#study-resources",
+    "href": "GVPT201_Syllabus.html#study-resources",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Study Resources",
+    "text": "Study Resources\nIn addition to your textbooks, lecture and discussion sections, instructors at UMD have assembled a number of additional materials to help you stay on top of your assignments for this class.\n\nTextbook videos\nIn addition to the lectures being recorded and made available to students after each class we have created short videos to help students study the discrete concepts that are covered in the textbook. These concept videos are all uploaded and available on PANOPTO (ELMS) for students at the outset of class\n\n\nTextbook quizzes\nThe textbook is divided into chapters by topic. In-person lectures roughly follow the topical outline of the book as indicated on the syllabus and students are expected to read before coming to lecture. Each textbook chapter ends with a series of questions about the textbook materials. After finishing each chapter, students can test their understanding of the material by answering the textbook quiz questions on ELMS. The quizzes are intended for self study only and are not graded for the class.\n\n\nWorkbook videos\nThe workbook is divided into chapters that correspond to the topics covered in the textbook. Students work through these chapters before completing the HW at the end of each chapter. To help students complete the work in each chapter we have created short videos that take the student through the script in each chapter. Students can watch the videos as they are working their way through the material in each chapter. We also make the script files for each workbook chapter available to students though we strongly encourage you to try your hand at making your own and only using the professor’s script files as support. (Of course the HW script you have to create on your own.) The chapters themselves also contain QR codes that students can follow to videos covering workbook topics in greater depth and from a variety of sources."
   },
   {
     "objectID": "Resources.html",
@@ -306,7 +297,7 @@
     "href": "Slides/slides_01.html#conceptualizing-democracy-1",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Conceptualizing Democracy",
-    "text": "Conceptualizing Democracy\n\nUnit of analysis: governments (usually national governments)\nCases:\n\nDefinitely democracies: U.S., U.K., Uruguay, Taiwan, Japan, Botswana\nDefinitely autocracies: North Korea, Saudi Arabia, Russia, Venezuala\nEdge cases: Hungary, Turkey, Tunisia\n\nFeatures:\n\nVoting and elections\nMultiple parties\nMeaningful civil liberties\nStability and monopoly on violence\n\n\nThis may need refinement: what about sham elections?\nThis may not be distinctive: there are stable autocracies on the list\nMinimalists might argue that we only need the elections and parties"
+    "text": "Conceptualizing Democracy\nUnit of analysis: governments (usually national governments)\n\n\nCase:\n\nDefinitely democracies: U.S., Uruguay, Taiwan, Japan, Botswana\nDefinitely autocracies: North Korea, Saudi Arabia, Russia\nEdge cases: Hungary, Turkey, Tunisia\n\n\nFeatures:\n\nVoting and elections\nMultiple parties\nMeaningful civil liberties\nStability and monopoly on violence\n\n\n\nThis may need refinement: what about sham elections?\nThis may not be distinctive: there are stable autocracies on the list"
   },
   {
     "objectID": "Slides/slides_01.html#operationalization",
@@ -372,32 +363,111 @@
     "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Weeks/Week 01/Week-01.html",
+    "href": "Weeks/Week 01/Week-01.html",
+    "title": "Week 1",
     "section": "",
-    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I’m experimenting this semester with using an external site to host some code, data, and other instructional stuff. Don’t worry! If its essential, I’ll post a link to it on the ELMS page.",
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process.",
     "crumbs": [
-      "Home"
+      "Weeks",
+      "Week 1"
     ]
   },
   {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links",
-    "section": "",
-    "text": "Some helpful links for students interested in learning more about political science, research methods, or R programming.\n\nTextbook Resources\n\nPoliSciData.com\n\nThis is the website for the course textbook. In addition to helpful guides and videos, they’ve got an excellent collection of political science data sets that are free and online. If you’re interested in doing your own analyses, this is a great place to start. You might also want to check out their YouTube page.\n\n\n\n\nNews and Analysis\n\nGood Authority\n\nGood Authority is the successor to The Monkey Cage, a blog previously hosted by the Washington Post. Its a great place to read new research and analysis of current events from a polisci perspective.\n\nLSE Blogs\n\nCommentary and analysis of global and European politics hosted by the London School of Economics.\n\nFiveThirtyEight\n\nData-driven analysis and commentary on current events and sports. Now hosted by ABC News.\n\nPew Research\n\nA non-partisan think tank that tracks public opinion in the U.S. and abroad. Their Decoded Blog offers some really nice hands-on tutorials for anyone interested in working with public opinion data.\n\n\n\n\nR\nThere are a ton of great free resources for learning more about R, and this is by no means an exhaustive list, but these are some books and tutorials that I think are especially useful if you’re interested in learning more about using R for analysis.\n\nR for data science\n\nThis is a free e-book written, appropriately, for people who want to use R for data science. The book assumes some basic knowledge of R programming, but its an excellent resource if you want to learn how to do things like build your own database from scratch or scrape the web.\n\nhttps://rforpoliticalscience.com/\n\nA blog with short posts detailing packages, data sources, and other small projects and tips all aimed at R-using political scientists.\n\nBig Book of R\n\nLinks to hundreds of free, open-source R tutorials arranged by topic.",
+    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "title": "Week 1",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
-      "Additional Resources",
-      "Links"
+      "Weeks",
+      "Week 1"
     ]
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-01.html#to-do",
+    "href": "Weeks/Week 01/Week-01.html#to-do",
+    "title": "Week 1",
+    "section": "To-Do",
+    "text": "To-Do\n\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "FAQs",
+    "section": "",
+    "text": "This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page on basic troubleshooting in R.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "href": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "title": "FAQs",
+    "section": "How do I access the help file for a function?",
+    "text": "How do I access the help file for a function?\nYou can access the help file for a function by typing help(function name) into the console:\n\nhelp(c) # get the help file for the \"c\" function\n\nIf the function is associated with the RCPA3 package, it should have some reasonably detailed information about how each function works, but it will also have links to some short YouTube videos that illustrate how to use them, so consider giving those a watch if you’re stuck.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#when-do-i-need-to-use-weights",
+    "href": "faqs.html#when-do-i-need-to-use-weights",
+    "title": "FAQs",
+    "section": "When do I need to use weights?",
+    "text": "When do I need to use weights?\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "href": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "title": "FAQs",
+    "section": "What does the $ symbol mean (as in world$ccode)?",
+    "text": "What does the $ symbol mean (as in world$ccode)?\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\n [1] 52 22 29 50 33 29 30 35 35 45 35 45 39 44 40 48 47 53 23 37 30 38 38 60 43\n[26] 31 47 30 23 36 34 32 49 42 36 50 32 39 30 54 42 52 47 57 23 41 33 43 33 31\nattr(,\"label\")\n[1] \"% freq attend relig serv (Pew)\"\n\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "href": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "title": "FAQs",
+    "section": "Why am I getting Error: object __ not found?",
+    "text": "Why am I getting Error: object __ not found?\nOkay, there could be lots of reasons for this error message, but the most common cause is that you’ve either:\n\nMis-spelled a variable name.\nReferenced a variable without specifying the data set where that variable is stored.\nReferenced a variable that is not yet available in R.\n\nWhen you reference a variable in R, it searches for that variable in the current environment, and it returns an error message when it can’t find it. So the code below returns and error because x hasn’t been defined yet:\n\nx\n\nError: object 'x' not found\n\n\nTo access xI first need to create it by assigning a value (in this case, some text in quotation marks) to that name. This works just fine:\n\nx&lt;-\"I am a variable\"\n\nx\n\n[1] \"I am a variable\"\n\n\nThe other place this comes up is when you try to access a column from a data set without specifying the data set where that variable exists. For instance, “age” is a column in the nes data, but just typing “age” doesn’t work because R doesn’t know where to look:\n\nmean(age, na.rm=T)\n\nError: object 'age' not found\n\n\nUsing the dataset$varname syntax solves this problem:\n\nmean(nes$age, na.rm=T)\n\n[1] 51.58522",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-are-factor-variables",
+    "href": "faqs.html#what-are-factor-variables",
+    "title": "FAQs",
+    "section": "What are factor variables?",
+    "text": "What are factor variables?\nA factor variable is R’s default data type for storing categorical data. Technically, a factor is actually just a bunch of integers with a special levels attribute that specifies the labels that those integers correspond to:\n\nexample_factor &lt;- factor(c(1,1,2,2,3,4), labels = c('A', 'B', 'C', 'D'))\nexample_factor\n\n[1] A A B B C D\nLevels: A B C D\n\n\nR can also just store text, but factors have some distinct advantages. The most important is that we can easily control the ordering of a table or graph.\nIf I just have a regular character variable, R will try to list out the levels in alphabetical order:\n\nstring_vector &lt;- c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\")\ntable(string_vector)\n\nstring_vector\n                     Agree                   Disagree \n                         1                          1 \nNeither disagree nor agree \n                         1 \n\n\nBut alphabetizing this doesn’t make sense because it has a clear ordering from disagree to agree. The “levels” attribute allows me to preserve that ordering:\n\nfactor_vector &lt;- factor(string_vector, \n                        # list of the levels the order I want them to appear: \n                        levels =c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\"))\n\ntable(factor_vector)\n\nfactor_vector\n                  Disagree Neither disagree nor agree \n                         1                          1 \n                     Agree \n                         1 \n\n\nThis also means we can easily convert a factor variable to numeric so we can do things like calculate the median value of an ordered variable:\n\nmedian(as.numeric(factor_vector))\n\n[1] 2",
+    "crumbs": [
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "lecture_slides.html",
+    "href": "lecture_slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Slides from previous lectures are in this section. (You’ll also see placeholders for future lecture slides. I haven’t made these yet!)"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\n1/26\nConcepts and measurement\nChapter 1\nHomework 1 due February 5thSurvey question due February 6th\nIntro\n\n\nWeek 1\n1/28\n\n\n\nLecture 1\n\n\nWeek 2\n2/2\nDescription\nChapter 2\nHomework 2 due February 12th\nLecture 2\n\n\nWeek 2\n2/4\n\n\n\nLecture 3\n\n\nWeek 3\n2/9\nTransforming variables\nChapter 3\nHomework 3 due February 19th\nLecture 4\n\n\nWeek 3\n2/11\n\n\n\nLecture 5\n\n\nWeek 4\n2/16\nExplanations and hypotheses\nChapter 4\nHomework 4 due February 26thVerification of survey distribution due by February 27\nLecture 6\n\n\nWeek 4\n2/18\n\n\n\nLecture 7\n\n\nWeek 5\n2/23\nGraphing and describing patterns\nChapter 5\nHomework 5 due March 5th\nLecture 8\n\n\nWeek 5\n2/25\n\n\n\nLecture 9\n\n\nWeek 6\n3/2\nResearch and causation\nChapter 6\nHomework 6 due March 12th\nLecture 10\n\n\nWeek 6\n3/4\n\n\n\nLecture 11\n\n\nWeek 7\n3/9\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\nWeek 7\n3/11\n\n\nMidterm I\n\n\n\nWeek 8\n3/16\n\nSpring Break\n\n\n\n\nWeek 8\n3/18\n\nSpring Break\n\n\n\n\nWeek 9\n3/23\nInference\nChapter 8\nHomework 7 due March 26thSurvey Practice I due March 27th\nLecture 13\n\n\nWeek 9\n3/25\n\n\n\nLecture 14\n\n\nWeek 10\n3/30\nHypothesis testing\nChapter 9\nHomework 8 due April 2nd\nLecture 15\n\n\nWeek 10\n4/1\n\n\n\nLecture 16\n\n\nWeek 11\n4/6\nChi-2 and measures of variance\nChapter 10\nHomework 9 due April 9th\nLecture 17\n\n\nWeek 11\n4/8\n\n\n\nLecture 18\n\n\nWeek 12\n4/13\nCorrelation and Regression\nChapter 11\nHomework 10 due April 16th\nLecture 19\n\n\nWeek 12\n4/15\n\n\n\nLecture 20\n\n\nWeek 13\n4/20\nMultiple Regression\nChapter 12\nHomework 11 due April 23\nLecture 21\n\n\nWeek 13\n4/22\n\n\n\nLecture 22\n\n\nWeek 14\n4/27\nAnalyzing residuals\nChapter 13\nSurvey practice II due April 30\nLecture 23\n\n\nWeek 14\n4/29\n\n\n\nLecture 24\n\n\nWeek 15\n5/4\nLogistic regression\nChapter 14\nOptional Homework 12 due May 7\nLecture 25\n\n\nWeek 15\n5/6\nMidterm"
   },
   {
     "objectID": "tips.html",
