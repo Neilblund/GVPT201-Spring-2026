@@ -5033,6 +5033,17 @@ margin: 20px;
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-do-i-access-the-help-file-for-a-function" id="toc-how-do-i-access-the-help-file-for-a-function" class="nav-link active" data-scroll-target="#how-do-i-access-the-help-file-for-a-function">How do I access the help file for a function?</a></li>
+  <li><a href="#when-do-i-need-to-use-weights" id="toc-when-do-i-need-to-use-weights" class="nav-link" data-scroll-target="#when-do-i-need-to-use-weights">When do I need to use weights?</a></li>
+  <li><a href="#what-does-the-symbol-mean-as-in-worldccode" id="toc-what-does-the-symbol-mean-as-in-worldccode" class="nav-link" data-scroll-target="#what-does-the-symbol-mean-as-in-worldccode">What does the <code>$</code> symbol mean (as in <code>world$ccode</code>)?</a></li>
+  <li><a href="#why-am-i-getting-error-object-__-not-found" id="toc-why-am-i-getting-error-object-__-not-found" class="nav-link" data-scroll-target="#why-am-i-getting-error-object-__-not-found">Why am I getting Error: object __ not found?</a></li>
+  <li><a href="#what-are-factor-variables" id="toc-what-are-factor-variables" class="nav-link" data-scroll-target="#what-are-factor-variables">What are factor variables?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -5055,17 +5066,7 @@ margin: 20px;
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-do-i-access-the-help-file-for-a-function" id="toc-how-do-i-access-the-help-file-for-a-function">How do I access the help file for a function?</a></li>
-  <li><a href="#when-do-i-need-to-use-weights" id="toc-when-do-i-need-to-use-weights">When do I need to use weights?</a></li>
-  <li><a href="#what-does-the-symbol-mean-as-in-worldccode" id="toc-what-does-the-symbol-mean-as-in-worldccode">What does the <code>$</code> symbol mean (as in <code>world$ccode</code>)?</a></li>
-  <li><a href="#why-am-i-getting-error-object-__-not-found" id="toc-why-am-i-getting-error-object-__-not-found">Why am I getting Error: object __ not found?</a></li>
-  <li><a href="#what-are-factor-variables" id="toc-what-are-factor-variables">What are factor variables?</a></li>
-  </ul>
-</nav>
+
 <p>This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page <a href="./troubleshooting.html">on basic troubleshooting in R</a>.</p>
 <section id="how-do-i-access-the-help-file-for-a-function" class="level2">
 <h2 class="anchored" data-anchor-id="how-do-i-access-the-help-file-for-a-function">How do I access the help file for a function?</h2>
@@ -5142,7 +5143,7 @@ attr(,&quot;label&quot;)
 [1] &quot;% freq attend relig serv (Pew)&quot;</code></pre>
 </div>
 </div>
-<p>Typing out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional <code>data</code> argument that will allow you to be a little more concise. So these two commands will generate the exact same result, the only difference is that adding <code>data=states</code> saves me from having to write <code>states$...</code> over and over:</p>
+<p>Typing out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional <code>data</code> argument that will allow you to just list column names without adding the name of the data set first. For example: these two commands will generate the exact same result, the only difference is that adding <code>data=states</code> saves me from having to write <code>states$...</code> over and over:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># with the data = argument</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">compmeansC</span>(<span class="at">dv =</span> attend.pct, <span class="at">iv =</span> region, <span class="at">data=</span>states)</span>
@@ -5201,8 +5202,7 @@ attr(,&quot;label&quot;)
 Levels: A B C D</code></pre>
 </div>
 </div>
-<p>R can also just store text, but factors have some distinct advantages. The most important is that we can easily control the ordering of a table or graph.</p>
-<p>If I just have a regular character variable, R will try to list out the levels in alphabetical order:</p>
+<p>R can also just store regular text data, but factors have some distinct advantages when working with certain data sources. The most important is that they allow us to control the ordering of tables and graphs. For example, if I make a table with a character variable, R prints the elements in alphabetical order:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>string_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Disagree&quot;</span>, <span class="st">&quot;Neither disagree nor agree&quot;</span>, <span class="st">&quot;Agree&quot;</span>)</span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(string_vector)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -5214,7 +5214,7 @@ Neither disagree nor agree
                          1 </code></pre>
 </div>
 </div>
-<p>But alphabetizing this doesn’t make sense because it has a clear ordering from disagree to agree. The “levels” attribute allows me to preserve that ordering:</p>
+<p>But alphabetizing this doesn’t make sense because the variable has a clear ordering from disagree to agree. The “levels” attribute on a factor allows me to preserve that ordering:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>factor_vector <span class="ot">&lt;-</span> <span class="fu">factor</span>(string_vector, </span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>                        <span class="co"># list of the levels the order I want them to appear: </span></span>
@@ -5229,7 +5229,7 @@ Neither disagree nor agree
                          1 </code></pre>
 </div>
 </div>
-<p>This also means we can easily convert a factor variable to numeric so we can do things like calculate the median value of an ordered variable:</p>
+<p>Since each level of a factor also has a numeric value, we can also do things like calculate the median value of an ordered variable:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">median</span>(<span class="fu">as.numeric</span>(factor_vector))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
