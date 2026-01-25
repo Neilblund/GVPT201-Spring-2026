@@ -559,13 +559,6 @@
     "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
   },
   {
-    "objectID": "Resources.html",
-    "href": "Resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Additional resources and tips for GVPT 201 students."
-  },
-  {
     "objectID": "GVPT201_Syllabus.html",
     "href": "GVPT201_Syllabus.html",
     "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
@@ -654,6 +647,13 @@
     "crumbs": [
       "Syllabus"
     ]
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Additional resources and tips for GVPT 201 students."
   },
   {
     "objectID": "Slides/slides_00.html#lecture",
