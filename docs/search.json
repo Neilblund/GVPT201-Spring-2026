@@ -556,5 +556,194 @@
     "title": "tips",
     "section": "",
     "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
+  },
+  {
+    "objectID": "Slides/slides_01.html",
+    "href": "Slides/slides_01.html",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "",
+    "text": "Understand conceptual and operational definitions\nKnow some strategies for clarifying conceptual definitions and writing conceptual definitions"
+  },
+  {
+    "objectID": "Slides/slides_02.html#concepts-and-variables",
+    "href": "Slides/slides_02.html#concepts-and-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Concepts and variables",
+    "text": "Concepts and variables\n\nDefinition: identifying concrete features of the objects or events we’re studying and the tools to measure them.\nMeasurement representing real-life objects and events as variables\nDescription making generalizations about variables"
+  },
+  {
+    "objectID": "Slides/slides_02.html#variables",
+    "href": "Slides/slides_02.html#variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Variables",
+    "text": "Variables\n\nThe results of the measurement process.\nBy definition a variable must vary\nHow we describe a variable will depend on how we measure it."
+  },
+  {
+    "objectID": "Slides/slides_02.html#nominal-variables",
+    "href": "Slides/slides_02.html#nominal-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Nominal Variables",
+    "text": "Nominal Variables\n\n\nNominal variables are categorical variables with no intrinsic ordering.\nExamples include the names of countries or people, someone’s religion or racial/ethnic self id\nSome nominal variables are represented by numbers, but the values of those numbers are arbitrary: zip codes, jersey numbers, and telephone numbers are still nominal because there’s no ordering to them."
+  },
+  {
+    "objectID": "Slides/slides_02.html#ordinal-variables",
+    "href": "Slides/slides_02.html#ordinal-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\n\n\n\nOrdinal variables have a small number of categories that can be ordered.\nHowever, the gaps between differing ranks may be unequal.\n\n\nTop finishing times for Boston Marathon in 2024. The placements are ordinal: the distance in time between first and second place doesn’t necessarily equal the distance between second and third."
+  },
+  {
+    "objectID": "Slides/slides_02.html#ordinal-variables-1",
+    "href": "Slides/slides_02.html#ordinal-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nA common source of ordinal variables will be survey items that ask people to rate their position on a scale from “strongly agree” to “strongly disagree” or “very important” to “not at all important”.\n\n\n\n ANES question from 2020 about the importance of people agreeing about basic facts"
+  },
+  {
+    "objectID": "Slides/slides_02.html#ordinal-variables-2",
+    "href": "Slides/slides_02.html#ordinal-variables-2",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nAnother source of ordinal variables might be data that we’ve grouped into ordered categories based on another variable."
+  },
+  {
+    "objectID": "Slides/slides_02.html#ordinal-variables-3",
+    "href": "Slides/slides_02.html#ordinal-variables-3",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\n\n\nFor instance: the World Bank classifies countries into four ordinal categories based on their per-capita GDP. There’s a clear ordering, but the spaces are not equal."
+  },
+  {
+    "objectID": "Slides/slides_02.html#interval-variables",
+    "href": "Slides/slides_02.html#interval-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Interval Variables",
+    "text": "Interval Variables\n\nThese are just numbers. They’re measured along a continuum with equal spacing (i.e., the difference from 3 and 4 is “the same” as the difference between 6 and 7)\nExamples: age, height, temperature, distance."
+  },
+  {
+    "objectID": "Slides/slides_02.html#interval-variables-1",
+    "href": "Slides/slides_02.html#interval-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Interval Variables",
+    "text": "Interval Variables\n“True” interval variables are less common in survey research, but we’ll often treat ordinal variables as “more-or-less interval” if they a lot (7+) categories\n\nStrictly speaking these “feeling thermometer” responses are more like ordinal variables. But they’re close enough for us to treat them like interval variables for most purposes."
+  },
+  {
+    "objectID": "Slides/slides_02.html#dichotomousdummy-variables",
+    "href": "Slides/slides_02.html#dichotomousdummy-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dichotomous/Dummy Variables",
+    "text": "Dichotomous/Dummy Variables\n\nDichotomous variables that take on only two values: TRUE/FALSE, or Republican/Democrat, War/Peace etc.\n“Dummy” variables will encode this dichotomy as 0s and 1s, which can simplify some math operations\n\nMost importantly: the mean of a dummy variable = the proportion of 1s in the data!\n\n\n\n\ndummy_vector &lt;- c(1,1,1,1,0,0,0,0,0,0)\n\nmean(dummy_vector)\n\n[1] 0.4"
+  },
+  {
+    "objectID": "Slides/slides_02.html#dichotomousdummy",
+    "href": "Slides/slides_02.html#dichotomousdummy",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dichotomous/Dummy",
+    "text": "Dichotomous/Dummy\nDummy coding is important for statistical modeling because how we can make nominal data into meaningful numeric data:\n\n\n\n\n\n\nWho did you vote for in 2020?\nTrump\nBiden\nStein\n\n\n\n\nTrump\n1\n0\n0\n\n\nBiden\n0\n1\n0\n\n\nJill Stein\n0\n0\n1"
+  },
+  {
+    "objectID": "Slides/slides_02.html#index-variables",
+    "href": "Slides/slides_02.html#index-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Index variables",
+    "text": "Index variables\nSome surveys may measure an attitude by asking multiple questions on the same topic and then aggregating those responses. These aggregate indexes are often treated as interval-level variables.\n\n\nThe values highlighted in red indicate more “authoritarian” attitudes toward child rearing.\n\n\n\n\n\n\nquestion\nvalue\npercent\n\n\n\n\nConsiderate vs. Well-behaved\nBeing considerate\n72%\n\n\nWell behaved\n28%\n\n\nCuriosity vs. Good Manners\nCuriosity\n39%\n\n\nGood manners\n61%\n\n\nSelf Reliance vs. Obedience\nObedience\n44%\n\n\nSelf-reliance\n56%\n\n\nIndependence vs. Respect for Elders\nIndependence\n31%\n\n\nRespect for elders\n69%\n\n\n\n\n\n\n\n\n\nThe “authoritarianism” column is an index variable created by counting the number of “authoritarian” answers to a single question.\n\n\n\n\n\n\nauthoritarianism\npercent\ncumulative %\n\n\n\n\n0\n18.3%\n18.3%\n\n\n1\n17.7%\n36.0%\n\n\n2\n23.2%\n59.2%\n\n\n3\n25.1%\n84.2%\n\n\n4\n15.8%\n100.0%"
+  },
+  {
+    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement",
+    "href": "Slides/slides_02.html#multiple-levels-of-measurement",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Multiple levels of measurement",
+    "text": "Multiple levels of measurement\nIt is often possible to measure the same variable at multiple levels of measurement.\n“Education”, for instance, could be recorded as interval, ordinal, or dichotomous:\n\n\n\n\n\n\n\n\nYears of schooling\nHighest Level of Schooling Completed\nSome College\n\n\n\n\n9\nLess than High School\nNo\n\n\n10\nLess than High School\nNo\n\n\n12\nHigh School\nNo\n\n\n13\nSome College\nYes\n\n\n14\nSome College\nYes\n\n\n15\nSome College\nYes\n\n\n16\nBachelor’s\nYes\n\n\n17\nPost Bachelor’s\nYes"
+  },
+  {
+    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-1",
+    "href": "Slides/slides_02.html#multiple-levels-of-measurement-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Multiple levels of measurement",
+    "text": "Multiple levels of measurement\nIts often preferable to use the highest level of precision available, but sometimes we choose a less precise measure because its more parsimonious, less “noisy”, or easier to display in a table or graph.\n\nFor example: many analyses of Trump supporters will collapse education into college vs. non-college because (at least for whites) there’s a clear division between college grads and non-college grads:"
+  },
+  {
+    "objectID": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
+    "href": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Unit of analysis and levels of measurement",
+    "text": "Unit of analysis and levels of measurement\nKeep in mind that aggregation changes the unit of analysis. “Did you vote for Trump in 2020?” is dichotomous, but Trump’s share of the vote across an entire state is continuous:"
+  },
+  {
+    "objectID": "Slides/slides_02.html#histogram",
+    "href": "Slides/slides_02.html#histogram",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Histogram",
+    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
+  },
+  {
+    "objectID": "Slides/slides_02.html#density-plot",
+    "href": "Slides/slides_02.html#density-plot",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Density Plot",
+    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
+  },
+  {
+    "objectID": "Slides/slides_02.html#box-plots",
+    "href": "Slides/slides_02.html#box-plots",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Box plots",
+    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
+  },
+  {
+    "objectID": "Slides/slides_02.html#bar-plot",
+    "href": "Slides/slides_02.html#bar-plot",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Bar plot",
+    "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
+  },
+  {
+    "objectID": "Slides/slides_02.html#measures-of-central-tendency",
+    "href": "Slides/slides_02.html#measures-of-central-tendency",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Measures of Central Tendency",
+    "text": "Measures of Central Tendency\n(some things you probably remember from school)"
+  },
+  {
+    "objectID": "Slides/slides_02.html#central-tendency",
+    "href": "Slides/slides_02.html#central-tendency",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Central Tendency",
+    "text": "Central Tendency\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nMean\n❌\n❌\n✅\n\n\nMedian\n❌\n✅\n✅\n\n\nMode\n✅\n✅\n✅"
+  },
+  {
+    "objectID": "Slides/slides_02.html#measures-of-dispersion",
+    "href": "Slides/slides_02.html#measures-of-dispersion",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Measures of Dispersion",
+    "text": "Measures of Dispersion"
+  },
+  {
+    "objectID": "Slides/slides_02.html#dispersion",
+    "href": "Slides/slides_02.html#dispersion",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dispersion",
+    "text": "Dispersion\n\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nStandard Deviation\n❌\n❌\n✅\n\n\nIQR\n❌\n✅\n✅"
+  },
+  {
+    "objectID": "Slides/slides_02.html#skew",
+    "href": "Slides/slides_02.html#skew",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Skew",
+    "text": "Skew\nSkew refers to the degree of asymmetry in data."
+  },
+  {
+    "objectID": "Slides/slides_02.html#nominal-variables-1",
+    "href": "Slides/slides_02.html#nominal-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Nominal Variables",
+    "text": "Nominal Variables\nThe region of a particular U.S. state is a nominal variable: there’s a fixed number of categories and no intrinsic ordering"
+  },
+  {
+    "objectID": "Slides/slides_02.html#ordinal-variables-4",
+    "href": "Slides/slides_02.html#ordinal-variables-4",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nTwo things to keep in mind when working with ordinal variables:\n\n\n\n\n\nThe “ordering” might be partly a question of your own research question. You could flip these or combine categories to arrange them from “most partisan” to “least partisan”.\nSome survey variables may only be ordinal after you remove all the people who gave “don’t know” responses."
   }
 ]
