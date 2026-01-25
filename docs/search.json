@@ -90,6 +90,27 @@
     "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
   },
   {
+    "objectID": "Weeks/Week 01/Week-01.html",
+    "href": "Weeks/Week 01/Week-01.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "title": "Week 1",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-01.html#to-do",
+    "href": "Weeks/Week 01/Week-01.html#to-do",
+    "title": "Week 1",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
+  },
+  {
     "objectID": "Slides/slides_05.html#spurious-relationships",
     "href": "Slides/slides_05.html#spurious-relationships",
     "title": "Chapter 5: Controlled comparisons",
@@ -1125,37 +1146,221 @@
     "text": "Sampling strategies\nContemporary polls often get stuff wrong, but many general election pollsters are able to get a lot closer with far fewer observations (even as conditions get worse!) How?\n\n\n\n\n\nSource: fivethirtyeight.com"
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html",
-    "href": "Weeks/Week 01/Week-01.html",
-    "title": "Week 1",
+    "objectID": "Slides/slides_06.html#uncertainty-and-sampling",
+    "href": "Slides/slides_06.html#uncertainty-and-sampling",
+    "title": "Inference",
+    "section": "Uncertainty and sampling",
+    "text": "Uncertainty and sampling\nThe general intuition:\n\n\nmore data = more certainty. Estimates from a really big representative sample are going to be more likely to approximate the true population mean.\nless variance = more certainty. If people in the target population are pretty much the same, then it is more likely that a given sample will resemble the target population."
+  },
+  {
+    "objectID": "Slides/slides_06.html#margin-of-error",
+    "href": "Slides/slides_06.html#margin-of-error",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+  },
+  {
+    "objectID": "Slides/slides_06.html#margin-of-error-1",
+    "href": "Slides/slides_06.html#margin-of-error-1",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+  },
+  {
+    "objectID": "Slides/slides_06.html#margin-of-error-2",
+    "href": "Slides/slides_06.html#margin-of-error-2",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\n\nThe margin of error is more frequently called a “confidence interval” in statistics.\nA confidence interval is a range that we are reasonably certain contains the actual population value.\n\nSpecifically, the margin generally reported in a survey is a 95% confidence interval when there’s a 50/50 split in a dichotomous outcome.\nIf I estimate that 50% of respondents are Democrats with a margin of error of +/- 3% then I’m saying I’m 95% certain that the range 47-53% contains the true population % of Dems."
+  },
+  {
+    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval",
+    "href": "Slides/slides_06.html#margin-of-error-confidence-interval",
+    "title": "Inference",
+    "section": "Margin of error = Confidence Interval",
+    "text": "Margin of error = Confidence Interval\n95% confidence means: “if I repeated this survey an infinite number of times and recalculated the CI for each one, 95% of my calculated confidence intervals would contain the actual population value.”"
+  },
+  {
+    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
+    "href": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
+    "title": "Inference",
+    "section": "Margin of error = Confidence Interval",
+    "text": "Margin of error = Confidence Interval\n\n\nWe generally aren’t bothering to sample anything repeatedly, so how do we know this?\n\nThe main reason we’re able to calculate a confidence interval is because we actually know a lot about how random errors “behave” in repeated sampling thanks to the central limit theorem."
+  },
+  {
+    "objectID": "Slides/slides_06.html#coin-flips",
+    "href": "Slides/slides_06.html#coin-flips",
+    "title": "Inference",
+    "section": "Coin flips",
+    "text": "Coin flips\nThink about flipping a coin:\n\n\nthe probability of landing on heads is 50% (this is our population parameter)\nWe’ll run an “experiment” where we flip a coin 50 times and calculate the proportion of heads.\n\n(remember that, for a dummy (0, 1) coded dichotomous outcome, the proportion = the mean)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#coin-flips-1",
+    "href": "Slides/slides_06.html#coin-flips-1",
+    "title": "Inference",
+    "section": "Coin flips",
+    "text": "Coin flips\nThis is hardly surprising!\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)\n# counting the number of heads\nprop_heads&lt;-mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.38.\nThe error is .5 - 0.38 = -0.12\n\n\n\nI get closer to the correct answer when I increase the sample size, but I still will have some amount of error:\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=500, replace=TRUE)\n# counting the number of heads\nprop_heads &lt;- mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.51.\nThe error is .5 - 0.51 = 0.01"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\nRepeating this experiment 5,000 times will give us a sense of the sampling distribution for this sample statistic:\n\n# 5000 \"samples\" of the coin-flipping experiment\ntrials&lt;-replicate(5000, sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)==\"heads\")\n# get the average num of heads in each trial. Expected value = .5\nmean_heads &lt;- colMeans(trials)\n# draw a histogram\nhist(mean_heads, main ='proportion of heads in 50 coin flips', breaks=30)\n\n\nwe should get a distribution that looks like this:"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\n\n\n\n\nThe samples are centered around the expected proportion of .5 heads\n\n\n\n\nMore extreme errors are less common than small ones\n\n\n\n\nThe results are symmetric: there are about as many high values as low ones.\n\n\n\n\nError = Sample Mean - Population Mean, so the distribution of errors has this same shape, but its centered around zero."
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\nCoin flips technically follow a binomial distribution but our sampling distribution looks a lot like a normal “bell-curve” centered on .5"
+  },
+  {
+    "objectID": "Slides/slides_06.html#sampling-distributions-of-sample-means",
+    "href": "Slides/slides_06.html#sampling-distributions-of-sample-means",
+    "title": "Inference",
+    "section": "Sampling distributions of sample means",
+    "text": "Sampling distributions of sample means\nIn fact, for a sufficient sample size, sampling distributions of sample means will always end up looking like this regardless of the actual population distribution."
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-normal-distribution",
+    "href": "Slides/slides_06.html#the-normal-distribution",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\nWe know a lot about bell curves. If we have mean \\(\\mu\\) and a standard deviation \\(\\sigma\\), we can easily find how much data we expect to fall anywhere within this shape using the probability density function.\n\n\\[f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^{\\!2}\\,\\right)\\]\n\n\n(Maybe not the kind of thing you want to calculate in your head, but pretty easy for a computer)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-normal-distribution-1",
+    "href": "Slides/slides_06.html#the-normal-distribution-1",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\n\nmu&lt;-0\nsigma&lt;-1\n\ncurve((1 / (sqrt(2*pi) * sigma)) * exp(-(x - mu)^2 / (2 * sigma^2)), from=-3, to=3,\n      xlab = '',\n      main = 'PDF of a normal with mean = 0 and sigma = 1'\n      )"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-normal-distribution-2",
+    "href": "Slides/slides_06.html#the-normal-distribution-2",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\nThe mean (\\(\\mu\\)) and standard deviation \\(\\sigma\\) will depend on the data, but we can always:\n\n\nMean center: subtract the mean \\(\\mu\\) from each observation so that the new mean is zero.\n\n\n\n\nStandardize: divide each observation by the standard deviation of the sampling distribution (\\(\\sigma\\)), so the new standard deviation is 1\n\n\n\nWe’ll call this new number the “Z-score”:\n\\[\n\\text{Z score} = \\frac{\\text{Deviation from the mean}}{\\text{Standard Deviation}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-standard-normal-distribution",
+    "href": "Slides/slides_06.html#the-standard-normal-distribution",
+    "title": "Inference",
+    "section": "The Standard Normal Distribution",
+    "text": "The Standard Normal Distribution"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-central-limit-theorem-1",
+    "href": "Slides/slides_06.html#the-central-limit-theorem-1",
+    "title": "Inference",
+    "section": "The Central Limit Theorem",
+    "text": "The Central Limit Theorem\n\n\n\n\n\n\n\nCentral Limit Theorem\n\n\nAs the number of repeated samples approaches infinity, the sampling distribution of the mean will converge toward a normal distribution centered on the population mean.\n\n\n\n\n\nThis means that:\n\n\nThe sampling errors will also have a normal distribution centered on zero.\n\n\n\n\nSampling errors/means are normally distributed even if the population is non-normal.\n\n\n\n\nWe can calculate the proportion of data that falls under different parts of the curve, provided we know \\(\\mu\\) and \\(\\sigma\\)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#using-the-clt",
+    "href": "Slides/slides_06.html#using-the-clt",
+    "title": "Inference",
+    "section": "Using the CLT",
+    "text": "Using the CLT\nWe don’t need to take infinite samples to make use of this! We can draw a sample and assume that it comes from a distribution with this shape:"
+  },
+  {
+    "objectID": "Slides/slides_06.html#using-the-clt-1",
+    "href": "Slides/slides_06.html#using-the-clt-1",
+    "title": "Inference",
+    "section": "Using the CLT",
+    "text": "Using the CLT\n\\[f(x) = \\frac{1}{\\color{red}{\\sigma}\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\color{red}{\\mu}}{\\color{red}{\\sigma}}\\right)^{\\!2}\\,\\right)\\]\nRemember: we need to know \\(\\mu\\) and \\(\\sigma\\)\n\n\nWe don’t know our population mean \\(\\mu\\), but we do know that the mean sampling error is zero, so we can just use 0 our expected mean error.\nHowever, we still need to know the standard deviation \\(\\sigma\\)\n\nHere, we’re looking for the standard deviation of the sampling errors. We’ll call this value our standard error or SE for short.\nFinding this is a challenge, but we can make some simple assumptions here to get a “worst case scenario” for a survey"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-standard-error",
+    "href": "Slides/slides_06.html#the-standard-error",
+    "title": "Inference",
+    "section": "The standard error",
+    "text": "The standard error\nRemember that more observations = more certainty. So we expect that the standard error will decrease when taking larger samples.\n\n\n\n\n\n\n\n\n\n\n\nWe actually know how much the SE shrinks for each observation:\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion",
+    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion",
+    "title": "Inference",
+    "section": "The standard error of a proportion",
+    "text": "The standard error of a proportion\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\n\n\nWe don’t know \\(\\sigma\\), but surveys are usually reporting a proportion or percentage of people giving a particular response. The standard error of a proportion actually depends on the proportion itself:\n\n\\[\n\\text{Standard Error of a proportion} = \\frac{\\sqrt{p\\times(1-p)}}{\\sqrt{n}} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\n\\[\np = \\text{the proportion}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
+    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
+    "title": "Inference",
+    "section": "The standard error of a proportion",
+    "text": "The standard error of a proportion\n\n\nNote that this part of the formula is at its maximum when p = .5 (i.e. when there’s a 50/50 split on a yes/no question)\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{\\color{red}{p\\times(1-p)}}{n}}\n\\]\n\n\nSo, if we know our sample size, we can calculate the worst case scenario for the standard error where \\(p = .5\\)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#back-to-that-margin",
+    "href": "Slides/slides_06.html#back-to-that-margin",
+    "title": "Inference",
+    "section": "Back to that margin",
+    "text": "Back to that margin\n\n\n\nWe know our sample size is 2,091\n\n\n\nWe know that the biggest SE possible is when \\(p = .5\\), \\(\\sqrt{\\frac{.5(1-.5)}{n}}\\), so the worst case scenario is \\(\\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\\)\n\n\n\n\nWe also know that the errors are normally distributed and centered around 0\n\n\n\nWe have all the ingredients to we need to apply the CLT here!\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-margin-of-error",
+    "href": "Slides/slides_06.html#the-margin-of-error",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\nRemember we want a 95% confidence level.\nWe already know that for this pdf, 95% of the errors will fall with in approximately \\(\\pm 2 \\times Z\\) of 0 (technically closer to 1.95994…)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-margin-of-error-1",
+    "href": "Slides/slides_06.html#the-margin-of-error-1",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\n\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\\[\n\\text{SE for this sample at (p=0.5)} = \\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\n\\]\nSo now we just need:\n\\[\n\\text{standard error} \\times \\text{Z-score for a 95% confidence level} =\n\\]\n\\[\n.0109 \\times 1.96 \\approx 0.0214 = 2.14\\%\n\\]\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-margin-of-error-2",
+    "href": "Slides/slides_06.html#the-margin-of-error-2",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\nSo what is the margin of error on a poll?\nIts a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories."
+  },
+  {
+    "objectID": "Slides/slides_06.html#the-central-limit-theorem-2",
+    "href": "Slides/slides_06.html#the-central-limit-theorem-2",
+    "title": "Inference",
+    "section": "The Central Limit Theorem",
+    "text": "The Central Limit Theorem\nWhen I take a decent-sized random sample from the population:\n\n\nI know the sample mean (\\(\\bar{x}\\)) is drawn from a normal distribution.\nI know the mean of this sampling distribution is equal to the population mean.\nI know the standard deviation of this sampling distribution (a.ka. the standard error) is equal to \\(\\frac{\\sigma}{\\sqrt{n}}\\)\n\nSo: I know that 95% of my sample averages will be within \\(\\approx 1.96\\) standard errors of the correct answer (and any number of other probabilities based on the normal curve)"
+  },
+  {
+    "objectID": "Slides/slides_06.html#calculating-a-95-confidence-interval",
+    "href": "Slides/slides_06.html#calculating-a-95-confidence-interval",
+    "title": "Inference",
+    "section": "Calculating a 95% confidence interval",
+    "text": "Calculating a 95% confidence interval\n\\[\n\\text{lower 95% confidence boundary} = \\bar{x} - 1.96  \\text{ standard errors}\n\\]\n\\[ \\text{upper 95% confidence boundary} = \\bar{x} + 1.96  \\text{ standard errors} \\]\n\nSometimes we’ll just round this to “2” because its usually good enough."
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-template.html",
+    "href": "Weeks/Week 01/Week-template.html",
+    "title": "Week",
     "section": "",
-    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "title": "Week",
     "section": "Lecture slides",
-    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#to-do",
-    "href": "Weeks/Week 01/Week-01.html#to-do",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#to-do",
+    "href": "Weeks/Week 01/Week-template.html#to-do",
+    "title": "Week",
     "section": "To-Do",
-    "text": "To-Do\n\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
   },
   {
     "objectID": "faqs.html",
@@ -1288,208 +1493,5 @@
     "title": "tips",
     "section": "",
     "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
-  },
-  {
-    "objectID": "Slides/slides_06.html",
-    "href": "Slides/slides_06.html",
-    "title": "Inference",
-    "section": "",
-    "text": "You should have received an email about signing up for the GVPT experimental lab\nCheck the exam 1 module for a list of things to know for exam 1. Be ready to ask about them on Monday."
-  },
-  {
-    "objectID": "Slides/slides_06.html#uncertainty-and-sampling",
-    "href": "Slides/slides_06.html#uncertainty-and-sampling",
-    "title": "Inference",
-    "section": "Uncertainty and sampling",
-    "text": "Uncertainty and sampling\nThe general intuition:\n\n\nmore data = more certainty. Estimates from a really big representative sample are going to be more likely to approximate the true population mean.\nless variance = more certainty. If people in the target population are pretty much the same, then it is more likely that a given sample will resemble the target population."
-  },
-  {
-    "objectID": "Slides/slides_06.html#margin-of-error",
-    "href": "Slides/slides_06.html#margin-of-error",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
-  },
-  {
-    "objectID": "Slides/slides_06.html#margin-of-error-1",
-    "href": "Slides/slides_06.html#margin-of-error-1",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
-  },
-  {
-    "objectID": "Slides/slides_06.html#margin-of-error-2",
-    "href": "Slides/slides_06.html#margin-of-error-2",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\n\nThe margin of error is more frequently called a “confidence interval” in statistics.\nA confidence interval is a range that we are reasonably certain contains the actual population value.\n\nSpecifically, the margin generally reported in a survey is a 95% confidence interval when there’s a 50/50 split in a dichotomous outcome.\nIf I estimate that 50% of respondents are Democrats with a margin of error of +/- 3% then I’m saying I’m 95% certain that the range 47-53% contains the true population % of Dems."
-  },
-  {
-    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval",
-    "href": "Slides/slides_06.html#margin-of-error-confidence-interval",
-    "title": "Inference",
-    "section": "Margin of error = Confidence Interval",
-    "text": "Margin of error = Confidence Interval\n95% confidence means: “if I repeated this survey an infinite number of times and recalculated the CI for each one, 95% of my calculated confidence intervals would contain the actual population value.”"
-  },
-  {
-    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
-    "href": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
-    "title": "Inference",
-    "section": "Margin of error = Confidence Interval",
-    "text": "Margin of error = Confidence Interval\n\n\nWe generally aren’t bothering to sample anything repeatedly, so how do we know this?\n\nThe main reason we’re able to calculate a confidence interval is because we actually know a lot about how random errors “behave” in repeated sampling thanks to the central limit theorem."
-  },
-  {
-    "objectID": "Slides/slides_06.html#coin-flips",
-    "href": "Slides/slides_06.html#coin-flips",
-    "title": "Inference",
-    "section": "Coin flips",
-    "text": "Coin flips\nThink about flipping a coin:\n\n\nthe probability of landing on heads is 50% (this is our population parameter)\nWe’ll run an “experiment” where we flip a coin 50 times and calculate the proportion of heads.\n\n(remember that, for a dummy (0, 1) coded dichotomous outcome, the proportion = the mean)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#coin-flips-1",
-    "href": "Slides/slides_06.html#coin-flips-1",
-    "title": "Inference",
-    "section": "Coin flips",
-    "text": "Coin flips\nThis is hardly surprising!\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)\n# counting the number of heads\nprop_heads&lt;-mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.38.\nThe error is .5 - 0.38 = -0.12\n\n\n. . .\nI get closer to the correct answer when I increase the sample size, but I still will have some amount of error:\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=500, replace=TRUE)\n# counting the number of heads\nprop_heads &lt;- mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.51.\nThe error is .5 - 0.51 = 0.01"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\nRepeating this experiment 5,000 times will give us a sense of the sampling distribution for this sample statistic:\n\n# 5000 \"samples\" of the coin-flipping experiment\ntrials&lt;-replicate(5000, sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)==\"heads\")\n# get the average num of heads in each trial. Expected value = .5\nmean_heads &lt;- colMeans(trials)\n# draw a histogram\nhist(mean_heads, main ='proportion of heads in 50 coin flips', breaks=30)\n\n\nwe should get a distribution that looks like this:"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\n\n\n\n\nThe samples are centered around the expected proportion of .5 heads\n\n\n\n\nMore extreme errors are less common than small ones\n\n\n\n\nThe results are symmetric: there are about as many high values as low ones.\n\n\n\n\nError = Sample Mean - Population Mean, so the distribution of errors has this same shape, but its centered around zero."
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\nCoin flips technically follow a binomial distribution but our sampling distribution looks a lot like a normal “bell-curve” centered on .5"
-  },
-  {
-    "objectID": "Slides/slides_06.html#sampling-distributions-of-sample-means",
-    "href": "Slides/slides_06.html#sampling-distributions-of-sample-means",
-    "title": "Inference",
-    "section": "Sampling distributions of sample means",
-    "text": "Sampling distributions of sample means\nIn fact, for a sufficient sample size, sampling distributions of sample means will always end up looking like this regardless of the actual population distribution."
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-normal-distribution",
-    "href": "Slides/slides_06.html#the-normal-distribution",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\nWe know a lot about bell curves. If we have mean \\(\\mu\\) and a standard deviation \\(\\sigma\\), we can easily find how much data we expect to fall anywhere within this shape using the probability density function.\n. . .\n\\[f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^{\\!2}\\,\\right)\\]\n. . .\n(Maybe not the kind of thing you want to calculate in your head, but pretty easy for a computer)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-normal-distribution-1",
-    "href": "Slides/slides_06.html#the-normal-distribution-1",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\n\nmu&lt;-0\nsigma&lt;-1\n\ncurve((1 / (sqrt(2*pi) * sigma)) * exp(-(x - mu)^2 / (2 * sigma^2)), from=-3, to=3,\n      xlab = '',\n      main = 'PDF of a normal with mean = 0 and sigma = 1'\n      )"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-normal-distribution-2",
-    "href": "Slides/slides_06.html#the-normal-distribution-2",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\nThe mean (\\(\\mu\\)) and standard deviation \\(\\sigma\\) will depend on the data, but we can always:\n. . .\n\nMean center: subtract the mean \\(\\mu\\) from each observation so that the new mean is zero.\n\n. . .\n\nStandardize: divide each observation by the standard deviation of the sampling distribution (\\(\\sigma\\)), so the new standard deviation is 1\n\n. . .\nWe’ll call this new number the “Z-score”:\n\\[\n\\text{Z score} = \\frac{\\text{Deviation from the mean}}{\\text{Standard Deviation}}\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-standard-normal-distribution",
-    "href": "Slides/slides_06.html#the-standard-normal-distribution",
-    "title": "Inference",
-    "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-central-limit-theorem-1",
-    "href": "Slides/slides_06.html#the-central-limit-theorem-1",
-    "title": "Inference",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\n\n\n\n\n\n\nCentral Limit Theorem\n\n\n\nAs the number of repeated samples approaches infinity, the sampling distribution of the mean will converge toward a normal distribution centered on the population mean.\n\n\n. . .\nThis means that:\n\n\nThe sampling errors will also have a normal distribution centered on zero.\n\n\n\n\nSampling errors/means are normally distributed even if the population is non-normal.\n\n\n\n\nWe can calculate the proportion of data that falls under different parts of the curve, provided we know \\(\\mu\\) and \\(\\sigma\\)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#using-the-clt",
-    "href": "Slides/slides_06.html#using-the-clt",
-    "title": "Inference",
-    "section": "Using the CLT",
-    "text": "Using the CLT\nWe don’t need to take infinite samples to make use of this! We can draw a sample and assume that it comes from a distribution with this shape:"
-  },
-  {
-    "objectID": "Slides/slides_06.html#using-the-clt-1",
-    "href": "Slides/slides_06.html#using-the-clt-1",
-    "title": "Inference",
-    "section": "Using the CLT",
-    "text": "Using the CLT\n\\[f(x) = \\frac{1}{\\color{red}{\\sigma}\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\color{red}{\\mu}}{\\color{red}{\\sigma}}\\right)^{\\!2}\\,\\right)\\]\nRemember: we need to know \\(\\mu\\) and \\(\\sigma\\)\n\n\nWe don’t know our population mean \\(\\mu\\), but we do know that the mean sampling error is zero, so we can just use 0 our expected mean error.\nHowever, we still need to know the standard deviation \\(\\sigma\\)\n\nHere, we’re looking for the standard deviation of the sampling errors. We’ll call this value our standard error or SE for short.\nFinding this is a challenge, but we can make some simple assumptions here to get a “worst case scenario” for a survey"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-standard-error",
-    "href": "Slides/slides_06.html#the-standard-error",
-    "title": "Inference",
-    "section": "The standard error",
-    "text": "The standard error\nRemember that more observations = more certainty. So we expect that the standard error will decrease when taking larger samples.\n\n\n\n\n\n\n\n\n\n\n\n\n\n. . .\nWe actually know how much the SE shrinks for each observation:\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion",
-    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion",
-    "title": "Inference",
-    "section": "The standard error of a proportion",
-    "text": "The standard error of a proportion\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\n\n\nWe don’t know \\(\\sigma\\), but surveys are usually reporting a proportion or percentage of people giving a particular response. The standard error of a proportion actually depends on the proportion itself:\n\n\\[\n\\text{Standard Error of a proportion} = \\frac{\\sqrt{p\\times(1-p)}}{\\sqrt{n}} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\n\\[\np = \\text{the proportion}\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
-    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
-    "title": "Inference",
-    "section": "The standard error of a proportion",
-    "text": "The standard error of a proportion\n\n\nNote that this part of the formula is at its maximum when p = .5 (i.e. when there’s a 50/50 split on a yes/no question)\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{\\color{red}{p\\times(1-p)}}{n}}\n\\]\n\n\nSo, if we know our sample size, we can calculate the worst case scenario for the standard error where \\(p = .5\\)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#back-to-that-margin",
-    "href": "Slides/slides_06.html#back-to-that-margin",
-    "title": "Inference",
-    "section": "Back to that margin",
-    "text": "Back to that margin\n\n\n\nWe know our sample size is 2,091\n\n\n\nWe know that the biggest SE possible is when \\(p = .5\\), \\(\\sqrt{\\frac{.5(1-.5)}{n}}\\), so the worst case scenario is \\(\\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\\)\n\n\n\n\nWe also know that the errors are normally distributed and centered around 0\n\n\n\nWe have all the ingredients to we need to apply the CLT here!\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-margin-of-error",
-    "href": "Slides/slides_06.html#the-margin-of-error",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\nRemember we want a 95% confidence level.\nWe already know that for this pdf, 95% of the errors will fall with in approximately \\(\\pm 2 \\times Z\\) of 0 (technically closer to 1.95994…)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-margin-of-error-1",
-    "href": "Slides/slides_06.html#the-margin-of-error-1",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\n\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\\[\n\\text{SE for this sample at (p=0.5)} = \\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\n\\]\nSo now we just need:\n\\[\n\\text{standard error} \\times \\text{Z-score for a 95% confidence level} =\n\\]\n\\[\n.0109 \\times 1.96 \\approx 0.0214 = 2.14\\%\n\\]\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-margin-of-error-2",
-    "href": "Slides/slides_06.html#the-margin-of-error-2",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\nSo what is the margin of error on a poll?\nIts a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories."
-  },
-  {
-    "objectID": "Slides/slides_06.html#the-central-limit-theorem-2",
-    "href": "Slides/slides_06.html#the-central-limit-theorem-2",
-    "title": "Inference",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\nWhen I take a decent-sized random sample from the population:\n\n\nI know the sample mean (\\(\\bar{x}\\)) is drawn from a normal distribution.\nI know the mean of this sampling distribution is equal to the population mean.\nI know the standard deviation of this sampling distribution (a.ka. the standard error) is equal to \\(\\frac{\\sigma}{\\sqrt{n}}\\)\n\nSo: I know that 95% of my sample averages will be within \\(\\approx 1.96\\) standard errors of the correct answer (and any number of other probabilities based on the normal curve)"
-  },
-  {
-    "objectID": "Slides/slides_06.html#calculating-a-95-confidence-interval",
-    "href": "Slides/slides_06.html#calculating-a-95-confidence-interval",
-    "title": "Inference",
-    "section": "Calculating a 95% confidence interval",
-    "text": "Calculating a 95% confidence interval\n\\[\n\\text{lower 95% confidence boundary} = \\bar{x} - 1.96  \\text{ standard errors}\n\\]\n\\[ \\text{upper 95% confidence boundary} = \\bar{x} + 1.96  \\text{ standard errors} \\]\n. . .\nSometimes we’ll just round this to “2” because its usually good enough."
   }
 ]
