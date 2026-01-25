@@ -597,7 +597,7 @@
     "href": "Slides/slides_02.html#ordinal-variables-1",
     "title": "Chapter 2: Measurement and Description",
     "section": "Ordinal Variables",
-    "text": "Ordinal Variables\nA common source of ordinal variables will be survey items that ask people to rate their position on a scale from “strongly agree” to “strongly disagree” or “very important” to “not at all important”.\n. . ."
+    "text": "Ordinal Variables\nA common source of ordinal variables will be survey items that ask people to rate their position on a scale from “strongly agree” to “strongly disagree” or “very important” to “not at all important”."
   },
   {
     "objectID": "Slides/slides_02.html#ordinal-variables-2",
@@ -611,7 +611,7 @@
     "href": "Slides/slides_02.html#ordinal-variables-3",
     "title": "Chapter 2: Measurement and Description",
     "section": "Ordinal Variables",
-    "text": "Ordinal Variables\n\n\nFor instance: the World Bank classifies countries into four ordinal categories based on their per-capita GDP. There’s a clear ordering, but the spaces are not equal.\n\n\n\nWarning: package 'rnaturalearth' was built under R version 4.3.3\n\n\nWarning: package 'countrycode' was built under R version 4.3.3\n\n\nRows: 7953 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): Entity, Code, classification\ndbl (1): Year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\nWarning: Some values were not matched unambiguously: Channel Islands, Kosovo, Micronesia (country)\n\n\nJoining with `by = join_by(iso_a2_eh)`"
+    "text": "Ordinal Variables\n\n\nFor instance: the World Bank classifies countries into four ordinal categories based on their per-capita GDP. There’s a clear ordering, but the spaces are not equal."
   },
   {
     "objectID": "Slides/slides_02.html#interval-variables",
@@ -625,21 +625,21 @@
     "href": "Slides/slides_02.html#interval-variables-1",
     "title": "Chapter 2: Measurement and Description",
     "section": "Interval Variables",
-    "text": "Interval Variables\n“True” interval variables are less common in survey research, but we’ll often treat ordinal variables as “more-or-less interval” if they a lot (7+) categories\n\n\n\n\n\n\n\n\n\nStrictly speaking these “feeling thermometer” responses are more like ordinal variables. But they’re close enough for us to treat them like interval variables for most purposes."
+    "text": "Interval Variables\n“True” interval variables are less common in survey research, but we’ll often treat ordinal variables as “more-or-less interval” if they a lot (7+) categories\n\nStrictly speaking these “feeling thermometer” responses are more like ordinal variables. But they’re close enough for us to treat them like interval variables for most purposes."
   },
   {
     "objectID": "Slides/slides_02.html#dichotomousdummy-variables",
     "href": "Slides/slides_02.html#dichotomousdummy-variables",
     "title": "Chapter 2: Measurement and Description",
     "section": "Dichotomous/Dummy Variables",
-    "text": "Dichotomous/Dummy Variables\n\nDichotomous variables that take on only two values: TRUE/FALSE, or Republican/Democrat, War/Peace etc.\n“Dummy” variables will encode this dichotomy as 0s and 1s, which can simplify some math operations\n\nMost importantly: the mean of a dummy variable = the proportion of 1s in the data!\n\n\n. . .\n\ndummy_vector &lt;- c(1,1,1,1,0,0,0,0,0,0)\n\nmean(dummy_vector)\n\n[1] 0.4"
+    "text": "Dichotomous/Dummy Variables\n\nDichotomous variables that take on only two values: TRUE/FALSE, or Republican/Democrat, War/Peace etc.\n“Dummy” variables will encode this dichotomy as 0s and 1s, which can simplify some math operations\n\nMost importantly: the mean of a dummy variable = the proportion of 1s in the data!\n\n\n\n\ndummy_vector &lt;- c(1,1,1,1,0,0,0,0,0,0)\n\nmean(dummy_vector)\n\n[1] 0.4"
   },
   {
     "objectID": "Slides/slides_02.html#dichotomousdummy",
     "href": "Slides/slides_02.html#dichotomousdummy",
     "title": "Chapter 2: Measurement and Description",
     "section": "Dichotomous/Dummy",
-    "text": "Dichotomous/Dummy\nDummy coding is important for statistical modeling because how we can make nominal data into meaningful numeric data:\n\n\nWarning: package 'kableExtra' was built under R version 4.3.3\n\n\n\nAttaching package: 'kableExtra'\n\n\nThe following object is masked from 'package:dplyr':\n\n    group_rows\n\n\n\n\n\n\nWho did you vote for in 2020?\nTrump\nBiden\nStein\n\n\n\n\nTrump\n1\n0\n0\n\n\nBiden\n0\n1\n0\n\n\nJill Stein\n0\n0\n1"
+    "text": "Dichotomous/Dummy\nDummy coding is important for statistical modeling because how we can make nominal data into meaningful numeric data:\n\n\n\n\n\n\nWho did you vote for in 2020?\nTrump\nBiden\nStein\n\n\n\n\nTrump\n1\n0\n0\n\n\nBiden\n0\n1\n0\n\n\nJill Stein\n0\n0\n1"
   },
   {
     "objectID": "Slides/slides_02.html#index-variables",
@@ -674,21 +674,21 @@
     "href": "Slides/slides_02.html#histogram",
     "title": "Chapter 2: Measurement and Description",
     "section": "Histogram",
-    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin.\n\n\n\n\n`stat_bin()` using `bins = 30`. Pick better value `binwidth`."
+    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
   },
   {
     "objectID": "Slides/slides_02.html#density-plot",
     "href": "Slides/slides_02.html#density-plot",
     "title": "Chapter 2: Measurement and Description",
     "section": "Density Plot",
-    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region.\n\n\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead."
+    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
   },
   {
     "objectID": "Slides/slides_02.html#box-plots",
     "href": "Slides/slides_02.html#box-plots",
     "title": "Chapter 2: Measurement and Description",
     "section": "Box plots",
-    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales.\n\n\n\n\nWarning: Removed 3194 rows containing non-finite outside the scale range\n(`stat_boxplot()`)."
+    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
   },
   {
     "objectID": "Slides/slides_02.html#bar-plot",
@@ -702,7 +702,7 @@
     "href": "Slides/slides_02.html#measures-of-central-tendency",
     "title": "Chapter 2: Measurement and Description",
     "section": "Measures of Central Tendency",
-    "text": "Measures of Central Tendency\n(some things you probably remember from school)\n\n(Arithmetic) Mean\nSum up all the numbers and divide by the total number of observations\n\\[\n\\bar{x} = \\frac{1}{n}\\sum^n_{i=1}x_i\n\\]\n\\[\n\\bar{x} = \\text{the mean of x}\n\\]\n\\[\nx_i = \\text{the individual values of x}\n\\]\n\\[\nn = \\text{the number of observations}\n\\]\n\n\n(Arithmetic) Mean\nA useful feature of the mean: the summed residuals from \\(\\bar{x}-x = 0\\)\n\n\n\n\n\n\n\n\\(x\\)\n\\(x-\\bar{x}\\)\n\n\n\n\n3\n\\(3 - 6 = -3\\)\n\n\n4\n\\(4 - 6 = -2\\)\n\n\n6\n\\(6-6 = 0\\)\n\n\n11\n\\(11 - 6 = 5\\)\n\n\nTotal: \\(24\\)\nMean: \\(24/6 = 6\\)\nTotal: \\(-3 + -2 + 0 + 5 = 0\\)\n\n\n\nUsing the mean to predict an outcome means that we’ll sometimes predict values that are too high or too low, but over time the total sum of those errors will equal zero.\n\n\n(Arithmetic) Mean\nA problematic feature of the mean is that its sensitive to extreme outliers (also known as skew)\n. . .\nThe average height of Victor Wembanyama (7 ft 4) and a bunch of regular people is probably misleading.\n\n\n\n\n\n\n\nMedian\nFor an even number of observations, the median is the middle number:\n. . .\n\\[\nx = 1, 3, 3,6, 7, 8, 9\n\\]\n\\[\n\\text{Median} = 6\n\\]\n. . .\nFor an odd number of observations, the median is the mean of the two middle values:\n. . .\n\\[\nx = 1, 3, 3,6, 7, 8, 9, 11\n\\]\n. . .\n\\[\n\\text{Median} = 6.5\n\\]\n\n\nMedian\nImportantly, the median is a skew-robust measure of central tendency.\n. . .\nThe mean and median will be similar if there’s no skew:\n\\[\nx = 1, 3, 3, 6, 7, 8, 9, 11\n\\]\n. . .\n\\[\n\\text{Median of x} = 6.5\n\\]\n. . .\n\\[\n\\text{Mean of x} = 6\n\\]\n. . .\nBut they diverge when we include extreme outliers:\n\\[\nx = 1, 3, 3, 6, 7, 8, 9, 100000000000\n\\]\n. . .\n\\[\n\\text{Median of x} = 6.5\n\\]\n. . .\n\\[\n\\text{Mean of x} = 12500000000\n\\]\n\n\nMode\nThe modal value is the value that occurs most often.\n\\[\nx = 1, 3, 3, 6, 7, 8, 9, 11\n\\]\n\\[\n\\text{Mode of x = 3}\n\\]\n. . .\nUnlike the mean, the mode is a valid measure of central tendency for nominal variables:\n\\[\n\\text{Tom, Earl, Tom, Sarah, Beth}\n\\]\n. . .\n\\[\n\\text{Mode = Tom}\n\\]\n\n\nModality\n\n\nVariables may have more than one modal value. For instance, the cross-national distribution of male average years of schooling is roughly bimodal, mainly because different countries will different compulsory schooling requirements.\n\n\n\n\n\n\n\n\n\n\nBy contrast the % of a country’s population that is working-age is unimodal: most countries have between 65 to 70% and there’s no other value that is nearly as common."
+    "text": "Measures of Central Tendency\n(some things you probably remember from school)"
   },
   {
     "objectID": "Slides/slides_02.html#central-tendency",
@@ -716,7 +716,7 @@
     "href": "Slides/slides_02.html#measures-of-dispersion",
     "title": "Chapter 2: Measurement and Description",
     "section": "Measures of Dispersion",
-    "text": "Measures of Dispersion\n\nStandard Deviation\nThe standard deviation is a … standard measure of dispersion for interval variables based on squared deviations from the mean. A larger standard deviation, all else equal, indicates that observations tend to deviate from the mean more.\n\n\nWarning: package 'distributional' was built under R version 4.3.3\n\n\n\n\n\n\n\n\n\n\n\nStandard Deviation: Steps\nTo calculate the standard deviation for a sample:\n\n\n\n1. Calculate \\(\\bar{x}\\) (the mean of \\(x\\))  2. Calculate the residual (\\(\\bar{x} - x_i\\)) for each value  3. Square each residual and then calculate the total sum of squares (TSS)  3. Calculate the variance by dividing this total by the number of observations (minus 1)  4. Calculate the standard deviation by taking the square root of the variance\n\n\n\n\n\n\n\n\nx\nDeviation from mean (5)\nDifferences squared\n\n\n\n\n2\n-3\n9\n\n\n4\n-1\n1\n\n\n4\n-1\n1\n\n\n4\n-1\n1\n\n\n5\n0\n0\n\n\n5\n0\n0\n\n\n5\n0\n0\n\n\n7\n2\n4\n\n\n9\n4\n16\n\n\nMean = 5\nTotal = 0\nTSS = 32\n\n\n\n\n\\[\\text{Var(x)}=\\frac{32}{(9-1)} = 4\\] \\[s_x = \\sqrt4 = 2\\]\n\n\n\n\nStandard Deviation\nFortunately, we don’t have to do this by hand:\n\nx&lt;-c(2,4,4,4,5,5,5,7,9)\n\nsd(x)\n\n[1] 2\n\n\n. . .\nThe key thing to remember is just that the standard deviation is sort of like “an average of differences from the average”\n\n\nRange and IQR\n\nRange is simply the difference between the lowest and highest value\nInterquartile Range is the difference between the 25th and 75th quartile of a variable\n\n. . .\n(which corresponds to the box part of a box-and-whiskers plot)"
+    "text": "Measures of Dispersion"
   },
   {
     "objectID": "Slides/slides_02.html#dispersion",
@@ -730,7 +730,7 @@
     "href": "Slides/slides_02.html#skew",
     "title": "Chapter 2: Measurement and Description",
     "section": "Skew",
-    "text": "Skew\nSkew refers to the degree of asymmetry in data.\n\nNo Skew\nWhen the distribution is basically symmetric, the mean and the median essentially overlap.\n\n\n\n\n\n\n\n\n\n\n\nRight Skew\nWith right skew, extreme high values pull the mean higher than the median.\n\n\n\n\n\n\n\n\n\n\n\nLeft Skew"
+    "text": "Skew\nSkew refers to the degree of asymmetry in data."
   },
   {
     "objectID": "Slides/slides_02.html#nominal-variables-1",
@@ -744,21 +744,21 @@
     "href": "Slides/slides_02.html#ordinal-variables-4",
     "title": "Chapter 2: Measurement and Description",
     "section": "Ordinal Variables",
-    "text": "Ordinal Variables\nTwo things to keep in mind when working with ordinal variables:\n. . .\n\n\n\n\nThe “ordering” might be partly a function of your research question. You could flip these or combine categories to arrange them from “most partisan” to “least partisan”.\nSome survey variables may only be ordinal after you remove all the people who gave “don’t know” responses."
+    "text": "Ordinal Variables\nTwo things to keep in mind when working with ordinal variables:\n\n\n\n\n\nThe “ordering” might be partly a function of your research question. You could flip these or combine categories to arrange them from “most partisan” to “least partisan”.\nSome survey variables may only be ordinal after you remove all the people who gave “don’t know” responses."
   },
   {
     "objectID": "Slides/slides_02.html#index-variables-1",
     "href": "Slides/slides_02.html#index-variables-1",
     "title": "Chapter 2: Measurement and Description",
     "section": "Index variables",
-    "text": "Index variables\n\n\nThe values highlighted in red indicate more “authoritarian” attitudes toward child rearing.\n\n\nWarning: package 'RCPA3' was built under R version 4.3.3\n\n\n\n\n\n\nquestion\nvalue\npercent\n\n\n\n\nConsiderate vs. Well-behaved\nBeing considerate\n72%\n\n\nWell behaved\n28%\n\n\nCuriosity vs. Good Manners\nCuriosity\n39%\n\n\nGood manners\n61%\n\n\nSelf Reliance vs. Obedience\nObedience\n44%\n\n\nSelf-reliance\n56%\n\n\nIndependence vs. Respect for Elders\nIndependence\n31%\n\n\nRespect for elders\n69%\n\n\n\n\n\n\n\n\n\nThe “authoritarianism” column is an index variable created by counting the number of “authoritarian” answers to a single question.\n\n\n\n\n\n\nauthoritarianism\npercent\ncumulative %\n\n\n\n\n0\n18.3%\n18.3%\n\n\n1\n17.7%\n36.0%\n\n\n2\n23.2%\n59.2%\n\n\n3\n25.1%\n84.2%\n\n\n4\n15.8%\n100.0%"
+    "text": "Index variables\n\n\nThe values highlighted in red indicate more “authoritarian” attitudes toward child rearing.\n\n\n\n\n\n\nquestion\nvalue\npercent\n\n\n\n\nConsiderate vs. Well-behaved\nBeing considerate\n72%\n\n\nWell behaved\n28%\n\n\nCuriosity vs. Good Manners\nCuriosity\n39%\n\n\nGood manners\n61%\n\n\nSelf Reliance vs. Obedience\nObedience\n44%\n\n\nSelf-reliance\n56%\n\n\nIndependence vs. Respect for Elders\nIndependence\n31%\n\n\nRespect for elders\n69%\n\n\n\n\n\n\n\n\n\nThe “authoritarianism” column is an index variable created by counting the number of “authoritarian” answers to a single question.\n\n\n\n\n\n\nauthoritarianism\npercent\ncumulative %\n\n\n\n\n0\n18.3%\n18.3%\n\n\n1\n17.7%\n36.0%\n\n\n2\n23.2%\n59.2%\n\n\n3\n25.1%\n84.2%\n\n\n4\n15.8%\n100.0%"
   },
   {
     "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-2",
     "href": "Slides/slides_02.html#multiple-levels-of-measurement-2",
     "title": "Chapter 2: Measurement and Description",
     "section": "Multiple levels of measurement",
-    "text": "Multiple levels of measurement\nFor example: many analyses of Trump supporters will collapse education into college vs. non-college because (at least for whites) there’s a clear division between college grads and non-college grads:\n\n\n`summarise()` has grouped output by 'education'. You can override using the\n`.groups` argument."
+    "text": "Multiple levels of measurement\nFor example: many analyses of Trump supporters will collapse education into college vs. non-college because (at least for whites) there’s a clear division between college grads and non-college grads:"
   },
   {
     "objectID": "Slides/slides_02.html",
