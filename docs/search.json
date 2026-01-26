@@ -90,25 +90,46 @@
     "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html",
-    "href": "Weeks/Week 01/Week-01.html",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html",
+    "href": "Weeks/Week 01/Week-template.html",
+    "title": "Week",
     "section": "",
     "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "title": "Week",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#to-do",
-    "href": "Weeks/Week 01/Week-01.html#to-do",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#to-do",
+    "href": "Weeks/Week 01/Week-template.html#to-do",
+    "title": "Week",
     "section": "To-Do",
     "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
+  },
+  {
+    "objectID": "Weeks/2/2.html",
+    "href": "Weeks/2/2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "This week we’re looking at ways to describe, measure, and visualize central tendency and variation in data."
+  },
+  {
+    "objectID": "Weeks/2/2.html#lecture-slides",
+    "href": "Weeks/2/2.html#lecture-slides",
+    "title": "Week 2",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
+  },
+  {
+    "objectID": "Weeks/2/2.html#to-do",
+    "href": "Weeks/2/2.html#to-do",
+    "title": "Week 2",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 2 of the textbook\nWorkbook homework 1 is due on Thursday.\nSubmit a survey question by Friday."
   },
   {
     "objectID": "Slides/slides_05.html#spurious-relationships",
@@ -660,11 +681,21 @@
     ]
   },
   {
-    "objectID": "GVPT201_Syllabus.html#study-resources",
-    "href": "GVPT201_Syllabus.html#study-resources",
+    "objectID": "GVPT201_Syllabus.html#ai-use",
+    "href": "GVPT201_Syllabus.html#ai-use",
     "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Study Resources",
-    "text": "Study Resources\nIn addition to your textbooks, lecture and discussion sections, instructors at UMD have assembled a number of additional materials to help you stay on top of your assignments for this class.\n\nTextbook videos\nIn addition to the lectures being recorded and made available to students after each class we have created short videos to help students study the discrete concepts that are covered in the textbook. These concept videos are all uploaded and available on PANOPTO (ELMS) for students at the outset of class\n\n\nTextbook quizzes\nThe textbook is divided into chapters by topic. In-person lectures roughly follow the topical outline of the book as indicated on the syllabus and students are expected to read before coming to lecture. Each textbook chapter ends with a series of questions about the textbook materials. After finishing each chapter, students can test their understanding of the material by answering the textbook quiz questions on ELMS. The quizzes are intended for self study only and are not graded for the class.\n\n\nWorkbook videos\nThe workbook is divided into chapters that correspond to the topics covered in the textbook. Students work through these chapters before completing the HW at the end of each chapter. To help students complete the work in each chapter we have created short videos that take the student through the script in each chapter. Students can watch the videos as they are working their way through the material in each chapter. We also make the script files for each workbook chapter available to students though we strongly encourage you to try your hand at making your own and only using the professor’s script files as support. (Of course the HW script you have to create on your own.) The chapters themselves also contain QR codes that students can follow to videos covering workbook topics in greater depth and from a variety of sources.",
+    "section": "AI use",
+    "text": "AI use\nIn this class, you may use AI tools (ChatGPT, Gemini, Claude etc.) for brainstorming and research only. Under no circumstances should you submit work (coding or analysis) that you didn’t write yourself or that you can’t explain to another person or effectively replicate on your own. If you are unsure whether a specific use-case is acceptable, please reach out to me for a clarification.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#class-communication",
+    "href": "GVPT201_Syllabus.html#class-communication",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Class Communication",
+    "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).\n\nExtra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.\n\n\nGrade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.\n\n\nCode of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
     "crumbs": [
       "Syllabus"
     ]
@@ -1342,25 +1373,70 @@
     "text": "Calculating a 95% confidence interval\n\\[\n\\text{lower 95% confidence boundary} = \\bar{x} - 1.96  \\text{ standard errors}\n\\]\n\\[ \\text{upper 95% confidence boundary} = \\bar{x} + 1.96  \\text{ standard errors} \\]\n\nSometimes we’ll just round this to “2” because its usually good enough."
   },
   {
-    "objectID": "Weeks/Week 01/Week-template.html",
-    "href": "Weeks/Week 01/Week-template.html",
-    "title": "Week",
+    "objectID": "Weeks/Week 01/Week-01.html",
+    "href": "Weeks/Week 01/Week-01.html",
+    "title": "Week 1",
     "section": "",
-    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
   },
   {
-    "objectID": "Weeks/Week 01/Week-template.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-template.html#lecture-slides",
-    "title": "Week",
+    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "title": "Week 1",
     "section": "Lecture slides",
-    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
   },
   {
-    "objectID": "Weeks/Week 01/Week-template.html#to-do",
-    "href": "Weeks/Week 01/Week-template.html#to-do",
-    "title": "Week",
+    "objectID": "Weeks/Week 01/Week-01.html#to-do",
+    "href": "Weeks/Week 01/Week-01.html#to-do",
+    "title": "Week 1",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
+    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 02/Week-02.html",
+    "href": "Weeks/Week 02/Week-02.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "This week we’re looking at ways to describe, measure, and visualize central tendency and variation in data.",
+    "crumbs": [
+      "Weeks",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 02/Week-02.html#lecture-slides",
+    "href": "Weeks/Week 02/Week-02.html#lecture-slides",
+    "title": "Week 2",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
+    "crumbs": [
+      "Weeks",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 02/Week-02.html#to-do",
+    "href": "Weeks/Week 02/Week-02.html#to-do",
+    "title": "Week 2",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 2 of the textbook\nWorkbook homework 1 is due on Thursday.\nSubmit a survey question by Friday.",
+    "crumbs": [
+      "Weeks",
+      "Week 2"
+    ]
   },
   {
     "objectID": "faqs.html",
@@ -1440,7 +1516,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\n1/26\nConcepts and measurement\nChapter 1\nHomework 1 due February 5thSurvey question due February 6th\nIntro\n\n\nWeek 1\n1/28\n\n\n\nLecture 1\n\n\nWeek 2\n2/2\nDescription\nChapter 2\nHomework 2 due February 12th\nLecture 2\n\n\nWeek 2\n2/4\n\n\n\nLecture 3\n\n\nWeek 3\n2/9\nTransforming variables\nChapter 3\nHomework 3 due February 19th\nLecture 4\n\n\nWeek 3\n2/11\n\n\n\nLecture 5\n\n\nWeek 4\n2/16\nExplanations and hypotheses\nChapter 4\nHomework 4 due February 26thVerification of survey distribution due by February 27\nLecture 6\n\n\nWeek 4\n2/18\n\n\n\nLecture 7\n\n\nWeek 5\n2/23\nGraphing and describing patterns\nChapter 5\nHomework 5 due March 5th\nLecture 8\n\n\nWeek 5\n2/25\n\n\n\nLecture 9\n\n\nWeek 6\n3/2\nResearch and causation\nChapter 6\nHomework 6 due March 12th\nLecture 10\n\n\nWeek 6\n3/4\n\n\n\nLecture 11\n\n\nWeek 7\n3/9\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\nWeek 7\n3/11\n\n\nMidterm I\n\n\n\nWeek 8\n3/16\n\nSpring Break\n\n\n\n\nWeek 8\n3/18\n\nSpring Break\n\n\n\n\nWeek 9\n3/23\nInference\nChapter 8\nHomework 7 due March 26thSurvey Practice I due March 27th\nLecture 13\n\n\nWeek 9\n3/25\n\n\n\nLecture 14\n\n\nWeek 10\n3/30\nHypothesis testing\nChapter 9\nHomework 8 due April 9th\nLecture 15\n\n\nWeek 10\n4/1\n\n\n\nLecture 16\n\n\nWeek 11\n4/6\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and 11\nHomework 9 due April 16th\nLecture 17\n\n\nWeek 11\n4/8\n\n\n\nLecture 18\n\n\nWeek 12\n4/13\nMultiple Regression\nChapter 12\nHomework 10 due April 23rd\nLecture 19\n\n\nWeek 12\n4/15\n\n\n\nLecture 20\n\n\nWeek 13\n4/20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 1st\nLecture 21\n\n\nWeek 13\n4/22\n\n\n\nLecture 22\n\n\nWeek 14\n4/27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 7\nLecture 23\n\n\nWeek 14\n4/29\n\n\n\nLecture 24\n\n\nWeek 15\n5/4\nWrap up and review\nChapter 15\n\nLecture 25\n\n\nWeek 15\n5/6\nMidterm",
+    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\nJan 26\nConcepts and measurement\nChapter 1\nHomework 1 due Feb 05Survey question due Feb 06\nIntro\n\n\n\nJan 28\n\n\n\nLecture 1\n\n\nWeek 2\nFeb 02\nDescription\nChapter 2\nHomework 2 due Feb 12\nLecture 2\n\n\n\nFeb 04\n\n\n\nLecture 3\n\n\nWeek 3\nFeb 09\nTransforming variables\nChapter 3\nHomework 3 due Feb 19\nLecture 4\n\n\n\nFeb 11\n\n\n\nLecture 5\n\n\nWeek 4\nFeb 16\nExplanations and hypotheses\nChapter 4\nHomework 4 due Feb 26Survey distribution due Feb 27\nLecture 6\n\n\n\nFeb 18\n\n\n\nLecture 7\n\n\nWeek 5\nFeb 23\nGraphing and describing patterns\nChapter 5\nHomework 5 due Mar 05\nLecture 8\n\n\n\nFeb 25\n\n\n\nLecture 9\n\n\nWeek 6\nMar 02\nResearch and causation\nChapter 6\nHomework 6 due Mar 12\nLecture 10\n\n\n\nMar 04\n\n\n\nLecture 11\n\n\nWeek 7\nMar 09\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\n\nMar 11\n\n\nMidterm I\n\n\n\nWeek 8\nMar 16\n\nSpring Break\n\n\n\n\n\nMar 18\n\nSpring Break\n\n\n\n\nWeek 9\nMar 23\nInference\nChapter 8\nHomework 7 due Mar 26Survey practice I due Mar 27\nLecture 13\n\n\n\nMar 25\n\n\n\nLecture 14\n\n\nWeek 10\nMar 30\nHypothesis testing\nChapter 9\nHomework 8 due Apr 09\nLecture 15\n\n\n\nApr 01\n\n\n\nLecture 16\n\n\nWeek 11\nApr 06\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and Chapter 11\nHomework 9 due Apr 16\nLecture 17\n\n\n\nApr 08\n\n\n\nLecture 18\n\n\nWeek 12\nApr 13\nMultiple Regression\nChapter 12\nHomework 10 due Apr 23\nLecture 19\n\n\n\nApr 15\n\n\n\nLecture 20\n\n\nWeek 13\nApr 20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 01\nLecture 21\n\n\n\nApr 22\n\n\n\nLecture 22\n\n\nWeek 14\nApr 27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 07\nLecture 23\n\n\n\nApr 29\n\n\n\nLecture 24\n\n\nWeek 15\nMay 04\nWrap up and review\nChapter 15\nFinal projectduring final exam period\nLecture 25\n\n\n\nMay 06\nMidterm",
     "crumbs": [
       "Schedule"
     ]
