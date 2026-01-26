@@ -111,860 +111,200 @@
     "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
   },
   {
-    "objectID": "Weeks/2/2.html",
-    "href": "Weeks/2/2.html",
-    "title": "Week 2",
-    "section": "",
-    "text": "This week we’re looking at ways to describe, measure, and visualize central tendency and variation in data."
+    "objectID": "Slides/slides_06.html#uncertainty-and-sampling",
+    "href": "Slides/slides_06.html#uncertainty-and-sampling",
+    "title": "Inference",
+    "section": "Uncertainty and sampling",
+    "text": "Uncertainty and sampling\nThe general intuition:\n\n\nmore data = more certainty. Estimates from a really big representative sample are going to be more likely to approximate the true population mean.\nless variance = more certainty. If people in the target population are pretty much the same, then it is more likely that a given sample will resemble the target population."
   },
   {
-    "objectID": "Weeks/2/2.html#lecture-slides",
-    "href": "Weeks/2/2.html#lecture-slides",
-    "title": "Week 2",
-    "section": "Lecture slides",
-    "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
+    "objectID": "Slides/slides_06.html#margin-of-error",
+    "href": "Slides/slides_06.html#margin-of-error",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
   },
   {
-    "objectID": "Weeks/2/2.html#to-do",
-    "href": "Weeks/2/2.html#to-do",
-    "title": "Week 2",
-    "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 2 of the textbook\nWorkbook homework 1 is due on Thursday.\nSubmit a survey question by Friday."
+    "objectID": "Slides/slides_06.html#margin-of-error-1",
+    "href": "Slides/slides_06.html#margin-of-error-1",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
   },
   {
-    "objectID": "Slides/slides_05.html#spurious-relationships",
-    "href": "Slides/slides_05.html#spurious-relationships",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Spurious Relationships",
-    "text": "Spurious Relationships\nWhy might we see a correlation between the amount of weekly protest activity and the number of flights to Hawaii?"
+    "objectID": "Slides/slides_06.html#margin-of-error-2",
+    "href": "Slides/slides_06.html#margin-of-error-2",
+    "title": "Inference",
+    "section": "Margin of error",
+    "text": "Margin of error\n\n\nThe margin of error is more frequently called a “confidence interval” in statistics.\nA confidence interval is a range that we are reasonably certain contains the actual population value.\n\nSpecifically, the margin generally reported in a survey is a 95% confidence interval when there’s a 50/50 split in a dichotomous outcome.\nIf I estimate that 50% of respondents are Democrats with a margin of error of +/- 3% then I’m saying I’m 95% certain that the range 47-53% contains the true population % of Dems."
   },
   {
-    "objectID": "Slides/slides_05.html#spurious-relationships-1",
-    "href": "Slides/slides_05.html#spurious-relationships-1",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Spurious Relationships",
-    "text": "Spurious Relationships\nThe spurious correlation is happening because summer days have more protests and more flights to Hawaii because that’s when the weather is nice.\n\n\nHow do we resolve this?"
+    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval",
+    "href": "Slides/slides_06.html#margin-of-error-confidence-interval",
+    "title": "Inference",
+    "section": "Margin of error = Confidence Interval",
+    "text": "Margin of error = Confidence Interval\n95% confidence means: “if I repeated this survey an infinite number of times and recalculated the CI for each one, 95% of my calculated confidence intervals would contain the actual population value.”"
   },
   {
-    "objectID": "Slides/slides_05.html#spurious-relationships-2",
-    "href": "Slides/slides_05.html#spurious-relationships-2",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Spurious Relationships",
-    "text": "Spurious Relationships\n\nA simple fix here would be dis-aggregation: we split the data up based on the season and then we re-assess the same relationship within each group. This would ensure we were comparing summer flights to summer protests and non-summer flights to non-summer protests.\nIf the correlation is spurious, then this will make the observed relationship will disappear or potentially even reverse (go from positive to negative or vice-versa)"
+    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
+    "href": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
+    "title": "Inference",
+    "section": "Margin of error = Confidence Interval",
+    "text": "Margin of error = Confidence Interval\n\n\nWe generally aren’t bothering to sample anything repeatedly, so how do we know this?\n\nThe main reason we’re able to calculate a confidence interval is because we actually know a lot about how random errors “behave” in repeated sampling thanks to the central limit theorem."
   },
   {
-    "objectID": "Slides/slides_05.html#spurious-relationships-3",
-    "href": "Slides/slides_05.html#spurious-relationships-3",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Spurious Relationships",
-    "text": "Spurious Relationships\n\nThis process of splitting data up to make comparisons within groups is the basic intuition behind mathematically controlling for a confounder. (you’ll often hear this described as “holding constant” for a confounder)"
+    "objectID": "Slides/slides_06.html#coin-flips",
+    "href": "Slides/slides_06.html#coin-flips",
+    "title": "Inference",
+    "section": "Coin flips",
+    "text": "Coin flips\nThink about flipping a coin:\n\n\nthe probability of landing on heads is 50% (this is our population parameter)\nWe’ll run an “experiment” where we flip a coin 50 times and calculate the proportion of heads.\n\n(remember that, for a dummy (0, 1) coded dichotomous outcome, the proportion = the mean)"
   },
   {
-    "objectID": "Slides/slides_05.html#cra-vote",
-    "href": "Slides/slides_05.html#cra-vote",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "1964 CRA vote",
-    "text": "1964 CRA vote"
+    "objectID": "Slides/slides_06.html#coin-flips-1",
+    "href": "Slides/slides_06.html#coin-flips-1",
+    "title": "Inference",
+    "section": "Coin flips",
+    "text": "Coin flips\nThis is hardly surprising!\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)\n# counting the number of heads\nprop_heads&lt;-mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.38.\nThe error is .5 - 0.38 = -0.12\n\n\n\nI get closer to the correct answer when I increase the sample size, but I still will have some amount of error:\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=500, replace=TRUE)\n# counting the number of heads\nprop_heads &lt;- mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.51.\nThe error is .5 - 0.51 = 0.01"
   },
   {
-    "objectID": "Slides/slides_05.html#cra-vote-1",
-    "href": "Slides/slides_05.html#cra-vote-1",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "1964 CRA vote",
-    "text": "1964 CRA vote"
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\nRepeating this experiment 5,000 times will give us a sense of the sampling distribution for this sample statistic:\n\n# 5000 \"samples\" of the coin-flipping experiment\ntrials&lt;-replicate(5000, sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)==\"heads\")\n# get the average num of heads in each trial. Expected value = .5\nmean_heads &lt;- colMeans(trials)\n# draw a histogram\nhist(mean_heads, main ='proportion of heads in 50 coin flips', breaks=30)\n\n\nwe should get a distribution that looks like this:"
   },
   {
-    "objectID": "Slides/slides_05.html#cra-vote-2",
-    "href": "Slides/slides_05.html#cra-vote-2",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "1964 CRA vote",
-    "text": "1964 CRA vote\nThe pattern looks different once we consider region:\n\n\n\n\nEffect of party in the north = 95 - 85 = 10\nEffect of party in the south = 9 - 0 = 9\nThe relationship flips direction and shrinks after accounting for region.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorth\n\n\nSouth\n\n\n\n\n\nCRA vote\nDem\nRep\nDem\nRep\n\n\nyes\n145 (95%)\n136 (85%)\n8 (9%)\n0 (0%)\n\n\nno\n8 (5%)\n24 (15%)\n83 (91%)\n11 (100%)"
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\n\n\n\n\nThe samples are centered around the expected proportion of .5 heads\n\n\n\n\nMore extreme errors are less common than small ones\n\n\n\n\nThe results are symmetric: there are about as many high values as low ones.\n\n\n\n\nError = Sample Mean - Population Mean, so the distribution of errors has this same shape, but its centered around zero."
   },
   {
-    "objectID": "Slides/slides_05.html#civil-rights-act",
-    "href": "Slides/slides_05.html#civil-rights-act",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "1964 Civil Rights Act",
-    "text": "1964 Civil Rights Act"
+    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
+    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
+    "title": "Inference",
+    "section": "The sampling distribution of coin flips",
+    "text": "The sampling distribution of coin flips\nCoin flips technically follow a binomial distribution but our sampling distribution looks a lot like a normal “bell-curve” centered on .5"
   },
   {
-    "objectID": "Slides/slides_05.html#control-groups-vs.-control-variables",
-    "href": "Slides/slides_05.html#control-groups-vs.-control-variables",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Control groups vs. Control variables",
-    "text": "Control groups vs. Control variables\n\nThe language here tends to throw people off:\n\nControl groups are the baseline group in an experiment. The control group in a medical study would be the people who received the placebo treatment.\nControl variables are the confounding variables that we want to address by holding constant for their effects on the outcome.\n\n\n\nRandomization and control variables attempt to accomplish the same goals, but in different ways."
+    "objectID": "Slides/slides_06.html#sampling-distributions-of-sample-means",
+    "href": "Slides/slides_06.html#sampling-distributions-of-sample-means",
+    "title": "Inference",
+    "section": "Sampling distributions of sample means",
+    "text": "Sampling distributions of sample means\nIn fact, for a sufficient sample size, sampling distributions of sample means will always end up looking like this regardless of the actual population distribution."
   },
   {
-    "objectID": "Slides/slides_05.html#additive-relationships",
-    "href": "Slides/slides_05.html#additive-relationships",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Additive Relationships",
-    "text": "Additive Relationships\nIn an additive relationship, Z independently influences the outcome, but it doesn’t account for the relationship between X and Y\n\n\nExamples:\n\nBeing Republican and conservative both make people more likely to vote for Republican candidates.\nGDP and literacy rates both make countries more likely to be Democratic.\nGenetics and environment both impact life expectancy separately.\n\n\n\n\n\n\n\n\n\nmrdag\n\n\n\nZ\n\nZ (control)\n\n\n\nY\n\nY (DV)\n\n\n\nZ-&gt;Y\n\n\n\n\n\nX\n\nX (IV) \n\n\n\nX-&gt;Y"
+    "objectID": "Slides/slides_06.html#the-normal-distribution",
+    "href": "Slides/slides_06.html#the-normal-distribution",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\nWe know a lot about bell curves. If we have mean \\(\\mu\\) and a standard deviation \\(\\sigma\\), we can easily find how much data we expect to fall anywhere within this shape using the probability density function.\n\n\\[f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^{\\!2}\\,\\right)\\]\n\n\n(Maybe not the kind of thing you want to calculate in your head, but pretty easy for a computer)"
   },
   {
-    "objectID": "Slides/slides_05.html#interactive-relationship",
-    "href": "Slides/slides_05.html#interactive-relationship",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Interactive Relationship",
-    "text": "Interactive Relationship\nIn an interactive relationship, Z strengthens or weakens the effect of X on Y.\n\n\n\nWeight changes the effect of alcoholic drinks on blood alcohol level. (smaller people get drunk with fewer drinks, all else equal)\nIssue salience makes policy views more important. (i.e. if a candidate talks a lot about abortion, abortion opinions will matter more for vote choice)\nState referenda make state policy more likely to align with public opinion.\n\n\n\n\n\n\n\n\n\nmrdag\n\n\n\nZ\n\nZ (control)\n\n\n\nX\n\nX (IV) \n\n\n\nZ-&gt;X\n\n\n\n\n\nY\n\nY (DV)\n\n\n\nX-&gt;Y"
+    "objectID": "Slides/slides_06.html#the-normal-distribution-1",
+    "href": "Slides/slides_06.html#the-normal-distribution-1",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\n\nmu&lt;-0\nsigma&lt;-1\n\ncurve((1 / (sqrt(2*pi) * sigma)) * exp(-(x - mu)^2 / (2 * sigma^2)), from=-3, to=3,\n      xlab = '',\n      main = 'PDF of a normal with mean = 0 and sigma = 1'\n      )"
   },
   {
-    "objectID": "Slides/slides_05.html#using-a-cross-tab",
-    "href": "Slides/slides_05.html#using-a-cross-tab",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Using a cross-tab",
-    "text": "Using a cross-tab"
+    "objectID": "Slides/slides_06.html#the-normal-distribution-2",
+    "href": "Slides/slides_06.html#the-normal-distribution-2",
+    "title": "Inference",
+    "section": "The normal distribution",
+    "text": "The normal distribution\nThe mean (\\(\\mu\\)) and standard deviation \\(\\sigma\\) will depend on the data, but we can always:\n\n\nMean center: subtract the mean \\(\\mu\\) from each observation so that the new mean is zero.\n\n\n\n\nStandardize: divide each observation by the standard deviation of the sampling distribution (\\(\\sigma\\)), so the new standard deviation is 1\n\n\n\nWe’ll call this new number the “Z-score”:\n\\[\n\\text{Z score} = \\frac{\\text{Deviation from the mean}}{\\text{Standard Deviation}}\n\\]"
   },
   {
-    "objectID": "Slides/slides_05.html#identifying-the-pattern",
-    "href": "Slides/slides_05.html#identifying-the-pattern",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Identifying the pattern",
-    "text": "Identifying the pattern\nTo characterize the pattern after control, you can ask yourself a series of questions."
+    "objectID": "Slides/slides_06.html#the-standard-normal-distribution",
+    "href": "Slides/slides_06.html#the-standard-normal-distribution",
+    "title": "Inference",
+    "section": "The Standard Normal Distribution",
+    "text": "The Standard Normal Distribution"
   },
   {
-    "objectID": "Slides/slides_05.html#mean-comparison-table",
-    "href": "Slides/slides_05.html#mean-comparison-table",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Mean comparison table",
-    "text": "Mean comparison table"
+    "objectID": "Slides/slides_06.html#the-central-limit-theorem-1",
+    "href": "Slides/slides_06.html#the-central-limit-theorem-1",
+    "title": "Inference",
+    "section": "The Central Limit Theorem",
+    "text": "The Central Limit Theorem\n\n\n\n\n\n\n\nCentral Limit Theorem\n\n\nAs the number of repeated samples approaches infinity, the sampling distribution of the mean will converge toward a normal distribution centered on the population mean.\n\n\n\n\n\nThis means that:\n\n\nThe sampling errors will also have a normal distribution centered on zero.\n\n\n\n\nSampling errors/means are normally distributed even if the population is non-normal.\n\n\n\n\nWe can calculate the proportion of data that falls under different parts of the curve, provided we know \\(\\mu\\) and \\(\\sigma\\)"
   },
   {
-    "objectID": "Slides/slides_05.html#nominal-relationships",
-    "href": "Slides/slides_05.html#nominal-relationships",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Nominal Relationships",
-    "text": "Nominal Relationships\n\nFor data that are nominal, it may not make sense to talk about the “direction”, but your book suggests using treating the left-most category as the baseline group and then comparing based on that.\n\n\n\n\n\n% unionization\n\n\n\n\n\n\n\n\n\niv\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nBiden 20\n7.6\n(4)\n14.4\n(9)\n12.8\n(4)\n12.4\n(8)\n\n\nTrump 20\n5.9\n(12)\n0\n(0)\n8.5\n(8)\n9.5\n(5)"
+    "objectID": "Slides/slides_06.html#using-the-clt",
+    "href": "Slides/slides_06.html#using-the-clt",
+    "title": "Inference",
+    "section": "Using the CLT",
+    "text": "Using the CLT\nWe don’t need to take infinite samples to make use of this! We can draw a sample and assume that it comes from a distribution with this shape:"
   },
   {
-    "objectID": "Slides/slides_05.html#when-to-use-what",
-    "href": "Slides/slides_05.html#when-to-use-what",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "When to use what",
-    "text": "When to use what\n\n\nUse a cross tab when all variables are categorical\nUse a mean comparison when the DV is interval and the control and IV are categorical\n\nKeep in mind that, if the DV is dichotomous, you can basically treat it as numeric and the “mean” is equal to the proportion of “Yes” or “TRUE” values for each group.\n\nConsider collapsing some categories to simplify analyses and ensure you have sufficient data. For instance, if a response ranges from Strongly Agree to Strongly Disagree, you might collapse it down to just 2-3 categories."
+    "objectID": "Slides/slides_06.html#using-the-clt-1",
+    "href": "Slides/slides_06.html#using-the-clt-1",
+    "title": "Inference",
+    "section": "Using the CLT",
+    "text": "Using the CLT\n\\[f(x) = \\frac{1}{\\color{red}{\\sigma}\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\color{red}{\\mu}}{\\color{red}{\\sigma}}\\right)^{\\!2}\\,\\right)\\]\nRemember: we need to know \\(\\mu\\) and \\(\\sigma\\)\n\n\nWe don’t know our population mean \\(\\mu\\), but we do know that the mean sampling error is zero, so we can just use 0 our expected mean error.\nHowever, we still need to know the standard deviation \\(\\sigma\\)\n\nHere, we’re looking for the standard deviation of the sampling errors. We’ll call this value our standard error or SE for short.\nFinding this is a challenge, but we can make some simple assumptions here to get a “worst case scenario” for a survey"
   },
   {
-    "objectID": "Slides/slides_05.html#what-about-interval-level-relationships",
-    "href": "Slides/slides_05.html#what-about-interval-level-relationships",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "What about interval level relationships?",
-    "text": "What about interval level relationships?\n\nYou can collapse interval data into categories and then use a mean comparison\nMore often, we’ll use regression analysis:\n\nIn essence, we’ll draw a “line of best fit” through the values of X and Y"
+    "objectID": "Slides/slides_06.html#the-standard-error",
+    "href": "Slides/slides_06.html#the-standard-error",
+    "title": "Inference",
+    "section": "The standard error",
+    "text": "The standard error\nRemember that more observations = more certainty. So we expect that the standard error will decrease when taking larger samples.\n\n\n\n\n\n\n\n\n\n\n\nWe actually know how much the SE shrinks for each observation:\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]"
   },
   {
-    "objectID": "Slides/slides_05.html#other-methods-for-addressing-confounding",
-    "href": "Slides/slides_05.html#other-methods-for-addressing-confounding",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Other methods for addressing confounding",
-    "text": "Other methods for addressing confounding"
+    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion",
+    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion",
+    "title": "Inference",
+    "section": "The standard error of a proportion",
+    "text": "The standard error of a proportion\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\n\n\nWe don’t know \\(\\sigma\\), but surveys are usually reporting a proportion or percentage of people giving a particular response. The standard error of a proportion actually depends on the proportion itself:\n\n\\[\n\\text{Standard Error of a proportion} = \\frac{\\sqrt{p\\times(1-p)}}{\\sqrt{n}} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\n\\[\np = \\text{the proportion}\n\\]"
   },
   {
-    "objectID": "Slides/slides_05.html#matching",
-    "href": "Slides/slides_05.html#matching",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Matching",
-    "text": "Matching\n\nIdentify similar cases at each level of the IV. For instance, find Republicans and Democrats of similar ages.\nDrop any cases that can’t be matched.\nRe-weight the cases to ensure balance, and then assess the effect."
+    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
+    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
+    "title": "Inference",
+    "section": "The standard error of a proportion",
+    "text": "The standard error of a proportion\n\n\nNote that this part of the formula is at its maximum when p = .5 (i.e. when there’s a 50/50 split on a yes/no question)\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{\\color{red}{p\\times(1-p)}}{n}}\n\\]\n\n\nSo, if we know our sample size, we can calculate the worst case scenario for the standard error where \\(p = .5\\)"
   },
   {
-    "objectID": "Slides/slides_05.html#difference-in-differences",
-    "href": "Slides/slides_05.html#difference-in-differences",
-    "title": "Chapter 5: Controlled comparisons",
-    "section": "Difference-in-differences",
-    "text": "Difference-in-differences\n\n\n\nMeasure outcomes for two groups at two different times\nIf you can assume the trend for both groups is the same, then the difference-in-differences at time 2 is the effect of the treatment."
+    "objectID": "Slides/slides_06.html#back-to-that-margin",
+    "href": "Slides/slides_06.html#back-to-that-margin",
+    "title": "Inference",
+    "section": "Back to that margin",
+    "text": "Back to that margin\n\n\n\nWe know our sample size is 2,091\n\n\n\nWe know that the biggest SE possible is when \\(p = .5\\), \\(\\sqrt{\\frac{.5(1-.5)}{n}}\\), so the worst case scenario is \\(\\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\\)\n\n\n\n\nWe also know that the errors are normally distributed and centered around 0\n\n\n\nWe have all the ingredients to we need to apply the CLT here!\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
   },
   {
-    "objectID": "Slides/slides_03.html#why-questions",
-    "href": "Slides/slides_03.html#why-questions",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "“Why” questions",
-    "text": "“Why” questions\n\n“Why questions”\n\nWhy do some eligible voters fail to turn out on election day?\nWhat explains variation in gun policies across U.S. states?\nWhy did communist revolutions happen in China and Russia but not Europe or the United States?"
+    "objectID": "Slides/slides_06.html#the-margin-of-error",
+    "href": "Slides/slides_06.html#the-margin-of-error",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\nRemember we want a 95% confidence level.\nWe already know that for this pdf, 95% of the errors will fall with in approximately \\(\\pm 2 \\times Z\\) of 0 (technically closer to 1.95994…)"
   },
   {
-    "objectID": "Slides/slides_03.html#theoretical-scope",
-    "href": "Slides/slides_03.html#theoretical-scope",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Theoretical Scope",
-    "text": "Theoretical Scope\nTheories vary in their scope:\n\n\nEarly sociologists like Marx, Durkheim, Weber attempted to develop all-encompassing “laws” of political/social/historical change. These are sometimes called “grand theories”\nContemporary social sciences are less ambitious, and so its more common to propose “middle-range” theories that seek to explain a smaller number regularities in one area.\n\nHowever, they may draw on “grand theories” either implicitly or explicitly."
+    "objectID": "Slides/slides_06.html#the-margin-of-error-1",
+    "href": "Slides/slides_06.html#the-margin-of-error-1",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\n\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\\[\n\\text{SE for this sample at (p=0.5)} = \\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\n\\]\nSo now we just need:\n\\[\n\\text{standard error} \\times \\text{Z-score for a 95% confidence level} =\n\\]\n\\[\n.0109 \\times 1.96 \\approx 0.0214 = 2.14\\%\n\\]\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
   },
   {
-    "objectID": "Slides/slides_03.html#paths-to-modernity",
-    "href": "Slides/slides_03.html#paths-to-modernity",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Paths to Modernity",
-    "text": "Paths to Modernity\nWhat explains differences in the “path to modernity” across different countries during the 20th century?\n\nFree markets/Democracy in the U.S. and England\nFascism in Germany and Japan\nCommunism in Russia and China"
+    "objectID": "Slides/slides_06.html#the-margin-of-error-2",
+    "href": "Slides/slides_06.html#the-margin-of-error-2",
+    "title": "Inference",
+    "section": "The Margin of error",
+    "text": "The Margin of error\nSo what is the margin of error on a poll?\nIts a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories."
   },
   {
-    "objectID": "Slides/slides_03.html#paths-to-modernity-1",
-    "href": "Slides/slides_03.html#paths-to-modernity-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Paths to Modernity",
-    "text": "Paths to Modernity\n\n\nBarrington Moore: Classes have unique and conflicting interests. Conflicts over these interests come to the forefront during industrialization. The outcomes of these class conflicts shape the political and economic system.\n\n\nFascist states emerge when the landed aristocracy wins\nCommunist states emerge when the peasant class wins\nDemocracies emerge when the bourgeois (middle class) wins."
+    "objectID": "Slides/slides_06.html#the-central-limit-theorem-2",
+    "href": "Slides/slides_06.html#the-central-limit-theorem-2",
+    "title": "Inference",
+    "section": "The Central Limit Theorem",
+    "text": "The Central Limit Theorem\nWhen I take a decent-sized random sample from the population:\n\n\nI know the sample mean (\\(\\bar{x}\\)) is drawn from a normal distribution.\nI know the mean of this sampling distribution is equal to the population mean.\nI know the standard deviation of this sampling distribution (a.ka. the standard error) is equal to \\(\\frac{\\sigma}{\\sqrt{n}}\\)\n\nSo: I know that 95% of my sample averages will be within \\(\\approx 1.96\\) standard errors of the correct answer (and any number of other probabilities based on the normal curve)"
   },
   {
-    "objectID": "Slides/slides_03.html#paths-to-modernity-2",
-    "href": "Slides/slides_03.html#paths-to-modernity-2",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Paths to Modernity",
-    "text": "Paths to Modernity\n\n\nMoore’s theory borrows assumptions from a (sociological) Marxist grand theory about class conflict\nHe “tests” it by showing how it fits the selected cases.\nIt can be used and refined to generate a set of empirical expectations about what factors should matter for democratization. For instance, we might expect:\n\nStates with larger agricultural sectors during industrialization to be less democratic today (compared to states with smaller agricultural sectors)\nStates with higher literacy rates during industrialization to be more democratic (compared to states with lower literacy rates)"
-  },
-  {
-    "objectID": "Slides/slides_03.html#theories-survey-answers",
-    "href": "Slides/slides_03.html#theories-survey-answers",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Theories: survey answers",
-    "text": "Theories: survey answers\nWhat explains inconsistent answers to survey questions?\n\n\n\n\nAsking the same people the same questions a few months apart yields surprisingly unpredictable results.\nSmall changes in question wording, ordering of choices, or survey context cause big changes in outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nData from the 1980 ANES panel survey (reproduced from Zaller 1992)"
-  },
-  {
-    "objectID": "Slides/slides_03.html#theories-voting",
-    "href": "Slides/slides_03.html#theories-voting",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Theories: voting",
-    "text": "Theories: voting\nWhy do people vote?\n\n\nSince politicians generally offer public goods, you can enjoy the benefits of your preferred candidate winning even if you don’t vote\nSince voting has costs (even though they’re small) free riding can be preferable to actually turning out if the costs outweigh the benefits."
-  },
-  {
-    "objectID": "Slides/slides_03.html#assessing-theories",
-    "href": "Slides/slides_03.html#assessing-theories",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Assessing Theories",
-    "text": "Assessing Theories\n\n\n\nTheories require simplified representations of a complex reality\nUtility, not “truth”: theoretical models invariably contain assumptions and they’re probably violated in practice.\n\n\n\n\n\nGeorge Box: “All models are wrong, but some are useful”"
-  },
-  {
-    "objectID": "Slides/slides_03.html#hypotheses-1",
-    "href": "Slides/slides_03.html#hypotheses-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Hypotheses",
-    "text": "Hypotheses\nComponents:\n\nUnit of analysis\nDependent variable\nIndependent variable\nDirection of the predicted relationship\n\n\nGood hypotheses inevitably involve comparative language (higher/lower/more/less/increase/decrease/better/worse)"
-  },
-  {
-    "objectID": "Slides/slides_03.html#hypothesis-template",
-    "href": "Slides/slides_03.html#hypothesis-template",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [unit of analysis], those having [one value on the independent variable] will be [more/less] likely to have [one value on the dependent variable] than those having a [different value on the independent variable]."
-  },
-  {
-    "objectID": "Slides/slides_03.html#hypothesis-template-1",
-    "href": "Slides/slides_03.html#hypothesis-template-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [voters], those having [stronger political views] will be more likely to have [a higher likelihood of turnout] than those having a [weaker views].\n\n\nUnit of analysis: voters\nIV: strength of political views\nDV: turnout\nRelationship: strength increases turnout"
-  },
-  {
-    "objectID": "Slides/slides_03.html#hypothesis-template-2",
-    "href": "Slides/slides_03.html#hypothesis-template-2",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [states], those having [a larger middle class during industrialization] will be more likely to have [democracy] than those having a [a smaller middle class].\n\n\nUnit of analysis: states\nIV: size of the middle class\nDV: democracy\nRelationship: middle class increases likelihood of democracy"
-  },
-  {
-    "objectID": "Slides/slides_03.html#hypothesis-template-3",
-    "href": "Slides/slides_03.html#hypothesis-template-3",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [survey respondents], those having [higher levels of attention to politics] will be more likely to have [consistent responses] than those having a [lower levels of attention to politics].\n\n\nUnit of analysis: Survey respondents\nIV: level of attention\nDV: response consistency\nRelationship: attention increases consistency"
-  },
-  {
-    "objectID": "Slides/slides_03.html#complex-relationships",
-    "href": "Slides/slides_03.html#complex-relationships",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Complex Relationships",
-    "text": "Complex Relationships\nGood hypotheses may suggest a more complex set of relationships than just “positive/negative”. They could propose conditional/interactive/curvilinear relationships as well.\n\nThe “oil curse”\n\nIn a comparison of [countries], those having [higher levels of GDP] will be [more likely to be democratic] compared to [countries with lower GDP], [however, this relationship will not hold for countries that get rich from oil exports.]\n\n\n\nRetrospective voting:\n\nIn a comparison of [voters], those having [lower levels of attention to politics] will be [more likely to vote for the incumbent when the economy is doing well]. Those having [higher levels of attention to politics] will be [more likely to vote based on policy preferences regardless of the state of the economy]"
-  },
-  {
-    "objectID": "Slides/slides_03.html#bad-hypotheses",
-    "href": "Slides/slides_03.html#bad-hypotheses",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Bad hypotheses",
-    "text": "Bad hypotheses\n\n\nThe main determinant of war is the distribution of power in the international system.\nIn comparing individuals, annual income and the level of education are related.\nDemocracies are peaceful. In comparing individuals, some people are more likely to favor the death penalty than others."
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-step-1",
-    "href": "Slides/slides_03.html#cross-tabulation-step-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: Step 1",
-    "text": "Cross tabulation: Step 1\nStart by calculating the number of observations with each value of each category:\n\n\n\n\n\n\n\n\niv\ndv\n\n\n\n\nHIGH\nNo\n\n\nHIGH\nNo\n\n\nLOW\nNo\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nLOW\nYes\n\n\nLOW\nYes\n\n\nLOW\nYes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1\n2\n\n\nYes\n3\n4\n\n\n\n\n\nTotal\n4\n6"
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-step-2",
-    "href": "Slides/slides_03.html#cross-tabulation-step-2",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: Step 2",
-    "text": "Cross tabulation: Step 2\nThen, calculate the proportion/percentage of observations among each value of the IV.\nIf the independent variable is in the columns, then the columns should sum to 100%.\nIf the independent variable is in the rows, then the rows should sum to 100%.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1\n2\n\n\nYes\n3\n4\n\n\n\n\n\nTotal\n4\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1 (25%)\n2 (33%)\n\n\nYes\n3 (75%)\n4 (67%)\n\n\n\n\n\nTotal\n4\n6"
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-interpretation",
-    "href": "Slides/slides_03.html#cross-tabulation-interpretation",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: interpretation",
-    "text": "Cross tabulation: interpretation\nLook at what happens to the DV at different values of the IV. If your variables are ordinal, you should be able to identify a direction of the effect.\nThe proportion of “Yes” values decreases as the IV goes from lower to higher, so this is a negative or inverse relationship.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1 (25%)\n2 (33%)\n\n\nYes\n3 (75%)\n4 (67%)\n\n\n\n\n\nTotal\n4\n6\n\n\n\n\n\n\n\n\n\nUsing a bar graph or line graph can make these relationships easier to spot:"
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-notes",
-    "href": "Slides/slides_03.html#cross-tabulation-notes",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: notes",
-    "text": "Cross tabulation: notes\n\nKey rule: always calculate percentages or proportions by categories of the independent variable.\n\nThis allows you to compare groups that are different sizes.\n\nIf one or both variables are interval-level, you can bin them in order to use them in a cross tab. For instance, you could separate an interval like into a series of age ranges."
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-example",
-    "href": "Slides/slides_03.html#cross-tabulation-example",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: example",
-    "text": "Cross tabulation: example\nHypothesis: in a comparison of individuals, independents are less likely to turn out to vote compared to people who support one party or another.\n\nHow should I calculate proportions here?\n\n\n\n\nVoter Turnout in 2020 by party ID\n\n\n\n\n\n\n\n\n\n\nParty ID\n\n\n\nturnout2020\nDemocrat\nIndependent\nRepublican\n\n\n\n\n0. Did not vote\n335\n316\n382\n\n\n1. Voted\n3160\n560\n2714"
-  },
-  {
-    "objectID": "Slides/slides_03.html#cross-tabulation-example-1",
-    "href": "Slides/slides_03.html#cross-tabulation-example-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Cross tabulation: example",
-    "text": "Cross tabulation: example\nAre these results generally consistent with my hypothesis?\n\n\n\n\n\n\nVoter Turnout in 2020 by party ID\n\n\n\n\n\n\n\n\n\n\nParty ID\n\n\n\nturnout2020\nDemocrat\nIndependent\nRepublican\n\n\n\n\n0. Did not vote\n335 (10%)\n316 (36%)\n382 (12%)\n\n\n1. Voted\n3160 (90%)\n560 (64%)\n2714 (88%)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf we think of party ID as an ordered variable, this is a curvilinear relationship."
-  },
-  {
-    "objectID": "Slides/slides_03.html#rowcolumn-percentages",
-    "href": "Slides/slides_03.html#rowcolumn-percentages",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Row/Column percentages",
-    "text": "Row/Column percentages\nWhat happens if I calculate % among the values of the DV?\nHere’s the relationship between education and voter turnout with % calculated on education level:\n\n\n\n\nVoter Turnout in 2020 by highest level of education completed\n\n\n\n\n\n\n\n\n\n\n\n\nEducation\n\n\n\nturnout2020\n1. Less than high school credential\n2. High school credential\n3. Some post-high school, no bachelor's degree\n4. Bachelor's degree\n5. Graduate degree\n\n\n\n\n0. Did not vote\n130 (41%)\n286 (24%)\n380 (15%)\n135 (7%)\n91 (6%)\n\n\n1. Voted\n185 (59%)\n883 (76%)\n2148 (85%)\n1749 (93%)\n1388 (94%)\n\n\n\nNote: \n\n\n\n\n\n\n\n Column % in parentheses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe results suggest a positive or direct relationship: as education increases, so does the % turnout."
-  },
-  {
-    "objectID": "Slides/slides_03.html#rowcolumn-percentages-1",
-    "href": "Slides/slides_03.html#rowcolumn-percentages-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Row/Column percentages",
-    "text": "Row/Column percentages\nWhat happens if I calculate % among the values of the DV?\nHere’s the relationship between education and voter turnout with % calculated across voter turnout\n\n\n\n\nVoter Turnout in 2020 by highest level of education completed\n\n\n\n\n\n\n\n\n\n\n\n\nEducation\n\n\n\nturnout2020\n1. Less than high school credential\n2. High school credential\n3. Some post-high school, no bachelor's degree\n4. Bachelor's degree\n5. Graduate degree\n\n\n\n\n0. Did not vote\n130 (13%)\n286 (28%)\n380 (37%)\n135 (13%)\n91 (9%)\n\n\n1. Voted\n185 (3%)\n883 (14%)\n2148 (34%)\n1749 (28%)\n1388 (22%)\n\n\n\nNote: \n\n\n\n\n\n\n\n Row % in parentheses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHere, the results can give the misleading impression that there’s a curvilinear relationship: turnout drops off for Bachelor’s Degrees and above."
-  },
-  {
-    "objectID": "Slides/slides_03.html#rowcolumn-percentages-2",
-    "href": "Slides/slides_03.html#rowcolumn-percentages-2",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Row/Column percentages",
-    "text": "Row/Column percentages\nEither of these tables might be a valid way to look at these data, but they answer slightly different questions:\n\n\nIf I want to compare turnout at different levels of education, then I need to calculate % turnout among people with different levels of education.\nIf I want to compare education among voters and non-voters, then I need to calculate % education among people who voted and didn’t vote.\nWhich variable is the IV or DV is sometimes a theoretical question, but in this case its unlikely that voting is causing people to become more educated, so it probably doesn’t make sense to calculate percentages by voting vs. non-voting."
-  },
-  {
-    "objectID": "Slides/slides_03.html#mean-comparison-1",
-    "href": "Slides/slides_03.html#mean-comparison-1",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Mean Comparison",
-    "text": "Mean Comparison\nGDP data has been grouped into five categories, so now I just need to calculate the average of CO2 emissions within each group of the ordinal IV:\n\n\n\n\nGDP Per capita range\nCO2 emissions per capita\n\n\n\n\n1. $3k or less\n0.3128312\n\n\n2. $3k to $10k\n1.2680574\n\n\n3. $10k to $25k\n4.4065669\n\n\n4. $25k to $45k\n8.0307610\n\n\n5. $45k or more\n12.3134306\n\n\n\n\n\n\n\nIs this generally consistent with expectations?"
-  },
-  {
-    "objectID": "Slides/slides_03.html#mean-comparison-2",
-    "href": "Slides/slides_03.html#mean-comparison-2",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Mean Comparison",
-    "text": "Mean Comparison\nHere again, the relationship can be easier to conceptualize if we plot it."
-  },
-  {
-    "objectID": "Slides/slides_03.html#comparing-boxplots",
-    "href": "Slides/slides_03.html#comparing-boxplots",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Comparing Boxplots",
-    "text": "Comparing Boxplots"
-  },
-  {
-    "objectID": "Slides/slides_03.html#curvilinear-relationships",
-    "href": "Slides/slides_03.html#curvilinear-relationships",
-    "title": "Chapter 3: Theories, hypotheses, and comparisons",
-    "section": "Curvilinear Relationships",
-    "text": "Curvilinear Relationships\nA relationship like this will rarely be perfectly straight, so “linearity” and “curvilinearity” are partly a matter of degree, but there are some cases where there is a clear “U” shape to the relationship:\n\n\n\n\n\n\niv\ndv\n\n\n\n\n1. Extremely liberal\n6.314\n\n\n2. Liberal\n5.685\n\n\n3. Slightly liberal\n5.001\n\n\n4. Moderate; middle of the road\n4.651\n\n\n5. Slightly conservative\n4.636\n\n\n6. Conservative\n4.974\n\n\n7. Extremely conservative\n5.363"
-  },
-  {
-    "objectID": "Slides/slides_01.html#research-questions",
-    "href": "Slides/slides_01.html#research-questions",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Research Questions",
-    "text": "Research Questions\n\nDoes religion play a role in civil wars?\nWhat causes increasing income inequality in least developed countries?\nWhy has public opinion on same sex marriage liberalized so rapidly?\nIs the U.S. becoming more polarized?\n\n\nNot everyone is going to agree on what these terms mean!\n\n\nBefore we can get anywhere researching these questions, we need to define the thing we’re studying"
-  },
-  {
-    "objectID": "Slides/slides_01.html#defining-things-harder-than-it-seems",
-    "href": "Slides/slides_01.html#defining-things-harder-than-it-seems",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Defining things: harder than it seems!",
-    "text": "Defining things: harder than it seems!\n\n\n\nReasonable definition of a chair\n\n\n\n\n\n\nChair"
-  },
-  {
-    "objectID": "Slides/slides_01.html#terms",
-    "href": "Slides/slides_01.html#terms",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Terms",
-    "text": "Terms\n\nConceptual Definition\n\nA description of the concrete, measurable properties of a concept and the unit of analysis to which it applies\n\nUnit of Analysis\n\nThe entity that that is being studied. For instance: individuals, governments, parties etc.\n\nOperational Definition\n\nA description of the instrument used to measure the concept"
-  },
-  {
-    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
-    "href": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Crafting Conceptual Definitions: Unit of Analysis",
-    "text": "Crafting Conceptual Definitions: Unit of Analysis\n\nWhat is the unit? What entity possesses the characteristic?\n\nThe U.S. and Canada are democracies (concept: democracy, unit: countries)\nLincoln, LBJ, and Trump are the three tallest U.S. presidents (concept: height, unit: presidents/people)\nLabour is the UK’s main center-left political party (concept: party ideology/family, unit: political party)\n\n\n\nOne way to think of this: if you put your data into a spreadsheet, what does each “row” represent? The answer to that question is the unit of analysis."
-  },
-  {
-    "objectID": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
-    "href": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Unit of analysis and the ecological fallacy",
-    "text": "Unit of analysis and the ecological fallacy\nThe ecological fallacy occurs when you attribute a characteristic of groups to individuals. For instance:\n\nHigh-income states tend to vote for Democrats, but rich people tend to vote for Republicans.\nSuicide rates in 19th century Europe were higher in Protestant countries compared to Catholic countries, but Protestant individuals were no more likely to die by suicide.\nIn the 1930 census, zip codes with more immigrants had higher literacy rates, but immigrant individuals had lower literacy rates.\n\nAll of these are fundamentally problems of ignoring the unit of analysis."
-  },
-  {
-    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
-    "href": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Crafting Conceptual Definitions: Key features",
-    "text": "Crafting Conceptual Definitions: Key features\n\nWhat are the essential features of the concept?\n\nIf there are cases or definitions everyone agrees on, what characteristics do they share?\nAre certain qualities necessary or sufficient for a case to belong to a category?\nWhat characteristics are most distinctive to those cases?\nWhat is most helpful for clarifying edge-cases?\n\nAre there multiple dimensions or just one? If two characteristics always occur together, you might only need to account for one of them!"
-  },
-  {
-    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
-    "href": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Crafting Conceptual Definitions: transparency",
-    "text": "Crafting Conceptual Definitions: transparency\nWe want to avoid being Potter Stewart:\n\nThe goal is cumulative knowledge, and a private definition can’t provide that."
-  },
-  {
-    "objectID": "Slides/slides_01.html#some-steps-to-take",
-    "href": "Slides/slides_01.html#some-steps-to-take",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Some steps to take:",
-    "text": "Some steps to take:\n\n\nIdentify the unit of analysis\nMake a list of important properties, clear examples and non-examples, and/or generally accepted definitions\nRemove items that aren’t measurable\nReduce dimensions where possible (if a characteristic is shared by positive cases and negative cases, then it isn’t useful)\nRefine as needed"
-  },
-  {
-    "objectID": "Slides/slides_01.html#conceptualizing-democracy",
-    "href": "Slides/slides_01.html#conceptualizing-democracy",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Conceptualizing Democracy",
-    "text": "Conceptualizing Democracy\nSome proposed features:\n\n\nRegular elections with meaningful alternatives\nPeaceful transfer of power\nFree expression\nA competitive media environment\nAutonomous political groups (political associations, unions, interest groups etc.) that can pressure the government\nRule of law\nChecks and balances\nProperty rights\n\n\n\nMinimalists might argue that 1 and 2 alone are necessary and sufficient. Others may argue that even these 8 are oversimplifying."
-  },
-  {
-    "objectID": "Slides/slides_01.html#conceptualizing-democracy-1",
-    "href": "Slides/slides_01.html#conceptualizing-democracy-1",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Conceptualizing Democracy",
-    "text": "Conceptualizing Democracy\nUnit of analysis: governments (usually national governments)\n\n\nCase:\n\nDefinitely democracies: U.S., Uruguay, Taiwan, Japan, Botswana\nDefinitely autocracies: North Korea, Saudi Arabia, Russia\nEdge cases: Hungary, Turkey, Tunisia\n\n\nFeatures:\n\nVoting and elections\nMultiple parties\nMeaningful civil liberties\nStability and monopoly on violence\n\n\n\nThis may need refinement: what about sham elections?\nThis may not be distinctive: there are stable autocracies on the list"
-  },
-  {
-    "objectID": "Slides/slides_01.html#operationalization",
-    "href": "Slides/slides_01.html#operationalization",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Operationalization",
-    "text": "Operationalization\nEven where we agree on a definition, we will need to measure a concept and there is often slippage here"
-  },
-  {
-    "objectID": "Slides/slides_01.html#considerations-reliability",
-    "href": "Slides/slides_01.html#considerations-reliability",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Considerations: Reliability",
-    "text": "Considerations: Reliability\nReliability refers to how consistently the same measurement instrument produces the same result\n\nTest-Retest method: asking the same questions to a new random sample should produce roughly the same result\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\n\n(One purported advantage of the minimalist definition of democracy is that its relatively stable because it allows less room for subjectivity.)"
-  },
-  {
-    "objectID": "Slides/slides_01.html#considerations-validity",
-    "href": "Slides/slides_01.html#considerations-validity",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Considerations: Validity",
-    "text": "Considerations: Validity\n\nValidity refers to whether an operational definition matches the concept we’re interested in.\nA challenge to validity might come from cases that seem mis-categorized in our definition. For example: the minimalist definition of democracy suggests that Japan was authoritarian for much of the latter half of the 20th century."
-  },
-  {
-    "objectID": "Slides/slides_01.html#considerations-validity-and-reliability",
-    "href": "Slides/slides_01.html#considerations-validity-and-reliability",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Considerations: Validity and Reliability",
-    "text": "Considerations: Validity and Reliability\n\nMeasures could be reliable but invalid: your astrological sign is a reliable measure of your political views because it doesn’t change, but it also isn’t valid because it has no real correspondence to your actual politics.\nMeasures could be valid but unreliable: an exam with a single well-written question might be a valid measure of a student’s understanding of material, but it will probably have more random variability compared to an exam with multiple poorly-written questions."
-  },
-  {
-    "objectID": "Slides/slides_01.html#measurement-error-1",
-    "href": "Slides/slides_01.html#measurement-error-1",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Measurement Error",
-    "text": "Measurement Error\n\nMeasurement error is a source of noise, systematic measurement error is a source of bias\nWe’ll generally find that random noise is much easier to deal with than bias because we can simply collect more data. Bias, on the other hand, presents profound challenges to research because we can only correct it if we can measure it"
-  },
-  {
-    "objectID": "Slides/slides_01.html#party-id",
-    "href": "Slides/slides_01.html#party-id",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Party ID",
-    "text": "Party ID"
-  },
-  {
-    "objectID": "Slides/slides_01.html#party-id-1",
-    "href": "Slides/slides_01.html#party-id-1",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Party ID",
-    "text": "Party ID"
-  },
-  {
-    "objectID": "Slides/slides_01.html#party-id-2",
-    "href": "Slides/slides_01.html#party-id-2",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Party ID",
-    "text": "Party ID"
-  },
-  {
-    "objectID": "Slides/slides_01.html#party-id-3",
-    "href": "Slides/slides_01.html#party-id-3",
-    "title": "Chapter 1: Concepts and definitions",
-    "section": "Party ID",
-    "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html",
-    "href": "GVPT201_Syllabus.html",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "",
-    "text": "Welcome to GVPT 201! This class is an introduction to the basics of political science research. We’ll will begin by discussing how to formulate an empirical research question, then progress through the process of data collection, description and visualization, and finally testing a hypothesis and quantifying uncertainty. By the end of the course, you should have a solid working understanding of how we can use a scientific approach to answer (some) questions about the political world.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#instructor",
-    "href": "GVPT201_Syllabus.html#instructor",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Instructor",
-    "text": "Instructor\nName: Neil Lund\nEmail: nlund@umd.edu (please do not contact me through ELMS)\nOffice: 1140C Tydings Hall\nOffice Hours: Tuesday/Thursday 11:15 PM to 1:30 PM or by appointment",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#meetings",
-    "href": "GVPT201_Syllabus.html#meetings",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Meetings",
-    "text": "Meetings\n\nLecture 1: Monday-Wednesday 1:00 - 1:50pm Tydings 0130\nLecture 2: Monday-Wednesday 2:00 - 2:50pm Tydings 0117\nFriday Discussion: Check Testudo for schedule\n\nOtherwise otherwise noted, all class lecture meetings will be available over Zoom. Recordings will also be uploaded to ELMS. Check the ELMS page for additional detail.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#teaching-team",
-    "href": "GVPT201_Syllabus.html#teaching-team",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Teaching Team",
-    "text": "Teaching Team\nGraduate Teaching Assistant\n\n\n\n\n\n\n\nName\nEmail\n\n\n\n\nSonia Vargas\nsvargas@umd.edu\n\n\n\nUndergraduate Teaching Assistants\n\n\n\n\n\n\n\nName\nEmail\n\n\n\n\nAlexa Tira\natira@terpmail.umd.edu\n\n\nHeidi Medrano Guerra\nbnevglos@terpmail.umd.edu\n\n\nKatelyn Keller\ncliddle1@terpmail.umd.edu\n\n\nDean Truong\ndtruong6@terpmail.umd.edu\n\n\nCharles Liddle\nhbernst1@terpmail.umd.edu\n\n\nSumit Jani\nhmedrano@terpmail.umd.edu\n\n\nHannah Bernstein\njlawren9@terpmail.umd.edu\n\n\nBen Nevgloski\nkkeller7@terpmail.umd.edu\n\n\nJayme Lawrence\nsjani@terpmail.umd.edu",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#books",
-    "href": "GVPT201_Syllabus.html#books",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Books",
-    "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2020. The Essentials of Political Analysis Sixth Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#r-and-r-studio",
-    "href": "GVPT201_Syllabus.html#r-and-r-studio",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "R and R-studio",
-    "text": "R and R-studio\nYou will be using the R programming language for this course. R is completely FREE and works with any operating system. There are instructions on how to download R and the associated data files/packages for the homeworks in the workbook.\nYou also need to download R-Studio. You can get the free version. It’s the first option on this page.\nWe have several resources to assist you in learning the software:\n\nWe have recorded video lectures covering the material in each chapter in the R workbook. These videos are available in the workbook folder on PANOPTO (ELMS).\nThe professor will devote a portion of lecture time to R and the survey. Therefore, every week you can ask questions about R in class.\nIn Friday sections the TA’s will cover the R homework due the following Thursday and help you work on the survey. Therefore, every week you can ask questions about R and the survey in section.\n\nWhile we are happy to help you in understanding how to use R, we can only offer limited support when it comes to issues installing R onto your device. If for some reason your computer is not working you may be able to access the cloud-based Rstudio instance available to BSOS students.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#grade-components",
-    "href": "GVPT201_Syllabus.html#grade-components",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Grade components",
-    "text": "Grade components\nGrades are a percentage out of 780 possible points. The points will be distributed as follows:\n\nWorkbook Homework (25%)\nThese will be short assignments from the workbook that you will submit through ELMS. In order to receive credit you must attach an R script that shows your work along with your submission.\nYour lowest assignment grade will be dropped.\n\n\nExams (25%)\nThere will be two open-notes/open book exams administered through ELMS. They will cover materials from the lecture, textbook, and discussion sections. While they aren’t cumulative, concepts from the first half of the course will be relevant to the second half, so there may be some overlap for the second exam.\n\n\nSurvey (35%)\n\nPilot Design\n\nDuring lecture and discussion sections, students will work with me and the TA’s to design a battery of questions. Students will workshop these questions with each other and individually submit questions they would like to see on the survey. The Professor will choose the finals set of questions and program the survey. Once this is complete, the Professor will distribute this draft as the “pilot” survey.\n\nPilot Analysis\n\nPilot analysis: After the pilot survey has been in the field for about a week, the Professor will release the data to the students. Students will have to complete a basic analysis of the pilot data. In addition to the respondents’ answers to the questions, students are asked to consider the instrument itself. Did they find any questions confusing? Offensive? Needlessly complicated? Etc. Based on this feedback, the teaching staff will edit the survey instrument.\n\nVerification of Survey Distribution\n\nOnce the final question wording has been determined, students will be responsible for distributing the survey to as wide a range of people as possible via social networking sites, such as Facebook and Twitter, and other means of communication. You can also post it on websites like Reddit and distribute via email. Students will have to provide proof of distribution in the form of a screenshot. The survey will be in the field for approximately two weeks. Students are expected to promote and distribute the survey during this time.\n\nFinal Write-up\n\nThe final survey write up will be three memos (two “practice” that will take the form of “quizzes” online, and one final one, which will be submitted as a paper) on the data gathered via the class survey. We will provide more detailed guidelines closer to the due dates. The memos are not weighted equally; the last one is weighted most heavily. Grades will be based on consistency of 8 the analytical argument, demonstration of cumulative mastery of the material from the course, and clarity of writing. The detailed rubric for the paper is available on ELMS.\n\n\n\n\nSection Participation (10%)\nSection: Students are expected to have completed all of the assigned readings and homework for each section and be prepared to discuss them. Attendance (in person or via zoom with the camera on) is mandatory and teaching assistants record participation in section.\n(Note that your grade here is based on your participation and engagement. Attendance alone is necessary, but not sufficient for earning full credit.)\n\n\nExperimental Lab (5%)\nThis class will also give credit to students who take part in studies conducted by GVPT faculty and graduate students. Each study will take about 20-30 minutes to complete. If you prefer not to serve as a participant, you may elect to satisfy the requirement by completing an alternate assignment (HW 13). However, you must notify the Research Administrator Woohyeon Kim (whkim@umd.edu) before the last day of schedule adjustment for the semester if you wish to register for the alternate assignment. Students will receive an email with further instructions about participation when the studies are available.\nStudents who are under 18 years of age must obtain parental permission to participate in research. If you are under 18, please contact Jordan James Anthony Spencer jspeck13@umd.edu and he will provide you with instructions on how to participate in the research studies. Alternate assignments cannot be used to make up for a study at the end of the semester.\n\n\nLate work\nBy default, all assignments will be due by 11:59 PM on their respective due dates. Assignments turned in after the deadline will receive a 20% penalty, and an additional 10 percentage points will be deducted for each additional day late.\nThis penalty can be waived if you have a documented excuse such as a doctor’s note, letter from a therapist, court order barring you from doing homework etc.\nFor regular homework assignments, students may provide a one-time self-signed excuse note to receive a 24 hour extension on a non-major grading event such as a homework assignment. See this page for a template. This policy does not apply to exams or the final project.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#grade-scale",
-    "href": "GVPT201_Syllabus.html#grade-scale",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Grade Scale",
-    "text": "Grade Scale\n\n\n\n\n\n\n\n\n% Grade\nLetter Grade\n\n\n\n\n97-100\nA+\n\n\n&lt; 97-94\nA\n\n\n&lt; 94-90\nA-\n\n\n&lt; 90-87\nB+\n\n\n&lt; 87-84\nB\n\n\n&lt; 84-80\nB-\n\n\n&lt; 80-77\nC+\n\n\n&lt; 77-74\nC\n\n\n&lt; 74-70\nC-\n\n\n&lt; 70-67\nD+\n\n\n&lt; 67-64\nD\n\n\n&lt; 64-61\nD-\n\n\n&lt; 61\nF",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#ai-use",
-    "href": "GVPT201_Syllabus.html#ai-use",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "AI use",
-    "text": "AI use\nIn this class, you may use AI tools (ChatGPT, Gemini, Claude etc.) for brainstorming and research only. Under no circumstances should you submit work (coding or analysis) that you didn’t write yourself or that you can’t explain to another person or effectively replicate on your own. If you are unsure whether a specific use-case is acceptable, please reach out to me for a clarification.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "GVPT201_Syllabus.html#class-communication",
-    "href": "GVPT201_Syllabus.html#class-communication",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
-    "section": "Class Communication",
-    "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).\n\nExtra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.\n\n\nGrade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.\n\n\nCode of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "Resources.html",
-    "href": "Resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Additional resources and tips for GVPT 201 students."
-  },
-  {
-    "objectID": "Slides/slides_00.html#lecture",
-    "href": "Slides/slides_00.html#lecture",
-    "title": "Introductions",
-    "section": "Lecture",
-    "text": "Lecture\nThis is what you’re doing right now. Expect something very much like this.\n\nChoices\n\n\nAttend in person (this is the only format where you can ask questions!)\nWatch Zoom (check the Zoom tab on ELMS)\nWatch recordings on ELMS page.\n\n\n\n\nDue dates listed on ELMS are hard deadlines."
-  },
-  {
-    "objectID": "Slides/slides_00.html#discussion-sections",
-    "href": "Slides/slides_00.html#discussion-sections",
-    "title": "Introductions",
-    "section": "Discussion sections",
-    "text": "Discussion sections\n\n\nEvery Friday, led by your TA\nJoin in person or on Zoom.\n\nZoom participants must have cameras on during the class\n\nAttendance is mandatory and participation is 10% of your grade\n\nRecordings will still be on ELMS in the “Section Recordings” folder of the Panopto tab\n\nThis is your best chance to ask homework questions, get feedback, and clarify concepts, so come prepared. (Read workbook and look at homework beforehand)"
-  },
-  {
-    "objectID": "Slides/slides_00.html#resources",
-    "href": "Slides/slides_00.html#resources",
-    "title": "Introductions",
-    "section": "Resources",
-    "text": "Resources\nThere’s additional materials on the syllabus.\nGoing forward I will generally try to link study materials on the modules tab in ELMS."
-  },
-  {
-    "objectID": "Slides/slides_00.html#political-science-research",
-    "href": "Slides/slides_00.html#political-science-research",
-    "title": "Introductions",
-    "section": "Political Science Research",
-    "text": "Political Science Research\n\n\nNormative Research\n“Ought” questions\n\nWhat constitutes a just society?\nWhat are the qualities of a good leader?\nWhat obligations do citizens have towards their governments?\n\n\nEmpirical Research\n“Is/Are” questions\n\nAre democracies less likely to go to war compared to autocracies?\nDo protests prompt political change?\nWhen are political parties most likely to be unified around a shared platform or ideology?"
-  },
-  {
-    "objectID": "Slides/slides_00.html#political-science-research-1",
-    "href": "Slides/slides_00.html#political-science-research-1",
-    "title": "Introductions",
-    "section": "Political Science Research",
-    "text": "Political Science Research\nThis course will focus primarily on the empirical and quantitative aspects of research.\n\nBut ideally, these goals should inform each other."
-  },
-  {
-    "objectID": "Slides/slides_00.html#empirical-research-goals",
-    "href": "Slides/slides_00.html#empirical-research-goals",
-    "title": "Introductions",
-    "section": "Empirical Research: goals",
-    "text": "Empirical Research: goals\n\nIdentify a research question\nDefine key concepts\nFormulate a testable hypothesis\nCollect data, conduct analysis, and assess results\nCollectively: accumulate knowledge about the world"
-  },
-  {
-    "objectID": "Slides/slides_00.html#empirical-research-stats",
-    "href": "Slides/slides_00.html#empirical-research-stats",
-    "title": "Introductions",
-    "section": "Empirical Research: Stats",
-    "text": "Empirical Research: Stats\n\n\nNumbers are for nerds, but you need some stats and basic programming skills to get through this course, this program, and probably your career and for general life stuff."
-  },
-  {
-    "objectID": "Slides/slides_00.html#conceptual-outline-of-the-course",
-    "href": "Slides/slides_00.html#conceptual-outline-of-the-course",
-    "title": "Introductions",
-    "section": "Conceptual Outline of the course",
-    "text": "Conceptual Outline of the course\n\nWeeks 1 through 3: How to measure stuff and why it matters\nWeeks 4 through 8: Description, comparison, and hypotheses\nWeeks 9 through 10: Inference and statistical tests\nWeeks 11 through 14: Correlation and regression analysis"
-  },
-  {
-    "objectID": "Slides/slides_00.html#grades",
-    "href": "Slides/slides_00.html#grades",
-    "title": "Introductions",
-    "section": "Grades",
-    "text": "Grades\n\n\nWorkbook HW (25%): R coding, usually due on Thursdays at midnight\nSurvey analysis (35%): design, distribute, and analyze a (non-representative) public opinion survey.\n\nBiggest component is an end-of-term data analysis paper\n\nExams (25%): open-notes/open book exams administered through ELMS.\nSection participation (10%): Based on engagement, not participation alone.\nLab (5%): participate in 3 studies conducted by GVPT faculty and students."
-  },
-  {
-    "objectID": "Slides/slides_02.html#concepts-and-variables",
-    "href": "Slides/slides_02.html#concepts-and-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Concepts and variables",
-    "text": "Concepts and variables\n\nDefinition: identifying concrete features of the objects or events we’re studying and the tools to measure them.\nMeasurement representing real-life objects and events as variables\nDescription making generalizations about variables"
-  },
-  {
-    "objectID": "Slides/slides_02.html#variables",
-    "href": "Slides/slides_02.html#variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Variables",
-    "text": "Variables\n\nThe results of the measurement process.\nBy definition a variable must vary\nHow we describe a variable will depend on how we measure it."
-  },
-  {
-    "objectID": "Slides/slides_02.html#nominal-variables",
-    "href": "Slides/slides_02.html#nominal-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Nominal Variables",
-    "text": "Nominal Variables\n\n\nNominal variables are categorical variables with no intrinsic ordering.\nExamples include the names of countries or people, someone’s religion or racial/ethnic self id\nSome nominal variables are represented by numbers, but the values of those numbers are arbitrary: zip codes, jersey numbers, and telephone numbers are still nominal because there’s no ordering to them."
-  },
-  {
-    "objectID": "Slides/slides_02.html#nominal-variables-1",
-    "href": "Slides/slides_02.html#nominal-variables-1",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Nominal Variables",
-    "text": "Nominal Variables\nThe region of a particular U.S. state is a nominal variable: there’s a fixed number of categories and no intrinsic ordering"
-  },
-  {
-    "objectID": "Slides/slides_02.html#ordinal-variables",
-    "href": "Slides/slides_02.html#ordinal-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Ordinal Variables",
-    "text": "Ordinal Variables\n\n\n\nOrdinal variables have a small number of categories that can be ordered.\nHowever, the gaps between differing ranks may be unequal.\n\n\nTop finishing times for Boston Marathon in 2024. The placements are ordinal: the distance in time between first and second place doesn’t necessarily equal the distance between second and third."
-  },
-  {
-    "objectID": "Slides/slides_02.html#ordinal-variables-1",
-    "href": "Slides/slides_02.html#ordinal-variables-1",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Ordinal Variables",
-    "text": "Ordinal Variables\nA common source of ordinal variables will be survey items that ask people to rate their position on a scale from “strongly agree” to “strongly disagree” or “very important” to “not at all important”."
-  },
-  {
-    "objectID": "Slides/slides_02.html#ordinal-variables-2",
-    "href": "Slides/slides_02.html#ordinal-variables-2",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Ordinal Variables",
-    "text": "Ordinal Variables\nAnother source of ordinal variables might be data that we’ve grouped into ordered categories based on another variable."
-  },
-  {
-    "objectID": "Slides/slides_02.html#ordinal-variables-3",
-    "href": "Slides/slides_02.html#ordinal-variables-3",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Ordinal Variables",
-    "text": "Ordinal Variables\n\n\nFor instance: the World Bank classifies countries into four ordinal categories based on their per-capita GDP. There’s a clear ordering, but the spaces are not equal."
-  },
-  {
-    "objectID": "Slides/slides_02.html#ordinal-variables-4",
-    "href": "Slides/slides_02.html#ordinal-variables-4",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Ordinal Variables",
-    "text": "Ordinal Variables\nTwo things to keep in mind when working with ordinal variables:\n\n\n\n\n\nThe “ordering” might be partly a function of your research question. You could flip these or combine categories to arrange them from “most partisan” to “least partisan”.\nSome survey variables may only be ordinal after you remove all the people who gave “don’t know” responses."
-  },
-  {
-    "objectID": "Slides/slides_02.html#interval-variables",
-    "href": "Slides/slides_02.html#interval-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Interval Variables",
-    "text": "Interval Variables\n\nThese are just numbers. They’re measured along a continuum with equal spacing (i.e., the difference from 3 and 4 is “the same” as the difference between 6 and 7)\nExamples: age, height, temperature, distance."
-  },
-  {
-    "objectID": "Slides/slides_02.html#interval-variables-1",
-    "href": "Slides/slides_02.html#interval-variables-1",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Interval Variables",
-    "text": "Interval Variables\n“True” interval variables are less common in survey research, but we’ll often treat ordinal variables as “more-or-less interval” if they a lot (7+) categories\n\nStrictly speaking these “feeling thermometer” responses are more like ordinal variables. But they’re close enough for us to treat them like interval variables for most purposes."
-  },
-  {
-    "objectID": "Slides/slides_02.html#dichotomousdummy-variables",
-    "href": "Slides/slides_02.html#dichotomousdummy-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Dichotomous/Dummy Variables",
-    "text": "Dichotomous/Dummy Variables\n\nDichotomous variables that take on only two values: TRUE/FALSE, or Republican/Democrat, War/Peace etc.\n“Dummy” variables will encode this dichotomy as 0s and 1s, which can simplify some math operations\n\nMost importantly: the mean of a dummy variable = the proportion of 1s in the data!\n\n\n\n\ndummy_vector &lt;- c(1,1,1,1,0,0,0,0,0,0)\n\nmean(dummy_vector)\n\n[1] 0.4"
-  },
-  {
-    "objectID": "Slides/slides_02.html#dichotomousdummy",
-    "href": "Slides/slides_02.html#dichotomousdummy",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Dichotomous/Dummy",
-    "text": "Dichotomous/Dummy\nDummy coding is important for statistical modeling because how we can make nominal data into meaningful numeric data:\n\n\n\n\n\n\nWho did you vote for in 2020?\nTrump\nBiden\nStein\n\n\n\n\nTrump\n1\n0\n0\n\n\nBiden\n0\n1\n0\n\n\nJill Stein\n0\n0\n1"
-  },
-  {
-    "objectID": "Slides/slides_02.html#index-variables",
-    "href": "Slides/slides_02.html#index-variables",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Index variables",
-    "text": "Index variables\nSome surveys may measure an attitude by asking multiple questions on the same topic and then aggregating those responses. These aggregate indexes are often treated as interval-level variables."
-  },
-  {
-    "objectID": "Slides/slides_02.html#index-variables-1",
-    "href": "Slides/slides_02.html#index-variables-1",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Index variables",
-    "text": "Index variables\n\n\nThe values highlighted in red indicate more “authoritarian” attitudes toward child rearing.\n\n\n\n\n\n\nquestion\nvalue\npercent\n\n\n\n\nConsiderate vs. Well-behaved\nBeing considerate\n72%\n\n\nWell behaved\n28%\n\n\nCuriosity vs. Good Manners\nCuriosity\n39%\n\n\nGood manners\n61%\n\n\nSelf Reliance vs. Obedience\nObedience\n44%\n\n\nSelf-reliance\n56%\n\n\nIndependence vs. Respect for Elders\nIndependence\n31%\n\n\nRespect for elders\n69%\n\n\n\n\n\n\n\n\n\nThe “authoritarianism” column is an index variable created by counting the number of “authoritarian” answers to a single question.\n\n\n\n\n\n\nauthoritarianism\npercent\ncumulative %\n\n\n\n\n0\n18.3%\n18.3%\n\n\n1\n17.7%\n36.0%\n\n\n2\n23.2%\n59.2%\n\n\n3\n25.1%\n84.2%\n\n\n4\n15.8%\n100.0%"
-  },
-  {
-    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement",
-    "href": "Slides/slides_02.html#multiple-levels-of-measurement",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Multiple levels of measurement",
-    "text": "Multiple levels of measurement\nIt’s often possible to measure the same variable at multiple levels of measurement.\n“Education”, for instance, could be recorded as interval, ordinal, or dichotomous:\n\n\n\n\n\n\n\n\nYears of schooling\nHighest Level of Schooling Completed\nSome College\n\n\n\n\n9\nLess than High School\nNo\n\n\n10\nLess than High School\nNo\n\n\n12\nHigh School\nNo\n\n\n13\nSome College\nYes\n\n\n14\nSome College\nYes\n\n\n15\nSome College\nYes\n\n\n16\nBachelor’s\nYes\n\n\n17\nPost Bachelor’s\nYes"
-  },
-  {
-    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-1",
-    "href": "Slides/slides_02.html#multiple-levels-of-measurement-1",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Multiple levels of measurement",
-    "text": "Multiple levels of measurement\nIt’s often preferable to use the highest level of precision available, but sometimes we choose a less precise measure because its more parsimonious, less “noisy”, or easier to display in a table or graph."
-  },
-  {
-    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-2",
-    "href": "Slides/slides_02.html#multiple-levels-of-measurement-2",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Multiple levels of measurement",
-    "text": "Multiple levels of measurement\nFor example: many analyses of Trump supporters will collapse education into college vs. non-college because (at least for whites) there’s a clear division between college grads and non-college grads:"
-  },
-  {
-    "objectID": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
-    "href": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Unit of analysis and levels of measurement",
-    "text": "Unit of analysis and levels of measurement\nKeep in mind that aggregation changes the unit of analysis. “Did you vote for Trump in 2020?” is dichotomous, but Trump’s share of the vote across an entire state is continuous:"
-  },
-  {
-    "objectID": "Slides/slides_02.html#histogram",
-    "href": "Slides/slides_02.html#histogram",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Histogram",
-    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
-  },
-  {
-    "objectID": "Slides/slides_02.html#density-plot",
-    "href": "Slides/slides_02.html#density-plot",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Density Plot",
-    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
-  },
-  {
-    "objectID": "Slides/slides_02.html#box-plots",
-    "href": "Slides/slides_02.html#box-plots",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Box plots",
-    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
-  },
-  {
-    "objectID": "Slides/slides_02.html#bar-plot",
-    "href": "Slides/slides_02.html#bar-plot",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Bar plot",
-    "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
-  },
-  {
-    "objectID": "Slides/slides_02.html#measures-of-central-tendency",
-    "href": "Slides/slides_02.html#measures-of-central-tendency",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Measures of Central Tendency",
-    "text": "Measures of Central Tendency\n(some things you probably remember from school)"
-  },
-  {
-    "objectID": "Slides/slides_02.html#central-tendency",
-    "href": "Slides/slides_02.html#central-tendency",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Central Tendency",
-    "text": "Central Tendency\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nMean\n❌\n❌\n✅\n\n\nMedian\n❌\n✅\n✅\n\n\nMode\n✅\n✅\n✅"
-  },
-  {
-    "objectID": "Slides/slides_02.html#measures-of-dispersion",
-    "href": "Slides/slides_02.html#measures-of-dispersion",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Measures of Dispersion",
-    "text": "Measures of Dispersion"
-  },
-  {
-    "objectID": "Slides/slides_02.html#dispersion",
-    "href": "Slides/slides_02.html#dispersion",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Dispersion",
-    "text": "Dispersion\n\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nStandard Deviation\n❌\n❌\n✅\n\n\nIQR\n❌\n✅\n✅"
-  },
-  {
-    "objectID": "Slides/slides_02.html#skew",
-    "href": "Slides/slides_02.html#skew",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Skew",
-    "text": "Skew\nSkew refers to the degree of asymmetry in data."
+    "objectID": "Slides/slides_06.html#calculating-a-95-confidence-interval",
+    "href": "Slides/slides_06.html#calculating-a-95-confidence-interval",
+    "title": "Inference",
+    "section": "Calculating a 95% confidence interval",
+    "text": "Calculating a 95% confidence interval\n\\[\n\\text{lower 95% confidence boundary} = \\bar{x} - 1.96  \\text{ standard errors}\n\\]\n\\[ \\text{upper 95% confidence boundary} = \\bar{x} + 1.96  \\text{ standard errors} \\]\n\nSometimes we’ll just round this to “2” because its usually good enough."
   },
   {
     "objectID": "Slides/slides_04.html#cross-tabulation-step-1",
@@ -1177,200 +517,839 @@
     "text": "Sampling strategies\nContemporary polls often get stuff wrong, but many general election pollsters are able to get a lot closer with far fewer observations (even as conditions get worse!) How?\n\n\n\n\n\nSource: fivethirtyeight.com"
   },
   {
-    "objectID": "Slides/slides_06.html#uncertainty-and-sampling",
-    "href": "Slides/slides_06.html#uncertainty-and-sampling",
-    "title": "Inference",
-    "section": "Uncertainty and sampling",
-    "text": "Uncertainty and sampling\nThe general intuition:\n\n\nmore data = more certainty. Estimates from a really big representative sample are going to be more likely to approximate the true population mean.\nless variance = more certainty. If people in the target population are pretty much the same, then it is more likely that a given sample will resemble the target population."
+    "objectID": "Slides/slides_02.html#concepts-and-variables",
+    "href": "Slides/slides_02.html#concepts-and-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Concepts and variables",
+    "text": "Concepts and variables\n\nDefinition: identifying concrete features of the objects or events we’re studying and the tools to measure them.\nMeasurement representing real-life objects and events as variables\nDescription making generalizations about variables"
   },
   {
-    "objectID": "Slides/slides_06.html#margin-of-error",
-    "href": "Slides/slides_06.html#margin-of-error",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+    "objectID": "Slides/slides_02.html#variables",
+    "href": "Slides/slides_02.html#variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Variables",
+    "text": "Variables\n\nThe results of the measurement process.\nBy definition a variable must vary\nHow we describe a variable will depend on how we measure it."
   },
   {
-    "objectID": "Slides/slides_06.html#margin-of-error-1",
-    "href": "Slides/slides_06.html#margin-of-error-1",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+    "objectID": "Slides/slides_02.html#nominal-variables",
+    "href": "Slides/slides_02.html#nominal-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Nominal Variables",
+    "text": "Nominal Variables\n\n\nNominal variables are categorical variables with no intrinsic ordering.\nExamples include the names of countries or people, someone’s religion or racial/ethnic self id\nSome nominal variables are represented by numbers, but the values of those numbers are arbitrary: zip codes, jersey numbers, and telephone numbers are still nominal because there’s no ordering to them."
   },
   {
-    "objectID": "Slides/slides_06.html#margin-of-error-2",
-    "href": "Slides/slides_06.html#margin-of-error-2",
-    "title": "Inference",
-    "section": "Margin of error",
-    "text": "Margin of error\n\n\nThe margin of error is more frequently called a “confidence interval” in statistics.\nA confidence interval is a range that we are reasonably certain contains the actual population value.\n\nSpecifically, the margin generally reported in a survey is a 95% confidence interval when there’s a 50/50 split in a dichotomous outcome.\nIf I estimate that 50% of respondents are Democrats with a margin of error of +/- 3% then I’m saying I’m 95% certain that the range 47-53% contains the true population % of Dems."
+    "objectID": "Slides/slides_02.html#nominal-variables-1",
+    "href": "Slides/slides_02.html#nominal-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Nominal Variables",
+    "text": "Nominal Variables\nThe region of a particular U.S. state is a nominal variable: there’s a fixed number of categories and no intrinsic ordering"
   },
   {
-    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval",
-    "href": "Slides/slides_06.html#margin-of-error-confidence-interval",
-    "title": "Inference",
-    "section": "Margin of error = Confidence Interval",
-    "text": "Margin of error = Confidence Interval\n95% confidence means: “if I repeated this survey an infinite number of times and recalculated the CI for each one, 95% of my calculated confidence intervals would contain the actual population value.”"
+    "objectID": "Slides/slides_02.html#ordinal-variables",
+    "href": "Slides/slides_02.html#ordinal-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\n\n\n\nOrdinal variables have a small number of categories that can be ordered.\nHowever, the gaps between differing ranks may be unequal.\n\n\nTop finishing times for Boston Marathon in 2024. The placements are ordinal: the distance in time between first and second place doesn’t necessarily equal the distance between second and third."
   },
   {
-    "objectID": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
-    "href": "Slides/slides_06.html#margin-of-error-confidence-interval-1",
-    "title": "Inference",
-    "section": "Margin of error = Confidence Interval",
-    "text": "Margin of error = Confidence Interval\n\n\nWe generally aren’t bothering to sample anything repeatedly, so how do we know this?\n\nThe main reason we’re able to calculate a confidence interval is because we actually know a lot about how random errors “behave” in repeated sampling thanks to the central limit theorem."
+    "objectID": "Slides/slides_02.html#ordinal-variables-1",
+    "href": "Slides/slides_02.html#ordinal-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nA common source of ordinal variables will be survey items that ask people to rate their position on a scale from “strongly agree” to “strongly disagree” or “very important” to “not at all important”."
   },
   {
-    "objectID": "Slides/slides_06.html#coin-flips",
-    "href": "Slides/slides_06.html#coin-flips",
-    "title": "Inference",
-    "section": "Coin flips",
-    "text": "Coin flips\nThink about flipping a coin:\n\n\nthe probability of landing on heads is 50% (this is our population parameter)\nWe’ll run an “experiment” where we flip a coin 50 times and calculate the proportion of heads.\n\n(remember that, for a dummy (0, 1) coded dichotomous outcome, the proportion = the mean)"
+    "objectID": "Slides/slides_02.html#ordinal-variables-2",
+    "href": "Slides/slides_02.html#ordinal-variables-2",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nAnother source of ordinal variables might be data that we’ve grouped into ordered categories based on another variable."
   },
   {
-    "objectID": "Slides/slides_06.html#coin-flips-1",
-    "href": "Slides/slides_06.html#coin-flips-1",
-    "title": "Inference",
-    "section": "Coin flips",
-    "text": "Coin flips\nThis is hardly surprising!\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)\n# counting the number of heads\nprop_heads&lt;-mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.38.\nThe error is .5 - 0.38 = -0.12\n\n\n\nI get closer to the correct answer when I increase the sample size, but I still will have some amount of error:\n\n# simulating flipping 50 coins: \ncoinflips &lt;- sample(c(\"heads\",\"tails\"), size=500, replace=TRUE)\n# counting the number of heads\nprop_heads &lt;- mean(coinflips=='heads')\n\n\n\nthe proportion of heads is 0.51.\nThe error is .5 - 0.51 = 0.01"
+    "objectID": "Slides/slides_02.html#ordinal-variables-3",
+    "href": "Slides/slides_02.html#ordinal-variables-3",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\n\n\nFor instance: the World Bank classifies countries into four ordinal categories based on their per-capita GDP. There’s a clear ordering, but the spaces are not equal."
   },
   {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\nRepeating this experiment 5,000 times will give us a sense of the sampling distribution for this sample statistic:\n\n# 5000 \"samples\" of the coin-flipping experiment\ntrials&lt;-replicate(5000, sample(c(\"heads\",\"tails\"), size=50, replace=TRUE)==\"heads\")\n# get the average num of heads in each trial. Expected value = .5\nmean_heads &lt;- colMeans(trials)\n# draw a histogram\nhist(mean_heads, main ='proportion of heads in 50 coin flips', breaks=30)\n\n\nwe should get a distribution that looks like this:"
+    "objectID": "Slides/slides_02.html#ordinal-variables-4",
+    "href": "Slides/slides_02.html#ordinal-variables-4",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Ordinal Variables",
+    "text": "Ordinal Variables\nTwo things to keep in mind when working with ordinal variables:\n\n\n\n\n\nThe “ordering” might be partly a function of your research question. You could flip these or combine categories to arrange them from “most partisan” to “least partisan”.\nSome survey variables may only be ordinal after you remove all the people who gave “don’t know” responses."
   },
   {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-1",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\n\n\n\n\nThe samples are centered around the expected proportion of .5 heads\n\n\n\n\nMore extreme errors are less common than small ones\n\n\n\n\nThe results are symmetric: there are about as many high values as low ones.\n\n\n\n\nError = Sample Mean - Population Mean, so the distribution of errors has this same shape, but its centered around zero."
+    "objectID": "Slides/slides_02.html#interval-variables",
+    "href": "Slides/slides_02.html#interval-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Interval Variables",
+    "text": "Interval Variables\n\nThese are just numbers. They’re measured along a continuum with equal spacing (i.e., the difference from 3 and 4 is “the same” as the difference between 6 and 7)\nExamples: age, height, temperature, distance."
   },
   {
-    "objectID": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
-    "href": "Slides/slides_06.html#the-sampling-distribution-of-coin-flips-2",
-    "title": "Inference",
-    "section": "The sampling distribution of coin flips",
-    "text": "The sampling distribution of coin flips\nCoin flips technically follow a binomial distribution but our sampling distribution looks a lot like a normal “bell-curve” centered on .5"
+    "objectID": "Slides/slides_02.html#interval-variables-1",
+    "href": "Slides/slides_02.html#interval-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Interval Variables",
+    "text": "Interval Variables\n“True” interval variables are less common in survey research, but we’ll often treat ordinal variables as “more-or-less interval” if they a lot (7+) categories\n\nStrictly speaking these “feeling thermometer” responses are more like ordinal variables. But they’re close enough for us to treat them like interval variables for most purposes."
   },
   {
-    "objectID": "Slides/slides_06.html#sampling-distributions-of-sample-means",
-    "href": "Slides/slides_06.html#sampling-distributions-of-sample-means",
-    "title": "Inference",
-    "section": "Sampling distributions of sample means",
-    "text": "Sampling distributions of sample means\nIn fact, for a sufficient sample size, sampling distributions of sample means will always end up looking like this regardless of the actual population distribution."
+    "objectID": "Slides/slides_02.html#dichotomousdummy-variables",
+    "href": "Slides/slides_02.html#dichotomousdummy-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dichotomous/Dummy Variables",
+    "text": "Dichotomous/Dummy Variables\n\nDichotomous variables that take on only two values: TRUE/FALSE, or Republican/Democrat, War/Peace etc.\n“Dummy” variables will encode this dichotomy as 0s and 1s, which can simplify some math operations\n\nMost importantly: the mean of a dummy variable = the proportion of 1s in the data!\n\n\n\n\ndummy_vector &lt;- c(1,1,1,1,0,0,0,0,0,0)\n\nmean(dummy_vector)\n\n[1] 0.4"
   },
   {
-    "objectID": "Slides/slides_06.html#the-normal-distribution",
-    "href": "Slides/slides_06.html#the-normal-distribution",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\nWe know a lot about bell curves. If we have mean \\(\\mu\\) and a standard deviation \\(\\sigma\\), we can easily find how much data we expect to fall anywhere within this shape using the probability density function.\n\n\\[f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^{\\!2}\\,\\right)\\]\n\n\n(Maybe not the kind of thing you want to calculate in your head, but pretty easy for a computer)"
+    "objectID": "Slides/slides_02.html#dichotomousdummy",
+    "href": "Slides/slides_02.html#dichotomousdummy",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dichotomous/Dummy",
+    "text": "Dichotomous/Dummy\nDummy coding is important for statistical modeling because how we can make nominal data into meaningful numeric data:\n\n\n\n\n\n\nWho did you vote for in 2020?\nTrump\nBiden\nStein\n\n\n\n\nTrump\n1\n0\n0\n\n\nBiden\n0\n1\n0\n\n\nJill Stein\n0\n0\n1"
   },
   {
-    "objectID": "Slides/slides_06.html#the-normal-distribution-1",
-    "href": "Slides/slides_06.html#the-normal-distribution-1",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\n\nmu&lt;-0\nsigma&lt;-1\n\ncurve((1 / (sqrt(2*pi) * sigma)) * exp(-(x - mu)^2 / (2 * sigma^2)), from=-3, to=3,\n      xlab = '',\n      main = 'PDF of a normal with mean = 0 and sigma = 1'\n      )"
+    "objectID": "Slides/slides_02.html#index-variables",
+    "href": "Slides/slides_02.html#index-variables",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Index variables",
+    "text": "Index variables\nSome surveys may measure an attitude by asking multiple questions on the same topic and then aggregating those responses. These aggregate indexes are often treated as interval-level variables."
   },
   {
-    "objectID": "Slides/slides_06.html#the-normal-distribution-2",
-    "href": "Slides/slides_06.html#the-normal-distribution-2",
-    "title": "Inference",
-    "section": "The normal distribution",
-    "text": "The normal distribution\nThe mean (\\(\\mu\\)) and standard deviation \\(\\sigma\\) will depend on the data, but we can always:\n\n\nMean center: subtract the mean \\(\\mu\\) from each observation so that the new mean is zero.\n\n\n\n\nStandardize: divide each observation by the standard deviation of the sampling distribution (\\(\\sigma\\)), so the new standard deviation is 1\n\n\n\nWe’ll call this new number the “Z-score”:\n\\[\n\\text{Z score} = \\frac{\\text{Deviation from the mean}}{\\text{Standard Deviation}}\n\\]"
+    "objectID": "Slides/slides_02.html#index-variables-1",
+    "href": "Slides/slides_02.html#index-variables-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Index variables",
+    "text": "Index variables\n\n\nThe values highlighted in red indicate more “authoritarian” attitudes toward child rearing.\n\n\n\n\n\n\nquestion\nvalue\npercent\n\n\n\n\nConsiderate vs. Well-behaved\nBeing considerate\n72%\n\n\nWell behaved\n28%\n\n\nCuriosity vs. Good Manners\nCuriosity\n39%\n\n\nGood manners\n61%\n\n\nSelf Reliance vs. Obedience\nObedience\n44%\n\n\nSelf-reliance\n56%\n\n\nIndependence vs. Respect for Elders\nIndependence\n31%\n\n\nRespect for elders\n69%\n\n\n\n\n\n\n\n\n\nThe “authoritarianism” column is an index variable created by counting the number of “authoritarian” answers to a single question.\n\n\n\n\n\n\nauthoritarianism\npercent\ncumulative %\n\n\n\n\n0\n18.3%\n18.3%\n\n\n1\n17.7%\n36.0%\n\n\n2\n23.2%\n59.2%\n\n\n3\n25.1%\n84.2%\n\n\n4\n15.8%\n100.0%"
   },
   {
-    "objectID": "Slides/slides_06.html#the-standard-normal-distribution",
-    "href": "Slides/slides_06.html#the-standard-normal-distribution",
-    "title": "Inference",
-    "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution"
+    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement",
+    "href": "Slides/slides_02.html#multiple-levels-of-measurement",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Multiple levels of measurement",
+    "text": "Multiple levels of measurement\nIt’s often possible to measure the same variable at multiple levels of measurement.\n“Education”, for instance, could be recorded as interval, ordinal, or dichotomous:\n\n\n\n\n\n\n\n\nYears of schooling\nHighest Level of Schooling Completed\nSome College\n\n\n\n\n9\nLess than High School\nNo\n\n\n10\nLess than High School\nNo\n\n\n12\nHigh School\nNo\n\n\n13\nSome College\nYes\n\n\n14\nSome College\nYes\n\n\n15\nSome College\nYes\n\n\n16\nBachelor’s\nYes\n\n\n17\nPost Bachelor’s\nYes"
   },
   {
-    "objectID": "Slides/slides_06.html#the-central-limit-theorem-1",
-    "href": "Slides/slides_06.html#the-central-limit-theorem-1",
-    "title": "Inference",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\n\n\n\n\n\n\n\nCentral Limit Theorem\n\n\nAs the number of repeated samples approaches infinity, the sampling distribution of the mean will converge toward a normal distribution centered on the population mean.\n\n\n\n\n\nThis means that:\n\n\nThe sampling errors will also have a normal distribution centered on zero.\n\n\n\n\nSampling errors/means are normally distributed even if the population is non-normal.\n\n\n\n\nWe can calculate the proportion of data that falls under different parts of the curve, provided we know \\(\\mu\\) and \\(\\sigma\\)"
+    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-1",
+    "href": "Slides/slides_02.html#multiple-levels-of-measurement-1",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Multiple levels of measurement",
+    "text": "Multiple levels of measurement\nIt’s often preferable to use the highest level of precision available, but sometimes we choose a less precise measure because its more parsimonious, less “noisy”, or easier to display in a table or graph."
   },
   {
-    "objectID": "Slides/slides_06.html#using-the-clt",
-    "href": "Slides/slides_06.html#using-the-clt",
-    "title": "Inference",
-    "section": "Using the CLT",
-    "text": "Using the CLT\nWe don’t need to take infinite samples to make use of this! We can draw a sample and assume that it comes from a distribution with this shape:"
+    "objectID": "Slides/slides_02.html#multiple-levels-of-measurement-2",
+    "href": "Slides/slides_02.html#multiple-levels-of-measurement-2",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Multiple levels of measurement",
+    "text": "Multiple levels of measurement\nFor example: many analyses of Trump supporters will collapse education into college vs. non-college because (at least for whites) there’s a clear division between college grads and non-college grads:"
   },
   {
-    "objectID": "Slides/slides_06.html#using-the-clt-1",
-    "href": "Slides/slides_06.html#using-the-clt-1",
-    "title": "Inference",
-    "section": "Using the CLT",
-    "text": "Using the CLT\n\\[f(x) = \\frac{1}{\\color{red}{\\sigma}\\sqrt{2\\pi}}\n  \\exp\\left( -\\frac{1}{2}\\left(\\frac{x-\\color{red}{\\mu}}{\\color{red}{\\sigma}}\\right)^{\\!2}\\,\\right)\\]\nRemember: we need to know \\(\\mu\\) and \\(\\sigma\\)\n\n\nWe don’t know our population mean \\(\\mu\\), but we do know that the mean sampling error is zero, so we can just use 0 our expected mean error.\nHowever, we still need to know the standard deviation \\(\\sigma\\)\n\nHere, we’re looking for the standard deviation of the sampling errors. We’ll call this value our standard error or SE for short.\nFinding this is a challenge, but we can make some simple assumptions here to get a “worst case scenario” for a survey"
+    "objectID": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
+    "href": "Slides/slides_02.html#unit-of-analysis-and-levels-of-measurement",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Unit of analysis and levels of measurement",
+    "text": "Unit of analysis and levels of measurement\nKeep in mind that aggregation changes the unit of analysis. “Did you vote for Trump in 2020?” is dichotomous, but Trump’s share of the vote across an entire state is continuous:"
   },
   {
-    "objectID": "Slides/slides_06.html#the-standard-error",
-    "href": "Slides/slides_06.html#the-standard-error",
-    "title": "Inference",
-    "section": "The standard error",
-    "text": "The standard error\nRemember that more observations = more certainty. So we expect that the standard error will decrease when taking larger samples.\n\n\n\n\n\n\n\n\n\n\n\nWe actually know how much the SE shrinks for each observation:\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]"
+    "objectID": "Slides/slides_02.html#histogram",
+    "href": "Slides/slides_02.html#histogram",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Histogram",
+    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
   },
   {
-    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion",
-    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion",
-    "title": "Inference",
-    "section": "The standard error of a proportion",
-    "text": "The standard error of a proportion\n\n\\[\n\\text{Standard error (SE)} = \\frac{\\sigma}{\\sqrt{n}}\n\\]\n\n\nWe don’t know \\(\\sigma\\), but surveys are usually reporting a proportion or percentage of people giving a particular response. The standard error of a proportion actually depends on the proportion itself:\n\n\\[\n\\text{Standard Error of a proportion} = \\frac{\\sqrt{p\\times(1-p)}}{\\sqrt{n}} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\n\\[\np = \\text{the proportion}\n\\]"
+    "objectID": "Slides/slides_02.html#density-plot",
+    "href": "Slides/slides_02.html#density-plot",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Density Plot",
+    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
   },
   {
-    "objectID": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
-    "href": "Slides/slides_06.html#the-standard-error-of-a-proportion-1",
-    "title": "Inference",
-    "section": "The standard error of a proportion",
-    "text": "The standard error of a proportion\n\n\nNote that this part of the formula is at its maximum when p = .5 (i.e. when there’s a 50/50 split on a yes/no question)\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{\\color{red}{p\\times(1-p)}}{n}}\n\\]\n\n\nSo, if we know our sample size, we can calculate the worst case scenario for the standard error where \\(p = .5\\)"
+    "objectID": "Slides/slides_02.html#box-plots",
+    "href": "Slides/slides_02.html#box-plots",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Box plots",
+    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
   },
   {
-    "objectID": "Slides/slides_06.html#back-to-that-margin",
-    "href": "Slides/slides_06.html#back-to-that-margin",
-    "title": "Inference",
-    "section": "Back to that margin",
-    "text": "Back to that margin\n\n\n\nWe know our sample size is 2,091\n\n\n\nWe know that the biggest SE possible is when \\(p = .5\\), \\(\\sqrt{\\frac{.5(1-.5)}{n}}\\), so the worst case scenario is \\(\\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\\)\n\n\n\n\nWe also know that the errors are normally distributed and centered around 0\n\n\n\nWe have all the ingredients to we need to apply the CLT here!\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+    "objectID": "Slides/slides_02.html#bar-plot",
+    "href": "Slides/slides_02.html#bar-plot",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Bar plot",
+    "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
   },
   {
-    "objectID": "Slides/slides_06.html#the-margin-of-error",
-    "href": "Slides/slides_06.html#the-margin-of-error",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\nRemember we want a 95% confidence level.\nWe already know that for this pdf, 95% of the errors will fall with in approximately \\(\\pm 2 \\times Z\\) of 0 (technically closer to 1.95994…)"
+    "objectID": "Slides/slides_02.html#measures-of-central-tendency",
+    "href": "Slides/slides_02.html#measures-of-central-tendency",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Measures of Central Tendency",
+    "text": "Measures of Central Tendency\n(some things you probably remember from school)"
   },
   {
-    "objectID": "Slides/slides_06.html#the-margin-of-error-1",
-    "href": "Slides/slides_06.html#the-margin-of-error-1",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\n\n\n\\[\n\\text{Standard Error of a proportion} = \\sqrt{\\frac{p\\times(1-p)}{n}}\n\\]\n\\[\n\\text{SE for this sample at (p=0.5)} = \\sqrt{\\frac{.5(1-.5)}{2,091}} \\approx 0.0109\n\\]\nSo now we just need:\n\\[\n\\text{standard error} \\times \\text{Z-score for a 95% confidence level} =\n\\]\n\\[\n.0109 \\times 1.96 \\approx 0.0214 = 2.14\\%\n\\]\n\n\n\n\n\nfrom https://criticalissues.umd.edu/feature/new-study-change-us-public-attitudes-towards-jews-and-muslims-2022-2024"
+    "objectID": "Slides/slides_02.html#central-tendency",
+    "href": "Slides/slides_02.html#central-tendency",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Central Tendency",
+    "text": "Central Tendency\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nMean\n❌\n❌\n✅\n\n\nMedian\n❌\n✅\n✅\n\n\nMode\n✅\n✅\n✅"
   },
   {
-    "objectID": "Slides/slides_06.html#the-margin-of-error-2",
-    "href": "Slides/slides_06.html#the-margin-of-error-2",
-    "title": "Inference",
-    "section": "The Margin of error",
-    "text": "The Margin of error\nSo what is the margin of error on a poll?\nIts a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories."
+    "objectID": "Slides/slides_02.html#measures-of-dispersion",
+    "href": "Slides/slides_02.html#measures-of-dispersion",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Measures of Dispersion",
+    "text": "Measures of Dispersion"
   },
   {
-    "objectID": "Slides/slides_06.html#the-central-limit-theorem-2",
-    "href": "Slides/slides_06.html#the-central-limit-theorem-2",
-    "title": "Inference",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\nWhen I take a decent-sized random sample from the population:\n\n\nI know the sample mean (\\(\\bar{x}\\)) is drawn from a normal distribution.\nI know the mean of this sampling distribution is equal to the population mean.\nI know the standard deviation of this sampling distribution (a.ka. the standard error) is equal to \\(\\frac{\\sigma}{\\sqrt{n}}\\)\n\nSo: I know that 95% of my sample averages will be within \\(\\approx 1.96\\) standard errors of the correct answer (and any number of other probabilities based on the normal curve)"
+    "objectID": "Slides/slides_02.html#dispersion",
+    "href": "Slides/slides_02.html#dispersion",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Dispersion",
+    "text": "Dispersion\n\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nStandard Deviation\n❌\n❌\n✅\n\n\nIQR\n❌\n✅\n✅"
   },
   {
-    "objectID": "Slides/slides_06.html#calculating-a-95-confidence-interval",
-    "href": "Slides/slides_06.html#calculating-a-95-confidence-interval",
-    "title": "Inference",
-    "section": "Calculating a 95% confidence interval",
-    "text": "Calculating a 95% confidence interval\n\\[\n\\text{lower 95% confidence boundary} = \\bar{x} - 1.96  \\text{ standard errors}\n\\]\n\\[ \\text{upper 95% confidence boundary} = \\bar{x} + 1.96  \\text{ standard errors} \\]\n\nSometimes we’ll just round this to “2” because its usually good enough."
+    "objectID": "Slides/slides_02.html#skew",
+    "href": "Slides/slides_02.html#skew",
+    "title": "Chapter 2: Measurement and Description",
+    "section": "Skew",
+    "text": "Skew\nSkew refers to the degree of asymmetry in data."
+  },
+  {
+    "objectID": "Slides/slides_00.html#lecture",
+    "href": "Slides/slides_00.html#lecture",
+    "title": "Introductions",
+    "section": "Lecture",
+    "text": "Lecture\nThis is what you’re doing right now. Expect something very much like this.\n\nChoices\n\n\nAttend in person (this is the only format where you can ask questions!)\nWatch Zoom (check the Zoom tab on ELMS)\nWatch recordings on ELMS page.\n\n\n\n\nDue dates listed on ELMS are hard deadlines."
+  },
+  {
+    "objectID": "Slides/slides_00.html#discussion-sections",
+    "href": "Slides/slides_00.html#discussion-sections",
+    "title": "Introductions",
+    "section": "Discussion sections",
+    "text": "Discussion sections\n\n\nEvery Friday, led by your TA\nJoin in person or on Zoom.\n\nZoom participants must have cameras on during the class\n\nAttendance is mandatory and participation is 10% of your grade\n\nRecordings will still be on ELMS in the “Section Recordings” folder of the Panopto tab\n\nThis is your best chance to ask homework questions, get feedback, and clarify concepts, so come prepared. (Read workbook and look at homework beforehand)"
+  },
+  {
+    "objectID": "Slides/slides_00.html#resources",
+    "href": "Slides/slides_00.html#resources",
+    "title": "Introductions",
+    "section": "Resources",
+    "text": "Resources\nThere’s additional materials on the syllabus.\nGoing forward I will generally try to link study materials on the modules tab in ELMS."
+  },
+  {
+    "objectID": "Slides/slides_00.html#political-science-research",
+    "href": "Slides/slides_00.html#political-science-research",
+    "title": "Introductions",
+    "section": "Political Science Research",
+    "text": "Political Science Research\n\n\nNormative Research\n“Ought” questions\n\nWhat constitutes a just society?\nWhat are the qualities of a good leader?\nWhat obligations do citizens have towards their governments?\n\n\nEmpirical Research\n“Is/Are” questions\n\nAre democracies less likely to go to war compared to autocracies?\nDo protests prompt political change?\nWhen are political parties most likely to be unified around a shared platform or ideology?"
+  },
+  {
+    "objectID": "Slides/slides_00.html#political-science-research-1",
+    "href": "Slides/slides_00.html#political-science-research-1",
+    "title": "Introductions",
+    "section": "Political Science Research",
+    "text": "Political Science Research\nThis course will focus primarily on the empirical and quantitative aspects of research.\n\nBut ideally, these goals should inform each other."
+  },
+  {
+    "objectID": "Slides/slides_00.html#empirical-research-goals",
+    "href": "Slides/slides_00.html#empirical-research-goals",
+    "title": "Introductions",
+    "section": "Empirical Research: goals",
+    "text": "Empirical Research: goals\n\nIdentify a research question\nDefine key concepts\nFormulate a testable hypothesis\nCollect data, conduct analysis, and assess results\nCollectively: accumulate knowledge about the world"
+  },
+  {
+    "objectID": "Slides/slides_00.html#empirical-research-stats",
+    "href": "Slides/slides_00.html#empirical-research-stats",
+    "title": "Introductions",
+    "section": "Empirical Research: Stats",
+    "text": "Empirical Research: Stats\n\n\nNumbers are for nerds, but you need some stats and basic programming skills to get through this course, this program, and probably your career and for general life stuff."
+  },
+  {
+    "objectID": "Slides/slides_00.html#conceptual-outline-of-the-course",
+    "href": "Slides/slides_00.html#conceptual-outline-of-the-course",
+    "title": "Introductions",
+    "section": "Conceptual Outline of the course",
+    "text": "Conceptual Outline of the course\n\nWeeks 1 through 3: How to measure stuff and why it matters\nWeeks 4 through 8: Description, comparison, and hypotheses\nWeeks 9 through 10: Inference and statistical tests\nWeeks 11 through 14: Correlation and regression analysis"
+  },
+  {
+    "objectID": "Slides/slides_00.html#grades",
+    "href": "Slides/slides_00.html#grades",
+    "title": "Introductions",
+    "section": "Grades",
+    "text": "Grades\n\n\nWorkbook HW (25%): R coding, usually due on Thursdays at midnight\nSurvey analysis (35%): design, distribute, and analyze a (non-representative) public opinion survey.\n\nBiggest component is an end-of-term data analysis paper\n\nExams (25%): open-notes/open book exams administered through ELMS.\nSection participation (10%): Based on engagement, not participation alone.\nLab (5%): participate in 3 studies conducted by GVPT faculty and students."
+  },
+  {
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Additional resources and tips for GVPT 201 students."
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html",
+    "href": "GVPT201_Syllabus.html",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "",
+    "text": "Welcome to GVPT 201! This class is an introduction to the basics of political science research. We’ll will begin by discussing how to formulate an empirical research question, then progress through the process of data collection, description and visualization, and finally testing a hypothesis and quantifying uncertainty. By the end of the course, you should have a solid working understanding of how we can use a scientific approach to answer (some) questions about the political world.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#instructor",
+    "href": "GVPT201_Syllabus.html#instructor",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Instructor",
+    "text": "Instructor\nName: Neil Lund\nEmail: nlund@umd.edu (please do not contact me through ELMS)\nOffice: 1140C Tydings Hall\nOffice Hours: Tuesday/Thursday 11:15 PM to 1:30 PM or by appointment",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#meetings",
+    "href": "GVPT201_Syllabus.html#meetings",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Meetings",
+    "text": "Meetings\n\nLecture 1: Monday-Wednesday 1:00 - 1:50pm Tydings 0130\nLecture 2: Monday-Wednesday 2:00 - 2:50pm Tydings 0117\nFriday Discussion: Check Testudo for schedule\n\nOtherwise otherwise noted, all class lecture meetings will be available over Zoom. Recordings will also be uploaded to ELMS. Check the ELMS page for additional detail.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#teaching-team",
+    "href": "GVPT201_Syllabus.html#teaching-team",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Teaching Team",
+    "text": "Teaching Team\nGraduate Teaching Assistant\n\n\n\n\n\n\n\nName\nEmail\n\n\n\n\nSonia Vargas\nsvargas@umd.edu\n\n\n\nUndergraduate Teaching Assistants\n\n\n\n\n\n\n\nName\nEmail\n\n\n\n\nAlexa Tira\natira@terpmail.umd.edu\n\n\nHeidi Medrano Guerra\nbnevglos@terpmail.umd.edu\n\n\nKatelyn Keller\ncliddle1@terpmail.umd.edu\n\n\nDean Truong\ndtruong6@terpmail.umd.edu\n\n\nCharles Liddle\nhbernst1@terpmail.umd.edu\n\n\nSumit Jani\nhmedrano@terpmail.umd.edu\n\n\nHannah Bernstein\njlawren9@terpmail.umd.edu\n\n\nBen Nevgloski\nkkeller7@terpmail.umd.edu\n\n\nJayme Lawrence\nsjani@terpmail.umd.edu",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#books",
+    "href": "GVPT201_Syllabus.html#books",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Books",
+    "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2020. The Essentials of Political Analysis Sixth Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#r-and-r-studio",
+    "href": "GVPT201_Syllabus.html#r-and-r-studio",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "R and R-studio",
+    "text": "R and R-studio\nYou will be using the R programming language for this course. R is completely FREE and works with any operating system. There are instructions on how to download R and the associated data files/packages for the homeworks in the workbook.\nYou also need to download R-Studio. You can get the free version. It’s the first option on this page.\nWe have several resources to assist you in learning the software:\n\nWe have recorded video lectures covering the material in each chapter in the R workbook. These videos are available in the workbook folder on PANOPTO (ELMS).\nThe professor will devote a portion of lecture time to R and the survey. Therefore, every week you can ask questions about R in class.\nIn Friday sections the TA’s will cover the R homework due the following Thursday and help you work on the survey. Therefore, every week you can ask questions about R and the survey in section.\n\nWhile we are happy to help you in understanding how to use R, we can only offer limited support when it comes to issues installing R onto your device. If for some reason your computer is not working you may be able to access the cloud-based Rstudio instance available to BSOS students.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#grade-components",
+    "href": "GVPT201_Syllabus.html#grade-components",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Grade components",
+    "text": "Grade components\nGrades are a percentage out of 780 possible points. The points will be distributed as follows:\n\nWorkbook Homework (25%)\nThese will be short assignments from the workbook that you will submit through ELMS. In order to receive credit you must attach an R script that shows your work along with your submission.\nYour lowest assignment grade will be dropped.\n\n\nExams (25%)\nThere will be two open-notes/open book exams administered through ELMS. They will cover materials from the lecture, textbook, and discussion sections. While they aren’t cumulative, concepts from the first half of the course will be relevant to the second half, so there may be some overlap for the second exam.\n\n\nSurvey (35%)\n\nPilot Design\n\nDuring lecture and discussion sections, students will work with me and the TA’s to design a battery of questions. Students will workshop these questions with each other and individually submit questions they would like to see on the survey. The Professor will choose the finals set of questions and program the survey. Once this is complete, the Professor will distribute this draft as the “pilot” survey.\n\nPilot Analysis\n\nPilot analysis: After the pilot survey has been in the field for about a week, the Professor will release the data to the students. Students will have to complete a basic analysis of the pilot data. In addition to the respondents’ answers to the questions, students are asked to consider the instrument itself. Did they find any questions confusing? Offensive? Needlessly complicated? Etc. Based on this feedback, the teaching staff will edit the survey instrument.\n\nVerification of Survey Distribution\n\nOnce the final question wording has been determined, students will be responsible for distributing the survey to as wide a range of people as possible via social networking sites, such as Facebook and Twitter, and other means of communication. You can also post it on websites like Reddit and distribute via email. Students will have to provide proof of distribution in the form of a screenshot. The survey will be in the field for approximately two weeks. Students are expected to promote and distribute the survey during this time.\n\nFinal Write-up\n\nThe final survey write up will be three memos (two “practice” that will take the form of “quizzes” online, and one final one, which will be submitted as a paper) on the data gathered via the class survey. We will provide more detailed guidelines closer to the due dates. The memos are not weighted equally; the last one is weighted most heavily. Grades will be based on consistency of 8 the analytical argument, demonstration of cumulative mastery of the material from the course, and clarity of writing. The detailed rubric for the paper is available on ELMS.\n\n\n\n\nSection Participation (10%)\nSection: Students are expected to have completed all of the assigned readings and homework for each section and be prepared to discuss them. Attendance (in person or via zoom with the camera on) is mandatory and teaching assistants record participation in section.\n(Note that your grade here is based on your participation and engagement. Attendance alone is necessary, but not sufficient for earning full credit.)\n\n\nExperimental Lab (5%)\nThis class will also give credit to students who take part in studies conducted by GVPT faculty and graduate students. Each study will take about 20-30 minutes to complete. If you prefer not to serve as a participant, you may elect to satisfy the requirement by completing an alternate assignment (HW 13). However, you must notify the Research Administrator Woohyeon Kim (whkim@umd.edu) before the last day of schedule adjustment for the semester if you wish to register for the alternate assignment. Students will receive an email with further instructions about participation when the studies are available.\nStudents who are under 18 years of age must obtain parental permission to participate in research. If you are under 18, please contact Jordan James Anthony Spencer jspeck13@umd.edu and he will provide you with instructions on how to participate in the research studies. Alternate assignments cannot be used to make up for a study at the end of the semester.\n\n\nLate work\nBy default, all assignments will be due by 11:59 PM on their respective due dates. Assignments turned in after the deadline will receive a 20% penalty, and an additional 10 percentage points will be deducted for each additional day late.\nThis penalty can be waived if you have a documented excuse such as a doctor’s note, letter from a therapist, court order barring you from doing homework etc.\nFor regular homework assignments, students may provide a one-time self-signed excuse note to receive a 24 hour extension on a non-major grading event such as a homework assignment. See this page for a template. This policy does not apply to exams or the final project.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#grade-scale",
+    "href": "GVPT201_Syllabus.html#grade-scale",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Grade Scale",
+    "text": "Grade Scale\n\n\n\n\n\n\n\n\n% Grade\nLetter Grade\n\n\n\n\n97-100\nA+\n\n\n&lt; 97-94\nA\n\n\n&lt; 94-90\nA-\n\n\n&lt; 90-87\nB+\n\n\n&lt; 87-84\nB\n\n\n&lt; 84-80\nB-\n\n\n&lt; 80-77\nC+\n\n\n&lt; 77-74\nC\n\n\n&lt; 74-70\nC-\n\n\n&lt; 70-67\nD+\n\n\n&lt; 67-64\nD\n\n\n&lt; 64-61\nD-\n\n\n&lt; 61\nF",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#ai-use",
+    "href": "GVPT201_Syllabus.html#ai-use",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "AI use",
+    "text": "AI use\nIn this class, you may use AI tools (ChatGPT, Gemini, Claude etc.) for brainstorming and research only. Under no circumstances should you submit work (coding or analysis) that you didn’t write yourself or that you can’t explain to another person or effectively replicate on your own. If you are unsure whether a specific use-case is acceptable, please reach out to me for a clarification.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#class-communication",
+    "href": "GVPT201_Syllabus.html#class-communication",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Class Communication",
+    "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).\n\nExtra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.\n\n\nGrade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.\n\n\nCode of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "Slides/slides_01.html#research-questions",
+    "href": "Slides/slides_01.html#research-questions",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nDoes religion play a role in civil wars?\nWhat causes increasing income inequality in least developed countries?\nWhy has public opinion on same sex marriage liberalized so rapidly?\nIs the U.S. becoming more polarized?\n\n\nNot everyone is going to agree on what these terms mean!\n\n\nBefore we can get anywhere researching these questions, we need to define the thing we’re studying"
+  },
+  {
+    "objectID": "Slides/slides_01.html#defining-things-harder-than-it-seems",
+    "href": "Slides/slides_01.html#defining-things-harder-than-it-seems",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Defining things: harder than it seems!",
+    "text": "Defining things: harder than it seems!\n\n\n\nReasonable definition of a chair\n\n\n\n\n\n\nChair"
+  },
+  {
+    "objectID": "Slides/slides_01.html#terms",
+    "href": "Slides/slides_01.html#terms",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Terms",
+    "text": "Terms\n\nConceptual Definition\n\nA description of the concrete, measurable properties of a concept and the unit of analysis to which it applies\n\nUnit of Analysis\n\nThe entity that that is being studied. For instance: individuals, governments, parties etc.\n\nOperational Definition\n\nA description of the instrument used to measure the concept"
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-unit-of-analysis",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: Unit of Analysis",
+    "text": "Crafting Conceptual Definitions: Unit of Analysis\n\nWhat is the unit? What entity possesses the characteristic?\n\nThe U.S. and Canada are democracies (concept: democracy, unit: countries)\nLincoln, LBJ, and Trump are the three tallest U.S. presidents (concept: height, unit: presidents/people)\nLabour is the UK’s main center-left political party (concept: party ideology/family, unit: political party)\n\n\n\nOne way to think of this: if you put your data into a spreadsheet, what does each “row” represent? The answer to that question is the unit of analysis."
+  },
+  {
+    "objectID": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
+    "href": "Slides/slides_01.html#unit-of-analysis-and-the-ecological-fallacy",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Unit of analysis and the ecological fallacy",
+    "text": "Unit of analysis and the ecological fallacy\nThe ecological fallacy occurs when you attribute a characteristic of groups to individuals. For instance:\n\nHigh-income states tend to vote for Democrats, but rich people tend to vote for Republicans.\nSuicide rates in 19th century Europe were higher in Protestant countries compared to Catholic countries, but Protestant individuals were no more likely to die by suicide.\nIn the 1930 census, zip codes with more immigrants had higher literacy rates, but immigrant individuals had lower literacy rates.\n\nAll of these are fundamentally problems of ignoring the unit of analysis."
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-key-features",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: Key features",
+    "text": "Crafting Conceptual Definitions: Key features\n\nWhat are the essential features of the concept?\n\nIf there are cases or definitions everyone agrees on, what characteristics do they share?\nAre certain qualities necessary or sufficient for a case to belong to a category?\nWhat characteristics are most distinctive to those cases?\nWhat is most helpful for clarifying edge-cases?\n\nAre there multiple dimensions or just one? If two characteristics always occur together, you might only need to account for one of them!"
+  },
+  {
+    "objectID": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
+    "href": "Slides/slides_01.html#crafting-conceptual-definitions-transparency",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Crafting Conceptual Definitions: transparency",
+    "text": "Crafting Conceptual Definitions: transparency\nWe want to avoid being Potter Stewart:\n\nThe goal is cumulative knowledge, and a private definition can’t provide that."
+  },
+  {
+    "objectID": "Slides/slides_01.html#some-steps-to-take",
+    "href": "Slides/slides_01.html#some-steps-to-take",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Some steps to take:",
+    "text": "Some steps to take:\n\n\nIdentify the unit of analysis\nMake a list of important properties, clear examples and non-examples, and/or generally accepted definitions\nRemove items that aren’t measurable\nReduce dimensions where possible (if a characteristic is shared by positive cases and negative cases, then it isn’t useful)\nRefine as needed"
+  },
+  {
+    "objectID": "Slides/slides_01.html#conceptualizing-democracy",
+    "href": "Slides/slides_01.html#conceptualizing-democracy",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Conceptualizing Democracy",
+    "text": "Conceptualizing Democracy\nSome proposed features:\n\n\nRegular elections with meaningful alternatives\nPeaceful transfer of power\nFree expression\nA competitive media environment\nAutonomous political groups (political associations, unions, interest groups etc.) that can pressure the government\nRule of law\nChecks and balances\nProperty rights\n\n\n\nMinimalists might argue that 1 and 2 alone are necessary and sufficient. Others may argue that even these 8 are oversimplifying."
+  },
+  {
+    "objectID": "Slides/slides_01.html#conceptualizing-democracy-1",
+    "href": "Slides/slides_01.html#conceptualizing-democracy-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Conceptualizing Democracy",
+    "text": "Conceptualizing Democracy\nUnit of analysis: governments (usually national governments)\n\n\nCase:\n\nDefinitely democracies: U.S., Uruguay, Taiwan, Japan, Botswana\nDefinitely autocracies: North Korea, Saudi Arabia, Russia\nEdge cases: Hungary, Turkey, Tunisia\n\n\nFeatures:\n\nVoting and elections\nMultiple parties\nMeaningful civil liberties\nStability and monopoly on violence\n\n\n\nThis may need refinement: what about sham elections?\nThis may not be distinctive: there are stable autocracies on the list"
+  },
+  {
+    "objectID": "Slides/slides_01.html#operationalization",
+    "href": "Slides/slides_01.html#operationalization",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Operationalization",
+    "text": "Operationalization\nEven where we agree on a definition, we will need to measure a concept and there is often slippage here"
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-reliability",
+    "href": "Slides/slides_01.html#considerations-reliability",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Reliability",
+    "text": "Considerations: Reliability\nReliability refers to how consistently the same measurement instrument produces the same result\n\nTest-Retest method: asking the same questions to a new random sample should produce roughly the same result\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\n\n(One purported advantage of the minimalist definition of democracy is that its relatively stable because it allows less room for subjectivity.)"
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-validity",
+    "href": "Slides/slides_01.html#considerations-validity",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Validity",
+    "text": "Considerations: Validity\n\nValidity refers to whether an operational definition matches the concept we’re interested in.\nA challenge to validity might come from cases that seem mis-categorized in our definition. For example: the minimalist definition of democracy suggests that Japan was authoritarian for much of the latter half of the 20th century."
+  },
+  {
+    "objectID": "Slides/slides_01.html#considerations-validity-and-reliability",
+    "href": "Slides/slides_01.html#considerations-validity-and-reliability",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Considerations: Validity and Reliability",
+    "text": "Considerations: Validity and Reliability\n\nMeasures could be reliable but invalid: your astrological sign is a reliable measure of your political views because it doesn’t change, but it also isn’t valid because it has no real correspondence to your actual politics.\nMeasures could be valid but unreliable: an exam with a single well-written question might be a valid measure of a student’s understanding of material, but it will probably have more random variability compared to an exam with multiple poorly-written questions."
+  },
+  {
+    "objectID": "Slides/slides_01.html#measurement-error-1",
+    "href": "Slides/slides_01.html#measurement-error-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Measurement Error",
+    "text": "Measurement Error\n\nMeasurement error is a source of noise, systematic measurement error is a source of bias\nWe’ll generally find that random noise is much easier to deal with than bias because we can simply collect more data. Bias, on the other hand, presents profound challenges to research because we can only correct it if we can measure it"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id",
+    "href": "Slides/slides_01.html#party-id",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-1",
+    "href": "Slides/slides_01.html#party-id-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-2",
+    "href": "Slides/slides_01.html#party-id-2",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-3",
+    "href": "Slides/slides_01.html#party-id-3",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
+  },
+  {
+    "objectID": "Slides/slides_03.html#why-questions",
+    "href": "Slides/slides_03.html#why-questions",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "“Why” questions",
+    "text": "“Why” questions\n\n“Why questions”\n\nWhy do some eligible voters fail to turn out on election day?\nWhat explains variation in gun policies across U.S. states?\nWhy did communist revolutions happen in China and Russia but not Europe or the United States?"
+  },
+  {
+    "objectID": "Slides/slides_03.html#theoretical-scope",
+    "href": "Slides/slides_03.html#theoretical-scope",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Theoretical Scope",
+    "text": "Theoretical Scope\nTheories vary in their scope:\n\n\nEarly sociologists like Marx, Durkheim, Weber attempted to develop all-encompassing “laws” of political/social/historical change. These are sometimes called “grand theories”\nContemporary social sciences are less ambitious, and so its more common to propose “middle-range” theories that seek to explain a smaller number regularities in one area.\n\nHowever, they may draw on “grand theories” either implicitly or explicitly."
+  },
+  {
+    "objectID": "Slides/slides_03.html#paths-to-modernity",
+    "href": "Slides/slides_03.html#paths-to-modernity",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Paths to Modernity",
+    "text": "Paths to Modernity\nWhat explains differences in the “path to modernity” across different countries during the 20th century?\n\nFree markets/Democracy in the U.S. and England\nFascism in Germany and Japan\nCommunism in Russia and China"
+  },
+  {
+    "objectID": "Slides/slides_03.html#paths-to-modernity-1",
+    "href": "Slides/slides_03.html#paths-to-modernity-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Paths to Modernity",
+    "text": "Paths to Modernity\n\n\nBarrington Moore: Classes have unique and conflicting interests. Conflicts over these interests come to the forefront during industrialization. The outcomes of these class conflicts shape the political and economic system.\n\n\nFascist states emerge when the landed aristocracy wins\nCommunist states emerge when the peasant class wins\nDemocracies emerge when the bourgeois (middle class) wins."
+  },
+  {
+    "objectID": "Slides/slides_03.html#paths-to-modernity-2",
+    "href": "Slides/slides_03.html#paths-to-modernity-2",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Paths to Modernity",
+    "text": "Paths to Modernity\n\n\nMoore’s theory borrows assumptions from a (sociological) Marxist grand theory about class conflict\nHe “tests” it by showing how it fits the selected cases.\nIt can be used and refined to generate a set of empirical expectations about what factors should matter for democratization. For instance, we might expect:\n\nStates with larger agricultural sectors during industrialization to be less democratic today (compared to states with smaller agricultural sectors)\nStates with higher literacy rates during industrialization to be more democratic (compared to states with lower literacy rates)"
+  },
+  {
+    "objectID": "Slides/slides_03.html#theories-survey-answers",
+    "href": "Slides/slides_03.html#theories-survey-answers",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Theories: survey answers",
+    "text": "Theories: survey answers\nWhat explains inconsistent answers to survey questions?\n\n\n\n\nAsking the same people the same questions a few months apart yields surprisingly unpredictable results.\nSmall changes in question wording, ordering of choices, or survey context cause big changes in outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nData from the 1980 ANES panel survey (reproduced from Zaller 1992)"
+  },
+  {
+    "objectID": "Slides/slides_03.html#theories-voting",
+    "href": "Slides/slides_03.html#theories-voting",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Theories: voting",
+    "text": "Theories: voting\nWhy do people vote?\n\n\nSince politicians generally offer public goods, you can enjoy the benefits of your preferred candidate winning even if you don’t vote\nSince voting has costs (even though they’re small) free riding can be preferable to actually turning out if the costs outweigh the benefits."
+  },
+  {
+    "objectID": "Slides/slides_03.html#assessing-theories",
+    "href": "Slides/slides_03.html#assessing-theories",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Assessing Theories",
+    "text": "Assessing Theories\n\n\n\nTheories require simplified representations of a complex reality\nUtility, not “truth”: theoretical models invariably contain assumptions and they’re probably violated in practice.\n\n\n\n\n\nGeorge Box: “All models are wrong, but some are useful”"
+  },
+  {
+    "objectID": "Slides/slides_03.html#hypotheses-1",
+    "href": "Slides/slides_03.html#hypotheses-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Hypotheses",
+    "text": "Hypotheses\nComponents:\n\nUnit of analysis\nDependent variable\nIndependent variable\nDirection of the predicted relationship\n\n\nGood hypotheses inevitably involve comparative language (higher/lower/more/less/increase/decrease/better/worse)"
+  },
+  {
+    "objectID": "Slides/slides_03.html#hypothesis-template",
+    "href": "Slides/slides_03.html#hypothesis-template",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Hypothesis Template",
+    "text": "Hypothesis Template\nIn a comparison of [unit of analysis], those having [one value on the independent variable] will be [more/less] likely to have [one value on the dependent variable] than those having a [different value on the independent variable]."
+  },
+  {
+    "objectID": "Slides/slides_03.html#hypothesis-template-1",
+    "href": "Slides/slides_03.html#hypothesis-template-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Hypothesis Template",
+    "text": "Hypothesis Template\nIn a comparison of [voters], those having [stronger political views] will be more likely to have [a higher likelihood of turnout] than those having a [weaker views].\n\n\nUnit of analysis: voters\nIV: strength of political views\nDV: turnout\nRelationship: strength increases turnout"
+  },
+  {
+    "objectID": "Slides/slides_03.html#hypothesis-template-2",
+    "href": "Slides/slides_03.html#hypothesis-template-2",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Hypothesis Template",
+    "text": "Hypothesis Template\nIn a comparison of [states], those having [a larger middle class during industrialization] will be more likely to have [democracy] than those having a [a smaller middle class].\n\n\nUnit of analysis: states\nIV: size of the middle class\nDV: democracy\nRelationship: middle class increases likelihood of democracy"
+  },
+  {
+    "objectID": "Slides/slides_03.html#hypothesis-template-3",
+    "href": "Slides/slides_03.html#hypothesis-template-3",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Hypothesis Template",
+    "text": "Hypothesis Template\nIn a comparison of [survey respondents], those having [higher levels of attention to politics] will be more likely to have [consistent responses] than those having a [lower levels of attention to politics].\n\n\nUnit of analysis: Survey respondents\nIV: level of attention\nDV: response consistency\nRelationship: attention increases consistency"
+  },
+  {
+    "objectID": "Slides/slides_03.html#complex-relationships",
+    "href": "Slides/slides_03.html#complex-relationships",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Complex Relationships",
+    "text": "Complex Relationships\nGood hypotheses may suggest a more complex set of relationships than just “positive/negative”. They could propose conditional/interactive/curvilinear relationships as well.\n\nThe “oil curse”\n\nIn a comparison of [countries], those having [higher levels of GDP] will be [more likely to be democratic] compared to [countries with lower GDP], [however, this relationship will not hold for countries that get rich from oil exports.]\n\n\n\nRetrospective voting:\n\nIn a comparison of [voters], those having [lower levels of attention to politics] will be [more likely to vote for the incumbent when the economy is doing well]. Those having [higher levels of attention to politics] will be [more likely to vote based on policy preferences regardless of the state of the economy]"
+  },
+  {
+    "objectID": "Slides/slides_03.html#bad-hypotheses",
+    "href": "Slides/slides_03.html#bad-hypotheses",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Bad hypotheses",
+    "text": "Bad hypotheses\n\n\nThe main determinant of war is the distribution of power in the international system.\nIn comparing individuals, annual income and the level of education are related.\nDemocracies are peaceful. In comparing individuals, some people are more likely to favor the death penalty than others."
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-step-1",
+    "href": "Slides/slides_03.html#cross-tabulation-step-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: Step 1",
+    "text": "Cross tabulation: Step 1\nStart by calculating the number of observations with each value of each category:\n\n\n\n\n\n\n\n\niv\ndv\n\n\n\n\nHIGH\nNo\n\n\nHIGH\nNo\n\n\nLOW\nNo\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nHIGH\nYes\n\n\nLOW\nYes\n\n\nLOW\nYes\n\n\nLOW\nYes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1\n2\n\n\nYes\n3\n4\n\n\n\n\n\nTotal\n4\n6"
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-step-2",
+    "href": "Slides/slides_03.html#cross-tabulation-step-2",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: Step 2",
+    "text": "Cross tabulation: Step 2\nThen, calculate the proportion/percentage of observations among each value of the IV.\nIf the independent variable is in the columns, then the columns should sum to 100%.\nIf the independent variable is in the rows, then the rows should sum to 100%.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1\n2\n\n\nYes\n3\n4\n\n\n\n\n\nTotal\n4\n6\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1 (25%)\n2 (33%)\n\n\nYes\n3 (75%)\n4 (67%)\n\n\n\n\n\nTotal\n4\n6"
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-interpretation",
+    "href": "Slides/slides_03.html#cross-tabulation-interpretation",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: interpretation",
+    "text": "Cross tabulation: interpretation\nLook at what happens to the DV at different values of the IV. If your variables are ordinal, you should be able to identify a direction of the effect.\nThe proportion of “Yes” values decreases as the IV goes from lower to higher, so this is a negative or inverse relationship.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\niv\n\n\n\ndv\nLOW\nHIGH\n\n\n\n\nNo\n1 (25%)\n2 (33%)\n\n\nYes\n3 (75%)\n4 (67%)\n\n\n\n\n\nTotal\n4\n6\n\n\n\n\n\n\n\n\n\nUsing a bar graph or line graph can make these relationships easier to spot:"
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-notes",
+    "href": "Slides/slides_03.html#cross-tabulation-notes",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: notes",
+    "text": "Cross tabulation: notes\n\nKey rule: always calculate percentages or proportions by categories of the independent variable.\n\nThis allows you to compare groups that are different sizes.\n\nIf one or both variables are interval-level, you can bin them in order to use them in a cross tab. For instance, you could separate an interval like into a series of age ranges."
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-example",
+    "href": "Slides/slides_03.html#cross-tabulation-example",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: example",
+    "text": "Cross tabulation: example\nHypothesis: in a comparison of individuals, independents are less likely to turn out to vote compared to people who support one party or another.\n\nHow should I calculate proportions here?\n\n\n\n\nVoter Turnout in 2020 by party ID\n\n\n\n\n\n\n\n\n\n\nParty ID\n\n\n\nturnout2020\nDemocrat\nIndependent\nRepublican\n\n\n\n\n0. Did not vote\n335\n316\n382\n\n\n1. Voted\n3160\n560\n2714"
+  },
+  {
+    "objectID": "Slides/slides_03.html#cross-tabulation-example-1",
+    "href": "Slides/slides_03.html#cross-tabulation-example-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Cross tabulation: example",
+    "text": "Cross tabulation: example\nAre these results generally consistent with my hypothesis?\n\n\n\n\n\n\nVoter Turnout in 2020 by party ID\n\n\n\n\n\n\n\n\n\n\nParty ID\n\n\n\nturnout2020\nDemocrat\nIndependent\nRepublican\n\n\n\n\n0. Did not vote\n335 (10%)\n316 (36%)\n382 (12%)\n\n\n1. Voted\n3160 (90%)\n560 (64%)\n2714 (88%)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf we think of party ID as an ordered variable, this is a curvilinear relationship."
+  },
+  {
+    "objectID": "Slides/slides_03.html#rowcolumn-percentages",
+    "href": "Slides/slides_03.html#rowcolumn-percentages",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Row/Column percentages",
+    "text": "Row/Column percentages\nWhat happens if I calculate % among the values of the DV?\nHere’s the relationship between education and voter turnout with % calculated on education level:\n\n\n\n\nVoter Turnout in 2020 by highest level of education completed\n\n\n\n\n\n\n\n\n\n\n\n\nEducation\n\n\n\nturnout2020\n1. Less than high school credential\n2. High school credential\n3. Some post-high school, no bachelor's degree\n4. Bachelor's degree\n5. Graduate degree\n\n\n\n\n0. Did not vote\n130 (41%)\n286 (24%)\n380 (15%)\n135 (7%)\n91 (6%)\n\n\n1. Voted\n185 (59%)\n883 (76%)\n2148 (85%)\n1749 (93%)\n1388 (94%)\n\n\n\nNote: \n\n\n\n\n\n\n\n Column % in parentheses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe results suggest a positive or direct relationship: as education increases, so does the % turnout."
+  },
+  {
+    "objectID": "Slides/slides_03.html#rowcolumn-percentages-1",
+    "href": "Slides/slides_03.html#rowcolumn-percentages-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Row/Column percentages",
+    "text": "Row/Column percentages\nWhat happens if I calculate % among the values of the DV?\nHere’s the relationship between education and voter turnout with % calculated across voter turnout\n\n\n\n\nVoter Turnout in 2020 by highest level of education completed\n\n\n\n\n\n\n\n\n\n\n\n\nEducation\n\n\n\nturnout2020\n1. Less than high school credential\n2. High school credential\n3. Some post-high school, no bachelor's degree\n4. Bachelor's degree\n5. Graduate degree\n\n\n\n\n0. Did not vote\n130 (13%)\n286 (28%)\n380 (37%)\n135 (13%)\n91 (9%)\n\n\n1. Voted\n185 (3%)\n883 (14%)\n2148 (34%)\n1749 (28%)\n1388 (22%)\n\n\n\nNote: \n\n\n\n\n\n\n\n Row % in parentheses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHere, the results can give the misleading impression that there’s a curvilinear relationship: turnout drops off for Bachelor’s Degrees and above."
+  },
+  {
+    "objectID": "Slides/slides_03.html#rowcolumn-percentages-2",
+    "href": "Slides/slides_03.html#rowcolumn-percentages-2",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Row/Column percentages",
+    "text": "Row/Column percentages\nEither of these tables might be a valid way to look at these data, but they answer slightly different questions:\n\n\nIf I want to compare turnout at different levels of education, then I need to calculate % turnout among people with different levels of education.\nIf I want to compare education among voters and non-voters, then I need to calculate % education among people who voted and didn’t vote.\nWhich variable is the IV or DV is sometimes a theoretical question, but in this case its unlikely that voting is causing people to become more educated, so it probably doesn’t make sense to calculate percentages by voting vs. non-voting."
+  },
+  {
+    "objectID": "Slides/slides_03.html#mean-comparison-1",
+    "href": "Slides/slides_03.html#mean-comparison-1",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Mean Comparison",
+    "text": "Mean Comparison\nGDP data has been grouped into five categories, so now I just need to calculate the average of CO2 emissions within each group of the ordinal IV:\n\n\n\n\nGDP Per capita range\nCO2 emissions per capita\n\n\n\n\n1. $3k or less\n0.3128312\n\n\n2. $3k to $10k\n1.2680574\n\n\n3. $10k to $25k\n4.4065669\n\n\n4. $25k to $45k\n8.0307610\n\n\n5. $45k or more\n12.3134306\n\n\n\n\n\n\n\nIs this generally consistent with expectations?"
+  },
+  {
+    "objectID": "Slides/slides_03.html#mean-comparison-2",
+    "href": "Slides/slides_03.html#mean-comparison-2",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Mean Comparison",
+    "text": "Mean Comparison\nHere again, the relationship can be easier to conceptualize if we plot it."
+  },
+  {
+    "objectID": "Slides/slides_03.html#comparing-boxplots",
+    "href": "Slides/slides_03.html#comparing-boxplots",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Comparing Boxplots",
+    "text": "Comparing Boxplots"
+  },
+  {
+    "objectID": "Slides/slides_03.html#curvilinear-relationships",
+    "href": "Slides/slides_03.html#curvilinear-relationships",
+    "title": "Chapter 3: Theories, hypotheses, and comparisons",
+    "section": "Curvilinear Relationships",
+    "text": "Curvilinear Relationships\nA relationship like this will rarely be perfectly straight, so “linearity” and “curvilinearity” are partly a matter of degree, but there are some cases where there is a clear “U” shape to the relationship:\n\n\n\n\n\n\niv\ndv\n\n\n\n\n1. Extremely liberal\n6.314\n\n\n2. Liberal\n5.685\n\n\n3. Slightly liberal\n5.001\n\n\n4. Moderate; middle of the road\n4.651\n\n\n5. Slightly conservative\n4.636\n\n\n6. Conservative\n4.974\n\n\n7. Extremely conservative\n5.363"
+  },
+  {
+    "objectID": "Slides/slides_05.html#spurious-relationships",
+    "href": "Slides/slides_05.html#spurious-relationships",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Spurious Relationships",
+    "text": "Spurious Relationships\nWhy might we see a correlation between the amount of weekly protest activity and the number of flights to Hawaii?"
+  },
+  {
+    "objectID": "Slides/slides_05.html#spurious-relationships-1",
+    "href": "Slides/slides_05.html#spurious-relationships-1",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Spurious Relationships",
+    "text": "Spurious Relationships\nThe spurious correlation is happening because summer days have more protests and more flights to Hawaii because that’s when the weather is nice.\n\n\nHow do we resolve this?"
+  },
+  {
+    "objectID": "Slides/slides_05.html#spurious-relationships-2",
+    "href": "Slides/slides_05.html#spurious-relationships-2",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Spurious Relationships",
+    "text": "Spurious Relationships\n\nA simple fix here would be dis-aggregation: we split the data up based on the season and then we re-assess the same relationship within each group. This would ensure we were comparing summer flights to summer protests and non-summer flights to non-summer protests.\nIf the correlation is spurious, then this will make the observed relationship will disappear or potentially even reverse (go from positive to negative or vice-versa)"
+  },
+  {
+    "objectID": "Slides/slides_05.html#spurious-relationships-3",
+    "href": "Slides/slides_05.html#spurious-relationships-3",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Spurious Relationships",
+    "text": "Spurious Relationships\n\nThis process of splitting data up to make comparisons within groups is the basic intuition behind mathematically controlling for a confounder. (you’ll often hear this described as “holding constant” for a confounder)"
+  },
+  {
+    "objectID": "Slides/slides_05.html#cra-vote",
+    "href": "Slides/slides_05.html#cra-vote",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "1964 CRA vote",
+    "text": "1964 CRA vote"
+  },
+  {
+    "objectID": "Slides/slides_05.html#cra-vote-1",
+    "href": "Slides/slides_05.html#cra-vote-1",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "1964 CRA vote",
+    "text": "1964 CRA vote"
+  },
+  {
+    "objectID": "Slides/slides_05.html#cra-vote-2",
+    "href": "Slides/slides_05.html#cra-vote-2",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "1964 CRA vote",
+    "text": "1964 CRA vote\nThe pattern looks different once we consider region:\n\n\n\n\nEffect of party in the north = 95 - 85 = 10\nEffect of party in the south = 9 - 0 = 9\nThe relationship flips direction and shrinks after accounting for region.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNorth\n\n\nSouth\n\n\n\n\n\nCRA vote\nDem\nRep\nDem\nRep\n\n\nyes\n145 (95%)\n136 (85%)\n8 (9%)\n0 (0%)\n\n\nno\n8 (5%)\n24 (15%)\n83 (91%)\n11 (100%)"
+  },
+  {
+    "objectID": "Slides/slides_05.html#civil-rights-act",
+    "href": "Slides/slides_05.html#civil-rights-act",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "1964 Civil Rights Act",
+    "text": "1964 Civil Rights Act"
+  },
+  {
+    "objectID": "Slides/slides_05.html#control-groups-vs.-control-variables",
+    "href": "Slides/slides_05.html#control-groups-vs.-control-variables",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Control groups vs. Control variables",
+    "text": "Control groups vs. Control variables\n\nThe language here tends to throw people off:\n\nControl groups are the baseline group in an experiment. The control group in a medical study would be the people who received the placebo treatment.\nControl variables are the confounding variables that we want to address by holding constant for their effects on the outcome.\n\n\n\nRandomization and control variables attempt to accomplish the same goals, but in different ways."
+  },
+  {
+    "objectID": "Slides/slides_05.html#additive-relationships",
+    "href": "Slides/slides_05.html#additive-relationships",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Additive Relationships",
+    "text": "Additive Relationships\nIn an additive relationship, Z independently influences the outcome, but it doesn’t account for the relationship between X and Y\n\n\nExamples:\n\nBeing Republican and conservative both make people more likely to vote for Republican candidates.\nGDP and literacy rates both make countries more likely to be Democratic.\nGenetics and environment both impact life expectancy separately.\n\n\n\n\n\n\n\n\n\nmrdag\n\n\n\nZ\n\nZ (control)\n\n\n\nY\n\nY (DV)\n\n\n\nZ-&gt;Y\n\n\n\n\n\nX\n\nX (IV) \n\n\n\nX-&gt;Y"
+  },
+  {
+    "objectID": "Slides/slides_05.html#interactive-relationship",
+    "href": "Slides/slides_05.html#interactive-relationship",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Interactive Relationship",
+    "text": "Interactive Relationship\nIn an interactive relationship, Z strengthens or weakens the effect of X on Y.\n\n\n\nWeight changes the effect of alcoholic drinks on blood alcohol level. (smaller people get drunk with fewer drinks, all else equal)\nIssue salience makes policy views more important. (i.e. if a candidate talks a lot about abortion, abortion opinions will matter more for vote choice)\nState referenda make state policy more likely to align with public opinion.\n\n\n\n\n\n\n\n\n\nmrdag\n\n\n\nZ\n\nZ (control)\n\n\n\nX\n\nX (IV) \n\n\n\nZ-&gt;X\n\n\n\n\n\nY\n\nY (DV)\n\n\n\nX-&gt;Y"
+  },
+  {
+    "objectID": "Slides/slides_05.html#using-a-cross-tab",
+    "href": "Slides/slides_05.html#using-a-cross-tab",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Using a cross-tab",
+    "text": "Using a cross-tab"
+  },
+  {
+    "objectID": "Slides/slides_05.html#identifying-the-pattern",
+    "href": "Slides/slides_05.html#identifying-the-pattern",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Identifying the pattern",
+    "text": "Identifying the pattern\nTo characterize the pattern after control, you can ask yourself a series of questions."
+  },
+  {
+    "objectID": "Slides/slides_05.html#mean-comparison-table",
+    "href": "Slides/slides_05.html#mean-comparison-table",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Mean comparison table",
+    "text": "Mean comparison table"
+  },
+  {
+    "objectID": "Slides/slides_05.html#nominal-relationships",
+    "href": "Slides/slides_05.html#nominal-relationships",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Nominal Relationships",
+    "text": "Nominal Relationships\n\nFor data that are nominal, it may not make sense to talk about the “direction”, but your book suggests using treating the left-most category as the baseline group and then comparing based on that.\n\n\n\n\n\n% unionization\n\n\n\n\n\n\n\n\n\niv\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nBiden 20\n7.6\n(4)\n14.4\n(9)\n12.8\n(4)\n12.4\n(8)\n\n\nTrump 20\n5.9\n(12)\n0\n(0)\n8.5\n(8)\n9.5\n(5)"
+  },
+  {
+    "objectID": "Slides/slides_05.html#when-to-use-what",
+    "href": "Slides/slides_05.html#when-to-use-what",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "When to use what",
+    "text": "When to use what\n\n\nUse a cross tab when all variables are categorical\nUse a mean comparison when the DV is interval and the control and IV are categorical\n\nKeep in mind that, if the DV is dichotomous, you can basically treat it as numeric and the “mean” is equal to the proportion of “Yes” or “TRUE” values for each group.\n\nConsider collapsing some categories to simplify analyses and ensure you have sufficient data. For instance, if a response ranges from Strongly Agree to Strongly Disagree, you might collapse it down to just 2-3 categories."
+  },
+  {
+    "objectID": "Slides/slides_05.html#what-about-interval-level-relationships",
+    "href": "Slides/slides_05.html#what-about-interval-level-relationships",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "What about interval level relationships?",
+    "text": "What about interval level relationships?\n\nYou can collapse interval data into categories and then use a mean comparison\nMore often, we’ll use regression analysis:\n\nIn essence, we’ll draw a “line of best fit” through the values of X and Y"
+  },
+  {
+    "objectID": "Slides/slides_05.html#other-methods-for-addressing-confounding",
+    "href": "Slides/slides_05.html#other-methods-for-addressing-confounding",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Other methods for addressing confounding",
+    "text": "Other methods for addressing confounding"
+  },
+  {
+    "objectID": "Slides/slides_05.html#matching",
+    "href": "Slides/slides_05.html#matching",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Matching",
+    "text": "Matching\n\nIdentify similar cases at each level of the IV. For instance, find Republicans and Democrats of similar ages.\nDrop any cases that can’t be matched.\nRe-weight the cases to ensure balance, and then assess the effect."
+  },
+  {
+    "objectID": "Slides/slides_05.html#difference-in-differences",
+    "href": "Slides/slides_05.html#difference-in-differences",
+    "title": "Chapter 5: Controlled comparisons",
+    "section": "Difference-in-differences",
+    "text": "Difference-in-differences\n\n\n\nMeasure outcomes for two groups at two different times\nIf you can assume the trend for both groups is the same, then the difference-in-differences at time 2 is the effect of the treatment."
   },
   {
     "objectID": "Weeks/Week 01/Week-01.html",
