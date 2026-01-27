@@ -62,6 +62,16 @@
     "text": "Documentation and code for the in-class surveys."
   },
   {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\nJan 26\nConcepts and measurement\nChapter 1\nHomework 1 due Feb 05Survey question due Feb 06\nIntro\n\n\n\nJan 28\n\n\n\nLecture 1\n\n\nWeek 2\nFeb 02\nDescription\nChapter 2\nHomework 2 due Feb 12\nLecture 2\n\n\n\nFeb 04\n\n\n\nLecture 3\n\n\nWeek 3\nFeb 09\nTransforming variables\nChapter 3\nHomework 3 due Feb 19\nLecture 4\n\n\n\nFeb 11\n\n\n\nLecture 5\n\n\nWeek 4\nFeb 16\nExplanations and hypotheses\nChapter 4\nHomework 4 due Feb 26Survey distribution due Feb 27\nLecture 6\n\n\n\nFeb 18\n\n\n\nLecture 7\n\n\nWeek 5\nFeb 23\nGraphing and describing patterns\nChapter 5\nHomework 5 due Mar 05\nLecture 8\n\n\n\nFeb 25\n\n\n\nLecture 9\n\n\nWeek 6\nMar 02\nResearch and causation\nChapter 6\nHomework 6 due Mar 12\nLecture 10\n\n\n\nMar 04\n\n\n\nLecture 11\n\n\nWeek 7\nMar 09\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\n\nMar 11\n\n\nMidterm I\n\n\n\nWeek 8\nMar 16\n\nSpring Break\n\n\n\n\n\nMar 18\n\nSpring Break\n\n\n\n\nWeek 9\nMar 23\nInference\nChapter 8\nHomework 7 due Mar 26Survey practice I due Mar 27\nLecture 13\n\n\n\nMar 25\n\n\n\nLecture 14\n\n\nWeek 10\nMar 30\nHypothesis testing\nChapter 9\nHomework 8 due Apr 09\nLecture 15\n\n\n\nApr 01\n\n\n\nLecture 16\n\n\nWeek 11\nApr 06\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and Chapter 11\nHomework 9 due Apr 16\nLecture 17\n\n\n\nApr 08\n\n\n\nLecture 18\n\n\nWeek 12\nApr 13\nMultiple Regression\nChapter 12\nHomework 10 due Apr 23\nLecture 19\n\n\n\nApr 15\n\n\n\nLecture 20\n\n\nWeek 13\nApr 20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 01\nLecture 21\n\n\n\nApr 22\n\n\n\nLecture 22\n\n\nWeek 14\nApr 27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 07\nLecture 23\n\n\n\nApr 29\n\n\n\nLecture 24\n\n\nWeek 15\nMay 04\nWrap up and review\nChapter 15\nFinal projectduring final exam period\nLecture 25\n\n\n\nMay 06\nMidterm",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
     "objectID": "links.html",
     "href": "links.html",
     "title": "Links",
@@ -673,7 +683,7 @@
     "href": "GVPT201_Syllabus.html#books",
     "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
     "section": "Books",
-    "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2020. The Essentials of Political Analysis Sixth Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it.",
+    "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2024. The Essentials of Political Analysis Seventh Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it.",
     "crumbs": [
       "Syllabus"
     ]
@@ -723,7 +733,37 @@
     "href": "GVPT201_Syllabus.html#class-communication",
     "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
     "section": "Class Communication",
-    "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).\n\nExtra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.\n\n\nGrade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.\n\n\nCode of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
+    "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#extra-credit",
+    "href": "GVPT201_Syllabus.html#extra-credit",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Extra credit",
+    "text": "Extra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#grade-challenges",
+    "href": "GVPT201_Syllabus.html#grade-challenges",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Grade Challenges",
+    "text": "Grade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "GVPT201_Syllabus.html#code-of-conduct",
+    "href": "GVPT201_Syllabus.html#code-of-conduct",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
     "crumbs": [
       "Syllabus"
     ]
@@ -993,69 +1033,6 @@
     "title": "Chapter 2: Measurement and Description",
     "section": "Unit of analysis and levels of measurement",
     "text": "Unit of analysis and levels of measurement\nKeep in mind that aggregation changes the unit of analysis. “Did you vote for Trump in 2020?” is dichotomous, but Trump’s share of the vote across an entire state is continuous:"
-  },
-  {
-    "objectID": "Slides/slides_02.html#histogram",
-    "href": "Slides/slides_02.html#histogram",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Histogram",
-    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
-  },
-  {
-    "objectID": "Slides/slides_02.html#density-plot",
-    "href": "Slides/slides_02.html#density-plot",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Density Plot",
-    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
-  },
-  {
-    "objectID": "Slides/slides_02.html#box-plots",
-    "href": "Slides/slides_02.html#box-plots",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Box plots",
-    "text": "Box plots\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
-  },
-  {
-    "objectID": "Slides/slides_02.html#bar-plot",
-    "href": "Slides/slides_02.html#bar-plot",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Bar plot",
-    "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
-  },
-  {
-    "objectID": "Slides/slides_02.html#measures-of-central-tendency",
-    "href": "Slides/slides_02.html#measures-of-central-tendency",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Measures of Central Tendency",
-    "text": "Measures of Central Tendency\n(some things you probably remember from school)"
-  },
-  {
-    "objectID": "Slides/slides_02.html#central-tendency",
-    "href": "Slides/slides_02.html#central-tendency",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Central Tendency",
-    "text": "Central Tendency\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nMean\n❌\n❌\n✅\n\n\nMedian\n❌\n✅\n✅\n\n\nMode\n✅\n✅\n✅"
-  },
-  {
-    "objectID": "Slides/slides_02.html#measures-of-dispersion",
-    "href": "Slides/slides_02.html#measures-of-dispersion",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Measures of Dispersion",
-    "text": "Measures of Dispersion"
-  },
-  {
-    "objectID": "Slides/slides_02.html#dispersion",
-    "href": "Slides/slides_02.html#dispersion",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Dispersion",
-    "text": "Dispersion\n\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nStandard Deviation\n❌\n❌\n✅\n\n\nIQR\n❌\n✅\n✅"
-  },
-  {
-    "objectID": "Slides/slides_02.html#skew",
-    "href": "Slides/slides_02.html#skew",
-    "title": "Chapter 2: Measurement and Description",
-    "section": "Skew",
-    "text": "Skew\nSkew refers to the degree of asymmetry in data."
   },
   {
     "objectID": "Slides/slides_04.html#cross-tabulation-step-1",
@@ -1603,14 +1580,18 @@
     "text": "Slides from previous lectures are in this section. (You’ll also see placeholders for future lecture slides. I haven’t made these yet!)"
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
+    "objectID": "outfile.html",
+    "href": "outfile.html",
     "title": "Schedule",
     "section": "",
-    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\nJan 26\nConcepts and measurement\nChapter 1\nHomework 1 due Feb 05Survey question due Feb 06\nIntro\n\n\n\nJan 28\n\n\n\nLecture 1\n\n\nWeek 2\nFeb 02\nDescription\nChapter 2\nHomework 2 due Feb 12\nLecture 2\n\n\n\nFeb 04\n\n\n\nLecture 3\n\n\nWeek 3\nFeb 09\nTransforming variables\nChapter 3\nHomework 3 due Feb 19\nLecture 4\n\n\n\nFeb 11\n\n\n\nLecture 5\n\n\nWeek 4\nFeb 16\nExplanations and hypotheses\nChapter 4\nHomework 4 due Feb 26Survey distribution due Feb 27\nLecture 6\n\n\n\nFeb 18\n\n\n\nLecture 7\n\n\nWeek 5\nFeb 23\nGraphing and describing patterns\nChapter 5\nHomework 5 due Mar 05\nLecture 8\n\n\n\nFeb 25\n\n\n\nLecture 9\n\n\nWeek 6\nMar 02\nResearch and causation\nChapter 6\nHomework 6 due Mar 12\nLecture 10\n\n\n\nMar 04\n\n\n\nLecture 11\n\n\nWeek 7\nMar 09\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\n\nMar 11\n\n\nMidterm I\n\n\n\nWeek 8\nMar 16\n\nSpring Break\n\n\n\n\n\nMar 18\n\nSpring Break\n\n\n\n\nWeek 9\nMar 23\nInference\nChapter 8\nHomework 7 due Mar 26Survey practice I due Mar 27\nLecture 13\n\n\n\nMar 25\n\n\n\nLecture 14\n\n\nWeek 10\nMar 30\nHypothesis testing\nChapter 9\nHomework 8 due Apr 09\nLecture 15\n\n\n\nApr 01\n\n\n\nLecture 16\n\n\nWeek 11\nApr 06\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and Chapter 11\nHomework 9 due Apr 16\nLecture 17\n\n\n\nApr 08\n\n\n\nLecture 18\n\n\nWeek 12\nApr 13\nMultiple Regression\nChapter 12\nHomework 10 due Apr 23\nLecture 19\n\n\n\nApr 15\n\n\n\nLecture 20\n\n\nWeek 13\nApr 20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 01\nLecture 21\n\n\n\nApr 22\n\n\n\nLecture 22\n\n\nWeek 14\nApr 27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 07\nLecture 23\n\n\n\nApr 29\n\n\n\nLecture 24\n\n\nWeek 15\nMay 04\nWrap up and review\nChapter 15\nFinal projectduring final exam period\nLecture 25\n\n\n\nMay 06\nMidterm",
-    "crumbs": [
-      "Schedule"
-    ]
+    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\nJan 26\nConcepts and measurement\nChapter 1\nHomework 1 due Feb 05Survey question due Feb 06\nIntro\n\n\n\nJan 28\n\n\n\nLecture 1\n\n\nWeek 2\nFeb 02\nDescription\nChapter 2\nHomework 2 due Feb 12\nLecture 2\n\n\n\nFeb 04\n\n\n\nLecture 3\n\n\nWeek 3\nFeb 09\nTransforming variables\nChapter 3\nHomework 3 due Feb 19\nLecture 4\n\n\n\nFeb 11\n\n\n\nLecture 5\n\n\nWeek 4\nFeb 16\nExplanations and hypotheses\nChapter 4\nHomework 4 due Feb 26Survey distribution due Feb 27\nLecture 6\n\n\n\nFeb 18\n\n\n\nLecture 7\n\n\nWeek 5\nFeb 23\nGraphing and describing patterns\nChapter 5\nHomework 5 due Mar 05\nLecture 8\n\n\n\nFeb 25\n\n\n\nLecture 9\n\n\nWeek 6\nMar 02\nResearch and causation\nChapter 6\nHomework 6 due Mar 12\nLecture 10\n\n\n\nMar 04\n\n\n\nLecture 11\n\n\nWeek 7\nMar 09\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\n\nMar 11\n\n\nMidterm I\n\n\n\nWeek 8\nMar 16\n\nSpring Break\n\n\n\n\n\nMar 18\n\nSpring Break\n\n\n\n\nWeek 9\nMar 23\nInference\nChapter 8\nHomework 7 due Mar 26Survey practice I due Mar 27\nLecture 13\n\n\n\nMar 25\n\n\n\nLecture 14\n\n\nWeek 10\nMar 30\nHypothesis testing\nChapter 9\nHomework 8 due Apr 09\nLecture 15\n\n\n\nApr 01\n\n\n\nLecture 16\n\n\nWeek 11\nApr 06\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and Chapter 11\nHomework 9 due Apr 16\nLecture 17\n\n\n\nApr 08\n\n\n\nLecture 18\n\n\nWeek 12\nApr 13\nMultiple Regression\nChapter 12\nHomework 10 due Apr 23\nLecture 19\n\n\n\nApr 15\n\n\n\nLecture 20\n\n\nWeek 13\nApr 20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 01\nLecture 21\n\n\n\nApr 22\n\n\n\nLecture 22\n\n\nWeek 14\nApr 27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 07\nLecture 23\n\n\n\nApr 29\n\n\n\nLecture 24\n\n\nWeek 15\nMay 04\nWrap up and review\nChapter 15\nFinal projectduring final exam period\nLecture 25\n\n\n\nMay 06\nMidterm"
+  },
+  {
+    "objectID": "schedule_original.html",
+    "href": "schedule_original.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Note that this schedule is subject to change. Be sure to check ELMS for the most up-to-date information on due dates.\n\nGVPT 201 Spring 2026 Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTextbook\nHomework\nSlides\n\n\n\n\nWeek 1\nJan 26\nConcepts and measurement\nChapter 1\nHomework 1 due Feb 05Survey question due Feb 06\nIntro\n\n\n\nJan 28\n\n\n\nLecture 1\n\n\nWeek 2\nFeb 02\nDescription\nChapter 2\nHomework 2 due Feb 12\nLecture 2\n\n\n\nFeb 04\n\n\n\nLecture 3\n\n\nWeek 3\nFeb 09\nTransforming variables\nChapter 3\nHomework 3 due Feb 19\nLecture 4\n\n\n\nFeb 11\n\n\n\nLecture 5\n\n\nWeek 4\nFeb 16\nExplanations and hypotheses\nChapter 4\nHomework 4 due Feb 26Survey distribution due Feb 27\nLecture 6\n\n\n\nFeb 18\n\n\n\nLecture 7\n\n\nWeek 5\nFeb 23\nGraphing and describing patterns\nChapter 5\nHomework 5 due Mar 05\nLecture 8\n\n\n\nFeb 25\n\n\n\nLecture 9\n\n\nWeek 6\nMar 02\nResearch and causation\nChapter 6\nHomework 6 due Mar 12\nLecture 10\n\n\n\nMar 04\n\n\n\nLecture 11\n\n\nWeek 7\nMar 09\nControlled comparisons\nChapter 7\n\nLecture 12\n\n\n\nMar 11\n\n\nMidterm I\n\n\n\nWeek 8\nMar 16\n\nSpring Break\n\n\n\n\n\nMar 18\n\nSpring Break\n\n\n\n\nWeek 9\nMar 23\nInference\nChapter 8\nHomework 7 due Mar 26Survey practice I due Mar 27\nLecture 13\n\n\n\nMar 25\n\n\n\nLecture 14\n\n\nWeek 10\nMar 30\nHypothesis testing\nChapter 9\nHomework 8 due Apr 09\nLecture 15\n\n\n\nApr 01\n\n\n\nLecture 16\n\n\nWeek 11\nApr 06\nChi-2 and measures of variance/Correlation and Regression\nChapter 10 and Chapter 11\nHomework 9 due Apr 16\nLecture 17\n\n\n\nApr 08\n\n\n\nLecture 18\n\n\nWeek 12\nApr 13\nMultiple Regression\nChapter 12\nHomework 10 due Apr 23\nLecture 19\n\n\n\nApr 15\n\n\n\nLecture 20\n\n\nWeek 13\nApr 20\nAnalyzing residuals\nChapter 13\nSurvey practice II due May 01\nLecture 21\n\n\n\nApr 22\n\n\n\nLecture 22\n\n\nWeek 14\nApr 27\nLogistic regression\nChapter 14\nOptional Homework 11 due May 07\nLecture 23\n\n\n\nApr 29\n\n\n\nLecture 24\n\n\nWeek 15\nMay 04\nWrap up and review\nChapter 15\nFinal projectduring final exam period\nLecture 25\n\n\n\nMay 06\nMidterm"
   },
   {
     "objectID": "tips.html",
