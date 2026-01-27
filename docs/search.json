@@ -829,7 +829,7 @@
     "href": "Slides/slides_01.html#conceptualizing-democracy",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Conceptualizing Democracy",
-    "text": "Conceptualizing Democracy\nSome proposed features:\n\n\nRegular elections with meaningful alternatives\nPeaceful transfer of power\nFree expression\nA competitive media environment\nAutonomous political groups (political associations, unions, interest groups etc.) that can pressure the government\nRule of law\nChecks and balances\nProperty rights\n\n\n\nMinimalists might argue that 1 and 2 alone are necessary and sufficient. Others may argue that even these 8 are oversimplifying."
+    "text": "Conceptualizing Democracy\nSome proposed features:\n\n\nRegular elections with meaningful alternatives\nPeaceful transfer of power\nFree expression\nA competitive media environment\nAutonomous political groups\nRule of law\nChecks and balances\nProperty rights"
   },
   {
     "objectID": "Slides/slides_01.html#conceptualizing-democracy-1",
@@ -850,7 +850,7 @@
     "href": "Slides/slides_01.html#considerations-reliability",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Considerations: Reliability",
-    "text": "Considerations: Reliability\nReliability refers to how consistently the same measurement instrument produces the same result\n\nTest-Retest method: asking the same questions to a new random sample should produce roughly the same result\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\n\n(One purported advantage of the minimalist definition of democracy is that its relatively stable because it allows less room for subjectivity.)"
+    "text": "Considerations: Reliability\nReliability refers to how consistently the same measurement instrument produces the same result"
   },
   {
     "objectID": "Slides/slides_01.html#considerations-validity",
@@ -871,7 +871,7 @@
     "href": "Slides/slides_01.html#measurement-error-1",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Measurement Error",
-    "text": "Measurement Error\n\nMeasurement error is a source of noise, systematic measurement error is a source of bias\nWe’ll generally find that random noise is much easier to deal with than bias because we can simply collect more data. Bias, on the other hand, presents profound challenges to research because we can only correct it if we can measure it"
+    "text": "Measurement Error\n\nMeasurement error is a source of noise, systematic measurement error is a source of bias\nWe’ll generally find that random noise is much easier to deal with than bias because we can simply collect more data. Significant bias, on the other hand, presents profound challenges to research because we can only correct it if we can measure it"
   },
   {
     "objectID": "Slides/slides_01.html#party-id",
@@ -1641,5 +1641,19 @@
     "title": "tips",
     "section": "",
     "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
+  },
+  {
+    "objectID": "Slides/slides_01.html#measuring-reliability",
+    "href": "Slides/slides_01.html#measuring-reliability",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Measuring reliability",
+    "text": "Measuring reliability\n\nTest-Retest method: give the same test to the same group twice. Measure the correlation between answers.\n\nIn the early days of polling, political scientists were often shocked by the low stability of mass attitudes on many policy issues."
+  },
+  {
+    "objectID": "Slides/slides_01.html#measuring-reliability-1",
+    "href": "Slides/slides_01.html#measuring-reliability-1",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Measuring reliability",
+    "text": "Measuring reliability\n\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\nIf the scale questions all measure the same “thing” then you would expect the halves to resemble each other."
   }
 ]
