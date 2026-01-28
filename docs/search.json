@@ -878,28 +878,28 @@
     "href": "Slides/slides_01.html#party-id",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Party ID",
-    "text": "Party ID"
+    "text": "Party ID\n\nSources like the American National Election Study rely on self-description to measure party ID, but each respondent receives two questions instead of one."
   },
   {
     "objectID": "Slides/slides_01.html#party-id-1",
     "href": "Slides/slides_01.html#party-id-1",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Party ID",
-    "text": "Party ID"
+    "text": "Party ID\nRoughly a third of the electorate describe themselves as “independent”"
   },
   {
     "objectID": "Slides/slides_01.html#party-id-2",
     "href": "Slides/slides_01.html#party-id-2",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Party ID",
-    "text": "Party ID"
+    "text": "Party ID\nWhen pressed, many independents will say they lean toward a party."
   },
   {
     "objectID": "Slides/slides_01.html#party-id-3",
     "href": "Slides/slides_01.html#party-id-3",
     "title": "Chapter 1: Concepts and definitions",
     "section": "Party ID",
-    "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIts relatively reliable and survey respondents understand it\nIts close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIts transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIts linked to an observed behavior: vote choice"
+    "text": "Party ID\n\n\n\nBased on voting behavior, “leaners” are more similar to partisans.\nSo we commonly measure party ID with two questions."
   },
   {
     "objectID": "Slides/slides_02.html#concepts-and-variables",
@@ -1690,5 +1690,12 @@
     "title": "Visualization",
     "section": "Bar plot",
     "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
+  },
+  {
+    "objectID": "Slides/slides_01.html#party-id-4",
+    "href": "Slides/slides_01.html#party-id-4",
+    "title": "Chapter 1: Concepts and definitions",
+    "section": "Party ID",
+    "text": "Party ID\n\nThe ANES method for measuring party ID is hardly the only option we have, but it has some nice features:\n\nIt’s relatively reliable and survey respondents understand it\nIt’s close to the conceptual definition of party ID as a sort of self-identity or group affinity.\nIt’s transparent and widely used\nIt limits the influence of social desirability bias by giving respondents lots of options\nIt’s linked to an observed behavior: vote choice"
   }
 ]
