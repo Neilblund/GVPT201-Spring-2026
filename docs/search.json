@@ -1662,5 +1662,33 @@
     "title": "Chapter 1: Concepts and definitions",
     "section": "Measuring reliability",
     "text": "Measuring reliability\n\nSplit half: for a measurement using a multi-item scale, we can split results and use half the questions to predict the remaining half.\n\nIf the scale questions all measure the same “thing” then you would expect the halves to resemble each other."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#histogram",
+    "href": "Slides/slides_02-2.html#histogram",
+    "title": "Visualization",
+    "section": "Histogram",
+    "text": "Histogram\n\n\n\nUse: visualizing the distribution of interval variables.\nDivide data into equally sized “bins” and count the number in each. The height of each bar indicates the number of values in that bin."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#density-plot",
+    "href": "Slides/slides_02-2.html#density-plot",
+    "title": "Visualization",
+    "section": "Density Plot",
+    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#box-plot",
+    "href": "Slides/slides_02-2.html#box-plot",
+    "title": "Visualization",
+    "section": "Box plot",
+    "text": "Box plot\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#bar-plot",
+    "href": "Slides/slides_02-2.html#bar-plot",
+    "title": "Visualization",
+    "section": "Bar plot",
+    "text": "Bar plot\n\n\n\nUse: visualizing the distribution of categorical variables\nCount the frequency (or proportion) of observations in each group"
   }
 ]
