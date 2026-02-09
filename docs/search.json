@@ -969,14 +969,14 @@
     "href": "Slides/slides_02-2.html#density-plot",
     "title": "Visualization and description",
     "section": "Density Plot",
-    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram. The area of the entire curve is one, and the height of the curve at a given point indicates how much of the data is in that region."
+    "text": "Density Plot\n\n\n\nUse: visualizing the distribution of interval variables\nSort of a “smoothed” version of the histogram.\nThe area = 1, the height indicates the amount of data in that region."
   },
   {
     "objectID": "Slides/slides_02-2.html#box-plot",
     "href": "Slides/slides_02-2.html#box-plot",
     "title": "Visualization and description",
     "section": "Box plot",
-    "text": "Box plot\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary” (minimum, 25th percentile, median/mean, 75th percentile, maximum)\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
+    "text": "Box plot\n\n\n\nUse: visualizing the distribution of interval variables.\nShows the “five number summary”\nEspecially useful for making comparisons across groups or describing multiple items with similar scales."
   },
   {
     "objectID": "Slides/slides_02-2.html#bar-plot",
@@ -1739,5 +1739,54 @@
     "title": "Chapter 2: Measurement and Description",
     "section": "Interval Variables",
     "text": "Interval Variables\n\n\n\nA feeling thermometer response isn’t really an interval variable, but its close enough that we treat it like one none the less."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#plots-and-variable-types",
+    "href": "Slides/slides_02-2.html#plots-and-variable-types",
+    "title": "Visualization and description",
+    "section": "Plots and variable types",
+    "text": "Plots and variable types\n\n\n\n\n\n\n\nNominal\nOrdinal\nInterval\n\n\n\n\nBar chart\n✅\n✅\n✅\n\n\nHistogram\n❌\n❌\n✅\n\n\nDensity plot\n❌\n❌\n✅\n\n\nBox Plot\n❌\n❌\n✅"
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#histogram-1",
+    "href": "Slides/slides_02-2.html#histogram-1",
+    "title": "Visualization and description",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#density-plot-comparison",
+    "href": "Slides/slides_02-2.html#density-plot-comparison",
+    "title": "Visualization and description",
+    "section": "Density Plot comparison",
+    "text": "Density Plot comparison"
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#box-plot-1",
+    "href": "Slides/slides_02-2.html#box-plot-1",
+    "title": "Visualization and description",
+    "section": "Box plot",
+    "text": "Box plot"
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#bar-plot-1",
+    "href": "Slides/slides_02-2.html#bar-plot-1",
+    "title": "Visualization and description",
+    "section": "Bar plot",
+    "text": "Bar plot"
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#mosaic-plots",
+    "href": "Slides/slides_02-2.html#mosaic-plots",
+    "title": "Visualization and description",
+    "section": "Mosaic plots",
+    "text": "Mosaic plots\n\n\n\nAnother option for visualizing categorical data, or multiple categories together.\nThe size of each block indicates the number of observations in that group."
+  },
+  {
+    "objectID": "Slides/slides_02-2.html#mosaic-plots-1",
+    "href": "Slides/slides_02-2.html#mosaic-plots-1",
+    "title": "Visualization and description",
+    "section": "Mosaic plots",
+    "text": "Mosaic plots"
   }
 ]

@@ -13,19 +13,23 @@ boxplotC(dv=mood, iv= semester,
 # Here's a comparison of views on which song should have won in 2025 by semester:
 crosstabC(dv = best_song2025, iv = semester, data=all_responses)
 
+# adding the optional command compact =T will make a more compact table without
+# frequencies:
+crosstabC(dv = best_song2025, iv = semester, data=all_responses, compact=T)
 
+# we can make a clustered bar chart instead:
 crosstabC(dv = best_song2025, 
           iv = semester,
           data=all_responses,
-          plot.response='all',
-          z.palette = 'pastel1'
+          plot.response='all', # show a plot with all outcomes
+          z.palette = 'pastel1' # using a difference color scheme
           )
 
 
 # More students in 2026 felt there was no
 # such thing as bad publicity!
 crosstabC(dv = bad_publicity, iv = semester, data=all_responses,
-          plot ='mosaic',
+          plot ='mosaic', # makes a mosaic plot
           z.palette = 'pastel1'
           )
 
