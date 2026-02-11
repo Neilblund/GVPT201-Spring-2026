@@ -1406,21 +1406,21 @@
     "href": "Slides/slides_03.html#hypothesis-template",
     "title": "Explanations and comparisons",
     "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [unit of analysis], those having [one value on the independent variable] will be [more/less] likely to have [one value on the dependent variable] than those having a [different value on the independent variable]."
+    "text": "Hypothesis Template\nIn a comparison of unit of analysis, those having one value on the independent variable will be more/less likely to have one value on the dependent variable than those having a different value on the independent variable."
   },
   {
     "objectID": "Slides/slides_03.html#hypothesis-template-1",
     "href": "Slides/slides_03.html#hypothesis-template-1",
     "title": "Explanations and comparisons",
     "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [voters], those having [stronger political views] will be more likely to have [a higher likelihood of turnout] than those having a [weaker views].\n\n\nUnit of analysis: voters\nIV: strength of political views\nDV: turnout\nRelationship: strength increases turnout"
+    "text": "Hypothesis Template\nIn a comparison of voters, those having stronger political views will be more likely to have a higher likelihood of turnout than those having a weaker views.\n\n\nUnit of analysis: voters\nIV: strength of political views\nDV: turnout\nRelationship: strength increases turnout"
   },
   {
     "objectID": "Slides/slides_03.html#hypothesis-template-2",
     "href": "Slides/slides_03.html#hypothesis-template-2",
     "title": "Explanations and comparisons",
     "section": "Hypothesis Template",
-    "text": "Hypothesis Template\nIn a comparison of [states], those having [a larger middle class during industrialization] will be more likely to have [democracy] than those having a [a smaller middle class].\n\n\nUnit of analysis: states\nIV: size of the middle class\nDV: democracy\nRelationship: middle class increases likelihood of democracy"
+    "text": "Hypothesis Template\nIn a comparison of states, those having a larger middle class during industrialization will be more likely to have democracy than those having a a smaller middle class.\n\n\nUnit of analysis: countries\nIV: size of the middle class\nDV: democracy\nRelationship: middle class increases likelihood of democracy"
   },
   {
     "objectID": "Slides/slides_03.html#hypothesis-template-3",
@@ -1434,7 +1434,7 @@
     "href": "Slides/slides_03.html#complex-relationships",
     "title": "Explanations and comparisons",
     "section": "Complex Relationships",
-    "text": "Complex Relationships\nGood hypotheses may suggest a more complex set of relationships than just “positive/negative”. They could propose conditional/interactive/curvilinear relationships as well.\n\nThe “oil curse”\n\nIn a comparison of [countries], those having [higher levels of GDP] will be [more likely to be democratic] compared to [countries with lower GDP], [however, this relationship will not hold for countries that get rich from oil exports.]\n\n\n\nRetrospective voting:\n\nIn a comparison of [voters], those having [lower levels of attention to politics] will be [more likely to vote for the incumbent when the economy is doing well]. Those having [higher levels of attention to politics] will be [more likely to vote based on policy preferences regardless of the state of the economy]"
+    "text": "Complex Relationships\nGood hypotheses may suggest a more complex set of relationships than just “positive/negative”. They could propose conditional/interactive/curvilinear relationships as well."
   },
   {
     "objectID": "Slides/slides_03.html#bad-hypotheses",
@@ -1898,5 +1898,19 @@
     "title": "Explanations and comparisons",
     "section": "Assessing Theories",
     "text": "Assessing Theories\nConsistency\n\n\nIs our theory internally consistent?\nDoes it have a clear logic?"
+  },
+  {
+    "objectID": "Slides/slides_03.html#complex-relationships-1",
+    "href": "Slides/slides_03.html#complex-relationships-1",
+    "title": "Explanations and comparisons",
+    "section": "Complex Relationships",
+    "text": "Complex Relationships\nThe “oil curse”\n\nIn a comparison of countries, those having higher levels of GDP will be more likely to be democratic compared to countries with lower GDP, however this relationship will not hold for countries that get rich from oil exports."
+  },
+  {
+    "objectID": "Slides/slides_03.html#complex-relationships-2",
+    "href": "Slides/slides_03.html#complex-relationships-2",
+    "title": "Explanations and comparisons",
+    "section": "Complex Relationships",
+    "text": "Complex Relationships\nRetrospective voting:\n\nIn a comparison of voters, those having lower levels of attention to politics will be more likely to vote for the incumbent when the economy is doing well. Those having higher levels of attention to politics will be more likely to vote based on policy preferences regardless of the state of the economy"
   }
 ]
