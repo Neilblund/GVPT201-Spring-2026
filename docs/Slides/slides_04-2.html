@@ -3030,7 +3030,7 @@ margin-right: 0; }
 <p>(Not really in the scope of this class, but worth mentioning) There are two ways to deal with non-compliance:</p>
 <ul>
 <li class="fragment"><p><strong>Intent-to-treat</strong> (ITT) analysis ignores non-compliance and compares groups based on their assignment to treatment or control groups regardless of what they actually did. This will give us a biased estimate of the effect of treatment, but the bias will always be towards zero, so if we still see an effect, we can be confident that the treatment really works for people who take it.</p></li>
-<li class="fragment"><p><strong>Complier average causal effects</strong> (CACE) means estimating a treatment effect only for the people who actually complied with treatment assignment. <a href="https://evalsp21.classes.andrewheiss.com/example/cace/">With some algebra</a>, we can show that the CACE is a ratio of the ITT effect divided by the estimated amount of non-compliance.</p></li>
+<li class="fragment"><p><strong>Complier average causal effects</strong> (CACE) means estimating a treatment effect only for the people who actually complied with treatment assignment. We know that the average difference for non-compliers in the treatment and control group will be zero, and we can estimate about how many people in the treatment and control groups didn’t comply with their assignment. So <a href="https://evalsp21.classes.andrewheiss.com/example/cace/">with some relatively simple algebra</a>, we can show that the CACE is a ratio of the ITT effect divided by the estimated amount of non-compliance.</p></li>
 </ul>
 </div>
 </section>
@@ -4548,7 +4548,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
