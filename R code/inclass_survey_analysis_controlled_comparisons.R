@@ -29,5 +29,9 @@ crosstabC(dv =body_odor,
           plot.response = "Yes" # plot the "Yes" responses (we have to pick one)
           )
 
-
+# Note that both of these are somewhat ambiguous regarding whether we're seeing
+# an additive relationship vs. interactive because the lines are *slightly*
+# non-parallel. This sort of ambiguity is common when looking at real data, but
+# for the purposes of the exam, you'll be dealing with examples that are fairly
+# clear cut.
 
