@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GVPT 201 Spring 2026 - Resources</title>
+<title>GVPT 201 Spring 2026 - Survey import and analyses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,6 +18,40 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -4655,6 +4689,232 @@ vertical-align: -.125em;
     "search-label": "Search"
   }
 }</script>
+<script>$(document).ready(function(){
+    if (typeof $('[data-toggle="tooltip"]').tooltip === 'function') {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+    if ($('[data-toggle="popover"]').popover === 'function') {
+        $('[data-toggle="popover"]').popover();
+    }
+});
+</script>
+
+<style type="text/css">
+.lightable-minimal {
+border-collapse: separate;
+border-spacing: 16px 1px;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-minimal td {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal th {
+margin-left: 5px;
+margin-right: 5px;
+}
+.lightable-minimal thead tr:last-child th {
+border-bottom: 2px solid #00000050;
+empty-cells: hide;
+}
+.lightable-minimal tbody tr:first-child td {
+padding-top: 0.5em;
+}
+.lightable-minimal.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-minimal.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic {
+border-top: 0.16em solid #111111;
+border-bottom: 0.16em solid #111111;
+width: 100%;
+margin-bottom: 10px;
+margin: 10px 5px;
+}
+.lightable-classic tfoot tr td {
+border: 0;
+}
+.lightable-classic tfoot tr:first-child td {
+border-top: 0.14em solid #111111;
+}
+.lightable-classic caption {
+color: #222222;
+}
+.lightable-classic td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic thead tr:last-child th {
+border-bottom: 0.10em solid #111111;
+}
+.lightable-classic.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-classic-2 {
+border-top: 3px double #111111;
+border-bottom: 3px double #111111;
+width: 100%;
+margin-bottom: 10px;
+}
+.lightable-classic-2 tfoot tr td {
+border: 0;
+}
+.lightable-classic-2 tfoot tr:first-child td {
+border-top: 3px double #111111;
+}
+.lightable-classic-2 caption {
+color: #222222;
+}
+.lightable-classic-2 td {
+padding-left: 5px;
+padding-right: 5px;
+color: #222222;
+}
+.lightable-classic-2 th {
+padding-left: 5px;
+padding-right: 5px;
+font-weight: normal;
+color: #222222;
+}
+.lightable-classic-2 tbody tr:last-child td {
+border-bottom: 3px double #111111;
+}
+.lightable-classic-2 thead tr:last-child th {
+border-bottom: 1px solid #111111;
+}
+.lightable-classic-2.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-classic-2.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #EEE;
+border-collapse: collapse;
+margin-bottom: 10px;
+}
+.lightable-material tfoot tr td {
+border: 0;
+}
+.lightable-material tfoot tr:first-child td {
+border-top: 1px solid #EEE;
+}
+.lightable-material th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+}
+.lightable-material td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+border-top: 1px solid #eeeeee;
+}
+.lightable-material.lightable-hover tbody tr:hover {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+.lightable-material.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #ddd;
+}
+.lightable-material-dark {
+min-width: 100%;
+white-space: nowrap;
+table-layout: fixed;
+font-family: Roboto, sans-serif;
+border: 1px solid #FFFFFF12;
+border-collapse: collapse;
+margin-bottom: 10px;
+background-color: #363640;
+}
+.lightable-material-dark tfoot tr td {
+border: 0;
+}
+.lightable-material-dark tfoot tr:first-child td {
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark th {
+height: 56px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF60;
+}
+.lightable-material-dark td {
+height: 52px;
+padding-left: 16px;
+padding-right: 16px;
+color: #FFFFFF;
+border-top: 1px solid #FFFFFF12;
+}
+.lightable-material-dark.lightable-hover tbody tr:hover {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody tr:nth-child(even) {
+background-color: #FFFFFF12;
+}
+.lightable-material-dark.lightable-striped tbody td {
+border: 0;
+}
+.lightable-material-dark.lightable-striped thead tr:last-child th {
+border-bottom: 1px solid #FFFFFF12;
+}
+.lightable-paper {
+width: 100%;
+margin-bottom: 10px;
+color: #444;
+}
+.lightable-paper tfoot tr td {
+border: 0;
+}
+.lightable-paper tfoot tr:first-child td {
+border-top: 1px solid #00000020;
+}
+.lightable-paper thead tr:last-child th {
+color: #666;
+vertical-align: bottom;
+border-bottom: 1px solid #00000020;
+line-height: 1.15em;
+padding: 10px 5px;
+}
+.lightable-paper td {
+vertical-align: middle;
+border-bottom: 1px solid #00000010;
+line-height: 1.15em;
+padding: 7px 5px;
+}
+.lightable-paper.lightable-hover tbody tr:hover {
+background-color: #F9EEC1;
+}
+.lightable-paper.lightable-striped tbody tr:nth-child(even) {
+background-color: #00000008;
+}
+.lightable-paper.lightable-striped tbody td {
+border: 0;
+}
+</style>
+
 
 
 <style type="text/css">body {
@@ -4683,7 +4943,7 @@ margin: 20px;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Resources</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./survey_codebook.html">Survey data</a></li><li class="breadcrumb-item"><a href="./survey_analysis.html">Survey analysis tips</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4791,7 +5051,7 @@ margin: 20px;
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./survey_analysis.html" class="sidebar-item-text sidebar-link">
+  <a href="./survey_analysis.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Survey analysis tips</span></a>
   </div>
 </li>
@@ -4832,14 +5092,39 @@ margin: 20px;
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#importing-the-data" id="toc-importing-the-data" class="nav-link active" data-scroll-target="#importing-the-data">Importing the data</a>
+  <ul class="collapse">
+  <li><a href="#applying-a-new-variable-label" id="toc-applying-a-new-variable-label" class="nav-link" data-scroll-target="#applying-a-new-variable-label">Applying a new variable label</a></li>
+  </ul></li>
+  <li><a href="#recoding-variables" id="toc-recoding-variables" class="nav-link" data-scroll-target="#recoding-variables">Recoding Variables</a>
+  <ul class="collapse">
+  <li><a href="#dropping-levels" id="toc-dropping-levels" class="nav-link" data-scroll-target="#dropping-levels">Dropping levels</a></li>
+  <li><a href="#making-a-numeric-variable" id="toc-making-a-numeric-variable" class="nav-link" data-scroll-target="#making-a-numeric-variable">Making a numeric variable</a></li>
+  <li><a href="#combining-levels" id="toc-combining-levels" class="nav-link" data-scroll-target="#combining-levels">Combining levels</a></li>
+  <li><a href="#splitting-a-numeric-variable" id="toc-splitting-a-numeric-variable" class="nav-link" data-scroll-target="#splitting-a-numeric-variable">Splitting a numeric variable</a></li>
+  <li><a href="#making-a-dummy" id="toc-making-a-dummy" class="nav-link" data-scroll-target="#making-a-dummy">Making a dummy</a></li>
+  <li><a href="#combining-variables" id="toc-combining-variables" class="nav-link" data-scroll-target="#combining-variables">Combining Variables</a>
+  <ul class="collapse">
+  <li><a href="#example-1-condition-based-on-multiple-variables" id="toc-example-1-condition-based-on-multiple-variables" class="nav-link" data-scroll-target="#example-1-condition-based-on-multiple-variables">Example 1: Condition based on multiple variables</a></li>
+  <li><a href="#example-2-additive-index" id="toc-example-2-additive-index" class="nav-link" data-scroll-target="#example-2-additive-index">Example 2: Additive index</a></li>
+  <li><a href="#example-3-averaging" id="toc-example-3-averaging" class="nav-link" data-scroll-target="#example-3-averaging">Example 3: Averaging</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#checking-missing-values" id="toc-checking-missing-values" class="nav-link" data-scroll-target="#checking-missing-values">Checking missing values</a></li>
+  <li><a href="#saving-data" id="toc-saving-data" class="nav-link" data-scroll-target="#saving-data">Saving data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./survey_codebook.html">Survey data</a></li><li class="breadcrumb-item"><a href="./survey_analysis.html">Survey analysis tips</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">Survey import and analyses</h1>
 </div>
 
 
@@ -4856,11 +5141,503 @@ margin: 20px;
 </header>
 
 
-<p>Additional resources and tips for GVPT 201 students.</p>
+<p>This page offers some additional code and examples for downloading and manipulating the survey data.</p>
+<p>As always, you’ll want to load the <code>RCPA3</code> package at the start of your analysis so you can use the additional functions you’re already familiar with.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RCPA3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="importing-the-data" class="level1">
+<h1>Importing the data</h1>
+<p>The results of the survey are stored on github in a <code>.rds</code> file, so before you can use them, you’ll need import these into R. Since the files are hosted online, you can access them from within R by just running the code below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this string is just a link to a web page that holds the data: </span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>loc <span class="ot">&lt;-</span> <span class="fu">url</span>(<span class="st">&#39;https://github.com/Neilblund/GVPT201-Spring-2026/raw/refs/heads/master/Data/survey_data.rds&#39;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># read RDS reads the data from the URL into R:</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="ot">&lt;-</span><span class="fu">readRDS</span>(loc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Note that I’m assigning the data to a variable called <code>gvpt_survey</code>, so I can access specific columns using the <code>gvpt_survey$[some column name]</code>. For example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># accessing the business feeling thermometer scores:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>ft_business</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 30 34  4  5 50 10 43 73 25 20</code></pre>
+</div>
+</div>
+<section id="applying-a-new-variable-label" class="level2">
+<h2 class="anchored" data-anchor-id="applying-a-new-variable-label">Applying a new variable label</h2>
+<p>The gvpt_survey data set includes the exact wording of each question as a variable label. You’ll see labels appear automatically when you use functions like <code>freqC</code>, but you can also view them by using <code>Hmisc::label(variable_name)</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Hmisc<span class="sc">::</span><span class="fu">label</span>(gvpt_survey<span class="sc">$</span>electoral_college)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] &quot;Thinking for a moment about the way in which the president is elected in this country, which would you prefer:&quot;</code></pre>
+</div>
+</div>
+<p>If you have created a new variable, or if you want to replace an existing label with something shorter, you can just use <code>Hmisc::label(varname) &lt;- &quot;New label&quot;</code>. For example, the label for <a href="#electoral_college"><code>electoral_college</code></a> is kind of long, and might not fit on a plot, so I could assign a shorter label to it like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>Hmisc<span class="sc">::</span><span class="fu">label</span>(gvpt_survey<span class="sc">$</span>electoral_college) <span class="ot">&lt;-</span> <span class="st">&quot;Support for electing president by popular vote&quot;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>And now we can view the label again to check that our code worked:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Hmisc<span class="sc">::</span><span class="fu">label</span>(gvpt_survey<span class="sc">$</span>electoral_college)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] &quot;Support for electing president by popular vote&quot;</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="recoding-variables" class="level1">
+<h1>Recoding Variables</h1>
+<p>There are likely a number of cases where you will want to remove, collapse, or reorder categories of a survey response. There are a variety of methods for doing this kind of operation, and it can be a little tricky. If you’re looking for more guidance you should consult Chapter 3 of your workbook, or talk to me or your TA. Keep in mind, there’s not necessarily a single “correct” way to handle the operationalization of a variable, but you should spend some time thinking about how best to match your operational definition to your conceptual definition.</p>
+<section id="dropping-levels" class="level2">
+<h2 class="anchored" data-anchor-id="dropping-levels">Dropping levels</h2>
+<p>Many of the survey questions allow responses that are mostly ordinal except for a “Not sure” response that shows up as a final response option. Leaving this “Not sure” option in place breaks the ordering of our otherwise ordinal question, so we’ll often treat these answers as <code>NA</code> values (or combine them with another category)</p>
+<p>For instance, <a href="#left_right_scale"><code>left_right_scale</code></a> asks respondents to rank their own political views on a scale from <code>Far left</code> to <code>Far right</code>, but a small number of respondents said they were <code>Not sure</code> where they fit on this scale. We’ll generally want to drop or reassign these responses so we can treat <code>Q37</code> as an ordered variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">levels</span>(gvpt_survey<span class="sc">$</span>left_right_scale)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] &quot;Far left&quot;     &quot;Left&quot;         &quot;Center-left&quot;  &quot;Center&quot;       &quot;Center-right&quot;
+[6] &quot;Right&quot;        &quot;Far right&quot;    &quot;Not sure&quot;    </code></pre>
+</div>
+</div>
+<p>One way we can get rid of these “Not sure” responses is by creating a new factor variable that doesn’t include “Not sure” as a valid level. This will cause those responses to automatically become <code>NA</code> values, which we can then easily ignore when we run a calculation on Q37.</p>
+<p>In plain English, the code below is saying:</p>
+<p>“Make a new column in the gvpt_survey dataframe called ‘lr_position’. The new variable will be an ordered factor variable with all the same levels from <code>left_right_scale</code> except for ‘Not sure’”</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The same levels in the SAME ORDER they appear when I run levels(gvpt_survey$left_right_scale) </span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>newlevels <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Far left&quot;</span>, <span class="st">&quot;Left&quot;</span>, <span class="st">&quot;Center-left&quot;</span>, <span class="st">&quot;Center&quot;</span>, <span class="st">&quot;Center-right&quot;</span>, <span class="st">&quot;Right&quot;</span>,<span class="st">&quot;Far right&quot;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>lr_position <span class="ot">&lt;-</span> <span class="fu">factor</span>(<span class="at">x =</span> gvpt_survey<span class="sc">$</span>left_right_scale,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">ordered =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">levels =</span> newlevels)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Note here that “Not sure” is not a level for the new variable I just created:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">levels</span>(gvpt_survey<span class="sc">$</span>lr_position)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] &quot;Far left&quot;     &quot;Left&quot;         &quot;Center-left&quot;  &quot;Center&quot;       &quot;Center-right&quot;
+[6] &quot;Right&quot;        &quot;Far right&quot;   </code></pre>
+</div>
+</div>
+<p>This kind of recoding is easy to mess up, so its always a good idea to check your results after you finish. You can use <code>View(gvpt_survey)</code> to bring up the data viewer and browse your results, or you can use <code>freqC</code> to get a frequency table, or just use the basic <code>table</code> function and check to make sure your results match your expectations.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>left_right_scale)  <span class="co"># 36 not sure responses</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Far left         Left  Center-left       Center Center-right        Right 
+         163          376          201           85           90           39 
+   Far right     Not sure 
+          17           36 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>lr_position)  <span class="co"># the not sure responses are absent here, but everything else is identical</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Far left         Left  Center-left       Center Center-right        Right 
+         163          376          201           85           90           39 
+   Far right 
+          17 </code></pre>
+</div>
+</div>
+</section>
+<section id="making-a-numeric-variable" class="level2">
+<h2 class="anchored" data-anchor-id="making-a-numeric-variable">Making a numeric variable</h2>
+<p>We’ll sometimes treat ordinal variables with 5 or more categories as if they were continuous. Doing this in R will typically require you to reclassify a factor variable as a number. Fortunately, this just requires us to use the <code>as.numeric</code> function:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>lr_position_numeric<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>lr_position)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">freqC</span>(gvpt_survey<span class="sc">$</span>lr_position_numeric, <span class="at">plot=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>===========================================================================
+          Describing Distribution of Values with Frequency Table
+===========================================================================
 
 
+Table: Frequency Distribution of gvpt_survey$lr_position_numeric
 
-</main> <!-- /main -->
+         Frequency   Percent
+------  ----------  --------
+1              163     16.79
+2              376     38.72
+3              201     20.70
+4               85      8.75
+5               90      9.27
+6               39      4.02
+7               17      1.75
+Total          971    100.00</code></pre>
+</div>
+</div>
+<p>Before you do this, you’ll want to make absolutely sure that the variable you’re using is truly ordinal, so be especially careful to check that you’ve properly handled “don’t know” or “unsure” responses that break the ordering of a question (see the previous section for how to do this). Treating “Don’t know” as an ordered response can lead to very misleading results.</p>
+</section>
+<section id="combining-levels" class="level2">
+<h2 class="anchored" data-anchor-id="combining-levels">Combining levels</h2>
+<p>In some cases we may want to simplify our analyses by combining certain categories of a response. For instance, only 18 respondents said that social media had an “Extremely positive” effect on politics. This might not be enough people for a meaningful inference, so we could decide to collapse this five category response into three categories: negative, neutral, and positive.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table quarto-disable-processing="true" class=" lightable-classic table table-striped table-hover" style="color: black; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; width: auto !important; margin-left: auto; margin-right: auto; color: black; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>Do you believe that social media has a positive or negative influence on American politics?</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> sm_effects </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:left;"> percent </th>
+   <th style="text-align:left;"> cumulative percent </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Extremely negative </td>
+   <td style="text-align:right;"> 228 </td>
+   <td style="text-align:left;"> 23.5% </td>
+   <td style="text-align:left;"> 23.5% </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Somewhat negative </td>
+   <td style="text-align:right;"> 440 </td>
+   <td style="text-align:left;"> 45.4% </td>
+   <td style="text-align:left;"> 68.9% </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Neither positive nor negative </td>
+   <td style="text-align:right;"> 145 </td>
+   <td style="text-align:left;"> 14.9% </td>
+   <td style="text-align:left;"> 83.8% </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Somewhat positive </td>
+   <td style="text-align:right;"> 139 </td>
+   <td style="text-align:left;"> 14.3% </td>
+   <td style="text-align:left;"> 98.1% </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Extremely positive </td>
+   <td style="text-align:right;"> 18 </td>
+   <td style="text-align:left;"> 1.9% </td>
+   <td style="text-align:left;"> 100.0% </td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<p>Conceptually, I want to do a transformation that remaps the values like this:</p>
+<ul>
+<li>Extremely negative → negative</li>
+<li>Somewhat negative → negative</li>
+<li>Neither positive nor negative → neutral</li>
+<li>Somewhat positive → positive</li>
+<li>Extremely positive → positive</li>
+</ul>
+<p>There are actually several ways to do this. You can see some alternative approaches by clicking the tabs below:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Using logical statements</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Using factor() with labels =</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Using the forcats package</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>We can use boolean operators to selectively assign values to a vector and then declare that vector as a factor variable. To make this work, I’ll start with an empty factor called <code>sm_effects_3cat</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># creating an empty factor variable with all the levels I intend to include in order</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat <span class="ot">&lt;-</span> <span class="fu">factor</span>(<span class="cn">NA</span>, <span class="at">levels=</span><span class="fu">c</span>(<span class="st">&#39;negative&#39;</span>,<span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;positive&quot;</span>), <span class="at">ordered=</span><span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>…and then I’ll assign values to the column based on the current value of <code>sm_effects</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat[gvpt_survey<span class="sc">$</span>sm_effects <span class="sc">==</span> <span class="st">&quot;Extremely negative&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;negative&quot;</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat[gvpt_survey<span class="sc">$</span>sm_effects <span class="sc">==</span> <span class="st">&quot;Somewhat negative&quot;</span>]  <span class="ot">&lt;-</span> <span class="st">&quot;negative&quot;</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat[gvpt_survey<span class="sc">$</span>sm_effects <span class="sc">==</span> <span class="st">&quot;Neither positive nor negative&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;neutral&quot;</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat[gvpt_survey<span class="sc">$</span>sm_effects <span class="sc">==</span> <span class="st">&quot;Somewhat positive&quot;</span>]  <span class="ot">&lt;-</span> <span class="st">&quot;positive&quot;</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat[gvpt_survey<span class="sc">$</span>sm_effects <span class="sc">==</span> <span class="st">&quot;Extremely positive&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;positive&quot;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In plain English, that first line of assigning values means “if <code>sm_effects</code> is”Extremely negative” then <code>gvpt_survey$sm_effects_3cat</code> should just be “negative””</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>We can also use the <code>factor</code> function to perform this re-mapping. This approach is more concise, but you have to pay very close attention to the ordering of your original factor variable.</p>
+<p>To make this work, I’m going to create a vector called <code>new_labels</code> that lists, <strong>in order</strong>, the new label that we want to assign to each old value of <code>sm_effects</code>. Once I’ve got this, I’ll run <code>factor</code> again, and include <code>labels = new_labels</code> to assign the new value labels to my new factor variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>new_labels <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;negative&quot;</span>, <span class="st">&quot;negative&quot;</span>, <span class="st">&quot;neutral&quot;</span>, <span class="st">&quot;positive&quot;</span>, <span class="st">&quot;positive&quot;</span>)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat <span class="ot">&lt;-</span> <span class="fu">factor</span>(<span class="at">x=</span>gvpt_survey<span class="sc">$</span>sm_effects, </span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>                          <span class="at">labels =</span> new_labels,</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>                          <span class="at">ordered =</span><span class="cn">TRUE</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>                            </span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>                            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Finally, if you’re comfortable with installing and loading R packages, the <code>forcats</code> package has a nice alternative method for doing this kind of recoding that can be more intuitive. The function is called <code>fct_recode</code> and the syntax will just be <code>fct_recode(old_variable, &quot;new label&quot; = &quot;old label&quot; ...)</code>. Here’s an example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remember to uncomment and then run the line below to install the package:</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&#39;forcats&#39;)</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># then you&#39;ll need to run library(forcats) each time you re-open Rstudio </span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="co"># in order to load the package:</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_effects_3cat <span class="ot">&lt;-</span><span class="fu">fct_recode</span>(</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>  gvpt_survey<span class="sc">$</span>sm_effects,</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;negative&quot;</span> <span class="ot">=</span> <span class="st">&quot;Extremely negative&quot;</span>,</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;negative&quot;</span> <span class="ot">=</span> <span class="st">&quot;Somewhat negative&quot;</span>,</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;neutral&quot;</span> <span class="ot">=</span> <span class="st">&quot;Neither positive nor negative&quot;</span>  ,</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;positive&quot;</span> <span class="ot">=</span> <span class="st">&quot;Somewhat positive&quot;</span> ,</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;positive&quot;</span> <span class="ot">=</span> <span class="st">&quot;Extremely positive&quot;</span> </span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<p>Regardless of what method you use, you’ll want to check your results after you do your recoding and make sure they align with your expectations:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the original variable:</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>sm_effects)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+           Extremely negative             Somewhat negative 
+                          228                           440 
+Neither positive nor negative             Somewhat positive 
+                          145                           139 
+           Extremely positive 
+                           18 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the recoded 3 category measure:</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>sm_effects_3cat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+negative  neutral positive 
+     668      145      157 </code></pre>
+</div>
+</div>
+</section>
+<section id="splitting-a-numeric-variable" class="level2">
+<h2 class="anchored" data-anchor-id="splitting-a-numeric-variable">Splitting a numeric variable</h2>
+<p>We might also want to recode numeric variables into a smaller number of categories. We can do this using the <code>transformC</code> function from the <code>RCPA3</code> package. For instance, the variables beginning with <code>ft_</code> are all feeling thermometer variables that ask respondents to rate their feelings towards a series of groups or individuals.</p>
+<p>We can use the <code>cut</code> option of <code>transformC</code> to cut a variable into a smaller number of groups.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>bad_bunny_5cat<span class="ot">&lt;-</span><span class="fu">transformC</span>(<span class="at">type=</span><span class="st">&#39;cut&#39;</span>,               <span class="co"># use this option to cut a number into groups</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">data=</span>gvpt_survey,             <span class="co"># the data set </span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">x=</span>ft_badbunny,                <span class="co"># the variable we&#39;re cutting</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">cut =</span> <span class="fu">c</span>(<span class="dv">20</span>,<span class="dv">40</span>,<span class="dv">60</span>,<span class="dv">80</span>),   <span class="co"># the cutoff points</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">confirm=</span>F)              <span class="co"># this turns off a prompt that asks us to confirm before executing the command</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="co"># checking out the values </span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>bad_bunny_5cat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+[  0, 20) [ 20, 40) [ 40, 60) [ 60, 80) [ 80,100] 
+       46        25       191       247       418 </code></pre>
+</div>
+</div>
+<p>Now we might also want to add some descriptive labels to this variable in order to make it a little more coherent in a plot or table. To do this we modify the <code>levels</code> attribute with a vector of labels that we want to assign to each level of the variable:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">levels</span>(gvpt_survey<span class="sc">$</span>bad_bunny_5cat) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;Very cold&quot;</span>, <span class="st">&quot;Cold&quot;</span>, <span class="st">&quot;Neutral&quot;</span>, <span class="st">&quot;Warm&quot;</span>, <span class="st">&quot;Very Warm&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>bad_bunny_5cat)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Very cold      Cold   Neutral      Warm Very Warm 
+       46        25       191       247       418 </code></pre>
+</div>
+</div>
+</section>
+<section id="making-a-dummy" class="level2">
+<h2 class="anchored" data-anchor-id="making-a-dummy">Making a dummy</h2>
+<p>In some cases we’ll want to “dummy code” some variables to make them dichotomous.</p>
+<p>One way to do this is using <code>transformC</code> with the <code>type=&#39;dummy&#39;</code> option. Here’s an example of recoding the survey question about gender ID so that women are coded as a “1” and everyone else (including “prefer not to say” or “other”) are coded as “0”.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>female_dummy <span class="ot">&lt;-</span> <span class="fu">transformC</span>(<span class="at">type =</span> <span class="st">&#39;dummy&#39;</span>,</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">x =</span> gvpt_survey<span class="sc">$</span>sex_gender,</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">response =</span> <span class="st">&#39;Female&#39;</span>,</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">confirm =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="co"># check the results:</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>female_dummy)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+  0   1 
+490 523 </code></pre>
+</div>
+</div>
+<p>Another way to do this is by writing a logical expression and then converting it to a numeric variable. Converting a logical expression to numeric will automatically change all <code>FALSE</code> values to zero and all <code>TRUE</code> values to one:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># just an illustration! This isn&#39;t code you need to use anywhere</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>boolean_vect <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="fu">as.numeric</span>(boolean_vect)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0 0 0 1 1 1 1</code></pre>
+</div>
+</div>
+<p>These two approaches are equivalent except for some additional options offered by <code>transformC</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>female_dummy <span class="ot">=</span> <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>sex_gender <span class="sc">==</span><span class="st">&quot;Female&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>And don’t forget that taking the mean of a dummy will return the proportion of “1”s in that dummy variable. So we can get the % of women respondents like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(gvpt_survey<span class="sc">$</span>female_dummy, <span class="at">na.rm=</span>T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.5162883</code></pre>
+</div>
+</div>
+<p>I could also create dummy variables for a more complex range of conditions. For instance, here’s how I could create a dummy variable that was equal to 1 for women who voted in 2024 and 0 for everyone else:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>female_voted_dummy <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>voted24  <span class="sc">==</span> <span class="st">&quot;Yes&quot;</span> <span class="sc">&amp;</span> gvpt_survey<span class="sc">$</span>sex_gender <span class="sc">==</span><span class="st">&quot;Female&quot;</span>)</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>female_voted_dummy)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+  0   1 
+781 222 </code></pre>
+</div>
+</div>
+</section>
+<section id="combining-variables" class="level2">
+<h2 class="anchored" data-anchor-id="combining-variables">Combining Variables</h2>
+<p>In some cases it makes sense to combine one or more questions on a related topic in order to get an aggregate measure of attitudes or identify some complex combination of responses. Here are two examples of creating a new variable by combining responses from two or more survey items.</p>
+<section id="example-1-condition-based-on-multiple-variables" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-condition-based-on-multiple-variables">Example 1: Condition based on multiple variables</h3>
+<p>What if I wanted to do something like create an indicator variable for people who answered the survey using a Windows device and who also use social media every day to get news about politics? I could do this by using a logical statement similar to the one I used in the section on combining variables. However, in this case, I’ll write out multiple conditions and chain them together using an <code>&amp;</code> operator.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_windows <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_windows[gvpt_survey<span class="sc">$</span>sm_news <span class="sc">==</span> <span class="st">&quot;Daily&quot;</span> <span class="sc">&amp;</span> gvpt_survey<span class="sc">$</span>metadata_Operating_System <span class="sc">==</span> <span class="st">&quot;Windows&quot;</span> ] <span class="ot">&lt;-</span> <span class="st">&quot;Daily SM user + Windows OS&quot;</span></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_windows[gvpt_survey<span class="sc">$</span>sm_news <span class="sc">!=</span> <span class="st">&quot;Daily&quot;</span> <span class="sc">&amp;</span> gvpt_survey<span class="sc">$</span>metadata_Operating_System <span class="sc">!=</span> <span class="st">&quot;Windows&quot;</span> ] <span class="ot">&lt;-</span> <span class="st">&quot;Less than daily SM user + Non-Windows OS&quot;</span></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_windows[gvpt_survey<span class="sc">$</span>sm_news <span class="sc">!=</span> <span class="st">&quot;Daily&quot;</span> <span class="sc">&amp;</span> gvpt_survey<span class="sc">$</span>metadata_Operating_System <span class="sc">==</span> <span class="st">&quot;Windows&quot;</span> ] <span class="ot">&lt;-</span> <span class="st">&quot;Less than daily SM user + Windows OS&quot;</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>sm_windows[gvpt_survey<span class="sc">$</span>sm_news <span class="sc">==</span> <span class="st">&quot;Daily&quot;</span> <span class="sc">&amp;</span> gvpt_survey<span class="sc">$</span>metadata_Operating_System <span class="sc">!=</span> <span class="st">&quot;Windows&quot;</span> ] <span class="ot">&lt;-</span> <span class="st">&quot;Daily SM user + Non-Windows OS&quot;</span></span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(gvpt_survey<span class="sc">$</span>sm_windows)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+          Daily SM user + Non-Windows OS 
+                                     338 
+              Daily SM user + Windows OS 
+                                      56 
+Less than daily SM user + Non-Windows OS 
+                                     506 
+    Less than daily SM user + Windows OS 
+                                      76 </code></pre>
+</div>
+</div>
+</section>
+<section id="example-2-additive-index" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-additive-index">Example 2: Additive index</h3>
+<p>There’s a series of variables labelled “trust_” that ask about a respondent’s level of trust in various institutions. We could combine all of these questions into an additive index of “general” social trust.</p>
+<p>There’s a number of ways we could approach this problem, but for this example, I’ll just convert this ordered factor variable into a number using <code>as.numeric</code>. Since the factor levels are already ordered from least trusting to most trusting, I can add all of these together to get a simple additive index of the level of trust expressed by each respondent:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>total_trust <span class="ot">&lt;-</span>  </span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_fam)  <span class="sc">+</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_fed)  <span class="sc">+</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_localgov)  <span class="sc">+</span></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_media) <span class="sc">+</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_police) <span class="sc">+</span></span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>(gvpt_survey<span class="sc">$</span>trust_relig)</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-9"><a href="#cb46-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-10"><a href="#cb46-10" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(total_trust)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
+   8.00   14.00   16.00   16.46   19.00   30.00     136 </code></pre>
+</div>
+</div>
+<p>Note that this only works if the factors are already ordered from lowest to highest. If the levels of the factor variable follow a different ordering (or if there is a “don’t know” option) then I’ll need to be sure I correctly order the categories before I turn this into a numeric variable.</p>
+</section>
+<section id="example-3-averaging" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-averaging">Example 3: Averaging</h3>
+<p>What if we want average over a set of numeric responses? For instance, we have a series of feeling thermometer questions that ask about Trump administration officials. We might take an average of these three questions to get a rough measure of someone’s overall support for the Trump administration. The code below selects the three feeling thermometer columns and then uses <code>rowMeans</code> to calculate the average for each row of the data:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>admin_cols<span class="ot">&lt;-</span><span class="fu">c</span>(<span class="st">&quot;ft_trump&quot;</span>, <span class="st">&quot;ft_noem&quot;</span>, <span class="st">&quot;ft_vance&quot;</span>)</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="co"># a vector of column names we want to extract: </span></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="co"># creating a new data frame from gvpt_survey that only contains the five columns listed above:</span></span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>admin_fts<span class="ot">&lt;-</span>gvpt_survey[,admin_cols]</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a><span class="co"># rowMeans will calculate an average across each row of the data</span></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>avg_admin_ft<span class="ot">&lt;-</span><span class="fu">rowMeans</span>(admin_fts, <span class="at">na.rm=</span>T)</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a><span class="co"># putting the result in its own column</span></span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="sc">$</span>avg_trumpadmin_ft <span class="ot">&lt;-</span> avg_admin_ft</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Now we can take a look at the distribution of the overall thermometer score:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(gvpt_survey<span class="sc">$</span>avg_trumpadmin_ft, <span class="at">main=</span><span class="st">&#39;Average Trump officials rating (0 - 100 scale)&#39;</span>, <span class="at">xlab =</span><span class="st">&#39;Avg&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABUAAAAPACAMAAADDuCPrAAAA/FBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZrY6AAA6ADo6OgA6Ojo6OmY6OpA6ZmY6ZpA6ZrY6kJA6kLY6kNtmAABmADpmOgBmOjpmOmZmZgBmZjpmZmZmZpBmkJBmkLZmkNtmtttmtv+QOgCQOjqQZgCQZjqQZmaQkDqQkGaQkJCQkLaQkNuQtpCQtraQttuQtv+Q29uQ2/+2ZgC2Zjq2kDq2kGa2kJC2kLa2tma2tpC2tra2ttu227a229u22/+2///T09PbkDrbkGbbtmbbtpDbtrbbttvb25Db27bb29vb2//b/7bb/9vb////tmb/25D/27b/29v//7b//9v///8qRsdOAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAgAElEQVR4nO3d/WPTZr/YYbsNZNBTutGVrel4oBvPednKTtOHnTUMOhe6Q7oRXpz//3+Z5VfJuh1bdyL7K+W6foE4iWTJ8ieWJd0eXAKQZXDoOwDQVQIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCmul0MPP00HdkzcUg4c77Q9+tmfGLe5N7M/zqv76vfPH52+I/P2/8tet+P8ebv9zwtE9Lk/k0XfT7j3MeltHkN7/4rXRDcmLXmcMWW9ZI8e27Nz/XqAQ0z3QrKkTbViIH9MNx6f6UvogX0LffDR7e7LQvStvKaPG4DJ80ns70/pQDmpzYdeaw0z24Yo2cBnxZ0R4BzbPsVOXFQACBA7r8o1OUpPxFtIB+fDaZ3s0GdPzjaiq/lB6Zxn07XdvokhO71hy22bZGir+MMTa4fRDQLMXzYe7hoe9LVeCAXpTXWfmLaAE9LT2uNzTt0epRqDxCTac8WvurnZzYteaw1bY1Mn1uBHtWtEdAs0z3P4f/MU6cakbx7tto8Xwer39xTW0G9GZM7+FsirO/vXffX378bvqfJpMZz19aLgOanNh15rCDrWv7YhBvx6w1Appllqc3rfyFvxlRA7q4Szd5/+IHtNSUi+WCN77bsyCW85Sc2DXmsIutEy39teg/Ac0x+xv/cPY+XsxNRUDz3XhAp9vL3drEm81n+s7sWkCTE8uew262r+3TcJteewQ0x2wP/ufZ9rnYVE4r+0uVzezds+IX7j/+c/Hd0WzD/v3eYPDl7FSTTy/uT1/PflU58+Tto+PZT0znuJx4bXp164Fam2P527M/B08XyzC50+Ppnfnq+fw+DMonxIxmPzw7CWn+IwnvnhXf//LB4gfK78vdrXxRe0rO5l5avOr362uq+v2339+b/vqD1H3bvuLL9+1p/ZXdw/naHz54XZrshsdp4WK5gmcre35fLwapH95gddRtFdDkxHaZQ3od1VZ8YvXUHq3Etlha3N4T0ByL/Ey3lMW2NH3uLF8blAr1cXXE6Zvy66+Hvyyfppe/Hy9/ZviXxWyWh6qGP5efmInpbb6Lla9Xcyx/uxbQ30unGy13GxeLOf3Np28WP3L0uj7vybpY/NbkB2bP0Z0DOn6xWhXzxat8P7Gmyt//sPr24Kj+Mmn7it8W0OUKWb2y2/A4rZyu3b/5VjL9/64v1WZ35PH0baPFVpac2PY5pNdRYsVvXdvpbXH6E9HO72uJgGaY78EvXhU8LN/6tPZFeXNdbMzT5/H92U3Ftj4alJUPAM833v+2emKmplc3Wvvu2hzL314P6P3S5P91NbP5c3L6myerH0ntzCUWZ9eAls5vWN7D8vdTa6ocufLKSdy3tdWQmNyWgH59XP3xzY/TyvQH5iu7lrddD7cUE5m86r0oPRTpiW2dQ3odpVb8trW9YVucTuqWHEYS0AyLPfi1s/JGpa1oteWWd72WT67yhvlwbTtcTLC6RS9/Nzm9uvKdScyx/O21gG70sDah0r0tWz+Var1LVwX0tP6r5e8n19Tq+2srp/73ZW01JCa3JaD1uW94nNa3l7uldXMn8cp6m8//froTXQlocmLb5rBhHaVW/Ja1vT6p5XKPGixXxwlohtFyu7tYPM8KtRdK0w1qumEOn7xfnIPydPntmeIXpj9T7AzP9g/Lz9ejf14dfd08vavuY+nr1RzL364H9Js/L8d/m//00avLy9kO++zH5xMq9szn92v9IMXsaTUsnu+zXyyvk9RBpFqk7kxWxdvj5XO29P3kmlp9f5aXySq7/JReO7us+E3ngV6slnx252ZT3/A4rc/04ZXLvbNKQJMT2zaH9DpKrvgta3vjtrh4t/gWENDmlnvwi1YsnjCrJ97qjfx0VefP4/p7fLO/+U+Xc6m8yLm7cXp1lVrV5nh1QEtHcMvVnN2XUenm8n1cOS21aLaCShPZEtDSYbnZqnh4WXuFub6mSreWU3X65Q8/1Y6y7bDitwR0dudWfzk3PE61FfJ0w3I3PNpydUCLiW2bQ3odpVb8trW9cVtMvxPcSwLaXPnQUWUffrXztHrzvnwcdHUdc7lCE+M//nr/7upHphtq+Rk9/+LuxunVVWpVn2P52+sBLb/ZOb8Dpadt+ebSmxkr1ZO7Sitrh4BWXjGd3v/hp/Pq95Nr6nItoMONpwbstOK3BPTp2kJueJxKyofFowR0fR2lV/yWtb1xW2x0dKzbBLS58slLlX34VYlGy6dg+cm4eiZVKlS22lArz5T5xSUbp1eXDujT1LfXA1o+gFA+GFHKYPV+VXfWKne8/BM7BLT6u5WVsr6cyaf04k27L394mX767rDirw5o5VjX8s3d+uO0Pukrm9fA9QOaXEfpFb+2DOtre+O2eNVf9p4R0MYqr7Cq+/Cj+Rerw5D1IwyrwNbSN373D/eqP7Is4Gl5yvXp1VV/vTbH8rfXA1o+3LEhoNX7VQ3o2pxXk6x8o/Y0XwW09tKlHtDKmip9v7x6qmdqpldDcnJXBnS+QlYBTT9Otbt/5duWDVz/PdDkOkqv+MVvpNf25m1RQNmscvJndR9+cex9tW+T2MiWz7rKFvbxxaPVIc96QEfzKW6YXl3112tzLH/7qoCWTyooBXSZiEQwqj+w/sbv1QFdv9eXa99Prqny9z+vTkAdpE5S3WHF7xTQ1c+kH6fa3b/ywPn6D88k30S8/lH45DpKr/jk6rkqoDvsGvWMgDZ2WttsVq8C54cLVkcNrgpoaXt9Uz1fpK2Arr4uf9mpgCbWVOX75dPBE0/iHVb81QGtXHd2zYCmztLMDuhyYtvmkFxH6RV/9doW0EsBbW79NLpBedObvfQsnTidepPwsra9zq+Muf/Dy/+7fK+p+iPVXfgdzhBZf0asfV3+svT+1q4BPdgufGpNXa69zpqNxj6TPKPo6hV/rYBu3YXfdp1Qo4BmXomUWEfpFX/12t68Ld6iM+kFtKnkgJvVd89/PV5tWInCXK4/62ZvCjxfTmDXg0hXWSvFDQe06UGk1cmvDQ4iXQy//qdX7+vfX19Tl4kd1fP/8WhQuR/J1ZCeXLOANjyIVL6vqSvVGwU0ObFtc0iuo+SK37a2N26L3gNlo9Qe/Gozmj5B75eez+shS91a2hBXG2rlAOrq9Jj09OrWf27t6/ITpnQmwa4BbfU0psXEl6cEJJ+yyaf0+N2LR//m5833bZcV3zCgGx6nkurrsdLEd/1jWFb985Sc2JY5JNdRcsVvW9sbt8XSLljfCWhD1cPuyxsWW0vlY39WN8y2wslf9sev6ueUl1/GrfK04QTt9PTqdglo5W3aZgH94vXqV9efKaerZlZW1w4BLZ9HtQpxcqdxtaZW3688OMn3/3ZY8Q0Duv1E+uo7gtccrbMa0IzxQDeso8SK37a2N2+LzgNlk8qJn1PlXiQ+rXN2wzfvL8e/ry6ITDyPi4//+lQaJqh0ieC72qWc69OrG619b+3r2bZf7J4tJt4soNO7u+FSzvm0r3EpZ3H56L+urh5cC2htTa29Qp1ekFh8Llxi7eyy4ucxeX357s8dArrpcSpZHVO8XAYsd7z4akCTE9syh/Q6Sqz4rWt747boUk42SFy8eFGpyPwt0tVPrA3IkHg7cNGkldXloBV3N06vrjqH2tf1iTcM6Eq94Os/kriKcVNAtwwmkl5T628BXLF2qqshPbnVzQ93Cej2wUSqPanMtPGh6rUz3pMTu3oOG9ZRYsWnV09pjWzaFm/RgKAC2kziTa7qPvx88yz9RHX0sNJTdPk8Lm/S91eXEZdu/uLvVxNNTa+uOof616VjYcPvl9v7rgE9Wp1KmEpA9ZlXeX94W0CvHs4uvaY2P6W3HL3bsOKXE9kpoJsep5W1S8PLn5nZuDLrlwwlJ3b1HNLrKLHit67tTdvi6SDjT0M3CWgzo8RGeVq5bfoTla3nY6k2T0o/VNqhXo5a/KR8AHP5i0evy2VLTG/DHb0ioKtT/I5+Hi3v/86nMf2/xedLpAdUflsaUDl59dPGgG4ZUDm5psq/X/rgi9Ta2W3FLwJ0d6eAbnqclqZtKq375SjFGZ/aXrvmMjmxq+eQXkeJFb91bae3xfXl7TMBbSQ5/NDF4sk2lXoDffb5FsOvnlf2HUs/NH5THLmffshE5cDp9OM0is/NqD4xa9OrW5/D+tfFG1v35tOYfq/peaDLu5b28a+zj/R4teEulb9YO9Zx5Ud6pNbU2pVK/zD99S+Ta2fHFT9duC+/fr5bQDc+TuW5ljea2VmY9x9nNKZ+0XpyYlvmkF5H9Y/02L62U9vi9Cdux1ugAtoROWe8tKNeYlbSj9P078/teE+wcDG4NXvwAhrW+Mf7Jz8tTwwR0Kh2eZzKn8p5C5zeoi1EQKOan0RSOp0yxh91Aa3a6XG6qL/x01/TNRLij/0eCGhY01LNDtLMTjCM8QwU0DW7PE7TptyWffhb9ddCQMNaP8kuyB91AV2z0+N0cYv24U/DbKt7IKBxjarPyyDREtB1uzxOxUvQGG/BtK54G+PWvAAV0MgqozF+E6RZAlqzy+N0cWtelo1u0bsVAhrc2++nZ+YNv3pc+3zJQxHQhB0ep9Nb8rqseAF6W96suBRQgGwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyNSXgA724tBLCYTSjybsJ58CClT0owmDwf/eAwEFKvrRBAEFDqAfTRBQ4AD60QQBBQ6gH00QUOAAWm/C+PyPs7Ozl+fv25yJgAIH0G4T3j0rnQP04FVr8xFQ4ADabMLH79ZOozz6uaU5CShwAC024eK4iOb9k5l7xRfDp+3MSkCBA2ivCZ+/nQTzeemGt5OgfvFbK/MSUOAA2mvCqJbLIqkPW5mXgAIH0FoTxj8OBus77BeDwZ1WjsYLKHAArTVh8nKztr+euu1GCChwAAIqoECmNnfhh+tnLdmFB/qkvSac1mpZvC16t5V5CShwAO014cPxpKCvSzd8nPSz9qL0ZggocAAtNmE0PXX+5Kezwq+zM+nbOYtJQIFDaLMJb47XLuUcPmlpTgIKHECrTRi/KCd0+Li1EZkEFDiAtpswfnf24uTk5PHZqzbHsxNQ4AD60QQBBQ6gH00QUOAAjEgvoEAmI9ILKJDJiPQCCmQyIr2AApmMSC+gQCYj0gsokMmI9AIKZAo0oPKgbteZCShwALEDuuu9E1DgAEKPSC+gQGShR6QXUCCy0CPSCygQWegR6QUUiCz0iPQCCkQWekR6AQUiCz0ivYACkYVugoACkYVugoACke2pCZ/+yNmHF1Agslab8O7R9MrNxbGko+dbf6NKQIHIWmzC+NlsQLviAqS5b5q9ChVQILL2mjDt5iSg03+HJycnxcvQRldyCigQWntNuJj08t+9n/07vQBp/DeXcgJ90upgIg/n/95d3WQwEaA32hwPdPpyc/Fv4cOx4eyA/mh9QOXyIMpXD6hcJ6BAZK0HdPyjgAL91P6Hyp2uduGNSA/0Sfsfa/zheHHkqGhqowFBBRSIrL0mFJ8Cf1SMSD9anMb0i9OYgD5psQkXxZnzX/10fv63SUkf//rs2Ij0QK+02YQP6yPSN+yngAKh7XFEeoOJAP3SdhM+/Xry6P7EVz/8ZDg7oF9CN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchCN0FAgchab8L4/I+zs7OX5+8zfldAgcjabcK7Z4OVB6+a/rqAApG12YSP3w2qjn5uNgEBBSJrsQkXx0U075/M3Cu+GD5tNAUBBSJrrwmfv50E83nphreToH7xW5NJCCgQWXtNGNVyWST1YZNJCCgQWWtNGP84GKzvsF8MBneaHI0XUCCy1poweblZ219P3XYVAQUiE1ABBTK1uQs/XD9ryS480CftNeG0VsvibdG7TSYhoEBk7TXhw/GkoK9LN3yc9LP2ovRKAgpE1mITRtNT509+Oiv8OjuTvtFZTAIKhNZmE94cr13KOXzSbAICCkTWahPGL8oJHT5uOiKTgAKRtd2E8buzFycnJ4/PXmWMZyegQGShmyCgQGShmyCgQGRGpBdQIJMR6QUUyGREegEFMhmRXkCBTEakF1AgkxHpBRTIZER6AQUyBRpQeZCw48wEFDgAARVQIJMR6QUUyGREegEFMhmRXkCBTEakF1AgkxHpBRTIZER6AQUyGZFeQIFMoZsgoEBkoZsgoEBk+2nC+I+zl382/zUBBSJrrwmfzhfJfDsbWHn4jYNIQJ+0fy38+JfVcfhm4ykLKBBa+wE9Lcr59cnJoyKhRqQH+qP1gF5Msjnbdy8u5TQiPdAfrQf0dDWASDGYiBHpgd5oO6CVgekNZwf0SdsBrYyhfPWAynUCCkQmoAIKZNrDe6CrMUA/HAso0B9tBnT4z5fT9z2XB468Bwr0SZsBnfjyP736L8uXoD4XHuiVlgM6M91vH/9+7DxQoE9abML43YtHx6uAFkVt9pFIAgqE1v6AypOKLgJ69Hrbj1cJKBDZ/pow/peG+RRQILbQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLQTRBQILLWmzA+/+Ps7Ozl+fuM3xVQILJ2m/Du2WDlwaumvy6gQGRtNuHjd4Oqo5+bTUBAgchabMLFcRHN+ycz94ovhk8bTUFAgcjaa8LnbyfBfF664e0kqF/81mQSAgpE1l4TRrVcFkl92GQSAgpE1loTxj8OBus77BeDwZ0mR+MFFIistSZMXm7W9tdTt11FQIHIBFRAgUxt7sIP189asgsP9El7TTit1bJ4W/Ruk0kIKBBZe034cDwp6OvSDR8n/ay9KL2SgAKRtdiE0fTU+ZOfzgq/zs6kb3QWk4ACobXZhDfHa5dyDp80m4CAApG12oTxi3JCh4+bjsgkoEBkbTdh/O7sxcnJyeOzVxnj2QkoEFnoJggoEFnoJggoEJkR6QUUyGREegEFMhmRXkCBTEakF1AgU70J45c3M2Uj0gM9V2/CJHxfNX63MsGI9EDPJQOadcRnjRHpgb5LNOHt7NjP8MHr+vd213xA5UHCjjMTUOAAkk0Yv7g3v3r9z+wJCyjQd5uasGjol41HAFlMwIj0QM9d0YRP87GUjp5nNdSI9EDPXd2ET7PXoc0Hors0Ij3Qe1c24e3ySsxm4ZsxIj3Qb5ub8PbRfAd+ekF7TkGNSA/02oYmzEcBme+7N37zcs6I9ECfpZqwGENpdSLoh+OGF2EuGZEe6K1NVyJNdt2rt2UG9FoEFIgsHdD1ve3JbY1O4LwhAgpElgpo4hrO8+vOZ/zH2cvGCRZQILJ9NSHrTQABBSITUAEFMm1owvj/FPvbn//DP+W/8/npvOzdJKCvJv82Gp1EQIHIkk34+Gj2cnHysnH4l8wJzw/mr2v0MlRAgchSTbhYfPbGNILNrr5cElCg7xJNKEYBGX4z3Xf/9EveRZyF4kLO4cnC98eD4deTf38wnB3QF4kmVMahO827iLNQjL50tDgjykEkoHcSn8pZGQl58nI0/xT634+X76EKKNA7ySuRSqm73kWcH79bjAkqoEDvtBvQy/Hf5oPYCSjQO8ld+NLnETf9GKOaD5MXoQ/eXwoo0DuJJoxKR96LI/KZ5zEtjIsj+c8FFOidRBOmZ3A+eH5+fv5HMTDo9YdhKk5o+jpnRFEBBSJLNeFDZRz5zNNAy4oTmhqeQz+7cwIKBJa+lHP5YXLF25c34fdjAQX6ZtNgIn/8tbhsKO8T4VM+/rXZRUhTAgpEFroJAgpEFroJAgpEFroJAgpElm7C9B3QhebvXd4UAQUi23oaU87R85sioEBkG8YDFVABBbZJX8o5+Oqn1ccZNfoYoxsloEBk6cFEcsdQvmECCkSWHM7uJi7fvAkCCkS2bTzQgxJQILLkLryACiiwXfog0tP6rYcgoEBk6fFAg7wEFVAgsg0n0g8fn+/9rtQJKBBZ8iCSE+kFFNhOQAUUyJQI6KP7VV8JqIACCaGbIKBAZKGbIKBAZKGbIKBAZJua8Ons7OX7y/HhRmIqCCgQWboJb+7Njr5//vbo9X7vT4WAApElm/DL4vSlA4/MJKBAZKkmFCMqH/3j8SSgxdigdw72kUgCCoS24SM9nlx+/rY4gb4o6OFGFhFQILJEE06nI9LPAnp5ccjh6QUUiCw5Hmjxvuc8oJOXo4fbhxdQILKNI9LPA3rQse0EFIhMQAUUyGQXXkCBTOmDSA+XAR05iCSgQFqiCRfzc+iLgE7+7zQmAQWSEk0ozv0cPi8COv7bwIn0AgpskGpCZUx6l3IKKJCWbELxGnTOYCICCmywoQkfnxXjMQ0fvLr2DMbnf5ydnb08z3kjQECByNptwrtnpTcDmtdYQIHI2mzCx+/WPt/zqOH7qQIKRNZiEy6Oi2jeP5m5Nz0i1eyUKAEFIktcifTXk6of8s5jKo7lD5+Xbnh73PQz5gUUiCx5LXxV5rXwo9pvFlN+2OjOCSgQWGsBTQ3FfNHwtHwBBSJLNOHT+cKvzwbDJ+d5n8yZGsap6dBOAgpEtqUJH44HT/ImLKBA321rwij3Ws75qHgVduGBPtnWhMlL0Mzh7E5rtSzeFm00MQEFItvWhPwR6YsP97xTvpL+449NhyYRUCCyHV6B5n6kx2h66vzJT2eFX2dn0jc6i0lAgdC2vweaPyDom+O1E6KGDQ9ICSgQ2ZVNGJ8XIyrnf6TH+EU5ocPHTUssoEBk20+kv96IyuN3Zy9OTk4en73KeB0roEBkWwPadLf7JgkoEFkioI/ur3z1OO86pJshoEBkrTfBiPRAXxmRXkCBTEakF1AgkxHpBRTIlBiR/o+zlJdN38Q0Ij3QczsMqJw5rLIR6YGeay2gRqQH+i65C19cgfn1T2dn/zD590HmLnzzAZVT2d5xZgIKHECqCRfHg2/muZzsh3+TN2EBBfou0YTKGMqn9R3x3RiRHui7RBNOy+Wb1DRzODsj0gM9lzyIVNrPNiK9gAIbtBdQI9IDPZc4Cl85/6jp25ZlRqQHei3RhPIZ8B+bnvteYUR6oM/SR+Hn12COi9eQ2S9Ap4xID/RW8jzQ2SvG+7MrkF4nfmJPBBSILNmEt6s97zsH7KeAAqFtaMLb74uGfvngxvL57uxl8w8HEVAgspabMPskj/nBpKPn2358jYACkbU6Iv2z+Sj0p4s3BBpeVy+gQGSbmvBpOv7S+Dqfyflh9k7q8OfioNRXJyfHTqQHeiXdhDf3ZiOAfv72KPtd0Om4ovcnEzr6bnYF5/gXl3ICfZJswi+LIZQnEWyWvJLR7BSo6evQ2ZVNxTVORqQHeiPVhOIi9qN/PJ4EtEhe5on0yytCR6tJGM4O6JMNVyI9ufz8bXE9Z+qDOXazHIWkNLxo05FJBBSILDkeaFG8WUCLF42NhvBcWsZy8h8BBfooORpT8b7nPKDZAyov3z4d/+f7fzefwmRiAgr0xsbxQOcBzR8P9LR+xGhkRHqgR9oL6EXtpKXGY+MJKBBZa7vw0+NPg79b/e70es5m0xJQILL0QaSHy4A23esu+fzdYO3DQZqeVCqgQGSJJlzMz6Ev4ncxyD2N6XL6mrMa0KaXNQkoEFmiCcW+9/B5EdDx3wbXHZG+NNl/aXxVqIACkaWaML2KfflJRrmXct4AAQUiSzZhevxnJn8wkRsgoEBkG5rw8VkxHtPwwav93ps1AgpEFroJAgpElmjCL40/eqMtAgpEtvFE+ggEFIhs46WcEQgoEFnyFaiACiiwXaIJ17h684YJKBBZqglvjgdHP53v/a7UCSgQWWIX/q8n3w/KDrdDL6BAZMmDSAMBFVBgq0RAH92v+kpABRRICN0EAQUiC90EAQUiC90EAQUiC90EAQUiKzch0EWcMwIKRLdqBaQAABQ+SURBVLYhoJ/O/zzEvVkjoEBk6YAGeS0qoEBkAiqgQCYBFVAgk4AKKJBJQAUUyCSgAgpkElABBTIJqIACmQRUQIFMAiqgQKa1gA5/Oiv8erz438TL9we7cwIKBLYW0BQf6SGgQIqACiiQqdyE8R9nKXbhBRRICd0EAQUiC90EAQUiC90EAQUiC90EAQUia70J4/Pi0NTL85wjUQIKRNZuE949K50O9eBV018XUCCyNpvw8bu1M0qPfm42AQEFImuxCRfHRTTvn8zcK74YPm00BQEFImuvCcV1TcPnpRveHje9qklAgcjaa8KolssiqQ+bTEJAgchaa8L4x8FgfYf9YjC40+RovIACkbXWhNSQok2HGRVQIDIBFVAgU5u78MP1s5bswgN90l4TTmu1LN4WvdtkEgIKRNZeEz4cTwr6unTDx0k/ay9KrySgQGQtNmE0PXX+ZP4pS7Mz6RudxSSgQGhtNuHN8dqlnMMnzSYgoEBkrTZh/KKc0OHjpiMyCSgQWdtNGL87e3FycvL47FXGeHYCCkQWugkCCkQWugkCCkRmRHoBBTIZkV5AgUxGpBdQIJMR6QUUyGREegEFMhmRXkCBTEakF1AgU6ABlQcJO85MQIEDEFABBTIZkV5AgUxGpBdQIJMR6QUUyGREegEFMhmRXkCBTEakF1AgkxHpBRTIFLoJAgpEFroJAgpEFroJAgpE1vJBpEf3v/6n1ZufV1/KWSegQGRtNuH347Wj7wIK9EnbJ9JPLS7pFFCgT9q9lPPo+fl5cS7o0SybAgr0Sasj0s9eeRafLTcrqIACfbKPEemL/05bKqBAn+xlQOXFOHYCCvTJfkakn3+cnIACfbKnj/T4cFwMBSqgQJ/s61M5LwaDL14LKNAnrR6Fv1v98ov/JaBAj7R7HuiDP1df/zI9p15Agd5o+Uqkci9/EVCgV1r+SI9KL4uP+BBQoDfaHY3p7Q+VcejHvxwLKNAboZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkoZsgoEBkrTdhfP7H2dnZy/P3Gb8roEBk7Tbh3bPByoNXTX9dQIHI2mzCx+8GVUc/N5uAgAKRtdiEi+MimvdPZu4VXwyfNpqCgAKRtdeEz99Ogvm8dMPbSVC/+K3JJAQUiKy9JoxquSyS+rDJJAQUiKy1Jox/HAzWd9gvBoM7TY7GCygQWWtNmLzcrO2vp267ioACkQlok4DuSYNVBBxQm7vww/Wzljq/Cy+gQEl7T9bTWi2Lt0XvNplEuIDuYy7eKYDOaO/J+uF4UtDXpRs+TvpZe1F6JQEFImvxyToq9kaHJz+dFX6dnUnf6CwmAQVCa/PJ+uZ47b294ZNmExBQILJWn6zjF+WEDh83HZFJQIHI2n6yjt+dvTg5OXl89ipjPDsBBSIL/WQVUCCy0E9WAQUiMyJ9k7LtYy4CCp1hRPomZdvHXAQUOsOI9E3Kto+5CCh0hhHpm5RtH3MRUOgMI9I3Kds+5iKg0BlGpG9Stn3MRUChM4xI36Rs+5iLgEJnBBpQ+RojYwoocAAC2qRs+5iLgEJnGJG+Sdn2MRcBhc4wIn2Tsu1jLgIKnWFE+iZl28dcBBQ6w4j0Tcq2j7kIKHSGEemblG0fcxFQ6Awj0jcp2z7mIqDQGUakb1K2fcxFQKEzQj9ZBRSILPSTVUCByEI/WQUUiCz0k1VAgchCP1kFFIgs9JNVQIHIQj9ZBRSIrM3h7FIafaaHgAKRCWiTsu1jLgIKndHek7X2ocYCuutsclY3sH8tPlmL4T+bjb60TkCByNp8sqY+V64RAQUia/XJevVnIG0noEBk7T5ZL663Ey+gQGTtPlknO/HXeQkqoEBkLT9ZP5yc/Pf83xZQILLQT1YBBSIL/WQVUCCy0E9WAQUiC/1kFVAgstBP1tsa0P1o9aGDWyH000hABRQiC/00uq0B3c9cWn3o4FYI/TQS0Dbn0upDB7dC6KeRgLY5l1YfOrgVQj+NBLTNubT60MGtEPppJKBtzqXVhw5uhdBPIwFtcy6tPnRwK4R+Gglom3Np9aGDWyH000hA25xLqw8d3Aqhn0YC2uZcWn3o4FYI/TQS0Dbn0upDB7dC6KeRgLY5l1YfOrgVQj+NBLTNubT60MGtEPppJKBtzqXVh6700BgZhf4KveUJaJtzafWhWz4wAkqfhd7yBLTNubT60O31gfF+BIcSessT0Dbn0upDt9cHRkA5lNBbnoC2OZdWH7q9PjACyqGE3vIEtM25tPrQ7fWBEVAOJfSWJ6BtzqXVh26vD4yAciihtzwBbXMurT50e31gBJRDCb3lCWibc2n1odvrAyOgHEroLU9A25xLqw/dXh8YAeVQQm95AtrmXFp96Pb6wAgohxJ6yxPQNueyH/tYFgHlUEJveQLa5lwEFK4r9JYnoOay42xa3Q5hk9BbnoCay46zaXU7hE1Cb3kCai47zqbV7RA2Cb3lCai57DibVrdD2CT0lieg5rLjbFrdDmGT0FuegJrLjrNpdTuETUJveQJqLjvOptXtEDYJveUJqLnsOJtWt0PYJPSWJ6DmsuNsWt0OYZPQW56AmsuOs2l1O4RNQm95AmouO86m1e0QNgm95Qmouew4m/1odWuni0JvEwJqLjvORkA5iNDbhICaS6DZCCg1obcJATWXQLMRUGpCbxMCai6BZiOg1ITeJgTUXALNRkCpCb1NCKi5BJqNgFITepsQUHMJNBsBpSb0NiGg5hJoNnsLqHOyuiP0ahRQcwk0mz01Zz/5FNCbEXo1Cqi5BJrN3gLao4XpvdCrUUDNJdBs9vXSsFcL02ogAgi9gAJqLoFms6/m9Gth9qPVDl2ZnoPNeQcCai6BZmNhMuYioNc0Pv/j7Ozs5fn7jN8VUHMJNBsLE3Quh3xDt905v3tW+iPx4FXTXxdQcwk0GwsTdC59DejH79ZeZx/93GwCAmougWZjYYLOpacBvTguonn/ZOZe8cXwaaMpCKi5BJqNhQk6l34G9PO3k2A+L93wdhLUL35rMgkBNZdAs7EwQefSz4COarkskvqwySQE1FwCzcbCBJ1LLwM6/nEwWN9hvxgM7jQ5Gi+g5hJoNhYm6Fx6GdDJy83a/nrqttJdyT+9q40zy4CuyKzU9Qko0HWZlbq+Nnfhh+tnLTXdhQeIrL10n9ZqWbwtere1+QHsWXsB/XA8Kejr0g0fJ/2svSgF6KwW3zwYFe9NDE9+Oiv8OjuTvtFZTAChtfnu65vjtXd6h09anBvAnrV6+Gr8opzQ4WMHkIA+afv4//jd2YuTk5PHZ6/UE+iZ0AMqA0QmoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkKkvAd3Th/8BAR0uPAeb80069MMHHNLh0nOwOd+kA67Am9enhenTsliYsAT0mmwNQfVpWSxMWAJ6TbaGoPq0LBYmLAG9JltDUH1aFgsTloBek60hqD4ti4UJS0CvydYQVJ+WxcKEJaDXZGsIqk/LYmHCEtBrsjUE1adlsTBhCeg12RqC6tOyWJiwBPSabA1B9WlZLExYAnpNtoag+rQsFiYsAb0mW0NQfVoWCxOWgF6TrSGoPi2LhQlLQK/J1hBUn5bFwoQloNdkawiqT8tiYcIS0GuyNQTVp2WxMGEJ6DXZGoLq07JYmLAE9JpsDUH1aVksTFgCek22hqD6tCwWJiwBBegeAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmXoQ0I/PjgeD4YPXh74f1zB+cX8wGHxZXoaOL9WH48HT5RcdXpbxm+KRuf/k/fKWDi/Mu9pd7+bCfP72i99WX9WXYZ9L1f2AvpmsrMLwL4e+J9kWizAYfLN+U0eX6vO3g1VAO7wsHxaPzNHiGdvdhRn/stjKHi5u6ubCjH8clAJaX4a9LlXnA3oxWHq6/adDKi3C4G7tpk4u1Wnpjnd4WZb9HAzuzF6DdnhhTld3fV7Qbi7MeLIgq4DWl2G/S9X1gBYvdY4mr9XffVdeq50yXYRXl7NlGP68vKnDS3VR2no7vCzFXR8+Kd5hOZ5Hp8MLU/wxKPZqP/7Y7a1s8vqzdHfry7Dnpep6QEeL1wbFen247adDuli+7iyWYfrfji9VsQ0vA9rhZRktn4IX84Xo9sLMN7PT+V3v5MK8ne4ULMtYX4Y9L1XHAzpZSbO/ptO/sHfeX/3TMZ2udjXmy9DxpSreo/r7xUJ1eFlKd33+3w4vzGQzW9z1+V/sLi7Mx8nLysGD75YBrS/Dvpeq4wGdvNZZrKPSmuus+eJ0fKkmrwGejhYB7fCyTJ6Ad6u3dHhh6gHt4sKMivdUSgeR6suw76XqeEBXu7+VV3JdNX/0u71Uk+48vFwGtMPLclHbBezwwlR34Yt73sWFGQ2/eV8+Cl9fhn0vVfcDutzGRx3ZCK4wf/Q7vVSTzXvyR6Ac0K4uy/TuTs8p/PLJ7JYOL8xl8cb09CDSs/mbhF1cmE/FHa8GdG0Z9r1UHQ9oeRXVXzB0zWQbn+5zdHqpZruKy0Xo8LIUSzKanxAzOw+0wwszf/+wDwtTCmh9Gfa9VAIayOnqIHxnl2p+f3sS0O+XpxROn7IdXpjL2QlMhQez9wg7uzACenM6uxEkrE4Q7vBSLd7D70FApyccTvd6PxXX8BR/2rq7MJfTOz83fDL/upsLI6A3p7MbQd14eYJzl5fqdP1vQHeXZRrQ1TU7lTcmLru2MLN+fvPn/K/B08sOL4yA3pzObgQ1H5eXIXV5qerd7O6yFO+oLM8jnB3Q7fDClEYneDPb0+nswgjozenikcSk4kK75YAVnV2q1ZmTfTgKf1q667PF6PDCJE/46ebCOAp/c7p4LlvKdP9qedVEZ5dq9TbbzMMOL8t0aeoB7fDCPC39v8sL4zzQm9PFqykSRoPKzkZnlyoR0M4uS/W5OOr6wtR3bTu7MK5EujldvJ63bjSoPtKdXapEQDu7LNP7uxy0YvZipsMLU39l1tmFKQXUtfDXNeriiDJrJtv2F9XRs7u/VKsXPB1eluK83Nkz8M3qRNCOLkzxJvtqwMzF9RqdXJjygMr1ZdjzUnU9oIvBNLs1pmHF4vqj6k0dX6pVQDu8LNMje6/mZ/6sxgPt5sKclk9jmr4Y7erClANaX4Y9L1XXA9rRUbXLqvu9s5Z2fqlKb7l1eFlKD03nR6SfDdI6c7Qc5bSLC1P5SA8j0l/X7538XJeV8Y+JgHZ+qUoB7fKyLO764vLHLi/MakO70+2FqX4mUn0Z9rpU3Q9oRz9ZcKn8ymAV0K4vVTmgXV6WTy/uTe76V69Wt3R4Yd49mt71ri9MNaA+lROgmwQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoXXMxGNx5f+g7AQUBpWPGPw4Gg6eHvhdQEFA65sPxJKB3D30voCCgdMxoMLw3GP586LsBlwJK13z+dnDnzWDw8ND3Ay4FlK65mMRzEtEvfjv0HQEBpWtOi9330+VhpNHqgNKH49nR+Y+PBoPBV6+Ll6oO1tMuAaVTZpW8WB5Gmny9OKA0b+nkn6l/K6C0TkDplNH07c/xj4vDSJP/zffm5/+7GKwIKC0TULpkUc7R8jDSch9+9lp0suM+OHp9efnmWEBpn4DSJYs99sm/8xeey3342fuio0U2i9NFBZSWCShdsjh6VFyONHvhOfnftJPzI/OVw0sCSssElA5Znb+0uiB+NNupv5ju1JdOcFoclIf2CCgdUj5CtDiMNAll8Xbo9PSmy9K5S05jon0CSndMxxFZebi4cRLKeS5LLzsFlPYJKN0xHUdkZb6zPt2Hn+3BX3oFyl4JKN0xKl0DvzqMNMnq0/ke/KX3QNkrAaUzJnUsjcK0PMo+SendxcvNVVYdhWcPBJTOqA5FP3mFOc/paPDF/1x0c5nN4ox6AaVlAkpnnFZGsStebM5OoZ++NTrfc19cifTWlUjsgYDSFaurj2YuFtWcHpy/u7rVtfDsi4DSFaO1T/IoXmwu99tXn5JkNCb2R0DpiNLxobnT0nXvpdem8/FASwPdQUsElJ4SUNonoPTKajCRUx+cROsElF6ZZHP4fPLvp18GPjeJ1gkovVK+2tMLUNomoPTLm2P9ZG8ElJ759OLepJ5fPv7z0HeEW0BAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyCSgAJkEFCCTgAJkElCATAIKkElAATIJKEAmAQXIJKAAmQQUIJOAAmQSUIBMAgqQSUABMgkoQCYBBcgkoACZBBQgk4ACZBJQgEwCCpBJQAEyCShAJgEFyPT/Aevd79TNe0gCAAAAAElFTkSuQmCC" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Now we can take a look at the relationship between party ID and average thermometer ratings for these three administration officials :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">compmeansC</span>(<span class="at">dv=</span> avg_trumpadmin_ft,  <span class="at">iv=</span>pid_summary, <span class="at">data=</span>gvpt_survey,</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">xlab =</span> <span class="st">&#39;Party ID&#39;</span>, </span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>           <span class="at">ylab =</span> <span class="st">&#39;Average thermometer&#39;</span>,</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>           <span class="at">main =</span> <span class="st">&#39;Average Trump admin. official rating (0 - 100 scale)&#39;</span>,</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">plot=</span><span class="cn">FALSE</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>           )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>===========================================================================
+                         Mean Comparison Analysis
+===========================================================================
+
+
+Table: Mean Values of avg_trumpadmin_ft by pid_summary
+
+                           Mean     N   St. Dev.
+-----------------------  ------  ----  ---------
+Strong Democrat            4.96   331      10.60
+Not strong Democrat        6.88   183       9.31
+Independent Democrat       7.30   214      10.20
+Independent               16.89    93      18.39
+Independent Republican    41.52    65      22.00
+Not strong Republican     51.86    40      21.90
+Strong Republican         70.28    31      22.02
+Total                     13.57   957      21.00</code></pre>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="checking-missing-values" class="level1">
+<h1>Checking missing values</h1>
+<p>Generally, missing data in R will be represented as <code>NA</code> values. Running use <code>is.na(x)</code> will return <code>TRUE</code> if an observation is missing and <code>FALSE</code> if the observation is not missing.</p>
+<p>If you use a numeric function on a logical value in R, <code>TRUE</code> values will get converted to 1 and <code>FALSE</code> values will get converted to 0. So if we wanted to know how many missing responses we had for the question about the electoral college, we could just <code>sum</code> the results of <code>is.na(gvpt_survey$electoral_college)</code> :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(gvpt_survey<span class="sc">$</span>electoral_college))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 26</code></pre>
+</div>
+</div>
+<p>What we do with this information is another question entirely. The easiest option is usually to simply ignore missing values and only consider responses from people who gave valid answers to all of the questions you’re analyzing. This option can be a source of bias, however, if the respondents with incomplete data are systematically different from the respondents with complete data.</p>
+</section>
+<section id="saving-data" class="level1">
+<h1>Saving data</h1>
+<p>In general, I recommend that you save your <em>code</em> rather than trying to save data itself, but if you do want to have a local copy of the gvpt_survey data that you can alter as needed, you can save an R object by entering <code>saveRDS(object, file=&#39;filename.rds&#39;)</code>. For example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">saveRDS</span>(gvpt_survey, <span class="at">file=</span><span class="st">&#39;my_gvpt_survey_copy.rds&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Then, to restore the data, you would just load it back in by using the <code>readRDS</code> function:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>gvpt_survey <span class="ot">&lt;-</span><span class="fu">readRDS</span>(<span class="st">&#39;my_gvpt_survey_copy.rds&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>The :: in <code>Hmisc::label</code> is a way to use a function from a package without having to load the entire package with the <code>library</code> function. You’ll typically see this when we just need to use one function from a package, or when the function shares a name with a function from another package.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GVPT 201 Spring 2026 - Resources</title>
+<title>GVPT 201 Spring 2026 - Codebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4683,7 +4683,7 @@ margin: 20px;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Resources</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Codebook</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label onclick="window.quartoOpenSearch();">
@@ -4832,14 +4832,21 @@ margin: 20px;
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#note-and-suggestions" id="toc-note-and-suggestions" class="nav-link active" data-scroll-target="#note-and-suggestions">Note and suggestions</a></li>
+  <li><a href="#codebook" id="toc-codebook" class="nav-link" data-scroll-target="#codebook">Codebook</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">Codebook</h1>
 </div>
 
 
@@ -4856,9 +4863,1740 @@ margin: 20px;
 </header>
 
 
-<p>Additional resources and tips for GVPT 201 students.</p>
+<p>Use the codebook below to get additional information about variables in the survey data.</p>
+<section id="note-and-suggestions" class="level1">
+<h1>Note and suggestions</h1>
+<ul>
+<li><p>Variables names beginning with <code>meta_</code> contain metadata about respondents. These are things like their web browser, the amount of time they spent on the survey, and their unique response ID.</p></li>
+<li><p><a href="#pid_summary"><code>pid_summary</code></a> is a 7-category measure of party ID that was created using <a href="https://neilblund.github.io/GVPT201-Spring-2026/Slides/slides_01.html#/party-id-2">the method we discussed in week 1</a>: people are first asked for their party ID. Those who say they prefer Democrats or Republicans are asked about the strength of their party identification, and self-described independents are asked whether they “lean” toward one party or another, which gives us an ordinal measure of party ranging from Strong Democrat to Strong Republican.</p></li>
+<li><p><a href="#race_ethnicity_summary"><code>race_ethnicity_summary</code></a> is re-coded from the original race and ethnicity questions and made to resemble the race/ethnicity question on the ANES. The survey allowed respondents to check multiple boxes for their racial identity, which is why there are a series of dummy variables (<code>race_1</code>, <code>race_2</code>…), for each racial category. The survey also asked about Hispanic ethnicity in a separate question. So <code>race_ethnicity_summary</code> combines these responses into a single categorical variable with separate categories for multiracial and Hispanic respondents.</p></li>
+<li><p>Variables that end with <code>OTHER_TEXT</code> store the answers to questions where respondents picked an “Other” option. For instance: if someone said they preferred “someone else” in the 2024 election, their write-in preference is in the variable <a href="#votechoice24_OTHER_TEXT"><code>votechoice24_OTHER_TEXT</code></a>. In most cases, these responses aren’t going to be useful for your analyses because only a handful of people gave any answer.</p></li>
+<li><p>Note that many of these questions allow respondents to give a response of <code>not sure</code>. You’ll want to make a decision about how you plan to handle these. One option might be to drop them entirely. Another option might be to combine the <code>not sure</code> responses with another response category. How you choose to handle this is up to you, but just keep in mind that you need to make some kind of decision here because keeping them as is will make ordinal variables no longer ordinal.</p></li>
+</ul>
+</section>
+<section id="codebook" class="level1">
+<h1>Codebook</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div id="sympetgzkz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#sympetgzkz table {
+font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+#sympetgzkz thead, #sympetgzkz tbody, #sympetgzkz tfoot, #sympetgzkz tr, #sympetgzkz td, #sympetgzkz th {
+border-style: none;
+}
+#sympetgzkz p {
+margin: 0;
+padding: 0;
+}
+#sympetgzkz .gt_table {
+display: table;
+border-collapse: collapse;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+color: #333333;
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+background-color: #FFFFFF;
+width: auto;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #A8A8A8;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #A8A8A8;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+}
+#sympetgzkz .gt_caption {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+#sympetgzkz .gt_title {
+color: #333333;
+font-size: 125%;
+font-weight: initial;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-color: #FFFFFF;
+border-bottom-width: 0;
+}
+#sympetgzkz .gt_subtitle {
+color: #333333;
+font-size: 85%;
+font-weight: initial;
+padding-top: 3px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-top-color: #FFFFFF;
+border-top-width: 0;
+}
+#sympetgzkz .gt_heading {
+background-color: #FFFFFF;
+text-align: center;
+border-bottom-color: #FFFFFF;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+}
+#sympetgzkz .gt_bottom_border {
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#sympetgzkz .gt_col_headings {
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+}
+#sympetgzkz .gt_col_heading {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: normal;
+text-transform: inherit;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: bottom;
+padding-top: 5px;
+padding-bottom: 6px;
+padding-left: 5px;
+padding-right: 5px;
+overflow-x: hidden;
+}
+#sympetgzkz .gt_column_spanner_outer {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: normal;
+text-transform: inherit;
+padding-top: 0;
+padding-bottom: 0;
+padding-left: 4px;
+padding-right: 4px;
+}
+#sympetgzkz .gt_column_spanner_outer:first-child {
+padding-left: 0;
+}
+#sympetgzkz .gt_column_spanner_outer:last-child {
+padding-right: 0;
+}
+#sympetgzkz .gt_column_spanner {
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+vertical-align: bottom;
+padding-top: 5px;
+padding-bottom: 5px;
+overflow-x: hidden;
+display: inline-block;
+width: 100%;
+}
+#sympetgzkz .gt_spanner_row {
+border-bottom-style: hidden;
+}
+#sympetgzkz .gt_group_heading {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: middle;
+text-align: left;
+}
+#sympetgzkz .gt_empty_group_heading {
+padding: 0.5px;
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+vertical-align: middle;
+}
+#sympetgzkz .gt_from_md > :first-child {
+margin-top: 0;
+}
+#sympetgzkz .gt_from_md > :last-child {
+margin-bottom: 0;
+}
+#sympetgzkz .gt_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+margin: 10px;
+border-top-style: solid;
+border-top-width: 1px;
+border-top-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 1px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 1px;
+border-right-color: #D3D3D3;
+vertical-align: middle;
+overflow-x: hidden;
+}
+#sympetgzkz .gt_stub {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-right-style: solid;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+padding-left: 5px;
+padding-right: 5px;
+}
+#sympetgzkz .gt_stub_row_group {
+color: #333333;
+background-color: #FFFFFF;
+font-size: 100%;
+font-weight: initial;
+text-transform: inherit;
+border-right-style: solid;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+padding-left: 5px;
+padding-right: 5px;
+vertical-align: top;
+}
+#sympetgzkz .gt_row_group_first td {
+border-top-width: 2px;
+}
+#sympetgzkz .gt_row_group_first th {
+border-top-width: 2px;
+}
+#sympetgzkz .gt_summary_row {
+color: #333333;
+background-color: #FFFFFF;
+text-transform: inherit;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#sympetgzkz .gt_first_summary_row {
+border-top-style: solid;
+border-top-color: #D3D3D3;
+}
+#sympetgzkz .gt_first_summary_row.thick {
+border-top-width: 2px;
+}
+#sympetgzkz .gt_last_summary_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#sympetgzkz .gt_grand_summary_row {
+color: #333333;
+background-color: #FFFFFF;
+text-transform: inherit;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#sympetgzkz .gt_first_grand_summary_row {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-top-style: double;
+border-top-width: 6px;
+border-top-color: #D3D3D3;
+}
+#sympetgzkz .gt_last_grand_summary_row_top {
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 5px;
+padding-right: 5px;
+border-bottom-style: double;
+border-bottom-width: 6px;
+border-bottom-color: #D3D3D3;
+}
+#sympetgzkz .gt_striped {
+background-color: rgba(128, 128, 128, 0.05);
+}
+#sympetgzkz .gt_table_body {
+border-top-style: solid;
+border-top-width: 2px;
+border-top-color: #D3D3D3;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+}
+#sympetgzkz .gt_footnotes {
+color: #333333;
+background-color: #FFFFFF;
+border-bottom-style: none;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+}
+#sympetgzkz .gt_footnote {
+margin: 0px;
+font-size: 90%;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#sympetgzkz .gt_sourcenotes {
+color: #333333;
+background-color: #FFFFFF;
+border-bottom-style: none;
+border-bottom-width: 2px;
+border-bottom-color: #D3D3D3;
+border-left-style: none;
+border-left-width: 2px;
+border-left-color: #D3D3D3;
+border-right-style: none;
+border-right-width: 2px;
+border-right-color: #D3D3D3;
+}
+#sympetgzkz .gt_sourcenote {
+font-size: 90%;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 5px;
+padding-right: 5px;
+}
+#sympetgzkz .gt_left {
+text-align: left;
+}
+#sympetgzkz .gt_center {
+text-align: center;
+}
+#sympetgzkz .gt_right {
+text-align: right;
+font-variant-numeric: tabular-nums;
+}
+#sympetgzkz .gt_font_normal {
+font-weight: normal;
+}
+#sympetgzkz .gt_font_bold {
+font-weight: bold;
+}
+#sympetgzkz .gt_font_italic {
+font-style: italic;
+}
+#sympetgzkz .gt_super {
+font-size: 65%;
+}
+#sympetgzkz .gt_footnote_marks {
+font-size: 75%;
+vertical-align: 0.4em;
+position: initial;
+}
+#sympetgzkz .gt_asterisk {
+font-size: 100%;
+vertical-align: 0;
+}
+#sympetgzkz .gt_indent_1 {
+text-indent: 5px;
+}
+#sympetgzkz .gt_indent_2 {
+text-indent: 10px;
+}
+#sympetgzkz .gt_indent_3 {
+text-indent: 15px;
+}
+#sympetgzkz .gt_indent_4 {
+text-indent: 20px;
+}
+#sympetgzkz .gt_indent_5 {
+text-indent: 25px;
+}
+#sympetgzkz .katex-display {
+display: inline-flex !important;
+margin-bottom: 0.75em !important;
+}
+#sympetgzkz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+height: 0px !important;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="Column-name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Column name</th>
+<th id="Question" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Question</th>
+<th id="Variable-type" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Variable type</th>
+<th id="Values" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Values</th>
+<th id="Missing" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Missing</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_StartDate">metadata_StartDate</code></td>
+<td class="gt_row gt_left" headers="Question">Start Date</td>
+<td class="gt_row gt_left" headers="Variable type">Date</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 2026-02-23 to 2026-03-12</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_Duration__in_seconds_">metadata_Duration__in_seconds_</code></td>
+<td class="gt_row gt_left" headers="Question">Duration (in seconds)</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 78-465819</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ResponseId">ResponseId</code></td>
+<td class="gt_row gt_left" headers="Question">Response ID</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">1017 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_Browser">metadata_Browser</code></td>
+<td class="gt_row gt_left" headers="Question">Browser</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">16 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_Version">metadata_Version</code></td>
+<td class="gt_row gt_left" headers="Question">Browser Version</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">88 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_Operating_System">metadata_Operating_System</code></td>
+<td class="gt_row gt_left" headers="Question">Operating System</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">6 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="metadata_Resolution">metadata_Resolution</code></td>
+<td class="gt_row gt_left" headers="Question">Screen Resolution</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">83 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="race_ethnicity_summary">race_ethnicity_summary</code></td>
+<td class="gt_row gt_left" headers="Question">Race/Ethnicity summary</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>American Indian/Native American or Alaska Native, non-Hispanic</li>
+<li>Asian, non-Hispanic</li>
+<li>Black, non-Hispanic</li>
+<li>Multiple races, non-Hispanic</li>
+<li>Other/Refused/NA</li>
+<li>Native Hawaiian or Other Pacific Islander, non-Hispanic</li>
+<li>White, non-Hispanic</li>
+<li>Hispanic</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_1">race_dummy_1</code></td>
+<td class="gt_row gt_left" headers="Question">White or Caucasian</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_2">race_dummy_2</code></td>
+<td class="gt_row gt_left" headers="Question">Black or African American</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_3">race_dummy_3</code></td>
+<td class="gt_row gt_left" headers="Question">American Indian/Native American or Alaska Native</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_4">race_dummy_4</code></td>
+<td class="gt_row gt_left" headers="Question">Asian</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_5">race_dummy_5</code></td>
+<td class="gt_row gt_left" headers="Question">Native Hawaiian or Other Pacific Islander</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_6">race_dummy_6</code></td>
+<td class="gt_row gt_left" headers="Question">Other</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="race_dummy_7">race_dummy_7</code></td>
+<td class="gt_row gt_left" headers="Question">Prefer not to say</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1017;<br>
+NAs: 0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ethnicity">ethnicity</code></td>
+<td class="gt_row gt_left" headers="Question">Are you of Spanish, Hispanic, or Latino origin?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Yes</li>
+<li>No</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1015;<br>
+NAs: 2</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="education">education</code></td>
+<td class="gt_row gt_left" headers="Question">What is the highest level of education you have completed?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Some high school or less</li>
+<li>High school diploma or GED</li>
+<li>Some college, but no degree</li>
+<li>Associates or technical degree</li>
+<li>Bachelor’s degree</li>
+<li>Graduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)</li>
+<li>Prefer not to say</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1015;<br>
+NAs: 2</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="income">income</code></td>
+<td class="gt_row gt_left" headers="Question">What was your total household income before taxes during the past 12 months?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Less than $25,000</li>
+<li>$25,000-$49,999</li>
+<li>$50,000-$74,999</li>
+<li>$75,000-$99,999</li>
+<li>$100,000-$149,999</li>
+<li>$150,000 or more</li>
+<li>Prefer not to say</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1013;<br>
+NAs: 4</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="age">age</code></td>
+<td class="gt_row gt_left" headers="Question">How old are you (in years)?</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 16-83</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="sex_gender">sex_gender</code></td>
+<td class="gt_row gt_left" headers="Question">How do you describe yourself? - Selected Choice</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Male</li>
+<li>Female</li>
+<li>Non-binary / third gender</li>
+<li>Prefer to self-describe</li>
+<li>Prefer not to say</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1013;<br>
+NAs: 4</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="sex_gender_OTHER_TEXT">sex_gender_OTHER_TEXT</code></td>
+<td class="gt_row gt_left" headers="Question">How do you describe yourself? - Prefer to self-describe - Text</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">4 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 3;<br>
+NAs: 1014</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="wealthtax">wealthtax</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose a 2% annual tax on the net worth over $50 million?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 985;<br>
+NAs: 32</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="gun_redflag_laws">gun_redflag_laws</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose creating red flag laws that allow a court to temporarily remove guns from people that are believed to pose a danger to themself or others?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 987;<br>
+NAs: 30</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="own_greenland">own_greenland</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose the U.S. using military force to take control of Greenland?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 987;<br>
+NAs: 30</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="maduro_policy">maduro_policy</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose the U.S. using military force to overthrow Venezuelan President Nicolás Maduro?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="un_closer">un_closer</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose the U.S. building stronger relationships with international organizations like the United Nations?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="who_closer">who_closer</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose U.S. re-joining the World Health Organization (WHO)?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 986;<br>
+NAs: 31</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="tariffs">tariffs</code></td>
+<td class="gt_row gt_left" headers="Question">Do you support or oppose substantially increasing tariffs on goods imported from most countries that trade with the U.S.?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="voted24">voted24</code></td>
+<td class="gt_row gt_left" headers="Question">Did you vote in the 2024 presidential election?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 998;<br>
+NAs: 19</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="wouldvote24">wouldvote24</code></td>
+<td class="gt_row gt_left" headers="Question">If you had voted in the 2024 election, who would you have voted for? - Selected Choice</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Kamala Harris</li>
+<li>Donald Trump</li>
+<li>Someone else</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 458;<br>
+NAs: 559</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="wouldvote24_OTHER_TEXT">wouldvote24_OTHER_TEXT</code></td>
+<td class="gt_row gt_left" headers="Question">If you had voted in the 2024 election, who would you have voted for? - Someone else - Text</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">17 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 19;<br>
+NAs: 998</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="votechoice24">votechoice24</code></td>
+<td class="gt_row gt_left" headers="Question">Who did you vote for in the 2024 election? - Selected Choice</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Kamala Harris</li>
+<li>Donald Trump</li>
+<li>Someone else</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 446;<br>
+NAs: 571</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="votechoice24_OTHER_TEXT">votechoice24_OTHER_TEXT</code></td>
+<td class="gt_row gt_left" headers="Question">Who did you vote for in the 2024 election? - Someone else - Text</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">22 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 30;<br>
+NAs: 987</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="plan_to_vote28">plan_to_vote28</code></td>
+<td class="gt_row gt_left" headers="Question">Do you plan to vote in the 2028 presidential election?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>No</li>
+<li>Maybe</li>
+<li>Yes</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 996;<br>
+NAs: 21</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="generic_ballot">generic_ballot</code></td>
+<td class="gt_row gt_left" headers="Question">If the 2026 election for Congress were being held today, which party’s candidate would you vote for in your congressional district?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>The Democratic Party&#39;s candidate</li>
+<li>The Republican Party&#39;s candidate</li>
+<li>Someone else</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 996;<br>
+NAs: 21</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="generic_ballot_lean">generic_ballot_lean</code></td>
+<td class="gt_row gt_left" headers="Question">As of today, do you lean more toward the Democratic Party’s candidate or the Republican Party’s candidate in your congressional district?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>The Democratic Party&#39;s candidate</li>
+<li>The Republican Party&#39;s candidate</li>
+<li>Someone else</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 152;<br>
+NAs: 865</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="electoral_college">electoral_college</code></td>
+<td class="gt_row gt_left" headers="Question">Thinking for a moment about the way in which the president is elected in this country, which would you prefer:</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Amend the Constitution so the candidate who receives the most total votes nationwide wins the election</li>
+<li>Keep the current system, in which the candidate who wins the most votes in the Electoral College wins the election</li>
+<li>Neither</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 991;<br>
+NAs: 26</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="abortion_views">abortion_views</code></td>
+<td class="gt_row gt_left" headers="Question">When it comes to abortion, which of these options comes closest to your view?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>It should be legal under any circumstances</li>
+<li>It should be legal under most circumstances</li>
+<li>It should be legal only in a few circumstances</li>
+<li>It should be illegal in all circumstances</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 972;<br>
+NAs: 45</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="wrongtrack">wrongtrack</code></td>
+<td class="gt_row gt_left" headers="Question">On a scale of 0 to 10, with 0 meaning &quot;on the wrong track&quot; and 10 meaning &quot;headed in the right direction&quot;, how would you rate the current state of affairs in the United States?</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-10</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="jobmarket">jobmarket</code></td>
+<td class="gt_row gt_left" headers="Question">On a scale from 0 to 10 with 0 indicating &quot;Awful&quot; and 10 indicating &quot;Excellent&quot;, would you rate Donald Trump&#39;s performance as president?</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-10</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 988;<br>
+NAs: 29</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="policy_electionlaws">policy_electionlaws</code></td>
+<td class="gt_row gt_left" headers="Question">Would you support or oppose the following policies or reforms? - Changing election laws to make it easier for third party candidates to win elections</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 990;<br>
+NAs: 27</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="policy_more_reps">policy_more_reps</code></td>
+<td class="gt_row gt_left" headers="Question">Would you support or oppose the following policies or reforms? - Increasing the number of Congress members from 435.</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 990;<br>
+NAs: 27</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="policy_termlimits">policy_termlimits</code></td>
+<td class="gt_row gt_left" headers="Question">Would you support or oppose the following policies or reforms? - Establishing term limits for Supreme Court justices</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 990;<br>
+NAs: 27</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="policy_socialism">policy_socialism</code></td>
+<td class="gt_row gt_left" headers="Question">Would you support or oppose the following policies or reforms? - Adopting a socialist system of government</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly oppose</li>
+<li>Oppose</li>
+<li>Somewhat oppose</li>
+<li>Neither support nor oppose</li>
+<li>Somewhat support</li>
+<li>Support</li>
+<li>Strongly support</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 990;<br>
+NAs: 27</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_healthcare">spendgov_healthcare</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Medicare and Medicaid</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_education">spendgov_education</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Education</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_border">spendgov_border</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Border Security</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_disease">spendgov_disease</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Disease prevention</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_counterterrorism">spendgov_counterterrorism</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Counterterrorism</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_aid_to_poor">spendgov_aid_to_poor</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Assistance to poor people</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 979;<br>
+NAs: 38</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_israel">spendgov_israel</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Aid to Israel</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="spendgov_environment">spendgov_environment</code></td>
+<td class="gt_row gt_left" headers="Question">Here are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Environmental protection</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Much less</li>
+<li>Moderately less</li>
+<li>Slightly less</li>
+<li>About the same</li>
+<li>Slightly more</li>
+<li>Moderately more</li>
+<li>Much more</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 979;<br>
+NAs: 38</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="left_right_scale">left_right_scale</code></td>
+<td class="gt_row gt_left" headers="Question">In general, how would you describe your own political views?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Far left</li>
+<li>Left</li>
+<li>Center-left</li>
+<li>Center</li>
+<li>Center-right</li>
+<li>Right</li>
+<li>Far right</li>
+<li>Not sure</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1007;<br>
+NAs: 10</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="system_works_forme">system_works_forme</code></td>
+<td class="gt_row gt_left" headers="Question">On a scale from 0 to 10, how well do you think the political system in your country works for people like you?</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-10</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1003;<br>
+NAs: 14</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="pid">pid</code></td>
+<td class="gt_row gt_left" headers="Question">Generally speaking, do you think of yourself as a - Selected Choice</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Democrat</li>
+<li>Republican</li>
+<li>Independent</li>
+<li>Not sure</li>
+<li>Other</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1008;<br>
+NAs: 9</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="pid_OTHER_TEXT">pid_OTHER_TEXT</code></td>
+<td class="gt_row gt_left" headers="Question">Generally speaking, do you think of yourself as a - Other - Text</td>
+<td class="gt_row gt_left" headers="Variable type">character</td>
+<td class="gt_row gt_left" headers="Values">34 unique values</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 60;<br>
+NAs: 957</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="pidstrength">pidstrength</code></td>
+<td class="gt_row gt_left" headers="Question">Generally speaking, do you think of yourself as a</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strong [choice from pid question]</li>
+<li>Not very strong [choice from pid question]</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 600;<br>
+NAs: 417</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="pidlean">pidlean</code></td>
+<td class="gt_row gt_left" headers="Question">Do you think of yourself as closer to the Democratic or the Republican Party?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Closer to the Democratic party</li>
+<li>Closer to the Republican party</li>
+<li>Closer to neither party</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 384;<br>
+NAs: 633</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="pid_summary">pid_summary</code></td>
+<td class="gt_row gt_left" headers="Question">Party ID summary</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strong Democrat</li>
+<li>Not strong Democrat</li>
+<li>Independent Democrat</li>
+<li>Independent</li>
+<li>Independent Republican</li>
+<li>Not strong Republican</li>
+<li>Strong Republican</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 984;<br>
+NAs: 33</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="democ_quality">democ_quality</code></td>
+<td class="gt_row gt_left" headers="Question">How would you rate the quality of democracy in the United States?</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-10</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 1000;<br>
+NAs: 17</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="immig_priority">immig_priority</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;When jobs are scarce, employers should give priority to American people over immigrants.&quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 977;<br>
+NAs: 40</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="foreign_aid">foreign_aid</code></td>
+<td class="gt_row gt_left" headers="Question">The U.S. dedicates about $40 billion to foreign aid each year. That&#39;s about 0.24% of the national income, or around $119 per person. Would you say the amount the U.S. spends on foreign aid each year is too much, too little, or about right?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Far too little</li>
+<li>Moderately too little</li>
+<li>Slightly too little</li>
+<li>Neither too much nor too little</li>
+<li>Slightly too much</li>
+<li>Moderately too much</li>
+<li>Far too much</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 892;<br>
+NAs: 125</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="world_citizen">world_citizen</code></td>
+<td class="gt_row gt_left" headers="Question">Would you say you agree or disagree with the following statement &quot;I see myself as a world citizen&quot;?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 897;<br>
+NAs: 120</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="prioritize_us">prioritize_us</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;America&#39;s leaders should focus on solving our problems in this country, even if it means other countries are worse off&quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 974;<br>
+NAs: 43</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="enviro_jobs">enviro_jobs</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;Economic growth and creating jobs should be the top priority, even if the environment suffers to some extent. &quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="paris_climate">paris_climate</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;The U.S. should rejoin the Paris Climate agreement&quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 895;<br>
+NAs: 122</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="american_pride">american_pride</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;I&#39;m proud to be an American&quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 972;<br>
+NAs: 45</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="influence_politics">influence_politics</code></td>
+<td class="gt_row gt_left" headers="Question">Do you agree or disagree with the following statement? &quot;Our system of government allows ordinary people to have a say in politics&quot;</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Strongly disagree</li>
+<li>Disagree</li>
+<li>Somewhat disagree</li>
+<li>Neither agree nor disagree</li>
+<li>Somewhat agree</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 977;<br>
+NAs: 40</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_fed">trust_fed</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - The federal government</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 970;<br>
+NAs: 47</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_localgov">trust_localgov</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - Your local government</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 965;<br>
+NAs: 52</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_relig">trust_relig</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - Religious leaders</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 920;<br>
+NAs: 97</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_media">trust_media</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - The media</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 974;<br>
+NAs: 43</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_police">trust_police</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - Police</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 971;<br>
+NAs: 46</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_fam">trust_fam</code></td>
+<td class="gt_row gt_left" headers="Question">How much of the time do you think you can trust these groups to do the right thing? - Your family and friends</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Sometimes</li>
+<li>About half the time</li>
+<li>Most of the time</li>
+<li>Always</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 972;<br>
+NAs: 45</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="trust_americans">trust_americans</code></td>
+<td class="gt_row gt_left" headers="Question">How much trust and confidence do you have in the American people as a whole when it comes to making judgments under our democratic system about the issues facing our country?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>None at all</li>
+<li>Not very much</li>
+<li>A fair amount</li>
+<li>A great deal</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 955;<br>
+NAs: 62</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="sm_news">sm_news</code></td>
+<td class="gt_row gt_left" headers="Question">How often would you say you use social media apps like TikTok, Facebook, or Instagram to learn more about politics?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Once a week</li>
+<li>2-3 times a week</li>
+<li>4-6 times a week</li>
+<li>Daily</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 976;<br>
+NAs: 41</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="pol_news">pol_news</code></td>
+<td class="gt_row gt_left" headers="Question">How often would you say you read, watch, or listen to news about U.S. politics?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Once a week</li>
+<li>2-3 times a week</li>
+<li>4-6 times a week</li>
+<li>Daily</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 979;<br>
+NAs: 38</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="sm_effects">sm_effects</code></td>
+<td class="gt_row gt_left" headers="Question">Do you believe that social media has a positive or negative influence on American politics?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Extremely negative</li>
+<li>Somewhat negative</li>
+<li>Neither positive nor negative</li>
+<li>Somewhat positive</li>
+<li>Extremely positive</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 970;<br>
+NAs: 47</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="discuss_views">discuss_views</code></td>
+<td class="gt_row gt_left" headers="Question">How often do you discuss politics with people who hold opposing views?</td>
+<td class="gt_row gt_left" headers="Variable type">factor</td>
+<td class="gt_row gt_left" headers="Values"><strong>Values:</strong>
+<ul>
+<li>Never</li>
+<li>Rarely</li>
+<li>Sometimes</li>
+<li>Often</li>
+<li>All the time</li>
+</ul></td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 989;<br>
+NAs: 28</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_ice">ft_ice</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Immigration and Customs Enforcement (ICE)</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 980;<br>
+NAs: 37</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_congress">ft_congress</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Congress</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-89</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 939;<br>
+NAs: 78</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_trump">ft_trump</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Donald Trump</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 979;<br>
+NAs: 38</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_badbunny">ft_badbunny</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Bad Bunny</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 927;<br>
+NAs: 90</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_scotus">ft_scotus</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - The Supreme Court</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 946;<br>
+NAs: 71</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_vance">ft_vance</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - J.D. Vance</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 949;<br>
+NAs: 68</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_immigrants">ft_immigrants</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Immigrants</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 976;<br>
+NAs: 41</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_business">ft_business</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Big business</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 952;<br>
+NAs: 65</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_unions">ft_unions</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Labor unions</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 916;<br>
+NAs: 101</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_natguard">ft_natguard</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - The National Guard</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 871;<br>
+NAs: 146</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_police">ft_police</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Police</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 972;<br>
+NAs: 45</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Column name"><code id="ft_noem">ft_noem</code></td>
+<td class="gt_row gt_left" headers="Question">How do you feel about the following groups or individuals? - Kristi Noem (Secretary of the Department of Homeland Security)</td>
+<td class="gt_row gt_left" headers="Variable type">numeric</td>
+<td class="gt_row gt_left" headers="Values"><strong>Range:</strong> 0-100</td>
+<td class="gt_row gt_left" headers="Missing"><br>
+Valid N: 821;<br>
+NAs: 196</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
