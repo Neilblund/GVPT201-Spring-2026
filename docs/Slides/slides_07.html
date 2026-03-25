@@ -2301,7 +2301,7 @@ s = \sqrt{\frac{\sum_{i} (x_{i} - \mu)^2}{n-1}}
 <h1>Notes and caveats</h1>
 <ul>
 <li><p>All of this stuff applies to quantifying <strong><em>random</em></strong> error, it doesn’t help us quantify bias.</p></li>
-<li><p>If our sample is biased, we can still calculate confidence intervals, but they only tell us about what would happen in repeated surveys with the sample biased sampling process.</p></li>
+<li><p>If our sample is biased, we can still calculate confidence intervals, but they only tell us about what would happen in repeated surveys with the same biased sampling process.</p></li>
 </ul>
 </section>
 
@@ -3801,7 +3801,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
