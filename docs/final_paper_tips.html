@@ -4812,6 +4812,12 @@ margin: 20px;
  <span class="menu-text">Week 10</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Weeks/Week 11/Week-11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Week 11</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -4878,10 +4884,8 @@ margin: 20px;
   <ul>
   <li><a href="#what-variables-should-i-use" id="toc-what-variables-should-i-use" class="nav-link active" data-scroll-target="#what-variables-should-i-use">What variables should I use?</a></li>
   <li><a href="#how-do-i-get-formatted-regression-output-in-a-word-document" id="toc-how-do-i-get-formatted-regression-output-in-a-word-document" class="nav-link" data-scroll-target="#how-do-i-get-formatted-regression-output-in-a-word-document">How do I get formatted regression output in a Word document?</a></li>
-  <li><a href="#what-is-the-most-important-stuff-to-tell-readers" id="toc-what-is-the-most-important-stuff-to-tell-readers" class="nav-link" data-scroll-target="#what-is-the-most-important-stuff-to-tell-readers">What is the most important stuff to tell readers?</a>
-  <ul class="collapse">
+  <li><a href="#what-is-the-most-important-stuff-to-tell-readers" id="toc-what-is-the-most-important-stuff-to-tell-readers" class="nav-link" data-scroll-target="#what-is-the-most-important-stuff-to-tell-readers">What is the most important stuff to tell readers?</a></li>
   <li><a href="#my-results-werent-statistically-significant-what-should-i-do" id="toc-my-results-werent-statistically-significant-what-should-i-do" class="nav-link" data-scroll-target="#my-results-werent-statistically-significant-what-should-i-do">My results weren’t statistically significant! What should I do?</a></li>
-  </ul></li>
   <li><a href="#how-can-i-make-sure-my-code-is-replicable" id="toc-how-can-i-make-sure-my-code-is-replicable" class="nav-link" data-scroll-target="#how-can-i-make-sure-my-code-is-replicable">How can I make sure my code is replicable?</a></li>
   </ul>
 </nav>
@@ -4915,7 +4919,7 @@ margin: 20px;
 <ol type="1">
 <li><p><strong>Variable types</strong>: for a linear model, your dependent variable should be numeric or you should be able to treat it as numeric (5 or more ordered categories). Your independent variables can be numeric, ordinal or categorical.</p></li>
 <li><p><strong>Interest and intuition</strong>: you’re not necessarily being graded on the novelty of plausibilty of your theory, but you’ll find its easier to write a paper if you can make an argument for <em>why</em> you think a relationship would exist between your selected variables.</p></li>
-<li><p><strong>Conceptual/Operationalization of concepts</strong>: You should try to make your operational definition match your conceptual definition as closely as possible. You have <em>some</em> wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump.</p></li>
+<li><p><strong>Conceptual/Operational definitions</strong>: You should try to make your operational definition match your conceptual definition as closely as possible. You have <em>some</em> wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump.</p></li>
 </ol>
 </section>
 <section id="how-do-i-get-formatted-regression-output-in-a-word-document" class="level2">
@@ -4932,11 +4936,11 @@ margin: 20px;
 <section id="what-is-the-most-important-stuff-to-tell-readers" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-the-most-important-stuff-to-tell-readers">What is the most important stuff to tell readers?</h2>
 <p>You should tell readers the things they need to know to <strong>understand</strong> your analysis; you don’t need to tell them everything you did to conduct your analysis. So resist the temptation to write your analysis as a minute-by-minute account of everything you did to put the paper together.</p>
-<p>Here are some examples of extraneous/good detail:</p>
+<p>Here are some examples of extraneous detail:</p>
 <p>Extraneous detail: “My variable was initially called <code>paris_climate</code>, but I recoded it to a numeric variable and called it <code>paris_climate_numeric</code>”</p>
 <p>(It is important to tell readers when your treating ordinal variables as numeric, but they typically don’t need to know what a variable <em>used to be called</em> in R in order to interpret any part of your analysis.)</p>
 <p>“I created this barplot using the freqC function from the RCPA3 package” (Your reader doesn’t need to know how you made the bar chart in order to understand your analysis. This sort of detail might be mentioned in a citation or a footnote, but it is usually unhelpful in the body of your paper.)</p>
-<p>Good detail:</p>
+<p>Here’s some examples of good details:</p>
 <p>“Liberal/Conservative self placement was measured on a 1 to 7 scale, with lower values indicating more liberal views, and higher values indicating more conservative views”</p>
 <p>(This would be important context before showing regression output, because otherwise the reader won’t know how to interpret a coefficient for this variable)</p>
 <p>“I used a linear regression to model the effect of party ID on feelings toward Donald Trump…”</p>
@@ -4945,12 +4949,12 @@ margin: 20px;
 <p>(Coding choices like these are common and often completely justified, but you should note them in the text because they speak to the reliability of your results.)</p>
 <p>“Annotated code for replicating my analysis in R is included with my report”</p>
 <p>(If the reader wants to know more about how you performed your analysis, now they know where to find it!)</p>
-<section id="my-results-werent-statistically-significant-what-should-i-do" class="level3">
-<h3 class="anchored" data-anchor-id="my-results-werent-statistically-significant-what-should-i-do">My results weren’t statistically significant! What should I do?</h3>
+</section>
+<section id="my-results-werent-statistically-significant-what-should-i-do" class="level2">
+<h2 class="anchored" data-anchor-id="my-results-werent-statistically-significant-what-should-i-do">My results weren’t statistically significant! What should I do?</h2>
 <p><strong>You are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine.</strong></p>
 <p>If you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. you just need to say that you’ve failed to reject the null. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are: you’re wrong, there’s not enough data, there’s uncontrolled confounding, or the sample is biased. You don’t need to give a definitive explanation, just show you’re thinking about your results and that you <a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108">understand what it means to reject or not reject the null hypothesis.</a></p>
 <p>(If you think there’s uncontrolled confounding and it comes from a variable that already exists in the data, you might as well test it and say what you found! But its entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case its fine to say “I suspect this matters, but I can’t test it”)</p>
-</section>
 </section>
 <section id="how-can-i-make-sure-my-code-is-replicable" class="level2">
 <h2 class="anchored" data-anchor-id="how-can-i-make-sure-my-code-is-replicable">How can I make sure my code is replicable?</h2>
