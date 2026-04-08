@@ -199,32 +199,77 @@
     "text": "Use the codebook below to get additional information about variables in the survey data.\n\nNote and suggestions\n\nVariables names beginning with meta_ contain metadata about respondents. These are things like their web browser, the amount of time they spent on the survey, and their unique response ID.\npid_summary is a 7-category measure of party ID that was created using the method we discussed in week 1: people are first asked for their party ID. Those who say they prefer Democrats or Republicans are asked about the strength of their party identification, and self-described independents are asked whether they “lean” toward one party or another, which gives us an ordinal measure of party ranging from Strong Democrat to Strong Republican.\nrace_ethnicity_summary is re-coded from the original race and ethnicity questions and made to resemble the race/ethnicity question on the ANES. The survey allowed respondents to check multiple boxes for their racial identity, which is why there are a series of dummy variables (race_1, race_2…), for each racial category. The survey also asked about Hispanic ethnicity in a separate question. So race_ethnicity_summary combines these responses into a single categorical variable with separate categories for multiracial and Hispanic respondents.\nVariables that end with OTHER_TEXT store the answers to questions where respondents picked an “Other” option. For instance: if someone said they preferred “someone else” in the 2024 election, their write-in preference is in the variable votechoice24_OTHER_TEXT. In most cases, these responses aren’t going to be useful for your analyses because only a handful of people gave any answer.\nNote that many of these questions allow respondents to give a response of not sure. You’ll want to make a decision about how you plan to handle these. One option might be to drop them entirely. Another option might be to combine the not sure responses with another response category. How you choose to handle this is up to you, but just keep in mind that you need to make some kind of decision here because keeping them as is will make ordinal variables no longer ordinal.\n\n\n\nCodebook\n\n\n\n\n\n\n\n\n\nColumn name\nQuestion\nVariable type\nValues\nMissing\n\n\n\n\nmetadata_StartDate\nStart Date\nDate\nRange: 2026-02-23 to 2026-03-12\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Duration__in_seconds_\nDuration (in seconds)\nnumeric\nRange: 78-465819\n\nValid N: 1017;\nNAs: 0\n\n\nResponseId\nResponse ID\ncharacter\n1017 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Browser\nBrowser\ncharacter\n16 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Version\nBrowser Version\ncharacter\n88 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Operating_System\nOperating System\ncharacter\n6 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Resolution\nScreen Resolution\ncharacter\n83 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nrace_ethnicity_summary\nRace/Ethnicity summary\nfactor\nValues:\n\nAmerican Indian/Native American or Alaska Native, non-Hispanic\nAsian, non-Hispanic\nBlack, non-Hispanic\nMultiple races, non-Hispanic\nOther/Refused/NA\nNative Hawaiian or Other Pacific Islander, non-Hispanic\nWhite, non-Hispanic\nHispanic\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_1\nWhite or Caucasian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_2\nBlack or African American\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_3\nAmerican Indian/Native American or Alaska Native\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_4\nAsian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_5\nNative Hawaiian or Other Pacific Islander\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_6\nOther\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_7\nPrefer not to say\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nethnicity\nAre you of Spanish, Hispanic, or Latino origin?\nfactor\nValues:\n\nYes\nNo\n\n\nValid N: 1015;\nNAs: 2\n\n\neducation\nWhat is the highest level of education you have completed?\nfactor\nValues:\n\nSome high school or less\nHigh school diploma or GED\nSome college, but no degree\nAssociates or technical degree\nBachelor’s degree\nGraduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)\nPrefer not to say\n\n\nValid N: 1015;\nNAs: 2\n\n\nincome\nWhat was your total household income before taxes during the past 12 months?\nfactor\nValues:\n\nLess than $25,000\n$25,000-$49,999\n$50,000-$74,999\n$75,000-$99,999\n$100,000-$149,999\n$150,000 or more\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nage\nHow old are you (in years)?\nnumeric\nRange: 16-83\n\nValid N: 988;\nNAs: 29\n\n\nsex_gender\nHow do you describe yourself? - Selected Choice\nfactor\nValues:\n\nMale\nFemale\nNon-binary / third gender\nPrefer to self-describe\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nsex_gender_OTHER_TEXT\nHow do you describe yourself? - Prefer to self-describe - Text\ncharacter\n4 unique values\n\nValid N: 3;\nNAs: 1014\n\n\nwealthtax\nDo you support or oppose a 2% annual tax on the net worth over $50 million?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 985;\nNAs: 32\n\n\ngun_redflag_laws\nDo you support or oppose creating red flag laws that allow a court to temporarily remove guns from people that are believed to pose a danger to themself or others?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nown_greenland\nDo you support or oppose the U.S. using military force to take control of Greenland?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nmaduro_policy\nDo you support or oppose the U.S. using military force to overthrow Venezuelan President Nicolás Maduro?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nun_closer\nDo you support or oppose the U.S. building stronger relationships with international organizations like the United Nations?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nwho_closer\nDo you support or oppose U.S. re-joining the World Health Organization (WHO)?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 986;\nNAs: 31\n\n\ntariffs\nDo you support or oppose substantially increasing tariffs on goods imported from most countries that trade with the U.S.?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nvoted24\nDid you vote in the 2024 presidential election?\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 998;\nNAs: 19\n\n\nwouldvote24\nIf you had voted in the 2024 election, who would you have voted for? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 458;\nNAs: 559\n\n\nwouldvote24_OTHER_TEXT\nIf you had voted in the 2024 election, who would you have voted for? - Someone else - Text\ncharacter\n17 unique values\n\nValid N: 19;\nNAs: 998\n\n\nvotechoice24\nWho did you vote for in the 2024 election? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 446;\nNAs: 571\n\n\nvotechoice24_OTHER_TEXT\nWho did you vote for in the 2024 election? - Someone else - Text\ncharacter\n22 unique values\n\nValid N: 30;\nNAs: 987\n\n\nplan_to_vote28\nDo you plan to vote in the 2028 presidential election?\nfactor\nValues:\n\nNo\nMaybe\nYes\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot\nIf the 2026 election for Congress were being held today, which party’s candidate would you vote for in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\nNot sure\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot_lean\nAs of today, do you lean more toward the Democratic Party’s candidate or the Republican Party’s candidate in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\n\n\nValid N: 152;\nNAs: 865\n\n\nelectoral_college\nThinking for a moment about the way in which the president is elected in this country, which would you prefer:\nfactor\nValues:\n\nAmend the Constitution so the candidate who receives the most total votes nationwide wins the election\nKeep the current system, in which the candidate who wins the most votes in the Electoral College wins the election\nNeither\n\n\nValid N: 991;\nNAs: 26\n\n\nabortion_views\nWhen it comes to abortion, which of these options comes closest to your view?\nfactor\nValues:\n\nIt should be legal under any circumstances\nIt should be legal under most circumstances\nIt should be legal only in a few circumstances\nIt should be illegal in all circumstances\n\n\nValid N: 972;\nNAs: 45\n\n\nwrongtrack\nOn a scale of 0 to 10, with 0 meaning \"on the wrong track\" and 10 meaning \"headed in the right direction\", how would you rate the current state of affairs in the United States?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\njobmarket\nOn a scale from 0 to 10 with 0 indicating \"Awful\" and 10 indicating \"Excellent\", would you rate Donald Trump's performance as president?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\npolicy_electionlaws\nWould you support or oppose the following policies or reforms? - Changing election laws to make it easier for third party candidates to win elections\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_more_reps\nWould you support or oppose the following policies or reforms? - Increasing the number of Congress members from 435.\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_termlimits\nWould you support or oppose the following policies or reforms? - Establishing term limits for Supreme Court justices\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_socialism\nWould you support or oppose the following policies or reforms? - Adopting a socialist system of government\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\nspendgov_healthcare\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Medicare and Medicaid\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_education\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Education\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_border\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Border Security\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_disease\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Disease prevention\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_counterterrorism\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Counterterrorism\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_aid_to_poor\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Assistance to poor people\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nspendgov_israel\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Aid to Israel\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_environment\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Environmental protection\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nleft_right_scale\nIn general, how would you describe your own political views?\nfactor\nValues:\n\nFar left\nLeft\nCenter-left\nCenter\nCenter-right\nRight\nFar right\nNot sure\n\n\nValid N: 1007;\nNAs: 10\n\n\nsystem_works_forme\nOn a scale from 0 to 10, how well do you think the political system in your country works for people like you?\nnumeric\nRange: 0-10\n\nValid N: 1003;\nNAs: 14\n\n\npid\nGenerally speaking, do you think of yourself as a - Selected Choice\nfactor\nValues:\n\nDemocrat\nRepublican\nIndependent\nNot sure\nOther\n\n\nValid N: 1008;\nNAs: 9\n\n\npid_OTHER_TEXT\nGenerally speaking, do you think of yourself as a - Other - Text\ncharacter\n34 unique values\n\nValid N: 60;\nNAs: 957\n\n\npidstrength\nGenerally speaking, do you think of yourself as a\nfactor\nValues:\n\nStrong [choice from pid question]\nNot very strong [choice from pid question]\n\n\nValid N: 600;\nNAs: 417\n\n\npidlean\nDo you think of yourself as closer to the Democratic or the Republican Party?\nfactor\nValues:\n\nCloser to the Democratic party\nCloser to the Republican party\nCloser to neither party\n\n\nValid N: 384;\nNAs: 633\n\n\npid_summary\nParty ID summary\nfactor\nValues:\n\nStrong Democrat\nNot strong Democrat\nIndependent Democrat\nIndependent\nIndependent Republican\nNot strong Republican\nStrong Republican\n\n\nValid N: 984;\nNAs: 33\n\n\ndemoc_quality\nHow would you rate the quality of democracy in the United States?\nnumeric\nRange: 0-10\n\nValid N: 1000;\nNAs: 17\n\n\nimmig_priority\nDo you agree or disagree with the following statement? \"When jobs are scarce, employers should give priority to American people over immigrants.\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\nforeign_aid\nThe U.S. dedicates about $40 billion to foreign aid each year. That's about 0.24% of the national income, or around $119 per person. Would you say the amount the U.S. spends on foreign aid each year is too much, too little, or about right?\nfactor\nValues:\n\nFar too little\nModerately too little\nSlightly too little\nNeither too much nor too little\nSlightly too much\nModerately too much\nFar too much\n\n\nValid N: 892;\nNAs: 125\n\n\nworld_citizen\nWould you say you agree or disagree with the following statement \"I see myself as a world citizen\"?\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 897;\nNAs: 120\n\n\nprioritize_us\nDo you agree or disagree with the following statement? \"America's leaders should focus on solving our problems in this country, even if it means other countries are worse off\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 974;\nNAs: 43\n\n\nenviro_jobs\nDo you agree or disagree with the following statement? \"Economic growth and creating jobs should be the top priority, even if the environment suffers to some extent. \"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 980;\nNAs: 37\n\n\nparis_climate\nDo you agree or disagree with the following statement? \"The U.S. should rejoin the Paris Climate agreement\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 895;\nNAs: 122\n\n\namerican_pride\nDo you agree or disagree with the following statement? \"I'm proud to be an American\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 972;\nNAs: 45\n\n\ninfluence_politics\nDo you agree or disagree with the following statement? \"Our system of government allows ordinary people to have a say in politics\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\ntrust_fed\nHow much of the time do you think you can trust these groups to do the right thing? - The federal government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 970;\nNAs: 47\n\n\ntrust_localgov\nHow much of the time do you think you can trust these groups to do the right thing? - Your local government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 965;\nNAs: 52\n\n\ntrust_relig\nHow much of the time do you think you can trust these groups to do the right thing? - Religious leaders\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 920;\nNAs: 97\n\n\ntrust_media\nHow much of the time do you think you can trust these groups to do the right thing? - The media\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 974;\nNAs: 43\n\n\ntrust_police\nHow much of the time do you think you can trust these groups to do the right thing? - Police\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 971;\nNAs: 46\n\n\ntrust_fam\nHow much of the time do you think you can trust these groups to do the right thing? - Your family and friends\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 972;\nNAs: 45\n\n\ntrust_americans\nHow much trust and confidence do you have in the American people as a whole when it comes to making judgments under our democratic system about the issues facing our country?\nfactor\nValues:\n\nNone at all\nNot very much\nA fair amount\nA great deal\n\n\nValid N: 955;\nNAs: 62\n\n\nsm_news\nHow often would you say you use social media apps like TikTok, Facebook, or Instagram to learn more about politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 976;\nNAs: 41\n\n\npol_news\nHow often would you say you read, watch, or listen to news about U.S. politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 979;\nNAs: 38\n\n\nsm_effects\nDo you believe that social media has a positive or negative influence on American politics?\nfactor\nValues:\n\nExtremely negative\nSomewhat negative\nNeither positive nor negative\nSomewhat positive\nExtremely positive\n\n\nValid N: 970;\nNAs: 47\n\n\ndiscuss_views\nHow often do you discuss politics with people who hold opposing views?\nfactor\nValues:\n\nNever\nRarely\nSometimes\nOften\nAll the time\n\n\nValid N: 989;\nNAs: 28\n\n\nft_ice\nHow do you feel about the following groups or individuals? - Immigration and Customs Enforcement (ICE)\nnumeric\nRange: 0-100\n\nValid N: 980;\nNAs: 37\n\n\nft_congress\nHow do you feel about the following groups or individuals? - Congress\nnumeric\nRange: 0-89\n\nValid N: 939;\nNAs: 78\n\n\nft_trump\nHow do you feel about the following groups or individuals? - Donald Trump\nnumeric\nRange: 0-100\n\nValid N: 979;\nNAs: 38\n\n\nft_badbunny\nHow do you feel about the following groups or individuals? - Bad Bunny\nnumeric\nRange: 0-100\n\nValid N: 927;\nNAs: 90\n\n\nft_scotus\nHow do you feel about the following groups or individuals? - The Supreme Court\nnumeric\nRange: 0-100\n\nValid N: 946;\nNAs: 71\n\n\nft_vance\nHow do you feel about the following groups or individuals? - J.D. Vance\nnumeric\nRange: 0-100\n\nValid N: 949;\nNAs: 68\n\n\nft_immigrants\nHow do you feel about the following groups or individuals? - Immigrants\nnumeric\nRange: 0-100\n\nValid N: 976;\nNAs: 41\n\n\nft_business\nHow do you feel about the following groups or individuals? - Big business\nnumeric\nRange: 0-100\n\nValid N: 952;\nNAs: 65\n\n\nft_unions\nHow do you feel about the following groups or individuals? - Labor unions\nnumeric\nRange: 0-100\n\nValid N: 916;\nNAs: 101\n\n\nft_natguard\nHow do you feel about the following groups or individuals? - The National Guard\nnumeric\nRange: 0-100\n\nValid N: 871;\nNAs: 146\n\n\nft_police\nHow do you feel about the following groups or individuals? - Police\nnumeric\nRange: 0-100\n\nValid N: 972;\nNAs: 45\n\n\nft_noem\nHow do you feel about the following groups or individuals? - Kristi Noem (Secretary of the Department of Homeland Security)\nnumeric\nRange: 0-100\n\nValid N: 821;\nNAs: 196"
   },
   {
-    "objectID": "codebook.html",
-    "href": "codebook.html",
-    "title": "survey_codebook",
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "FAQs",
     "section": "",
-    "text": "library(rlang)\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.0     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   4.0.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter()      masks stats::filter()\n✖ purrr::flatten()     masks rlang::flatten()\n✖ purrr::flatten_chr() masks rlang::flatten_chr()\n✖ purrr::flatten_dbl() masks rlang::flatten_dbl()\n✖ purrr::flatten_int() masks rlang::flatten_int()\n✖ purrr::flatten_lgl() masks rlang::flatten_lgl()\n✖ purrr::flatten_raw() masks rlang::flatten_raw()\n✖ purrr::invoke()      masks rlang::invoke()\n✖ dplyr::lag()         masks stats::lag()\n✖ purrr::splice()      masks rlang::splice()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nsurvey&lt;-readRDS(\"Rdata/survey_recoded.rds\")"
+    "text": "This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page on basic troubleshooting in R.",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
   },
   {
-    "objectID": "codebook.html#handling-not-sure-responses",
-    "href": "codebook.html#handling-not-sure-responses",
-    "title": "survey_codebook",
-    "section": "Handling “Not sure” responses",
-    "text": "Handling “Not sure” responses\nSeveral of the Agree/Disagree questions allowed respondents to give “Not sure” as a valid response. Including this option can help ensure that responses reflect actual opinions, but it breaks the “ordinal” nature of the agree/disagree question."
+    "objectID": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "href": "faqs.html#how-do-i-access-the-help-file-for-a-function",
+    "title": "FAQs",
+    "section": "How do I access the help file for a function?",
+    "text": "How do I access the help file for a function?\nYou can access the help file for a function by typing help(function name) into the console:\n\nhelp(c) # get the help file for the \"c\" function\n\nIf the function is associated with the RCPA3 package, it should have some reasonably detailed information about how each function works, but it will also have links to some short YouTube videos that illustrate how to use them, so consider giving those a watch if you’re stuck.",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
   },
   {
-    "objectID": "codebook.html#making-an-index-variable",
-    "href": "codebook.html#making-an-index-variable",
-    "title": "survey_codebook",
-    "section": "Making an index variable",
-    "text": "Making an index variable\nKeep in mind that you do have the option of combining responses to create an additive or averaged index."
+    "objectID": "faqs.html#when-do-i-need-to-use-weights",
+    "href": "faqs.html#when-do-i-need-to-use-weights",
+    "title": "FAQs",
+    "section": "When do I need to use weights?",
+    "text": "When do I need to use weights?\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
   },
   {
-    "objectID": "codebook.html#collapsing-responses",
-    "href": "codebook.html#collapsing-responses",
-    "title": "survey_codebook",
-    "section": "Collapsing responses",
-    "text": "Collapsing responses"
+    "objectID": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "href": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
+    "title": "FAQs",
+    "section": "What does the $ symbol mean (as in world$ccode)?",
+    "text": "What does the $ symbol mean (as in world$ccode)?\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\n [1] 52 22 29 50 33 29 30 35 35 45 35 45 39 44 40 48 47 53 23 37 30 38 38 60 43\n[26] 31 47 30 23 36 34 32 49 42 36 50 32 39 30 54 42 52 47 57 23 41 33 43 33 31\nattr(,\"label\")\n[1] \"% freq attend relig serv (Pew)\"\n\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to just list column names without adding the name of the data set first. For example: these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "href": "faqs.html#why-am-i-getting-error-object-__-not-found",
+    "title": "FAQs",
+    "section": "Why am I getting Error: object __ not found?",
+    "text": "Why am I getting Error: object __ not found?\nOkay, there could be lots of reasons for this error message, but the most common cause is that you’ve either:\n\nMis-spelled a variable name.\nReferenced a variable without specifying the data set where that variable is stored.\nReferenced a variable that is not yet available in R.\n\nWhen you reference a variable in R, it searches for that variable in the current environment, and it returns an error message when it can’t find it. So the code below returns and error because x hasn’t been defined yet:\n\nx\n\nError: object 'x' not found\n\n\nTo access xI first need to create it by assigning a value (in this case, some text in quotation marks) to that name. This works just fine:\n\nx&lt;-\"I am a variable\"\n\nx\n\n[1] \"I am a variable\"\n\n\nThe other place this comes up is when you try to access a column from a data set without specifying the data set where that variable exists. For instance, “age” is a column in the nes data, but just typing “age” doesn’t work because R doesn’t know where to look:\n\nmean(age, na.rm=T)\n\nError: object 'age' not found\n\n\nUsing the dataset$varname syntax solves this problem:\n\nmean(nes$age, na.rm=T)\n\n[1] 51.58522",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "faqs.html#what-are-factor-variables",
+    "href": "faqs.html#what-are-factor-variables",
+    "title": "FAQs",
+    "section": "What are factor variables?",
+    "text": "What are factor variables?\nA factor variable is R’s default data type for storing categorical data. Technically, a factor is actually just a bunch of integers with a special levels attribute that specifies the labels that those integers correspond to:\n\nexample_factor &lt;- factor(c(1,1,2,2,3,4), labels = c('A', 'B', 'C', 'D'))\nexample_factor\n\n[1] A A B B C D\nLevels: A B C D\n\n\nR can also just store regular text data, but factors have some distinct advantages when working with certain data sources. The most important is that they allow us to control the ordering of tables and graphs. For example, if I make a table with a character variable, R prints the elements in alphabetical order:\n\nstring_vector &lt;- c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\")\ntable(string_vector)\n\nstring_vector\n                     Agree                   Disagree \n                         1                          1 \nNeither disagree nor agree \n                         1 \n\n\nBut alphabetizing this doesn’t make sense because the variable has a clear ordering from disagree to agree. The “levels” attribute on a factor allows me to preserve that ordering:\n\nfactor_vector &lt;- factor(string_vector, \n                        # list of the levels the order I want them to appear: \n                        levels =c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\"))\n\ntable(factor_vector)\n\nfactor_vector\n                  Disagree Neither disagree nor agree \n                         1                          1 \n                     Agree \n                         1 \n\n\nSince each level of a factor also has a numeric value, we can also do things like calculate the median value of an ordered variable:\n\nmedian(as.numeric(factor_vector))\n\n[1] 2",
+    "crumbs": [
+      "Additional Resources",
+      "FAQs"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
   },
   {
     "objectID": "Weeks/Week 10/Week-10.html",
@@ -394,212 +439,212 @@
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression",
     "href": "Slides/slides_11.html#correlation-and-regression",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation and Regression",
     "text": "Correlation and Regression\n\n\nClosely related methods for looking at the relationships between interval level variables\n\n(remember that we have some flexibility in the definition here: ordered variables with 5+ categories are close enough to interval level for most situations)\n\nRegression analysis, in particular, plays a very important role in the social sciences, and it will be a primary focus of a lot of our analyses going forward."
   },
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression-1",
     "href": "Slides/slides_11.html#correlation-and-regression-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation and Regression",
-    "text": "Correlation and Regression\n\nCorrelation: Ranges from -1 to +1. Negative values mean a negative relationship, Positive values mean positive relationship. More extreme values means “stronger association”\nLinear Regression: tells us “the effect of a one-unit increase in X on the expected value of Y”. It can also be used to predict the expected value of Y at some value of X."
+    "text": "Correlation and Regression\n\nCorrelation Ranges from -1 to +1. Negative values mean a negative relationship, Positive values mean positive relationship. More extreme values means “stronger association”\nLinear Regression tells us “the effect of a one-unit increase in X on the expected value of Y”. It can also be used to predict the expected value of Y at some value of X."
   },
   {
     "objectID": "Slides/slides_11.html#summarizing-a-relationship",
     "href": "Slides/slides_11.html#summarizing-a-relationship",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Summarizing a relationship",
     "text": "Summarizing a relationship\nI’ve got some data. How would I summarize the relationship between X and Y here?"
   },
   {
     "objectID": "Slides/slides_11.html#summarizing-a-relationship-1",
     "href": "Slides/slides_11.html#summarizing-a-relationship-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Summarizing a relationship",
     "text": "Summarizing a relationship\n\n\n\nEasy right?\n\n\n\nTake a formula from geometry: \\(y = ax + b\\) (slope and y-intercept)\n\n\n\n\nSo: \\(y = 1x + 0\\)"
   },
   {
     "objectID": "Slides/slides_11.html#summarizing-a-relationship-2",
     "href": "Slides/slides_11.html#summarizing-a-relationship-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Summarizing a relationship",
-    "text": "Summarizing a relationship\n\n\n\nCould we summarize this with a straight line?\n\n\n\nIntuitively, it seems like we can just split the difference\n\n\n\n\nTechnically, our line is just a prediction for Y at each value of X. That’s fine, but we’ll distinguish the actual value of Y from our prediction by giving the predicted Y a little hat: \\(\\hat{y} = 0 + 1x\\).\n\n\n\n\nThe actual value of any y value will be \\(y_i = 0 + 1x + e\\) where “\\(e\\)” is just an error that represents the difference between our prediction and the real value."
+    "text": "Summarizing a relationship\n\n\n\nCould we summarize this with a straight line?\n\n\n\nIntuitively, it seems like we can just split the difference"
   },
   {
     "objectID": "Slides/slides_11.html#summarizing-a-relationship-3",
     "href": "Slides/slides_11.html#summarizing-a-relationship-3",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Summarizing a relationship",
-    "text": "Summarizing a relationship\nThis is the basic intuition behind linear regression.\nInstead of the \\(y = ax + b\\) formula you learned in school, we’ll usually re-arrange the line formula like this:\n\\[\\hat{y} = \\alpha + \\beta x\\]\n\nBut we’re still talking about a line here! \\(\\alpha\\) is our y-intercept, \\(\\beta\\) is the slope of the line, and \\(x\\) is an independent variable.\n\n\nWe can interpret the “slope” as the effect of a one unit increase in “x” on the expected value of “y”"
+    "text": "Summarizing a relationship\n\n\n\nThink of our line as representation a prediction for Y at each value of X. (You’ll often see the predicted values of \\(y\\) represented using a hat: \\(\\widehat{y}\\) )"
   },
   {
     "objectID": "Slides/slides_11.html#real-life-data",
     "href": "Slides/slides_11.html#real-life-data",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Real life data",
     "text": "Real life data\nWhat if we want to do this with real life data?"
   },
   {
     "objectID": "Slides/slides_11.html#real-life-data-1",
     "href": "Slides/slides_11.html#real-life-data-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Real life data",
     "text": "Real life data\n\n\n\n\nMy IV is the % urbanization in a state. My DV is the number of traffic fatalities per 100,000 population.\n\n\n\n\nWe could probably think of a lot of lines that might kind of “fit” here. So how do we pick the best one?"
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors",
     "href": "Slides/slides_11.html#minimizing-the-errors",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
     "text": "Minimizing the errors\n\n\n\nThe regression line is defined as the straight line that minimizes the squared errors for predicting Y. We’ll unpack this term."
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors-1",
     "href": "Slides/slides_11.html#minimizing-the-errors-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
     "text": "Minimizing the errors\n\n\nHere’s a line that I just made by eyeballing it. The slope is -.3 and the intercept is 38."
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors-2",
     "href": "Slides/slides_11.html#minimizing-the-errors-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
     "text": "Minimizing the errors\n\n\nThink of the orange line as my prediction of motor vehicle deaths at a given level of urbanization."
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors-3",
     "href": "Slides/slides_11.html#minimizing-the-errors-3",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
-    "text": "Minimizing the errors\n\n\nWhen a state is about 50% urban, my prediction (\\(\\hat{y}\\)) is \\[38 + 50 \\times -0.3 = 36.5\\]"
+    "text": "Minimizing the errors\n\n\nWhen a state is about 50% urban, my prediction (\\(\\widehat{y}\\)) is \\[38 + 50 \\times -0.3 = 36.5\\]"
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors-4",
     "href": "Slides/slides_11.html#minimizing-the-errors-4",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
-    "text": "Minimizing the errors\n\n\n\nRemember that an “error” is just a missed prediction. Its the difference between \\(\\hat{y}\\) (the prediction for y) and \\(y\\) (the actual value)\n\n\n\nSo, getting the error sum of squares (ESS) would involve squaring all of these and summing all of them up."
+    "text": "Minimizing the errors\n\n\n\nRemember that an “error” is just a missed prediction. Its the difference between \\(\\widehat{y}\\) (the prediction for y) and \\(y\\) (the actual value)\n\n\n\nSo, getting the error sum of squares (ESS) would involve squaring all of these and summing all of them up."
   },
   {
     "objectID": "Slides/slides_11.html#minimizing-the-errors-5",
     "href": "Slides/slides_11.html#minimizing-the-errors-5",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Minimizing the errors",
     "text": "Minimizing the errors\nAnd our “best line” would be the one that minimizes this value."
   },
   {
     "objectID": "Slides/slides_11.html#regression-lines",
     "href": "Slides/slides_11.html#regression-lines",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Regression Lines",
-    "text": "Regression Lines\n\n\n\n\na one unit increase in % urbanization is associated with 0.22 unit decrease in motor vehicle deaths\n\n\n\n\nWhen urbanization is equal to 0, we expect 33.37 deaths per 100,000\n\n\n\n\n(No state is 0% urban, but we still need the intercept to make predictions from the model)"
+    "text": "Regression Lines\n\\[\\widehat{y} = 33.37 + -0.22\\times \\text{% urbanization} \\]"
   },
   {
     "objectID": "Slides/slides_11.html#regression-lines-1",
     "href": "Slides/slides_11.html#regression-lines-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Regression Lines",
-    "text": "Regression Lines\nThere’s a couple of slides at the end that explain how we calculate this, but its ultimately less important than understanding the interpretation:\n\\[\n\\hat{y} =  \\alpha + \\beta x\n\\]\n\n\nRegression summarizes the relationship between X (the IV) and Y (the DV) using a line with a slope and Y-intercept\nThe slope coefficient (\\(\\beta\\)) represents the effect of a one unit change in X on the predicted value for Y\nThe intercept (\\(\\alpha\\)) represents the prediction for Y when the X equals 0.\nThe line we choose is the one that best fits the data, as measured by the squared distance between the predicted value and the actual value."
+    "text": "Regression Lines\nThere’s a couple of slides at the end that explain how we calculate this, but its ultimately less important than understanding the interpretation"
   },
   {
     "objectID": "Slides/slides_11.html#regression-lines-2",
     "href": "Slides/slides_11.html#regression-lines-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Regression Lines",
-    "text": "Regression Lines\nHow does % state population age 18-24 relate to motor vehicle deaths?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n  \n    \n    \n    tinytable_g2zqrke7k47fm3elr58b\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                DV: Motor vehicle deaths per 100,000 pop\n              \n        \n        Note: Standard errors in parentheses\n        \n                \n                  (Intercept)                                \n                  12.6  \n                \n                \n                                                             \n                  (12.0)\n                \n                \n                  Percentage of population 18 to 24 years old\n                  0.5   \n                \n                \n                                                             \n                  (1.3) \n                \n                \n                  Num.Obs.                                   \n                  50    \n                \n                \n                  R2                                         \n                  0.003"
+    "text": "Regression Lines\n\\[\n\\widehat{y} =  \\alpha + \\beta x\n\\]\n\n\nRegression summarizes the relationship between X (the IV) and Y (the DV) by finding the line that minimizes the squared distance between the predicted value and the actual value.\nThe coefficient (\\(\\beta\\)) represents the effect of a one unit change in X on the predicted value for Y\nThe intercept (\\(\\alpha\\)) represents the prediction for Y when the X equals 0."
   },
   {
     "objectID": "Slides/slides_11.html#correlation",
     "href": "Slides/slides_11.html#correlation",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation",
-    "text": "Correlation\nRegression and correlation are very close cousins. But they perform slightly different roles.\n\n\nRegression lets us use a slope and intercept to summarize how X and Y are related.\nCorrelation uses a single number to summarize the relationship between two interval variables.\nalso standardizes the slope so that it only ranges from -1 and 1."
+    "text": "Correlation\nRegression and correlation are very close cousins. But they perform slightly different roles.\n\n\nRegression lets us use a slope and intercept to summarize how X and Y are related.\nCorrelation uses a single number to summarize the relationship between two interval variables.\nCorrelation is also standardized, so that it ranges from -1 to +1, regardless of the scale of the original variables."
   },
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression-2",
     "href": "Slides/slides_11.html#correlation-and-regression-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation and Regression",
     "text": "Correlation and Regression\n\n\nRemember that the y-intercept here was kind of meaningless because we never observe a state where urban = 0"
   },
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression-3",
     "href": "Slides/slides_11.html#correlation-and-regression-3",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation and Regression",
     "text": "Correlation and Regression\n\n\nIf we mean-center both variables, however, we can make it so the y-intercept term is always equal to zero."
   },
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression-4",
     "href": "Slides/slides_11.html#correlation-and-regression-4",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation and Regression",
     "text": "Correlation and Regression\n\n\nAnd if we divide both variables by their standard deviations, we’ll make it so that the slope never goes below -1 or above 1.\n\nThis is actually the correlation coefficient: its just a regression line where both X and Y have been standardized."
   },
   {
     "objectID": "Slides/slides_11.html#regression-and-the-difference-of-means-test",
     "href": "Slides/slides_11.html#regression-and-the-difference-of-means-test",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Regression and the difference of means test",
-    "text": "Regression and the difference of means test\nCase in point: if X is dichotomous and Y is an interval level variable, we can get a difference of means test from a regression model.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n  \n    \n    \n    tinytable_kpz76kfuz3xd4ix60xkd\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                DV: Feeling thermometer: socialists\n              \n        \n        Note: Standard errors in parentheses\n        \n                \n                  (Intercept)                \n                  37.4 \n                \n                \n                                             \n                  (0.4)\n                \n                \n                  Born after collapse of USSR\n                  9.4  \n                \n                \n                                             \n                  (1.2)\n                \n                \n                  Num.Obs.                   \n                  6503"
+    "text": "Regression and the difference of means test\nCase in point: if X is dichotomous and Y is an interval level variable, we can get a difference of means test from a regression model.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n  \n    \n    \n    tinytable_l26em34k79tqdu1wtlek\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                DV: Feeling thermometer: socialists\n              \n        \n        Note: Standard errors in parentheses\n        \n                \n                  (Intercept)                \n                  37.4 \n                \n                \n                                             \n                  (0.4)\n                \n                \n                  Born after collapse of USSR\n                  9.4  \n                \n                \n                                             \n                  (1.2)\n                \n                \n                  Num.Obs.                   \n                  6503"
   },
   {
     "objectID": "Slides/slides_11.html#covariance",
     "href": "Slides/slides_11.html#covariance",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Covariance",
-    "text": "Covariance\nStart by calculating the covariance of x and y\n\n\nNote that:\n\nIf x and y are both above or below their means at the same time, then covariance increases\nIf x is above its mean when y is below its mean (or vice-versa), then covariance decreases\n\n\n\\[\n\\text{Covariance}(x,y) = \\frac{\\sum^{n}_{i=1}(x_i-\\bar{x})(y_i-\\bar{y})}{n-1}\n\\]\n\\[\\begin{aligned}\nx_i &= \\text{each individual x value} \\\\\n\\bar{x} &= \\text{the sample mean of x} \\\\\n\ny_i &= \\text{each individual y value} \\\\\n\\bar{y} &= \\text{the sample mean of y} \\\\\nn & = \\text{the sample size}\n\\end{aligned}\\]"
+    "text": "Covariance\nStart by calculating the covariance of x and y\n\\[\\begin{align}\n\\text{Covariance}(x,y) &= \\frac{\\sum^{n}_{i=1}(x_i-\\bar{x})(y_i-\\bar{y})}{n-1}\\\\\nx_i &= \\text{each individual x value} \\\\\n\\bar{x} &= \\text{the sample mean of x} \\\\\ny_i &= \\text{each individual y value} \\\\\n\\bar{y} &= \\text{the sample mean of y} \\\\\nn & = \\text{the sample size}\n\\end{align}\\]"
   },
   {
     "objectID": "Slides/slides_11.html#covariance-1",
     "href": "Slides/slides_11.html#covariance-1",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Covariance",
-    "text": "Covariance\nSo start with the mean of X and Y\n\n\n\n\nX\nY\n\n\n\n\n\n6\n4\n\n\n\n6\n7\n\n\n\n6\n10\n\n\n\n10\n5\n\n\n\n10\n9\n\n\n\n10\n13\n\n\n\n14\n8\n\n\n\n14\n11\n\n\n\n14\n14\n\n\n\nMean X: 10\nMean Y: 9"
+    "text": "Covariance\n\n\nNote that:\n\nIf x and y are both above or below their means at the same time, then covariance increases\nIf x is above its mean when y is below its mean (or vice-versa), then covariance decreases\n\n\n\\[\n\\frac{\\sum^{n}_{i=1}(x_i-\\bar{x})(y_i-\\bar{y})}{n-1}\n\\]"
   },
   {
     "objectID": "Slides/slides_11.html#covariance-2",
     "href": "Slides/slides_11.html#covariance-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Covariance",
-    "text": "Covariance\nThen subtract the column mean from each observation:\n\n\n\n\\((x_i-\\bar{x})\\)\n\\((y_i-\\bar{y})\\)\n\n\n\n\n-4\n-5\n\n\n-4\n-2\n\n\n-4\n1\n\n\n0\n1\n\n\n0\n0\n\n\n0\n4\n\n\n4\n-1\n\n\n4\n2\n\n\n4\n5"
+    "text": "Covariance\nSo start with the mean of X and Y\n\n\n\n\n\nX\nY\n\n\n\n\n\n6\n4\n\n\n\n6\n7\n\n\n\n6\n10\n\n\n\n10\n5\n\n\n\n10\n9\n\n\n\n10\n13\n\n\n\n14\n8\n\n\n\n14\n11\n\n\n\n14\n14\n\n\n\nMean X: 10\nMean Y: 9"
   },
   {
     "objectID": "Slides/slides_11.html#covariance-3",
     "href": "Slides/slides_11.html#covariance-3",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Covariance",
-    "text": "Covariance\nFinally, multiply each deviation from the mean together and sum up the results:\n\n\n\n\\((x_i-\\bar{x})\\)\n\\((y_i-\\bar{y})\\)\n\\((x_i-\\bar{x}) (y_i-\\bar{y})\\)\n\n\n\n\n-4\n-5\n20\n\n\n-4\n-2\n8\n\n\n-4\n1\n-4\n\n\n0\n1\n0\n\n\n0\n0\n0\n\n\n0\n4\n0\n\n\n4\n-1\n-4\n\n\n4\n2\n8\n\n\n4\n5\n20\n\n\n\n\nTotal: 48; \\(48/(9-1) = 6\\)\n\n\n\n\nSo our covariance here is 6"
+    "text": "Covariance\nThen subtract the column mean from each observation:\n\n\n\n\n\\((x_i-\\bar{x})\\)\n\\((y_i-\\bar{y})\\)\n\n\n\n\n-4\n-5\n\n\n-4\n-2\n\n\n-4\n1\n\n\n0\n1\n\n\n0\n0\n\n\n0\n4\n\n\n4\n-1\n\n\n4\n2\n\n\n4\n5"
   },
   {
     "objectID": "Slides/slides_11.html#getting-the-coefficient",
     "href": "Slides/slides_11.html#getting-the-coefficient",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Getting the coefficient",
     "text": "Getting the coefficient\nTo get the slope, we need to divide the covariance by the squared standard deviation of X.\n\\[\n\\beta = \\frac{cov(x, y)}{s_{x}^2}\n\\]\n\nThe standard deviation of x was about 3.47, our slope here is:\n\\[\n\\beta = \\frac{6}{3.47^2} = .5\n\\]"
   },
   {
     "objectID": "Slides/slides_11.html#getting-the-intercept",
     "href": "Slides/slides_11.html#getting-the-intercept",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Getting the intercept",
     "text": "Getting the intercept\nOnce we have the slope, we can get the intercept (\\(\\alpha\\)) by plugging in the mean of X and Y and then solving for a:\n\\[\n\\bar{y} = \\alpha + \\beta\\bar{x}\n\\]\n\\[\n\\alpha = \\bar{y} - (\\beta \\bar{x})\n\\]\n\nSo:\n\\[\n\\alpha = 9 - (.5\\times 10) = 4\n\\]"
   },
   {
     "objectID": "Slides/slides_11.html#the-line-of-best-fit",
     "href": "Slides/slides_11.html#the-line-of-best-fit",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "The line of best fit",
-    "text": "The line of best fit\nAnd so our line looks like this:\n\n\n\n\n\n\nX\nY\n\n\n\n\n\n6\n4\n\n\n\n6\n7\n\n\n\n6\n10\n\n\n\n10\n5\n\n\n\n10\n9\n\n\n\n10\n13\n\n\n\n14\n8\n\n\n\n14\n11\n\n\n\n14\n14"
+    "text": "The line of best fit\nAnd so our line looks like this:\n\n\n\n\n\n\n\nX\nY\n\n\n\n\n\n6\n4\n\n\n\n6\n7\n\n\n\n6\n10\n\n\n\n10\n5\n\n\n\n10\n9\n\n\n\n10\n13\n\n\n\n14\n8\n\n\n\n14\n11\n\n\n\n14\n14"
   },
   {
     "objectID": "Slides/slides_11.html#correlation-2",
     "href": "Slides/slides_11.html#correlation-2",
-    "title": "Chapter 8: Correlation and Regression",
+    "title": "Correlation and Regression",
     "section": "Correlation",
-    "text": "Correlation\n\n\n\nThe only difference between the regression slope and the correlation is that correlations are calculated by standardizing the covariance for both X and Y.\n\n\n\\[\n\\text{Correlation}(x,y) = \\frac{\\text{Covariance}(x,y)}{s_x s_y}\n\\]\n\\[\\begin{aligned}\n\ns_x &= \\text{the sample standard deviation of x} \\\\\ns_y &= \\text{the sample standard deviation of y} \\\\\n\\end{aligned}\\]"
+    "text": "Correlation\n\n\n\nThe only difference between the regression slope and the correlation is that correlations are calculated by standardizing the covariance for both X and Y.\n\n\n\\[\n\\text{Correlation}(x,y) = \\frac{\\text{Covariance}(x,y)}{s_x s_y}\n\\]\n\\[\\begin{align}\n\ns_x &= \\text{the sample standard deviation of x} \\\\\ns_y &= \\text{the sample standard deviation of y} \\\\\n\n\n\\end{align}\n\\]"
   },
   {
     "objectID": "Slides/slides_09.html#one-or-two-samples",
@@ -2659,9 +2704,149 @@
   {
     "objectID": "Slides/slides_10.html#example",
     "href": "Slides/slides_10.html#example",
-    "title": "Chapter 7: Review and Practice",
+    "title": "Tests for categorical variables",
     "section": "Example",
-    "text": "Example\nLet’s work with a concrete example:\n\n\\(H_a\\): Countries with lower levels of ethnic fractionalization (more linguistic/ethnic diversity) will be more likely to have a proportional representation system.\n\\(H_0\\): There’s no relationship between ethnic fractionalization and PR systems.\n\n\nHere’s what our initial results look like:\n\n\n\n\n\n\nPR system?\nHigh frac.\nLow frac.\n\n\n\n\nNo\n47 (60%)\n32 (44%)\n\n\nYes\n31 (40%)\n41 (56%)"
+    "text": "Example\n\n\n\nWhat factors influence whether a mass campaign succeeds or fails?\nDo goals, tactics, external support etc. really make a difference?"
+  },
+  {
+    "objectID": "Slides/slides_10.html#example-1",
+    "href": "Slides/slides_10.html#example-1",
+    "title": "Tests for categorical variables",
+    "section": "Example",
+    "text": "Example\n\n\n\nNAVCO 1.2: Each row represents a mass movement or campaign where participants demanded fundamental changes to the constitutional order in their country (such as regime change or secession.)\nData on campaigns from 1946 through 2014."
+  },
+  {
+    "objectID": "Slides/slides_10.html#example-navco",
+    "href": "Slides/slides_10.html#example-navco",
+    "title": "Tests for categorical variables",
+    "section": "Example: NAVCO",
+    "text": "Example: NAVCO\n\n\n\nThere’s a clear disparity in the success rates depending on the type of goal the movement is pursuing.\nBut could the disparity we see here be explained by random sampling error?\nA difference of of proportions test doesn’t really work here because we have a 3-category IV."
+  },
+  {
+    "objectID": "Slides/slides_10.html#example-navco-1",
+    "href": "Slides/slides_10.html#example-navco-1",
+    "title": "Tests for categorical variables",
+    "section": "Example NAVCO",
+    "text": "Example NAVCO\n\\(H_a\\): Goal types are related to movement success\n\\(H_0\\): Goal types are not related to movement success\n\nWhat would this table look like under the null hypothesis?"
+  },
+  {
+    "objectID": "Slides/slides_10.html#example-navco-2",
+    "href": "Slides/slides_10.html#example-navco-2",
+    "title": "Tests for categorical variables",
+    "section": "Example NAVCO",
+    "text": "Example NAVCO\n\n\n\nIf \\(H_0\\) is true, we would expect a table with the same marginal (row/column) totals, but without these disparities in cell frequencies."
+  },
+  {
+    "objectID": "Slides/slides_10.html#calculating-a-null-table",
+    "href": "Slides/slides_10.html#calculating-a-null-table",
+    "title": "Tests for categorical variables",
+    "section": "Calculating a null table",
+    "text": "Calculating a null table\nWe can calculate this for each cell with the formula:\n\\[\n\\text{Row Total} \\times \\frac{\\text{Column Total}}{\\text{Total Number of observations}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_10.html#calculating-a-null-table-1",
+    "href": "Slides/slides_10.html#calculating-a-null-table-1",
+    "title": "Tests for categorical variables",
+    "section": "Calculating a null table",
+    "text": "Calculating a null table\nNote that there’s no discrepancy here when we calculate column percentages."
+  },
+  {
+    "objectID": "Slides/slides_10.html#comparing-the-observed-to-the-null-table",
+    "href": "Slides/slides_10.html#comparing-the-observed-to-the-null-table",
+    "title": "Tests for categorical variables",
+    "section": "Comparing the observed to the null table",
+    "text": "Comparing the observed to the null table\nNow, we need to calculate a test statistic that reflect how much the observed table differs from the table we expect under the null hypothesis.\n\nWe can get this by calculating the following for each cell and then summing up our result:\n\\[\n\\frac{(\\text{observed}-\\text{expected})^2}{\\text{expected}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_10.html#comparing-the-observed-to-the-null-table-1",
+    "href": "Slides/slides_10.html#comparing-the-observed-to-the-null-table-1",
+    "title": "Tests for categorical variables",
+    "section": "Comparing the observed to the null table",
+    "text": "Comparing the observed to the null table\n\n\n\n\n\n\nSumming up, we get: \\(0.9 + 1.1 + 8.8 + 11.7 + 0.7 + 1 = 24.2\\). This is our \\(\\chi^2\\) statistic for this table."
+  },
+  {
+    "objectID": "Slides/slides_10.html#the-chi2-statistic",
+    "href": "Slides/slides_10.html#the-chi2-statistic",
+    "title": "Tests for categorical variables",
+    "section": "The \\(\\chi^2\\) statistic",
+    "text": "The \\(\\chi^2\\) statistic\n\nSumming up, we get: \\(0.9 + 1.1 + 8.8 + 11.7 + 0.7 + 1 = 24.2\\). This is our \\(\\chi^2\\) statistic for this table.\n\n\nNow we just need to calculate the degrees of freedom to find the p-value associated with this \\(\\chi^2\\) statistic.\n\n\nThe degrees of freedom for this test is based on the number of rows and columns in the table:\n\\[\n\\text{Degrees of freedom} = (\\text{number of rows} - 1 ) \\times (\\text{number of columns} - 1)\n\\]\n\n\n\\[\n(\\text{2} - 1 ) \\times (\\text{3} - 1) = 2\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_10.html#the-p-value",
+    "href": "Slides/slides_10.html#the-p-value",
+    "title": "Tests for categorical variables",
+    "section": "The p-value",
+    "text": "The p-value\nWhat is the probability of a \\(\\chi^2\\) statistic \\(\\geq 24.2\\) at \\(df = 2\\)?\n\npchisq(24.2, df = 2, lower.tail=F)\n\n[1] 5.559513e-06\n\n\n\nWe’re very unlikely to see a discrepancy this large if there’s no relationship between goal type and the probability of campaign success.\n\n\nThese results are more surprising than landing 17 consecutive heads when flipping an unbiased coin:\n\n\n[1] 17.45661"
+  },
+  {
+    "objectID": "Slides/slides_10.html#chi2-in-rcpa3",
+    "href": "Slides/slides_10.html#chi2-in-rcpa3",
+    "title": "Tests for categorical variables",
+    "section": "\\(\\chi^2\\) in RCPA3",
+    "text": "\\(\\chi^2\\) in RCPA3\nWhen using RCPA3, you can use crosstabC with the chisq=TRUE optional argument to perform this test:\n\n\n\nlibrary(RCPA3)\ncrosstabC(dv = outcome, \n          iv = goal_type, \n          chisq=TRUE, \n          data = navco\n          )"
+  },
+  {
+    "objectID": "Slides/slides_10.html#chi2-limitations-and-notes",
+    "href": "Slides/slides_10.html#chi2-limitations-and-notes",
+    "title": "Tests for categorical variables",
+    "section": "\\(\\chi^2\\) limitations and notes",
+    "text": "\\(\\chi^2\\) limitations and notes\n\n\\(\\chi^2\\) is not a “directional” test. The null hypothesis is always “no relationship”, and the alternative is just “some relationship”.\n\\(\\chi^2\\) is a continuous distribution, but cell frequencies are counts. At larger sample sizes, this doesn’t matter, but it becomes a problem when expected cell frequencies are less than 5. At very small sample sizes, Fisher’s Exact test may be better.\nWe can also perform a \\(\\chi^2\\) test with a control variable by dis-aggregating based on some other characteristic and then computing the test separately for each group, but note that this can lead to the small-cell size problem."
+  },
+  {
+    "objectID": "Slides/slides_10.html#chi2-controlled-comparison",
+    "href": "Slides/slides_10.html#chi2-controlled-comparison",
+    "title": "Tests for categorical variables",
+    "section": "\\(\\chi^2\\) controlled comparison",
+    "text": "\\(\\chi^2\\) controlled comparison\n\nWe can also perform a \\(\\chi^2\\) test with a control variable by dis-aggregating based on some other characteristic and then computing the test separately for each group to see if the relationship still exists.\nFor instance, what if we thought that the use of violence tactics was a confounder that actually explained the observed disparity in success rates across movement goals?"
+  },
+  {
+    "objectID": "Slides/slides_10.html#controlled-comparison",
+    "href": "Slides/slides_10.html#controlled-comparison",
+    "title": "Tests for categorical variables",
+    "section": "Controlled comparison",
+    "text": "Controlled comparison"
+  },
+  {
+    "objectID": "Slides/slides_10.html#controlled-comparison-1",
+    "href": "Slides/slides_10.html#controlled-comparison-1",
+    "title": "Tests for categorical variables",
+    "section": "Controlled comparison",
+    "text": "Controlled comparison\n\nControlled comparisons can work here, but we quickly run into a problem of small cell counts.\nFor small sample sizes and a small number of categories, we can use Fisher’s exact test.\nBut if we think there are multiple confounders, we’ll either need very large samples or we’ll need to adopt a separate approach."
+  },
+  {
+    "objectID": "Slides/slides_10.html#pre-and-other-measures",
+    "href": "Slides/slides_10.html#pre-and-other-measures",
+    "title": "Tests for categorical variables",
+    "section": "PRE and other measures",
+    "text": "PRE and other measures\n\nLambda is one of many measures that can tell you “how much better” you can predict one categorical variable by knowing values of categorical variable. It ranges from 0 to 1, with higher values indicating stronger associations.\nSomers’ D measures ordinal-ordinal associations by counting “concordant” and “discordant” pairs in a cross tab.\nCramer’s V is a scaled measure based on \\(\\chi^2\\) that also ranges from 0 to 1 and measures the strength of assocation between two categorical variables."
+  },
+  {
+    "objectID": "Slides/slides_10.html#final-paper-info",
+    "href": "Slides/slides_10.html#final-paper-info",
+    "title": "Tests for categorical variables",
+    "section": "Final paper info",
+    "text": "Final paper info\n\nDue online on Final Exam Date (Thursday May 14 at 4:00 PM for 010 classes, Tuesday May 12, at 4:00 PM for 020 classes)\n4 page single spaced memo.\nData analysis using the class survey.\nYour paper will use a regression model, which requires specific variable types to work"
+  },
+  {
+    "objectID": "Slides/slides_10.html#final-paper-info-1",
+    "href": "Slides/slides_10.html#final-paper-info-1",
+    "title": "Tests for categorical variables",
+    "section": "Final paper info",
+    "text": "Final paper info\n\nYour dependent variable will be continuous, or it should be something we can treat as continuous:\n\nFeeling thermometers\nOrdered categorical responses with 5 or more categories\nIndex measures created by adding up or averaging one or more ordinal variables (for instance, add together all of the spending questions to get an index of general support for spending)\n(Note that HGLO students may have different requirements here)\n\nYour main independent variable could be anything you expect to explain the outcome of interest, although you may find your results easier to interpret if your IV is either ordinal or interval-level.\nYou should think about a control variable that might act as a confounder for the relationship you’re exploring."
+  },
+  {
+    "objectID": "Slides/slides_10.html#final-paper-info-2",
+    "href": "Slides/slides_10.html#final-paper-info-2",
+    "title": "Tests for categorical variables",
+    "section": "Final paper info",
+    "text": "Final paper info\n\nFor now, you can just start thinking about what variables you might want to use, and why you think they’re connected. Remember that there’s a detailed survey codebook on the 201 Website"
+  },
+  {
+    "objectID": "Slides/slides_10.html#final-paper-info-3",
+    "href": "Slides/slides_10.html#final-paper-info-3",
+    "title": "Tests for categorical variables",
+    "section": "Final paper info",
+    "text": "Final paper info\n\nAdditional materials will be posted on ELMS and linked on the “Modules” page and in a designated section on the 201 webpage.\nIf you go digging around in the “files” sections, you may find old example papers and guidelines. Keep in mind that requirements and expectations may have changed somewhat, so don’t take these older materials as gospel."
   },
   {
     "objectID": "Survey codebook.html",
@@ -2791,77 +2976,74 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "codebook.html",
+    "href": "codebook.html",
+    "title": "survey_codebook",
     "section": "",
-    "text": "This is a site for students taking GVPT 201 in Spring 2026. While the most important course material is stored on ELMS, I will occasionally post examples and other instructional materials and other cool stuff on this site."
+    "text": "library(rlang)\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.3.2\n\n\nWarning: package 'tidyr' was built under R version 4.3.3\n\n\nWarning: package 'readr' was built under R version 4.3.3\n\n\nWarning: package 'stringr' was built under R version 4.3.2\n\n\nWarning: package 'lubridate' was built under R version 4.3.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.0     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   4.0.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter()      masks stats::filter()\n✖ purrr::flatten()     masks rlang::flatten()\n✖ purrr::flatten_chr() masks rlang::flatten_chr()\n✖ purrr::flatten_dbl() masks rlang::flatten_dbl()\n✖ purrr::flatten_int() masks rlang::flatten_int()\n✖ purrr::flatten_lgl() masks rlang::flatten_lgl()\n✖ purrr::flatten_raw() masks rlang::flatten_raw()\n✖ purrr::invoke()      masks rlang::invoke()\n✖ dplyr::lag()         masks stats::lag()\n✖ purrr::splice()      masks rlang::splice()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nsurvey&lt;-readRDS(\"Rdata/survey_recoded.rds\")"
   },
   {
-    "objectID": "faqs.html",
-    "href": "faqs.html",
-    "title": "FAQs",
+    "objectID": "codebook.html#handling-not-sure-responses",
+    "href": "codebook.html#handling-not-sure-responses",
+    "title": "survey_codebook",
+    "section": "Handling “Not sure” responses",
+    "text": "Handling “Not sure” responses\nSeveral of the Agree/Disagree questions allowed respondents to give “Not sure” as a valid response. Including this option can help ensure that responses reflect actual opinions, but it breaks the “ordinal” nature of the agree/disagree question."
+  },
+  {
+    "objectID": "codebook.html#making-an-index-variable",
+    "href": "codebook.html#making-an-index-variable",
+    "title": "survey_codebook",
+    "section": "Making an index variable",
+    "text": "Making an index variable\nKeep in mind that you do have the option of combining responses to create an additive or averaged index."
+  },
+  {
+    "objectID": "codebook.html#collapsing-responses",
+    "href": "codebook.html#collapsing-responses",
+    "title": "survey_codebook",
+    "section": "Collapsing responses",
+    "text": "Collapsing responses"
+  },
+  {
+    "objectID": "final_paper_tips.html",
+    "href": "final_paper_tips.html",
+    "title": "Final paper FAQs",
     "section": "",
-    "text": "This is a running list of questions (primarily R-related) that have come up a lot over the semester. If you’re here, you might also want to check out the page on basic troubleshooting in R.",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "text": "This is (almost) entirely up to you! Remember that there’s a detailed codebook on the course website that describes each variable and its values. As long as you can use a linear or logistic model for it, you can use it.\nHowever, there are a few things you should probably consider when selecting variables:\n\nVariable types: for a linear model, your dependent variable should be numeric or you should be able to treat it as numeric (5 or more ordered categories). Your independent variables can be numeric, ordinal or categorical.\nInterest and intuition: you’re not necessarily being graded on the novelty of plausibilty of your theory, but you’ll find its easier to write a paper if you can make an argument for why you think a relationship would exist between your selected variables.\nConceptual/Operational definitions: You should try to make your operational definition match your conceptual definition as closely as possible. You have some wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump."
   },
   {
-    "objectID": "faqs.html#how-do-i-access-the-help-file-for-a-function",
-    "href": "faqs.html#how-do-i-access-the-help-file-for-a-function",
-    "title": "FAQs",
-    "section": "How do I access the help file for a function?",
-    "text": "How do I access the help file for a function?\nYou can access the help file for a function by typing help(function name) into the console:\n\nhelp(c) # get the help file for the \"c\" function\n\nIf the function is associated with the RCPA3 package, it should have some reasonably detailed information about how each function works, but it will also have links to some short YouTube videos that illustrate how to use them, so consider giving those a watch if you’re stuck.",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "objectID": "final_paper_tips.html#what-variables-should-i-use",
+    "href": "final_paper_tips.html#what-variables-should-i-use",
+    "title": "Final paper FAQs",
+    "section": "",
+    "text": "This is (almost) entirely up to you! Remember that there’s a detailed codebook on the course website that describes each variable and its values. As long as you can use a linear or logistic model for it, you can use it.\nHowever, there are a few things you should probably consider when selecting variables:\n\nVariable types: for a linear model, your dependent variable should be numeric or you should be able to treat it as numeric (5 or more ordered categories). Your independent variables can be numeric, ordinal or categorical.\nInterest and intuition: you’re not necessarily being graded on the novelty of plausibilty of your theory, but you’ll find its easier to write a paper if you can make an argument for why you think a relationship would exist between your selected variables.\nConceptual/Operational definitions: You should try to make your operational definition match your conceptual definition as closely as possible. You have some wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump."
   },
   {
-    "objectID": "faqs.html#when-do-i-need-to-use-weights",
-    "href": "faqs.html#when-do-i-need-to-use-weights",
-    "title": "FAQs",
-    "section": "When do I need to use weights?",
-    "text": "When do I need to use weights?\nYou’ll typically use a weighting variable when you’re working with survey data. In this course, the nes data set will include a weight variable (wt), but there aren’t any weights for the world or states data sets.\nWeighting is used to make samples more closely resemble a target population. For instance, the NES has slightly more women respondents than you would expect from a true random sample from the general population so including the weighting variable makes the responses from men count more and the responses from women count slightly less.\n\n\n\n\n\n\ngender\nunweighted\nweighted\n\n\n\n\n1. Male\n3763 (46%)\n3964 (48%)\n\n\n2. Female\n4450 (54%)\n4262 (52%)\n\n\n\n\n\n\n\n\nThis concern isn’t really relevant for the world and states data sets because these aren’t samples: the states data set has data on the entire population of U.S. states, and the world data set has data on (more or less) all the countries.",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "objectID": "final_paper_tips.html#how-do-i-get-formatted-regression-output-in-a-word-document",
+    "href": "final_paper_tips.html#how-do-i-get-formatted-regression-output-in-a-word-document",
+    "title": "Final paper FAQs",
+    "section": "How do I get formatted regression output in a Word document?",
+    "text": "How do I get formatted regression output in a Word document?\nIf you copy output directly from R into a word processor, you’ll end up with something that looks like this:\n\n\n\nAvoid this! Copying output directly from the R console will usually give you very wonky text.\n\n\nThis is not great. Most word processors use variable width fonts. These are make prose text more readable, but they mess up the alignment in plots and tables. Instead of just copy-pasting the output, you should either: make a table and enter the coefficient values manually, or use some R code to produce formatted output."
   },
   {
-    "objectID": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
-    "href": "faqs.html#what-does-the-symbol-mean-as-in-worldccode",
-    "title": "FAQs",
-    "section": "What does the $ symbol mean (as in world$ccode)?",
-    "text": "What does the $ symbol mean (as in world$ccode)?\nThe $ notation is one way that we can access a specific column of a dataframe in R. For instance, here’s a portion of the states data set:\n\n\n\n\nstateattend.pctabortlaws\n\nAlabama528\n\nAlaska228\n\nArizona2911\n\nArkansas5010\n\nCalifornia335\n\n\n\n\nIf I want to access the attend.pct variable, I can just type:\n\nstates$attend.pct\n\n [1] 52 22 29 50 33 29 30 35 35 45 35 45 39 44 40 48 47 53 23 37 30 38 38 60 43\n[26] 31 47 30 23 36 34 32 49 42 36 50 32 39 30 54 42 52 47 57 23 41 33 43 33 31\nattr(,\"label\")\n[1] \"% freq attend relig serv (Pew)\"\n\n\nTyping out a data set name and a dollar sign can get a little tedious, so many R functions will allow you to use an optional data argument that will allow you to just list column names without adding the name of the data set first. For example: these two commands will generate the exact same result, the only difference is that adding data=states saves me from having to write states$... over and over:\n\n# with the data = argument\ncompmeansC(dv = attend.pct, iv = region, data=states)\n\n# without the data = argument\ncompmeansC(dv= states$attend.pct, iv = states$region)",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "objectID": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
+    "href": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
+    "title": "Final paper FAQs",
+    "section": "What is the most important stuff to tell readers?",
+    "text": "What is the most important stuff to tell readers?\nYou should tell readers the things they need to know to understand your analysis; you don’t need to tell them everything you did to conduct your analysis. So resist the temptation to write your analysis as a minute-by-minute account of everything you did to put the paper together.\nHere are some examples of extraneous detail:\nExtraneous detail: “My variable was initially called paris_climate, but I recoded it to a numeric variable and called it paris_climate_numeric”\n(It is important to tell readers when your treating ordinal variables as numeric, but they typically don’t need to know what a variable used to be called in R in order to interpret any part of your analysis.)\n“I created this barplot using the freqC function from the RCPA3 package” (Your reader doesn’t need to know how you made the bar chart in order to understand your analysis. This sort of detail might be mentioned in a citation or a footnote, but it is usually unhelpful in the body of your paper.)\nHere’s some examples of good details:\n“Liberal/Conservative self placement was measured on a 1 to 7 scale, with lower values indicating more liberal views, and higher values indicating more conservative views”\n(This would be important context before showing regression output, because otherwise the reader won’t know how to interpret a coefficient for this variable)\n“I used a linear regression to model the effect of party ID on feelings toward Donald Trump…”\n(The kind of statistical model you used is important context for your analysis, even if the specific commands or software you used are extraneous.)\n“The 34 respondents skipped this question or gave an answer of”not sure” were dropped from the analysis, leaving 983 valid responses.”\n(Coding choices like these are common and often completely justified, but you should note them in the text because they speak to the reliability of your results.)\n“Annotated code for replicating my analysis in R is included with my report”\n(If the reader wants to know more about how you performed your analysis, now they know where to find it!)"
   },
   {
-    "objectID": "faqs.html#why-am-i-getting-error-object-__-not-found",
-    "href": "faqs.html#why-am-i-getting-error-object-__-not-found",
-    "title": "FAQs",
-    "section": "Why am I getting Error: object __ not found?",
-    "text": "Why am I getting Error: object __ not found?\nOkay, there could be lots of reasons for this error message, but the most common cause is that you’ve either:\n\nMis-spelled a variable name.\nReferenced a variable without specifying the data set where that variable is stored.\nReferenced a variable that is not yet available in R.\n\nWhen you reference a variable in R, it searches for that variable in the current environment, and it returns an error message when it can’t find it. So the code below returns and error because x hasn’t been defined yet:\n\nx\n\nError: object 'x' not found\n\n\nTo access xI first need to create it by assigning a value (in this case, some text in quotation marks) to that name. This works just fine:\n\nx&lt;-\"I am a variable\"\n\nx\n\n[1] \"I am a variable\"\n\n\nThe other place this comes up is when you try to access a column from a data set without specifying the data set where that variable exists. For instance, “age” is a column in the nes data, but just typing “age” doesn’t work because R doesn’t know where to look:\n\nmean(age, na.rm=T)\n\nError: object 'age' not found\n\n\nUsing the dataset$varname syntax solves this problem:\n\nmean(nes$age, na.rm=T)\n\n[1] 51.58522",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "objectID": "final_paper_tips.html#my-results-werent-statistically-significant-what-should-i-do",
+    "href": "final_paper_tips.html#my-results-werent-statistically-significant-what-should-i-do",
+    "title": "Final paper FAQs",
+    "section": "My results weren’t statistically significant! What should I do?",
+    "text": "My results weren’t statistically significant! What should I do?\nYou are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine.\nIf you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. you just need to say that you’ve failed to reject the null. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are: you’re wrong, there’s not enough data, there’s uncontrolled confounding, or the sample is biased. You don’t need to give a definitive explanation, just show you’re thinking about your results and that you understand what it means to reject or not reject the null hypothesis.\n(If you think there’s uncontrolled confounding and it comes from a variable that already exists in the data, you might as well test it and say what you found! But its entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case its fine to say “I suspect this matters, but I can’t test it”)"
   },
   {
-    "objectID": "faqs.html#what-are-factor-variables",
-    "href": "faqs.html#what-are-factor-variables",
-    "title": "FAQs",
-    "section": "What are factor variables?",
-    "text": "What are factor variables?\nA factor variable is R’s default data type for storing categorical data. Technically, a factor is actually just a bunch of integers with a special levels attribute that specifies the labels that those integers correspond to:\n\nexample_factor &lt;- factor(c(1,1,2,2,3,4), labels = c('A', 'B', 'C', 'D'))\nexample_factor\n\n[1] A A B B C D\nLevels: A B C D\n\n\nR can also just store regular text data, but factors have some distinct advantages when working with certain data sources. The most important is that they allow us to control the ordering of tables and graphs. For example, if I make a table with a character variable, R prints the elements in alphabetical order:\n\nstring_vector &lt;- c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\")\ntable(string_vector)\n\nstring_vector\n                     Agree                   Disagree \n                         1                          1 \nNeither disagree nor agree \n                         1 \n\n\nBut alphabetizing this doesn’t make sense because the variable has a clear ordering from disagree to agree. The “levels” attribute on a factor allows me to preserve that ordering:\n\nfactor_vector &lt;- factor(string_vector, \n                        # list of the levels the order I want them to appear: \n                        levels =c(\"Disagree\", \"Neither disagree nor agree\", \"Agree\"))\n\ntable(factor_vector)\n\nfactor_vector\n                  Disagree Neither disagree nor agree \n                         1                          1 \n                     Agree \n                         1 \n\n\nSince each level of a factor also has a numeric value, we can also do things like calculate the median value of an ordered variable:\n\nmedian(as.numeric(factor_vector))\n\n[1] 2",
-    "crumbs": [
-      "Additional Resources",
-      "FAQs"
-    ]
+    "objectID": "final_paper_tips.html#how-can-i-make-sure-my-code-is-replicable",
+    "href": "final_paper_tips.html#how-can-i-make-sure-my-code-is-replicable",
+    "title": "Final paper FAQs",
+    "section": "How can I make sure my code is replicable?",
+    "text": "How can I make sure my code is replicable?\nBefore submitting your R-code, its a good idea to double-check and make sure everything runs properly. The best way to do this is:\n\nRestart R and clear the environment. To restart R, you can press Ctrl + Shift + F10, or just close and reopen R-Studio.\nClear the environment, just press the little broom 🧹 icon in the environment pane at the top right, or enter the following command into the console:\n\n\nrm(list = ls())\n\n\nRun each line of code in your script, in order, one line at a time. Watch the console to make sure no error messages pop up and that you see your expected output."
   },
   {
     "objectID": "final_survey_information.html",
@@ -2950,5 +3132,94 @@
     "title": "tips",
     "section": "",
     "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
+  },
+  {
+    "objectID": "Weeks/Week 11/Week-11.html",
+    "href": "Weeks/Week 11/Week-11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "This week, we’ll talk about tests for categorical variables, and start discussing correlation and regression.",
+    "crumbs": [
+      "Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 11/Week-11.html#lecture-slides",
+    "href": "Weeks/Week 11/Week-11.html#lecture-slides",
+    "title": "Week 11",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
+    "crumbs": [
+      "Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 11/Week-11.html#to-do",
+    "href": "Weeks/Week 11/Week-11.html#to-do",
+    "title": "Week 11",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 11 in the textbok\nWorkbook Homework 8 is due April 9th.",
+    "crumbs": [
+      "Weeks",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "Slides/slides_11.html#regression-lines-3",
+    "href": "Slides/slides_11.html#regression-lines-3",
+    "title": "Correlation and Regression",
+    "section": "Regression Lines",
+    "text": "Regression Lines\nHow does % state population age 18-24 relate to motor vehicle deaths?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n  \n    \n    \n    tinytable_t5kdwg3s7q9v682uuidh\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                DV: Motor vehicle deaths per 100,000 pop\n              \n        \n        Note: Standard errors in parentheses\n        \n                \n                  (Intercept)                                \n                  12.6  \n                \n                \n                                                             \n                  (12.0)\n                \n                \n                  Percentage of population 18 to 24 years old\n                  0.5   \n                \n                \n                                                             \n                  (1.3) \n                \n                \n                  Num.Obs.                                   \n                  50    \n                \n                \n                  R2                                         \n                  0.003"
+  },
+  {
+    "objectID": "Slides/slides_11.html#covariance-4",
+    "href": "Slides/slides_11.html#covariance-4",
+    "title": "Correlation and Regression",
+    "section": "Covariance",
+    "text": "Covariance\nFinally, multiply each deviation from the mean together and sum up the results:\n\n\n\n\n\\((x_i-\\bar{x})\\)\n\\((y_i-\\bar{y})\\)\n\\((x_i-\\bar{x}) (y_i-\\bar{y})\\)\n\n\n\n\n-4\n-5\n20\n\n\n-4\n-2\n8\n\n\n-4\n1\n-4\n\n\n0\n1\n0\n\n\n0\n0\n0\n\n\n0\n4\n0\n\n\n4\n-1\n-4\n\n\n4\n2\n8\n\n\n4\n5\n20\n\n\n\n\nTotal: 48; \\(48/(9-1) = 6\\)\n\n\n\n\n\nSo our covariance here is 6"
+  },
+  {
+    "objectID": "Slides/slides_11.html#summarizing-a-relationship-4",
+    "href": "Slides/slides_11.html#summarizing-a-relationship-4",
+    "title": "Correlation and Regression",
+    "section": "Summarizing a relationship",
+    "text": "Summarizing a relationship\nThis is the basic intuition behind linear regression.\nInstead of the \\(y = ax + b\\) formula you learned in school, we’ll usually re-arrange the line formula like this:\n\\[\\widehat{y} = \\alpha + \\beta x\\]\n\nBut we’re still talking about a line here! \\(\\alpha\\) is our y-intercept, \\(\\beta\\) is the slope of the line, and \\(x\\) is an independent variable.\n\n\nWe can interpret the “slope” as the effect of a one unit increase in “x” on the expected value of “y”"
+  },
+  {
+    "objectID": "Slides/slides_11.html#correlation-vs.-regression",
+    "href": "Slides/slides_11.html#correlation-vs.-regression",
+    "title": "Correlation and Regression",
+    "section": "Correlation vs. Regression",
+    "text": "Correlation vs. Regression\n\n\nCorrelation can be expressed as one number instead of two (because the intercept is always just 0)\nCorrelation coefficients are symmetric, so the correlation of X and Y is equal to the correlation between Y and X.\nThey’re also standardized, so you can compare variables even if they have different scales."
+  },
+  {
+    "objectID": "Slides/slides_11.html#example-regression",
+    "href": "Slides/slides_11.html#example-regression",
+    "title": "Correlation and Regression",
+    "section": "Example Regression",
+    "text": "Example Regression\nHow does women’s education relate to democracy cross nationally?"
+  },
+  {
+    "objectID": "Slides/slides_11.html#example-regression-1",
+    "href": "Slides/slides_11.html#example-regression-1",
+    "title": "Correlation and Regression",
+    "section": "Example Regression",
+    "text": "Example Regression\n\n\n\n \n\n  \n    \n    \n    tinytable_o6sv3woae6qllurol4l9\n    \n    \n    \n    \n  \n\n  \n    \n      \n        \n        \n              \n                 \n                DV: V-DEM Liberal Democracy Score\n              \n        \n        Note: Standard errors in parentheses\n        \n                \n                  (Intercept)                    \n                  0.091\n                \n                \n                  Average Schooling Years, Female\n                  0.044\n                \n                \n                  Num.Obs.                       \n                  137  \n                \n                \n                  R2                             \n                  0.333"
+  },
+  {
+    "objectID": "Slides/slides_11.html#finding-the-line-of-best-fit-1",
+    "href": "Slides/slides_11.html#finding-the-line-of-best-fit-1",
+    "title": "Correlation and Regression",
+    "section": "Finding the line of best fit",
+    "text": "Finding the line of best fit\n\n\nWe can work through the example with some simplified data:\n\n\n\n\n\n\nX\nY\n\n\n\n\n\n6\n4\n\n\n\n6\n7\n\n\n\n6\n10\n\n\n\n10\n5\n\n\n\n10\n9\n\n\n\n10\n13\n\n\n\n14\n8\n\n\n\n14\n11\n\n\n\n14\n14"
+  },
+  {
+    "objectID": "Slides/slides_11.html#interpreting-a-regression-line",
+    "href": "Slides/slides_11.html#interpreting-a-regression-line",
+    "title": "Correlation and Regression",
+    "section": "Interpreting a regression line",
+    "text": "Interpreting a regression line"
   }
 ]
