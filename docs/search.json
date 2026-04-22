@@ -304,202 +304,435 @@
     "text": "Collapsing responses"
   },
   {
-    "objectID": "Weeks/Week 12/Week-12.html",
-    "href": "Weeks/Week 12/Week-12.html",
-    "title": "Week 12",
+    "objectID": "Weeks/Week 13/Week-13.html",
+    "href": "Weeks/Week 13/Week-13.html",
+    "title": "Week 13",
     "section": "",
-    "text": "This week, we’ll continue discussing linear regression and look at adding additional controls and assessing model fit and statistical significance.",
+    "text": "This week, we’ll look at regressions with interaction effects and some of the key requirements for regression models to give good results.",
     "crumbs": [
       "Weeks",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "Weeks/Week 12/Week-12.html#lecture-slides",
-    "href": "Weeks/Week 12/Week-12.html#lecture-slides",
-    "title": "Week 12",
+    "objectID": "Weeks/Week 13/Week-13.html#lecture-slides",
+    "href": "Weeks/Week 13/Week-13.html#lecture-slides",
+    "title": "Week 13",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "Weeks/Week 12/Week-12.html#to-do",
-    "href": "Weeks/Week 12/Week-12.html#to-do",
-    "title": "Week 12",
+    "objectID": "Weeks/Week 13/Week-13.html#to-do",
+    "href": "Weeks/Week 13/Week-13.html#to-do",
+    "title": "Week 13",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 12 in the textbok\nWorkbook Homework 9 is due April 16th.",
+    "text": "To-Do\n\nRead chapter 13 in the textbook.\nWorkbook Homework 10 is due on April 23rd.\nSurvey Pratice II is due on May 1st.",
     "crumbs": [
       "Weeks",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "Weeks/Week 10/Week-10.html",
-    "href": "Weeks/Week 10/Week-10.html",
-    "title": "Week 10",
+    "objectID": "Weeks/Week 11/Week-11.html",
+    "href": "Weeks/Week 11/Week-11.html",
+    "title": "Week 11",
     "section": "",
-    "text": "This week, we’ll talk about using p-values and confidence intervals to determine whether an estimate is statistically significant, and we’ll talk about some of the strengths and limitations of this approach.",
+    "text": "This week, we’ll talk about tests for categorical variables, and start discussing correlation and regression.",
     "crumbs": [
       "Weeks",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "Weeks/Week 10/Week-10.html#lecture-slides",
-    "href": "Weeks/Week 10/Week-10.html#lecture-slides",
-    "title": "Week 10",
+    "objectID": "Weeks/Week 11/Week-11.html#lecture-slides",
+    "href": "Weeks/Week 11/Week-11.html#lecture-slides",
+    "title": "Week 11",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "Weeks/Week 10/Week-10.html#to-do",
-    "href": "Weeks/Week 10/Week-10.html#to-do",
-    "title": "Week 10",
+    "objectID": "Weeks/Week 11/Week-11.html#to-do",
+    "href": "Weeks/Week 11/Week-11.html#to-do",
+    "title": "Week 11",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapters 9 and 10 in the textbook\nWorkbook Homework 8 is due April 9th.\nFirst survey analysis is due April 3rd.",
+    "text": "To-Do\n\nRead chapter 11 in the textbok\nWorkbook Homework 8 is due April 9th.",
     "crumbs": [
       "Weeks",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "Weeks/Week 06/Week-06.html",
-    "href": "Weeks/Week 06/Week-06.html",
-    "title": "Week 6",
+    "objectID": "Weeks/Week 09/Week-09.html",
+    "href": "Weeks/Week 09/Week-09.html",
+    "title": "Week 9",
     "section": "",
-    "text": "This week, we’re finishing up the discussion of controlled comparisons, and dipping our feet into some of the basic concepts for statistical inference.",
+    "text": "This week, continuing to discuss the basics of statistical inference: p-values, confidence intervals, and the central limit theorem.",
     "crumbs": [
       "Weeks",
-      "Week 6"
+      "Week 9"
     ]
   },
   {
-    "objectID": "Weeks/Week 06/Week-06.html#lecture-slides",
-    "href": "Weeks/Week 06/Week-06.html#lecture-slides",
-    "title": "Week 6",
+    "objectID": "Weeks/Week 09/Week-09.html#lecture-slides",
+    "href": "Weeks/Week 09/Week-09.html#lecture-slides",
+    "title": "Week 9",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 6"
+      "Week 9"
     ]
   },
   {
-    "objectID": "Weeks/Week 06/Week-06.html#to-do",
-    "href": "Weeks/Week 06/Week-06.html#to-do",
-    "title": "Week 6",
+    "objectID": "Weeks/Week 09/Week-09.html#to-do",
+    "href": "Weeks/Week 09/Week-09.html#to-do",
+    "title": "Week 9",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 7 in the textbook\nWorkbook Homework 5 due March 5th\nSurvey distribution assignment due on March 6th.\nMidterm March 11. Review session on March 9th.",
+    "text": "To-Do\n\nRead chapter 8 in the textbook\nWorkbook Homework 7 due March 26th.\nFirst survey analysis is due April 3rd.",
     "crumbs": [
       "Weeks",
-      "Week 6"
+      "Week 9"
     ]
   },
   {
-    "objectID": "Weeks/Week 04/Week-04.html",
-    "href": "Weeks/Week 04/Week-04.html",
-    "title": "Week 4",
+    "objectID": "Weeks/Week 05/Week-05.html",
+    "href": "Weeks/Week 05/Week-05.html",
+    "title": "Week 5",
     "section": "",
-    "text": "This week, we’re continuing the discussion of hypotheses and looking at some ways to show quantitative evidence for a hypothesis.",
+    "text": "This week, we’re continuing the discussion of research design from last week and digging into the details of analyzing survey data. Time permitting, we’ll also start looking at using controlled comparisons to account for confounding in observational data.",
     "crumbs": [
       "Weeks",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "Weeks/Week 04/Week-04.html#lecture-slides",
-    "href": "Weeks/Week 04/Week-04.html#lecture-slides",
-    "title": "Week 4",
+    "objectID": "Weeks/Week 05/Week-05.html#lecture-slides",
+    "href": "Weeks/Week 05/Week-05.html#lecture-slides",
+    "title": "Week 5",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "Weeks/Week 04/Week-04.html#to-do",
-    "href": "Weeks/Week 04/Week-04.html#to-do",
-    "title": "Week 4",
+    "objectID": "Weeks/Week 05/Week-05.html#to-do",
+    "href": "Weeks/Week 05/Week-05.html#to-do",
+    "title": "Week 5",
     "section": "To-Do",
-    "text": "To-Do\n\nContinue reading Chapters 4 and 5 in the textbook\nWorkbook homework 3 is due on February 19th.",
+    "text": "To-Do\n\nRead chapter 6 in the textbook\nWorkbook homework 4 is due on February 26th.\nThe class survey is live! Take it yourself and be sure you distribute it through your social media. You can find links on the “verification of survey distribution” assignment on ELMS.",
     "crumbs": [
       "Weeks",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "Weeks/Week 02/Week-02.html",
-    "href": "Weeks/Week 02/Week-02.html",
-    "title": "Week 2",
+    "objectID": "Weeks/Week 03/Week-03.html",
+    "href": "Weeks/Week 03/Week-03.html",
+    "title": "Week 3",
     "section": "",
-    "text": "This week we’re looking at ways to describe, measure, and visualize central tendency and variation in data.",
+    "text": "This week, we’re finishing up the discussion of description and moving on to understanding how to propose a theory and a testable hypothesis.",
     "crumbs": [
       "Weeks",
-      "Week 2"
+      "Week 3"
     ]
   },
   {
-    "objectID": "Weeks/Week 02/Week-02.html#lecture-slides",
-    "href": "Weeks/Week 02/Week-02.html#lecture-slides",
-    "title": "Week 2",
+    "objectID": "Weeks/Week 03/Week-03.html#lecture-slides",
+    "href": "Weeks/Week 03/Week-03.html#lecture-slides",
+    "title": "Week 3",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 2"
+      "Week 3"
     ]
   },
   {
-    "objectID": "Weeks/Week 02/Week-02.html#to-do",
-    "href": "Weeks/Week 02/Week-02.html#to-do",
-    "title": "Week 2",
+    "objectID": "Weeks/Week 03/Week-03.html#to-do",
+    "href": "Weeks/Week 03/Week-03.html#to-do",
+    "title": "Week 3",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 2 of the textbook.\nWorkbook homework 1 is due on February 9th.\nSubmit a survey question by February 9th.",
+    "text": "To-Do\n\nRead chapter 3 and 4 of the textbook\nWorkbook homework 2 is due on February 12th.",
     "crumbs": [
       "Weeks",
-      "Week 2"
+      "Week 3"
     ]
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html",
-    "href": "Weeks/Week 01/Week-01.html",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html",
+    "href": "Weeks/Week 01/Week-template.html",
+    "title": "Week",
     "section": "",
-    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-template.html#lecture-slides",
+    "title": "Week",
     "section": "Lecture slides",
-    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
   },
   {
-    "objectID": "Weeks/Week 01/Week-01.html#to-do",
-    "href": "Weeks/Week 01/Week-01.html#to-do",
-    "title": "Week 1",
+    "objectID": "Weeks/Week 01/Week-template.html#to-do",
+    "href": "Weeks/Week 01/Week-template.html#to-do",
+    "title": "Week",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information.",
-    "crumbs": [
-      "Weeks",
-      "Week 1"
-    ]
+    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
+  },
+  {
+    "objectID": "Survey codebook.html",
+    "href": "Survey codebook.html",
+    "title": "Codebook",
+    "section": "",
+    "text": "Use the codebook below to get additional information about variables in the survey data.\n\nNote and suggestions\n\nVariables names beginning with meta_ contain metadata about respondents. These are things like their web browser, the amount of time they spent on the survey, and their unique response ID.\npid_summary is a 7-category measure of party ID that was created using the method we discussed in week 1: people are first asked for their party ID. Those who say they prefer Democrats or Republicans are asked about the strength of their party identification, and self-described independents are asked whether they “lean” toward one party or another, which gives us an ordinal measure of party ranging from Strong Democrat to Strong Republican.\nrace_ethnicity_summary is re-coded from the original race and ethnicity questions and made to resemble the race/ethnicity question on the ANES. The survey allowed respondents to check multiple boxes for their racial identity, which is why there are a series of dummy variables (race_1, race_2…), for each racial category. The survey also asked about Hispanic ethnicity in a separate question. So race_ethnicity_summary combines these responses into a single categorical variable with separate categories for multiracial and Hispanic respondents.\nVariables that end with OTHER_TEXT store the answers to questions where respondents picked an “Other” option. For instance: if someone said they preferred “someone else” in the 2024 election, their write-in preference is in the variable votechoice24_OTHER_TEXT. In most cases, these responses aren’t going to be useful for your analyses because only a handful of people gave any answer.\nNote that many of these questions allow respondents to give a response of not sure. You’ll want to make a decision about how you plan to handle these. One option might be to drop them entirely. Another option might be to combine the not sure responses with another response category. How you choose to handle this is up to you, but just keep in mind that you need to make some kind of decision here because keeping them as is will make ordinal variables no longer ordinal.\n\n\n\nCodebook\n\n\n\n\n\n\n\n\n\nColumn name\nQuestion\nVariable type\nValues\nMissing\n\n\n\n\nmetadata_StartDate\nStart Date\nDate\nRange: 2026-02-23 to 2026-03-12\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Duration__in_seconds_\nDuration (in seconds)\nnumeric\nRange: 78-465819\n\nValid N: 1017;\nNAs: 0\n\n\nResponseId\nResponse ID\ncharacter\n1017 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Browser\nBrowser\ncharacter\n16 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Version\nBrowser Version\ncharacter\n88 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Operating_System\nOperating System\ncharacter\n6 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Resolution\nScreen Resolution\ncharacter\n83 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nrace_ethnicity_summary\nRace/Ethnicity summary\nfactor\nValues:\n\nAmerican Indian/Native American or Alaska Native, non-Hispanic\nAsian, non-Hispanic\nBlack, non-Hispanic\nMultiple races, non-Hispanic\nOther/Refused/NA\nNative Hawaiian or Other Pacific Islander, non-Hispanic\nWhite, non-Hispanic\nHispanic\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_1\nWhite or Caucasian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_2\nBlack or African American\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_3\nAmerican Indian/Native American or Alaska Native\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_4\nAsian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_5\nNative Hawaiian or Other Pacific Islander\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_6\nOther\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_7\nPrefer not to say\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nethnicity\nAre you of Spanish, Hispanic, or Latino origin?\nfactor\nValues:\n\nYes\nNo\n\n\nValid N: 1015;\nNAs: 2\n\n\neducation\nWhat is the highest level of education you have completed?\nfactor\nValues:\n\nSome high school or less\nHigh school diploma or GED\nSome college, but no degree\nAssociates or technical degree\nBachelor’s degree\nGraduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)\nPrefer not to say\n\n\nValid N: 1015;\nNAs: 2\n\n\nincome\nWhat was your total household income before taxes during the past 12 months?\nfactor\nValues:\n\nLess than $25,000\n$25,000-$49,999\n$50,000-$74,999\n$75,000-$99,999\n$100,000-$149,999\n$150,000 or more\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nage\nHow old are you (in years)?\nnumeric\nRange: 16-83\n\nValid N: 988;\nNAs: 29\n\n\nsex_gender\nHow do you describe yourself? - Selected Choice\nfactor\nValues:\n\nMale\nFemale\nNon-binary / third gender\nPrefer to self-describe\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nsex_gender_OTHER_TEXT\nHow do you describe yourself? - Prefer to self-describe - Text\ncharacter\n4 unique values\n\nValid N: 3;\nNAs: 1014\n\n\nwealthtax\nDo you support or oppose a 2% annual tax on the net worth over $50 million?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 985;\nNAs: 32\n\n\ngun_redflag_laws\nDo you support or oppose creating red flag laws that allow a court to temporarily remove guns from people that are believed to pose a danger to themself or others?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nown_greenland\nDo you support or oppose the U.S. using military force to take control of Greenland?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nmaduro_policy\nDo you support or oppose the U.S. using military force to overthrow Venezuelan President Nicolás Maduro?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nun_closer\nDo you support or oppose the U.S. building stronger relationships with international organizations like the United Nations?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nwho_closer\nDo you support or oppose U.S. re-joining the World Health Organization (WHO)?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 986;\nNAs: 31\n\n\ntariffs\nDo you support or oppose substantially increasing tariffs on goods imported from most countries that trade with the U.S.?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nvoted24\nDid you vote in the 2024 presidential election?\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 998;\nNAs: 19\n\n\nwouldvote24\nIf you had voted in the 2024 election, who would you have voted for? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 458;\nNAs: 559\n\n\nwouldvote24_OTHER_TEXT\nIf you had voted in the 2024 election, who would you have voted for? - Someone else - Text\ncharacter\n17 unique values\n\nValid N: 19;\nNAs: 998\n\n\nvotechoice24\nWho did you vote for in the 2024 election? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 446;\nNAs: 571\n\n\nvotechoice24_OTHER_TEXT\nWho did you vote for in the 2024 election? - Someone else - Text\ncharacter\n22 unique values\n\nValid N: 30;\nNAs: 987\n\n\nplan_to_vote28\nDo you plan to vote in the 2028 presidential election?\nfactor\nValues:\n\nNo\nMaybe\nYes\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot\nIf the 2026 election for Congress were being held today, which party’s candidate would you vote for in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\nNot sure\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot_lean\nAs of today, do you lean more toward the Democratic Party’s candidate or the Republican Party’s candidate in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\n\n\nValid N: 152;\nNAs: 865\n\n\nelectoral_college\nThinking for a moment about the way in which the president is elected in this country, which would you prefer:\nfactor\nValues:\n\nAmend the Constitution so the candidate who receives the most total votes nationwide wins the election\nKeep the current system, in which the candidate who wins the most votes in the Electoral College wins the election\nNeither\n\n\nValid N: 991;\nNAs: 26\n\n\nabortion_views\nWhen it comes to abortion, which of these options comes closest to your view?\nfactor\nValues:\n\nIt should be legal under any circumstances\nIt should be legal under most circumstances\nIt should be legal only in a few circumstances\nIt should be illegal in all circumstances\n\n\nValid N: 972;\nNAs: 45\n\n\nwrongtrack\nOn a scale of 0 to 10, with 0 meaning \"on the wrong track\" and 10 meaning \"headed in the right direction\", how would you rate the current state of affairs in the United States?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\njobmarket\nOn a scale from 0 to 10 with 0 indicating \"Awful\" and 10 indicating \"Excellent\", would you rate Donald Trump's performance as president?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\npolicy_electionlaws\nWould you support or oppose the following policies or reforms? - Changing election laws to make it easier for third party candidates to win elections\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_more_reps\nWould you support or oppose the following policies or reforms? - Increasing the number of Congress members from 435.\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_termlimits\nWould you support or oppose the following policies or reforms? - Establishing term limits for Supreme Court justices\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_socialism\nWould you support or oppose the following policies or reforms? - Adopting a socialist system of government\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\nspendgov_healthcare\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Medicare and Medicaid\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_education\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Education\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_border\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Border Security\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_disease\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Disease prevention\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_counterterrorism\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Counterterrorism\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_aid_to_poor\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Assistance to poor people\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nspendgov_israel\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Aid to Israel\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_environment\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Environmental protection\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nleft_right_scale\nIn general, how would you describe your own political views?\nfactor\nValues:\n\nFar left\nLeft\nCenter-left\nCenter\nCenter-right\nRight\nFar right\nNot sure\n\n\nValid N: 1007;\nNAs: 10\n\n\nsystem_works_forme\nOn a scale from 0 to 10, how well do you think the political system in your country works for people like you?\nnumeric\nRange: 0-10\n\nValid N: 1003;\nNAs: 14\n\n\npid\nGenerally speaking, do you think of yourself as a - Selected Choice\nfactor\nValues:\n\nDemocrat\nRepublican\nIndependent\nNot sure\nOther\n\n\nValid N: 1008;\nNAs: 9\n\n\npid_OTHER_TEXT\nGenerally speaking, do you think of yourself as a - Other - Text\ncharacter\n34 unique values\n\nValid N: 60;\nNAs: 957\n\n\npidstrength\nGenerally speaking, do you think of yourself as a\nfactor\nValues:\n\nStrong [choice from pid question]\nNot very strong [choice from pid question]\n\n\nValid N: 600;\nNAs: 417\n\n\npidlean\nDo you think of yourself as closer to the Democratic or the Republican Party?\nfactor\nValues:\n\nCloser to the Democratic party\nCloser to the Republican party\nCloser to neither party\n\n\nValid N: 384;\nNAs: 633\n\n\npid_summary\nParty ID summary\nfactor\nValues:\n\nStrong Democrat\nNot strong Democrat\nIndependent Democrat\nIndependent\nIndependent Republican\nNot strong Republican\nStrong Republican\n\n\nValid N: 984;\nNAs: 33\n\n\ndemoc_quality\nHow would you rate the quality of democracy in the United States?\nnumeric\nRange: 0-10\n\nValid N: 1000;\nNAs: 17\n\n\nimmig_priority\nDo you agree or disagree with the following statement? \"When jobs are scarce, employers should give priority to American people over immigrants.\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\nforeign_aid\nThe U.S. dedicates about $40 billion to foreign aid each year. That's about 0.24% of the national income, or around $119 per person. Would you say the amount the U.S. spends on foreign aid each year is too much, too little, or about right?\nfactor\nValues:\n\nFar too little\nModerately too little\nSlightly too little\nNeither too much nor too little\nSlightly too much\nModerately too much\nFar too much\n\n\nValid N: 892;\nNAs: 125\n\n\nworld_citizen\nWould you say you agree or disagree with the following statement \"I see myself as a world citizen\"?\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 897;\nNAs: 120\n\n\nprioritize_us\nDo you agree or disagree with the following statement? \"America's leaders should focus on solving our problems in this country, even if it means other countries are worse off\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 974;\nNAs: 43\n\n\nenviro_jobs\nDo you agree or disagree with the following statement? \"Economic growth and creating jobs should be the top priority, even if the environment suffers to some extent. \"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 980;\nNAs: 37\n\n\nparis_climate\nDo you agree or disagree with the following statement? \"The U.S. should rejoin the Paris Climate agreement\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 895;\nNAs: 122\n\n\namerican_pride\nDo you agree or disagree with the following statement? \"I'm proud to be an American\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 972;\nNAs: 45\n\n\ninfluence_politics\nDo you agree or disagree with the following statement? \"Our system of government allows ordinary people to have a say in politics\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\ntrust_fed\nHow much of the time do you think you can trust these groups to do the right thing? - The federal government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 970;\nNAs: 47\n\n\ntrust_localgov\nHow much of the time do you think you can trust these groups to do the right thing? - Your local government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 965;\nNAs: 52\n\n\ntrust_relig\nHow much of the time do you think you can trust these groups to do the right thing? - Religious leaders\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 920;\nNAs: 97\n\n\ntrust_media\nHow much of the time do you think you can trust these groups to do the right thing? - The media\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 974;\nNAs: 43\n\n\ntrust_police\nHow much of the time do you think you can trust these groups to do the right thing? - Police\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 971;\nNAs: 46\n\n\ntrust_fam\nHow much of the time do you think you can trust these groups to do the right thing? - Your family and friends\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 972;\nNAs: 45\n\n\ntrust_americans\nHow much trust and confidence do you have in the American people as a whole when it comes to making judgments under our democratic system about the issues facing our country?\nfactor\nValues:\n\nNone at all\nNot very much\nA fair amount\nA great deal\n\n\nValid N: 955;\nNAs: 62\n\n\nsm_news\nHow often would you say you use social media apps like TikTok, Facebook, or Instagram to learn more about politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 976;\nNAs: 41\n\n\npol_news\nHow often would you say you read, watch, or listen to news about U.S. politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 979;\nNAs: 38\n\n\nsm_effects\nDo you believe that social media has a positive or negative influence on American politics?\nfactor\nValues:\n\nExtremely negative\nSomewhat negative\nNeither positive nor negative\nSomewhat positive\nExtremely positive\n\n\nValid N: 970;\nNAs: 47\n\n\ndiscuss_views\nHow often do you discuss politics with people who hold opposing views?\nfactor\nValues:\n\nNever\nRarely\nSometimes\nOften\nAll the time\n\n\nValid N: 989;\nNAs: 28\n\n\nft_ice\nHow do you feel about the following groups or individuals? - Immigration and Customs Enforcement (ICE)\nnumeric\nRange: 0-100\n\nValid N: 980;\nNAs: 37\n\n\nft_congress\nHow do you feel about the following groups or individuals? - Congress\nnumeric\nRange: 0-89\n\nValid N: 939;\nNAs: 78\n\n\nft_trump\nHow do you feel about the following groups or individuals? - Donald Trump\nnumeric\nRange: 0-100\n\nValid N: 979;\nNAs: 38\n\n\nft_badbunny\nHow do you feel about the following groups or individuals? - Bad Bunny\nnumeric\nRange: 0-100\n\nValid N: 927;\nNAs: 90\n\n\nft_scotus\nHow do you feel about the following groups or individuals? - The Supreme Court\nnumeric\nRange: 0-100\n\nValid N: 946;\nNAs: 71\n\n\nft_vance\nHow do you feel about the following groups or individuals? - J.D. Vance\nnumeric\nRange: 0-100\n\nValid N: 949;\nNAs: 68\n\n\nft_immigrants\nHow do you feel about the following groups or individuals? - Immigrants\nnumeric\nRange: 0-100\n\nValid N: 976;\nNAs: 41\n\n\nft_business\nHow do you feel about the following groups or individuals? - Big business\nnumeric\nRange: 0-100\n\nValid N: 952;\nNAs: 65\n\n\nft_unions\nHow do you feel about the following groups or individuals? - Labor unions\nnumeric\nRange: 0-100\n\nValid N: 916;\nNAs: 101\n\n\nft_natguard\nHow do you feel about the following groups or individuals? - The National Guard\nnumeric\nRange: 0-100\n\nValid N: 871;\nNAs: 146\n\n\nft_police\nHow do you feel about the following groups or individuals? - Police\nnumeric\nRange: 0-100\n\nValid N: 972;\nNAs: 45\n\n\nft_noem\nHow do you feel about the following groups or individuals? - Kristi Noem (Secretary of the Department of Homeland Security)\nnumeric\nRange: 0-100\n\nValid N: 821;\nNAs: 196"
+  },
+  {
+    "objectID": "Slides/slides_13.html#remember",
+    "href": "Slides/slides_13.html#remember",
+    "title": "Regression Continued",
+    "section": "Remember",
+    "text": "Remember\n\n\nCoefficients represent the effect of a one-unit increase in the IV on the expected value of the DV. It’s important to pay attention to what a “one unit” change would mean in terms of the IV (Is it a percent? A dollar? A thousand dollars?) and the DV.\nEach coefficient in a regression will have its own standard error and p.value. Some coefficients may be significant and others might not be.\nWhen you include additional variables in a model, interpret the coefficient as the effect of a one unit change in X controlling for everything else in the model."
+  },
+  {
+    "objectID": "Slides/slides_13.html#reading-a-regression-table",
+    "href": "Slides/slides_13.html#reading-a-regression-table",
+    "title": "Regression Continued",
+    "section": "Reading a regression table",
+    "text": "Reading a regression table\n\nWe’ll look at an example of a table of regressions that you might see in a published academic article and walk through how to interpret it.\nNot all tables will be the same, but there are some conventions that are somewhat consistent across different outlets."
+  },
+  {
+    "objectID": "Slides/slides_13.html#reading-a-regression-table-1",
+    "href": "Slides/slides_13.html#reading-a-regression-table-1",
+    "title": "Regression Continued",
+    "section": "Reading a regression table",
+    "text": "Reading a regression table\n\n\n\nRegression table on the right comes from a 2006 paper by Daniel Kono titled Optimal Obfuscation: Democracy and Trade Policy Transparency Kono (2006)\nKono argues that democracy prompts states to reduce “transparent barriers” to trade but replace them with less transparent barriers.\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
+  },
+  {
+    "objectID": "Slides/slides_13.html#theoretical-argument",
+    "href": "Slides/slides_13.html#theoretical-argument",
+    "title": "Regression Continued",
+    "section": "Theoretical argument",
+    "text": "Theoretical argument\nKono’s basic argument:\n\n\nPoliticians want votes and money.\nSpecial interest groups want to be protected from trade, so having trade barriers is a way to get campaign donations.\nTrade barriers make things more expensive, but voters don’t always know who to blame for high prices. This is especially true when the barriers and more complicated.\nPoliticians in democracies prefer non-tariff barriers (such as stringent quality controls, licenses, or quotas) because they can please special interests but voters don’t understand them."
+  },
+  {
+    "objectID": "Slides/slides_13.html#expectations",
+    "href": "Slides/slides_13.html#expectations",
+    "title": "Regression Continued",
+    "section": "Expectations",
+    "text": "Expectations\n\nCountries that are more democratic will have lower tariffs.\nCountries that are more democratic will have higher non-tariff barriers."
+  },
+  {
+    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis",
+    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis",
+    "title": "Regression Continued",
+    "section": "Using a model to test a hypothesis",
+    "text": "Using a model to test a hypothesis\nSo how do we get to this?\n\n\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
+  },
+  {
+    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-1",
+    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-1",
+    "title": "Regression Continued",
+    "section": "Using a model to test a hypothesis",
+    "text": "Using a model to test a hypothesis\n\n\n\n\nPolity is a measure of democracy. Higher values = more democracy. This is our main IV.\n\n\n\n\nNot all variables are included in all models. So you see blanks when those controls are omitted from one model.\n\n\n\n\nThis model contains a number of additional controls. (note: ln means the natural log was taken, and \\(\\Delta\\) means his variable is the change from a previous period.)\n\n\n\n\nAsterisks are a common way to give a quick indication of statistical significance."
+  },
+  {
+    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-2",
+    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-2",
+    "title": "Regression Continued",
+    "section": "Using a model to test a hypothesis",
+    "text": "Using a model to test a hypothesis\n\n\n\nKono includes “electoral competition” as an alternative measure of his IV. If the theory is correct, you would expect it to apply more strongly in countries that had more electoral competition."
+  },
+  {
+    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-3",
+    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-3",
+    "title": "Regression Continued",
+    "section": "Using a model to test a hypothesis",
+    "text": "Using a model to test a hypothesis\nFinally, we’ve got hypotheses about different dependent variables. So there are models for three different dependent variables.\nKono argued that tariffs would decrease as democracy increased, but non-tariff barriers (Core NTB and Quality NTB) would go up. Are these result consistent with this hypothesis?"
+  },
+  {
+    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-4",
+    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-4",
+    "title": "Regression Continued",
+    "section": "Using a model to test a hypothesis",
+    "text": "Using a model to test a hypothesis\n\n\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-from-a-model-1",
+    "href": "Slides/slides_13.html#predictions-from-a-model-1",
+    "title": "Regression Continued",
+    "section": "Predictions from a model",
+    "text": "Predictions from a model\n\n\n\n\nThe dependent variable here is the Democratic percentage of the two party presidential vote in 2024.\nRight now I have one predictor: median income.\nWhat is the predicted value of the dependent variable when a state has a median income of $70,000?"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-from-a-model-2",
+    "href": "Slides/slides_13.html#predictions-from-a-model-2",
+    "title": "Regression Continued",
+    "section": "Predictions from a model",
+    "text": "Predictions from a model\nGoing back to our formula:\n\\[\n\\hat{y} = \\alpha + \\beta_1x_1\n\\]\n\n\\[\n\\text{Dem %} = 1.6 + 5.8 \\times \\text{Median income (\\$10,000)}\n\\]\n\n\n\\[\n\\text{Dem %} = 1.6 + 5.8 \\times 7 = 42.2\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-a-control",
+    "href": "Slides/slides_13.html#predictions-with-a-control",
+    "title": "Regression Continued",
+    "section": "Predictions with a control",
+    "text": "Predictions with a control\n\n\n\n\nI’ll add a control variable for the % of the state population over the age of 25.\nNotice the change in the intercept, as well as a small change in the coefficient for median income.\nNow what is the predicted value of the DV when 70% of the population is over 25 and the median income is 70,000?"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-a-control-1",
+    "href": "Slides/slides_13.html#predictions-with-a-control-1",
+    "title": "Regression Continued",
+    "section": "Predictions with a control",
+    "text": "Predictions with a control\nGoing back to our formula:\n\\[\n\\hat{y} = \\alpha + \\beta_1x_1 + \\beta_2x_2\n\\]\n\n\\[\n\\text{Dem %} = -120.4 + 5.1 \\times \\text{Median income (\\$10,000)} + 1.8 \\times \\text{% over 25}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-a-control-2",
+    "href": "Slides/slides_13.html#predictions-with-a-control-2",
+    "title": "Regression Continued",
+    "section": "Predictions with a control",
+    "text": "Predictions with a control\n\\[\n\\text{Dem %} = -120.4 + 5.1 \\times \\text{Median income (\\$10,000)} + 1.8 \\times \\text{% over 25}\n\\]\nSo now we plug in those values:\n\\[\n\\text{Dem %} = -120.4 + 5.1 \\times 7 + 1.8 \\times 70 = 41.3\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-a-dummy-variable",
+    "href": "Slides/slides_13.html#predictions-with-a-dummy-variable",
+    "title": "Regression Continued",
+    "section": "Predictions with a dummy variable",
+    "text": "Predictions with a dummy variable\nWhat if we have a dichotomous independent variable?"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\nWhat if I have a variable that takes on more than 2 categories? For example: what if I want to include all the regions of the US?\n\n\n\nState\nRegion\n\n\n\n\nAlabama\nSouth\n\n\nMaine\nNortheast\n\n\nOhio\nMidwest\n\n\nColorado\nWest"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-1",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-1",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\nWe can handle this by making a dummy variable for all of the categories. These tables have the same info:\n\n\n\n\n\nState\nRegion\n\n\n\n\nAlabama\nSouth\n\n\nMaine\nNortheast\n\n\nOhio\nMidwest\n\n\nColorado\nWest\n\n\n\n\n\n\n\nState\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nAlabama\n1\n0\n0\n0\n\n\nMaine\n0\n1\n0\n0\n\n\nOhio\n0\n0\n1\n0\n\n\nColorado\n0\n0\n0\n1"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-3",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-3",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\n\n…what happened to the Midwest?? Does R hate the heartland??"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-mumltiple-dummies",
+    "href": "Slides/slides_13.html#predictions-with-mumltiple-dummies",
+    "title": "Regression Continued",
+    "section": "Predictions with mumltiple dummies",
+    "text": "Predictions with mumltiple dummies\nR has to drop one of the four categories to avoid what’s called the “dummy trap”\n\n\n\nState\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nOhio\n0\n0\n1\n0"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-4",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-4",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\nIf we’re already accounting for “South”, “Northeast”, and “West”, then “Midwest” is always 1, so “a one unit change in X” never happens.\nR chooses to drop the Midwest because it’s first alphabetically, but we have to drop something.\n\n\n\n\nState\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nOhio\n0\n0\n1\n0"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-5",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-5",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\n\n\nTechnically, the Midwest is still represented here, it’s just represented by the intercept term.\nAnd all of the coefficients should be interpreted as being the difference between the excluded category (Midwest) and that dummy."
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-6",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-6",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\n\n\n\nThink of the excluded category as the baseline.\n\n\n\n\nAnd think of each coefficient as representing the difference between that category and the excluded group."
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-7",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-7",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\nGoing back to the equation for each prediction, we can think of our model as looking like this.\n\n\\[\\text{Dem %} = 43.6 + (\\text{NE}\\times 12.8) + (\\text{S} \\times -1.3) + (\\text{W} \\times 4.3)\\]\n\n\nSo, if we want the prediction for the Northeast, we can get it by plugging in the values for each coefficient:\n\n\\[\\text{Dem %} = 43.6 + (1\\times 12.8) + (0 \\times -1.3) + (0 \\times 4.3)\\]\n\n\n\nOr, even more simply\n\\(\\text{Dem %} = 43.6 + 12.8 = 56.4\\)"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-8",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-8",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\\[\n\\text{Dem %} = 43.6 + (\\text{NE}\\times 12.8) + (\\text{S} \\times -1.3) + (\\text{W} \\times 4.3)\n\\]\n\n\n\\(\\text{Northeast %} = 43.6 + 12.8 = 56.4\\)\n\\(\\text{South %} = 43.6 -1.3 = 42.3\\)\n\\(\\text{West %} = 43.6 +  4.3 = 47.9\\)\n\\(\\text{Midwest %} = 43.6\\)"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-9",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-9",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\nNote that choosing to exclude a different group will change the coefficients AND the p-values. In essence, each p-value tells you whether that coefficient is different from the excluded group."
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-10",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-10",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\nYou can use the relevel function to change the category that’s automatically excluded from the regression results.\n\n\n\n# Make the excluded category South\nelection$region&lt;-relevel(election$region, \n                         ref=\"South\")\nregC(dem_percent ~ region, data=election)"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-11",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-11",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-12",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-12",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\n\n\nWhen we add more variables, the intercept is still the expectation when everything is 0.\nIn model 2, the intercept represents the prediction for Dem % when everyone in the state is under 25 in the Midwest"
+  },
+  {
+    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-13",
+    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-13",
+    "title": "Regression Continued",
+    "section": "Predictions with multiple dummies",
+    "text": "Predictions with multiple dummies\n\n\n\nThe coefficients on the other dummies are still the difference from the excluded category, but you could also think of them as separate Y-intercepts for each region."
+  },
+  {
+    "objectID": "Slides/slides_13.html#review-dummy-variables",
+    "href": "Slides/slides_13.html#review-dummy-variables",
+    "title": "Regression Continued",
+    "section": "Review: Dummy variables",
+    "text": "Review: Dummy variables\nHow should we interpret the results? Note: the excluded category are dictatorships."
+  },
+  {
+    "objectID": "Slides/slides_13.html#types-of-relationship",
+    "href": "Slides/slides_13.html#types-of-relationship",
+    "title": "Regression Continued",
+    "section": "Types of relationship",
+    "text": "Types of relationship\nWe talked about three general ways that more than two variables could be related in a controlled comparison.\n\n\nSpurious: controlling for Z removes or reverses the effect of X on Y\nAdditive: Z and X impact Y independently\nInteractive: the effect of X depends on values of Z"
+  },
+  {
+    "objectID": "Slides/slides_13.html#model-with-an-interaction-effect",
+    "href": "Slides/slides_13.html#model-with-an-interaction-effect",
+    "title": "Regression Continued",
+    "section": "Model with an interaction effect",
+    "text": "Model with an interaction effect\nLinear regression assumes… linearity. We can use a linear model to test for an interactive relationship, but only if we actually add an interaction term to the model"
+  },
+  {
+    "objectID": "Slides/slides_13.html#model-with-an-interaction-effect-1",
+    "href": "Slides/slides_13.html#model-with-an-interaction-effect-1",
+    "title": "Regression Continued",
+    "section": "Model with an interaction effect",
+    "text": "Model with an interaction effect"
   },
   {
     "objectID": "Slides/slides_11.html#correlation-and-regression",
@@ -1834,7 +2067,7 @@
   {
     "objectID": "GVPT201_Syllabus.html",
     "href": "GVPT201_Syllabus.html",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "",
     "text": "Welcome to GVPT 201! This class is an introduction to the basics of political science research. We’ll will begin by discussing how to formulate an empirical research question, then progress through the process of data collection, description and visualization, and finally testing a hypothesis and quantifying uncertainty. By the end of the course, you should have a solid working understanding of how we can use a scientific approach to answer (some) questions about the political world.",
     "crumbs": [
@@ -1844,7 +2077,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#instructor",
     "href": "GVPT201_Syllabus.html#instructor",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Instructor",
     "text": "Instructor\nName: Neil Lund\nEmail: nlund@umd.edu (please do not contact me through ELMS)\nOffice: 1140C Tydings Hall\nOffice Hours: Tuesday/Thursday 11:15 PM to 1:30 PM or by appointment",
     "crumbs": [
@@ -1854,7 +2087,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#meetings",
     "href": "GVPT201_Syllabus.html#meetings",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Meetings",
     "text": "Meetings\n\nLecture 1: Monday-Wednesday 1:00 - 1:50pm Tydings 0130\nLecture 2: Monday-Wednesday 2:00 - 2:50pm Tydings 0117\nFriday Discussion: Check Testudo for schedule\n\nOtherwise otherwise noted, all class lecture meetings will be available over Zoom. Recordings will also be uploaded to ELMS. Check the ELMS page for additional detail.",
     "crumbs": [
@@ -1864,7 +2097,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#teaching-team",
     "href": "GVPT201_Syllabus.html#teaching-team",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Teaching Team",
     "text": "Teaching Team\nGraduate Teaching Assistant\n\n\n\n\n\n\n\nName\nEmail\n\n\n\n\nSonia Vargas\nsvargas@umd.edu\n\n\n\nUndergraduate Teaching Assistants\n\n\n\n\n\n\n\n\nName\nEmail\nSection\n\n\n\n\nAlexa Tira\natira@terpmail.umd.edu\n101, 202\n\n\nHeidi Medrano Guerra\nhmedrano@terpmail.umd.edu\n101, 206\n\n\nBen Nevgloski\nbnevglos@terpmail.umd.edu\n203, 204\n\n\nCharles Liddle\ncliddle1@terpmail.umd.edu\n102, 103\n\n\nDean Truong\ndtruong6@terpmail.umd.edu\n102, 201\n\n\nSumit Jani\nsjani@terpmail.umd.edu\n202, 205\n\n\nHannah Bernstein\nhbernst1@terpmail.umd.edu\n203, 204\n\n\nKatelyn Keller\nkkeller7@terpmail.umd.edu\n102, 201\n\n\nJayme Lawrence\njlawren9@terpmail.umd.edu\n103, 206\n\n\nJoshua Vallabhaneni\npvallabh@terpmail.umd.edu\n205\n\n\nJordan Laura Gouws-Dewar\njdewar@umd.edu\n104, 207, 208, 209",
     "crumbs": [
@@ -1874,7 +2107,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#books",
     "href": "GVPT201_Syllabus.html#books",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Books",
     "text": "Books\n\nTextbook: Philip H. Pollock III. and Barry C. Edwards. 2024. The Essentials of Political Analysis Seventh Edition. Washington D.C. Sage and CQ Press. (Required).\nWorkbook: Philip H. Pollock III. and Barry C. Edwards. 2023. An R Companion to Political Analysis. Third Edition. Washington D.C. Sage and CQ Press. (Required).\n\nPlease note: the content changes enough between different editions of this textbook that it unfortunately is not really feasible to get by with an older edition. Students are encouraged to look for a used copy if they can find it.",
     "crumbs": [
@@ -1884,7 +2117,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#r-and-r-studio",
     "href": "GVPT201_Syllabus.html#r-and-r-studio",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "R and R-studio",
     "text": "R and R-studio\nYou will be using the R programming language for this course. R is completely FREE and works with any operating system. There are instructions on how to download R and the associated data files/packages for the homeworks in the workbook.\nYou also need to download R-Studio. You can get the free version. It’s the first option on this page.\nWe have several resources to assist you in learning the software:\n\nWe have recorded video lectures covering the material in each chapter in the R workbook. These videos are available in the workbook folder on PANOPTO (ELMS).\nThe professor will devote a portion of lecture time to R and the survey. Therefore, every week you can ask questions about R in class.\nIn Friday sections the TA’s will cover the R homework due the following Thursday and help you work on the survey. Therefore, every week you can ask questions about R and the survey in section.\n\nWhile we are happy to help you in understanding how to use R, we can only offer limited support when it comes to issues installing R onto your device. If for some reason your computer is not working you may be able to access the cloud-based Rstudio instance available to BSOS students.",
     "crumbs": [
@@ -1894,7 +2127,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#grade-components",
     "href": "GVPT201_Syllabus.html#grade-components",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Grade components",
     "text": "Grade components\nGrades are a percentage out of 780 possible points. The points will be distributed as follows:\n\nWorkbook Homework (25%)\nThese will be short assignments from the workbook that you will submit through ELMS. In order to receive credit you must attach an R script that shows your work along with your submission.\nYour lowest assignment grade will be dropped.\n\n\nExams (25%)\nThere will be two open-notes/open book exams administered through ELMS. They will cover materials from the lecture, textbook, and discussion sections. While they aren’t cumulative, concepts from the first half of the course will be relevant to the second half, so there may be some overlap for the second exam.\n\n\nSurvey (35%)\n\nPilot Design\n\nDuring lecture and discussion sections, students will work with me and the TA’s to design a battery of questions. Students will workshop these questions with each other and individually submit questions they would like to see on the survey. The Professor will choose the finals set of questions and program the survey. Once this is complete, the Professor will distribute this draft as the “pilot” survey.\n\nPilot Analysis\n\nPilot analysis: After the pilot survey has been in the field for about a week, the Professor will release the data to the students. Students will have to complete a basic analysis of the pilot data. In addition to the respondents’ answers to the questions, students are asked to consider the instrument itself. Did they find any questions confusing? Offensive? Needlessly complicated? Etc. Based on this feedback, the teaching staff will edit the survey instrument.\n\nVerification of Survey Distribution\n\nOnce the final question wording has been determined, students will be responsible for distributing the survey to as wide a range of people as possible via social networking sites, such as Facebook and Twitter, and other means of communication. You can also post it on websites like Reddit and distribute via email. Students will have to provide proof of distribution in the form of a screenshot. The survey will be in the field for approximately two weeks. Students are expected to promote and distribute the survey during this time.\n\nFinal Write-up\n\nThe final survey write up will be three memos (two “practice” that will take the form of “quizzes” online, and one final one, which will be submitted as a paper) on the data gathered via the class survey. We will provide more detailed guidelines closer to the due dates. The memos are not weighted equally; the last one is weighted most heavily. Grades will be based on consistency of 8 the analytical argument, demonstration of cumulative mastery of the material from the course, and clarity of writing. The detailed rubric for the paper is available on ELMS.\n\n\n\n\nSection Participation (10%)\nSection: Students are expected to have completed all of the assigned readings and homework for each section and be prepared to discuss them. Attendance (in person or via zoom with the camera on) is mandatory and teaching assistants record participation in section.\n(Note that your grade here is based on your participation and engagement. Attendance alone is necessary, but not sufficient for earning full credit.)\n\n\nExperimental Lab (5%)\nThis class will also give credit to students who take part in studies conducted by GVPT faculty and graduate students. Each study will take about 20-30 minutes to complete. If you prefer not to serve as a participant, you may elect to satisfy the requirement by completing an alternate assignment (HW 13). However, you must notify the Research Administrator Woohyeon Kim (whkim@umd.edu) before the last day of schedule adjustment for the semester if you wish to register for the alternate assignment. Students will receive an email with further instructions about participation when the studies are available.\nStudents who are under 18 years of age must obtain parental permission to participate in research. If you are under 18, please contact Jordan James Anthony Spencer jspeck13@umd.edu and he will provide you with instructions on how to participate in the research studies. Alternate assignments cannot be used to make up for a study at the end of the semester.\n\n\nLate work\nBy default, all assignments will be due by 11:59 PM on their respective due dates. Assignments turned in after the deadline will receive a 20% penalty, and an additional 10 percentage points will be deducted for each additional day late.\nThis penalty can be waived if you have a documented excuse such as a doctor’s note, letter from a therapist, court order barring you from doing homework etc.\nFor regular homework assignments, students may provide a one-time self-signed excuse note to receive a 24 hour extension on a non-major grading event such as a homework assignment. See this page for a template. This policy does not apply to exams or the final project.",
     "crumbs": [
@@ -1904,7 +2137,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#grade-scale",
     "href": "GVPT201_Syllabus.html#grade-scale",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Grade Scale",
     "text": "Grade Scale\n\n\n\n\n\n\n\n\n% Grade\nLetter Grade\n\n\n\n\n97-100\nA+\n\n\n&lt; 97-94\nA\n\n\n&lt; 94-90\nA-\n\n\n&lt; 90-87\nB+\n\n\n&lt; 87-84\nB\n\n\n&lt; 84-80\nB-\n\n\n&lt; 80-77\nC+\n\n\n&lt; 77-74\nC\n\n\n&lt; 74-70\nC-\n\n\n&lt; 70-67\nD+\n\n\n&lt; 67-64\nD\n\n\n&lt; 64-61\nD-\n\n\n&lt; 61\nF",
     "crumbs": [
@@ -1914,7 +2147,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#ai-use",
     "href": "GVPT201_Syllabus.html#ai-use",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "AI use",
     "text": "AI use\nIn this class, you may use AI tools (ChatGPT, Gemini, Claude etc.) for brainstorming and research only. Under no circumstances should you submit work (coding or analysis) that you didn’t write yourself or that you can’t explain to another person or effectively replicate on your own. If you are unsure whether a specific use-case is acceptable, please reach out to me for a clarification.",
     "crumbs": [
@@ -1924,7 +2157,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#class-communication",
     "href": "GVPT201_Syllabus.html#class-communication",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Class Communication",
     "text": "Class Communication\nPlease do not contact me through ELMS. ELMS messages will probably reach me eventually, but it will be slower and less reliable than an email.\nThe first avenue of communication for this course is with your designated teaching assistant. All issues, problems, questions, concerns should first be addressed with them, unless the issue is of a sensitive nature. Please provide documentation, including paperwork for student disability services, and notice of absence to your TA. If issues cannot be resolved, or questions cannot be answered by the TA, then contact me. Please allow TA’s and/or the professor a least 24 hours to respond to emails (48 to 72 hours on weekends).",
     "crumbs": [
@@ -1934,7 +2167,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#extra-credit",
     "href": "GVPT201_Syllabus.html#extra-credit",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Extra credit",
     "text": "Extra credit\nGraded assignments in the class provide students with ample opportunity to demonstrate mastery of the materials. The assigned material is appropriate in scope for completion within a single semester. Therefore, no extra credit will be offered.",
     "crumbs": [
@@ -1944,7 +2177,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#grade-challenges",
     "href": "GVPT201_Syllabus.html#grade-challenges",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Grade Challenges",
     "text": "Grade Challenges\nAny challenges to a grade must be submitted in writing no sooner than one week after the assignment has been graded. All challenges must be submitted to the section teaching assistant first.",
     "crumbs": [
@@ -1954,7 +2187,7 @@
   {
     "objectID": "GVPT201_Syllabus.html#code-of-conduct",
     "href": "GVPT201_Syllabus.html#code-of-conduct",
-    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2025",
+    "title": "GVPT 201: Scope and Methods for Political Science Research Spring 2026",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nIt is assumed that all students are familiar with and adhere to the code of academic integrity.\nFor University policies including regarding attendance, absences, missed assignments, grade complaints, etc. see this page.",
     "crumbs": [
@@ -2837,163 +3070,502 @@
     "text": "Final paper info\n\nAdditional materials will be posted on ELMS and linked on the “Modules” page and in a designated section on the 201 webpage.\nIf you go digging around in the “files” sections, you may find old example papers and guidelines. Keep in mind that requirements and expectations may have changed somewhat, so don’t take these older materials as gospel."
   },
   {
-    "objectID": "Survey codebook.html",
-    "href": "Survey codebook.html",
-    "title": "Codebook",
+    "objectID": "Slides/slides_12.html#notes",
+    "href": "Slides/slides_12.html#notes",
+    "title": "Correlation and Regression",
+    "section": "Notes",
+    "text": "Notes\n\nThere’s a lab + extra credit opportunity posted on ELMS. You must complete one survey to recieve credit. You may complete up to 8 more to receive 4 points of extra credit on the 2nd midterm.\nThere is a separate GVPT Experimental Lab assignment that you should be hearing about shortly. The contact person is Woohyeon Kim. Please remember that this is a separate assignment that is also required.\nIf you prefer to complete an alternate assignment, please notify me asap."
+  },
+  {
+    "objectID": "Slides/slides_12.html#linear-regression-model",
+    "href": "Slides/slides_12.html#linear-regression-model",
+    "title": "Correlation and Regression",
+    "section": "Linear Regression model",
+    "text": "Linear Regression model\n\n\n\nMy dependent variable is % voter turnout in a state\nMy independent variable is the partisan lean in that state. (lower values indicate a state is more evenly divided between Republicans and Democrats)\nWhat is the effect of a one unit increase on voter turnout?\nWhat is the % turnout in a state where partisan lean is zero?\n\n\n\n\n\n\n\n\nterm\nestimate\n\n\n\n\n(Intercept)\n65.1\n\n\npartisan_lean\n-0.4"
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients",
+    "text": "Uncertainty in coefficients\nHow much should we trust our estimates here?"
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-1",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients-1",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients",
+    "text": "Uncertainty in coefficients\n\n\\(\\hat{\\beta_1}\\) (the estimated coefficient) is an estimate just like a sample mean. So it can be “off” the true value due to random chance.\nThe “null hypothesis” in this scenario is that the actual slope of this line is 0.\nIn this case: can we rule out the possibility that random error would give us a coefficient absolutely greater than what we see in our sample? And can we identify a range that we’re fairly certain contains the correct value for \\(\\beta_1\\)?\n\n\n\n\n\n\n\nterm\nestimate\n\n\n\n\n(Intercept)\n65.1\n\n\npartisan_lean\n-0.4"
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-2",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients-2",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients",
+    "text": "Uncertainty in coefficients\nLucky for us: the central limit theorem applies to regression coefficients! We just need to get an estimate of the standard error of \\(\\beta_1\\)"
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients: sources of error",
+    "text": "Uncertainty in coefficients: sources of error\nWe to get the standard error for the regression coefficient.\nBeyond the sample size, we need to think about two additional sources of error for \\(\\hat{\\beta_1}\\)"
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-1",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-1",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients: sources of error",
+    "text": "Uncertainty in coefficients: sources of error\nFirst: more variability around the regression line means more uncertainty around our coefficient estimates.\n\n\n\n\nIntuitively: if there’s a lot of “noise” around Y, then its harder to estimate things precisely.\n\n\n\n\n\n\n\n\n\n\n\n\nBoth lines have the same slope, but the left panel shows a lot less variability than the right panel. The standard error for the regression on the left would be smaller."
+  },
+  {
+    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-2",
+    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-2",
+    "title": "Correlation and Regression",
+    "section": "Uncertainty in coefficients: sources of error",
+    "text": "Uncertainty in coefficients: sources of error\nSecond: More variability in the independent variable means less uncertainty.\n\n\n\n\nLess intuitive!\nbut errors have more influence when X has less variability"
+  },
+  {
+    "objectID": "Slides/slides_12.html#standard-error-of-a-slope",
+    "href": "Slides/slides_12.html#standard-error-of-a-slope",
+    "title": "Correlation and Regression",
+    "section": "Standard error of a slope",
+    "text": "Standard error of a slope\n\\(S_{yx}\\) represents the “standard error of the regression”. Note that the numerator here is the same as the error sum of squares.\n\\[\nS_{yx} = \\sqrt{\\frac{\\sum{(\\hat{y_i} - y_i)^2}}{n-2}}\n\\]\n\nThe denominator here accounts for the amount of variation in X. Note that more variability in X means that we will have a smaller standard error.\n\\[\nSE(\\beta_1) = \\frac{s_{yx}}{\\sqrt{\\sum^n_{i=1}{(X_i -\\bar{X})^2}}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_12.html#standard-error-of-the-intercept",
+    "href": "Slides/slides_12.html#standard-error-of-the-intercept",
+    "title": "Correlation and Regression",
+    "section": "Standard error of the intercept",
+    "text": "Standard error of the intercept\nWe can also calculate the standard error for the intercept, but generally speaking we don’t care because we rarely test hypotheses about the intercept.\n\\[\nSE(\\hat{\\beta}_0) = s_{yx} \\times \\sqrt{\\frac{1}{n}+\\frac{\\bar{X}^2}{\\sum_{i=1}^n(X_i-\\bar{X})^2}}\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_12.html#standard-error-of-a-slope-1",
+    "href": "Slides/slides_12.html#standard-error-of-a-slope-1",
+    "title": "Correlation and Regression",
+    "section": "Standard error of a slope",
+    "text": "Standard error of a slope\nBack to our model…"
+  },
+  {
+    "objectID": "Slides/slides_12.html#confidence-interval-for-a-slope",
+    "href": "Slides/slides_12.html#confidence-interval-for-a-slope",
+    "title": "Correlation and Regression",
+    "section": "Confidence Interval for a slope",
+    "text": "Confidence Interval for a slope\nFrom here, things aren’t that different from what we already know.\n\n\n\nGet a rough estimate of the 95% confidence interval for the coefficient by doubling the standard error and then adding and subtracting it from the estimate.\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nlower 95% CI\nupper 95% CI\n\n\n\n\n(Intercept)\n65.08\n1.60\n61.88\n68.29\n\n\npartisan_lean\n-0.37\n0.17\n-0.72\n-0.03"
+  },
+  {
+    "objectID": "Slides/slides_12.html#p.value-for-a-slope",
+    "href": "Slides/slides_12.html#p.value-for-a-slope",
+    "title": "Correlation and Regression",
+    "section": "P.value for a slope",
+    "text": "P.value for a slope\nOr calculate a t-statistic by dividing the estimate by its standard error, then find the associated p-value:\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\n\n\n\n\n(Intercept)\n65.08\n1.60\n40.65\n0.00\n\n\npartisan_lean\n-0.37\n0.17\n-2.15\n0.04"
+  },
+  {
+    "objectID": "Slides/slides_12.html#statistical-significance-for-a-slope",
+    "href": "Slides/slides_12.html#statistical-significance-for-a-slope",
+    "title": "Correlation and Regression",
+    "section": "Statistical Significance for a slope",
+    "text": "Statistical Significance for a slope\nCan we reject the null hypothesis that the coefficient for partisan_lean is actually 0?\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\nlower 95% CI\nupper 95% CI\n\n\n\n\n(Intercept)\n65.08\n1.60\n40.65\n0.00\n61.88\n68.29\n\n\npartisan_lean\n-0.37\n0.17\n-2.15\n0.04\n-0.72\n-0.03"
+  },
+  {
+    "objectID": "Slides/slides_12.html#regression-output-in-r",
+    "href": "Slides/slides_12.html#regression-output-in-r",
+    "title": "Correlation and Regression",
+    "section": "Regression output in R",
+    "text": "Regression output in R\n\n\n\n\nIV absolute value of the Cook Partisan Voting Index in a state in 2020\nDV % voter turnout in a state\n\n\n\n\nstates$absolute_cook_index &lt;- abs(states$cook.index)\nregC(vep20.turnout ~ absolute_cook_index, data=states)"
+  },
+  {
+    "objectID": "Slides/slides_12.html#r-squared-model-fit",
+    "href": "Slides/slides_12.html#r-squared-model-fit",
+    "title": "Correlation and Regression",
+    "section": "R-squared: model fit",
+    "text": "R-squared: model fit\nWe often want to talk about how well a model “fits” the data. \\(R^2\\) is one way to evaluate this.\n\n\n\\(R^2\\) value is the proportion of variance in Y explained by variance in our independent variables.\n\\(R^2\\) will always range from 0 to 1. Its a proportion. A score of 1 would mean that our model perfectly predicts Y.\nYou can think of \\(R^2\\) as a measure of how well the model predicts outcomes."
+  },
+  {
+    "objectID": "Slides/slides_12.html#r-squared",
+    "href": "Slides/slides_12.html#r-squared",
+    "title": "Correlation and Regression",
+    "section": "R-squared",
+    "text": "R-squared\n\n\n\n\nCalculating the error sum of squares was part of fitting the regression line\n\n\n\n\nThe total sum of squares is just a measure of all the variance in Y.\n\n\n\n\nSo, taking \\(\\frac{TSS-ESS}{TSS}\\) should give us a measure of the variance explained relative to the total variance.\n\n\n\n\nAbout 19% of the variation in voter turnout is explained by variation in the independent variable."
+  },
+  {
+    "objectID": "Slides/slides_12.html#r-squared-1",
+    "href": "Slides/slides_12.html#r-squared-1",
+    "title": "Correlation and Regression",
+    "section": "R-squared",
+    "text": "R-squared\n\n\n\n\nNote that our output also includes “Adjusted R-squared”\nAdjusted R-squared accounts for a tendency of normal R-squared stats to increase even when we include bad predictors in our model.\nThe two values will usually remain close, and the interpretation is more-or-less the same.\n\n\n\n\nregC(vep20.turnout ~ absolute_cook_index, data=states)"
+  },
+  {
+    "objectID": "Slides/slides_12.html#r-squared-values",
+    "href": "Slides/slides_12.html#r-squared-values",
+    "title": "Correlation and Regression",
+    "section": "R-squared values",
+    "text": "R-squared values\n\nKeep in mind: \\(R^2\\) can be high even if X has a weak effect and low when X has a strong effect. It depends, in part, on how much variability there is in the dependent variable."
+  },
+  {
+    "objectID": "Slides/slides_12.html#checking-for-confounders",
+    "href": "Slides/slides_12.html#checking-for-confounders",
+    "title": "Correlation and Regression",
+    "section": "Checking for confounders",
+    "text": "Checking for confounders\n\n\n\nOn closer examination, I notice that a lot of states with fewer college grads are in the low turnout group.\nSo is it possible that education is a confounding variable here?"
+  },
+  {
+    "objectID": "Slides/slides_12.html#checking-for-confounders-1",
+    "href": "Slides/slides_12.html#checking-for-confounders-1",
+    "title": "Correlation and Regression",
+    "section": "Checking for confounders",
+    "text": "Checking for confounders\nRunning a second regression model suggests there’s some kind of relationship here.\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\n\n\n\n\n(Intercept)\n44.0\n3.9\n11.2\n\n\nba.or.more\n0.7\n0.1\n6.2"
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression",
+    "href": "Slides/slides_12.html#multiple-regression",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\n\nIn the past, we handled this by splitting up the data into groups, but - we would lose a lot of statistical power if we split up the data like this.\nInstead, we’re going to account for this potential confounding variable by mathematically “holding constant” for the other variables in the model."
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-1",
+    "href": "Slides/slides_12.html#multiple-regression-1",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\nRemember that this was the formula for a prediction of Y\n\\[\n\\hat{y} = \\alpha + \\beta_1x\n\\]\nWhen we consider the actual values of Y, we’ve got this error term that represents the distance between the prediction and the observation:\n\\[\ny_i = \\alpha + \\beta_1x + \\epsilon\n\\]"
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-2",
+    "href": "Slides/slides_12.html#multiple-regression-2",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\nIn a sense, a regression model splits the data up into two categories:\n\\[\ny_i = \\alpha + \\beta_1x_i + \\epsilon_i\n\\]\n\n\n\\(\\alpha + \\beta_1x\\) represents the part of Y that we can explain with our model.\n\\(\\epsilon\\) represents the part of Y that is not explained by our model."
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-3",
+    "href": "Slides/slides_12.html#multiple-regression-3",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\nSo what do I get if I subtract \\(\\hat{y}\\) from each observation in my original model?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstate\n% BA or more\nTurnout\nPredicted Turnout\nObserved - Predicted\n\n\n\n\nAL\n26.3\n63.1\n63.6\n-0.5\n\n\nHI\n33.6\n57.5\n69.0\n-11.5\n\n\nMA\n45.0\n72.1\n77.5\n-5.4\n\n\nNM\n27.7\n61.3\n64.6\n-3.3\n\n\nSD\n29.7\n66.0\n66.1\n-0.1\n\n\n\n\n\n\n\n\nObserved and predicted turnout in select states"
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-4",
+    "href": "Slides/slides_12.html#multiple-regression-4",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\n\n\n\n\n\\(Y - \\hat{Y}\\) would leave me with a measure of turnout that is no longer correlated with education levels.\n\n\n\n\nI could do the same thing with the absolute Cook Index by estimating the effect of Education on Cook Index and then taking the residual from that model.\n\n\n\n\nNow, if I run my original regression on these residuals, I get an estimate of the effect of absolute Cook Index after removing the effect of education."
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-5",
+    "href": "Slides/slides_12.html#multiple-regression-5",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression",
+    "text": "Multiple Regression\nWe don’t need to do all this by hand. Instead, we can add additional controls by just adding a + sign followed by an additional variable:\n\n\nregC(vep20.turnout ~ absolute_cook_index +  ba.or.more, data=states)"
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-interpretation",
+    "href": "Slides/slides_12.html#multiple-regression-interpretation",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression: interpretation",
+    "text": "Multiple Regression: interpretation\n\n\n\n\nThe intercept term now represents the expected value when ALL predictors are equal to zero\n\n\n\n\nEach slope represent the effect of a one unit change in that variable controlling for everything else in the model\n\n\n\n\nThe \\(R^2\\) statistic represents the amount of variation in Y explained variation in all of the IVs."
+  },
+  {
+    "objectID": "Slides/slides_12.html#multiple-regression-comparing-models",
+    "href": "Slides/slides_12.html#multiple-regression-comparing-models",
+    "title": "Correlation and Regression",
+    "section": "Multiple Regression: comparing models",
+    "text": "Multiple Regression: comparing models"
+  },
+  {
+    "objectID": "Slides/slides_14.html#regression-example-modeling-elections",
+    "href": "Slides/slides_14.html#regression-example-modeling-elections",
+    "title": "Interactions",
+    "section": "Regression example: modeling elections",
+    "text": "Regression example: modeling elections\n\n\n\n\nWhat factors predict the outcomes of presidential elections? Relatively simple models can do surprisingly well.\nDouglas Hibbs’s “Bread and Peace” model predicts incumbent party vote share using only a weighted average of income growth and combat fatalities during a president’s term.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Note: this is a simplified version of the model, which has been extended to include elections through 2024.)"
+  },
+  {
+    "objectID": "Slides/slides_14.html#regression-example-modeling-elections-1",
+    "href": "Slides/slides_14.html#regression-example-modeling-elections-1",
+    "title": "Interactions",
+    "section": "Regression example: modeling elections",
+    "text": "Regression example: modeling elections\n\n\n\nThe model accurately predicts the outcome of 15 out of 19 elections since 1952\n(it also accurately predicts the popular vote winner in all but 3)"
+  },
+  {
+    "objectID": "Slides/slides_14.html#regression-example-modeling-elections-2",
+    "href": "Slides/slides_14.html#regression-example-modeling-elections-2",
+    "title": "Interactions",
+    "section": "Regression example: modeling elections",
+    "text": "Regression example: modeling elections\n\n\n\nExamining the residuals gives us a chance to do some ad-hoc theorizing about the other factors that matter in U.S. elections: is it candidate quality? scandals?"
+  },
+  {
+    "objectID": "Slides/slides_14.html#regression-example-modeling-elections-3",
+    "href": "Slides/slides_14.html#regression-example-modeling-elections-3",
+    "title": "Interactions",
+    "section": "Regression example: modeling elections",
+    "text": "Regression example: modeling elections\n\n\n\nMore modern election forecasting models often use a mix of “fundamentals” (like economic growth) and polls to predict election outcomes, but they’re typically still fitted using some form of regression analysis.\nSince there are only 19 observations, modelers need to be especially careful to avoid “overfitting”: building models that can explain past elections but do poorly when predicting new ones."
+  },
+  {
+    "objectID": "Slides/slides_14.html#regression-example-modeling-elections-4",
+    "href": "Slides/slides_14.html#regression-example-modeling-elections-4",
+    "title": "Interactions",
+    "section": "Regression example: modeling elections",
+    "text": "Regression example: modeling elections\n\nFor a more cutting edge example of election forecasting, check out The Economists detailed dive on their 2024 election model here. (It’s written in R)."
+  },
+  {
+    "objectID": "Slides/slides_14.html#review-dummy-variables",
+    "href": "Slides/slides_14.html#review-dummy-variables",
+    "title": "Interactions",
+    "section": "Review: Dummy variables",
+    "text": "Review: Dummy variables\nHow should we interpret the results?\n\n\n\n\nDV: Gender Inequality\n\n\n\nModel\n\n\n\n\n(Intercept)\n41.65***\n\n\n\n(2.21)\n\n\nregime.type3Parliamentary democ\n−20.73***\n\n\n\n(3.38)\n\n\nregime.type3Presidential democ\n−0.47\n\n\n\n(3.76)\n\n\nNum.Obs.\n125\n\n\nR2\n0.263\n\n\nR2 Adj.\n0.251\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
+  },
+  {
+    "objectID": "Slides/slides_14.html#interaction-effects",
+    "href": "Slides/slides_14.html#interaction-effects",
+    "title": "Interactions",
+    "section": "Interaction Effects",
+    "text": "Interaction Effects\nLinear regression assumes… linearity. We can use a linear model to test for an interactive relationship, but only if we actually add an interaction term to the model:"
+  },
+  {
+    "objectID": "Slides/slides_14.html#interaction-effects-1",
+    "href": "Slides/slides_14.html#interaction-effects-1",
+    "title": "Interactions",
+    "section": "Interaction Effects",
+    "text": "Interaction Effects\n\n\n\n\nDependent variable is a feeling thermometer score for Kamala Harris\nIV 1 is race (for simplicity this looks at black or white only)\nIV 2 is the how important the respondent says religion is in their life. (also coded to be a dichotomous variable)"
+  },
+  {
+    "objectID": "Slides/slides_14.html#interaction-effects-2",
+    "href": "Slides/slides_14.html#interaction-effects-2",
+    "title": "Interactions",
+    "section": "Interaction Effects",
+    "text": "Interaction Effects\n\n\nI want to test whether there is an interactive effect of religious views and race. In other words: is the effect of religious belief significantly different for African American vs. white respondents?\nMy two-tailed null hypothesis in this scenario would be “the effect is the same for both groups”\nMy alternative hypothesis in this scenario would be “the effect is different for each group”"
+  },
+  {
+    "objectID": "Slides/slides_14.html#interpreting-the-results",
+    "href": "Slides/slides_14.html#interpreting-the-results",
+    "title": "Interactions",
+    "section": "Interpreting the results",
+    "text": "Interpreting the results\n\nSo how do we interpret this?"
+  },
+  {
+    "objectID": "Slides/slides_14.html#interaction-effects-3",
+    "href": "Slides/slides_14.html#interaction-effects-3",
+    "title": "Interactions",
+    "section": "Interaction effects",
+    "text": "Interaction effects\nAs with a dummy variable regression, the best way to avoid getting tripped up is to lay out the formula and start making some predictions.\n\\[\n\\hat{y} = \\alpha + \\beta_1 X_1 + \\beta_2 X_2 + \\beta_3 X_1X_2\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\nConstant\n\\(\\alpha = 62\\)\nRace\n\\(\\beta=9\\)\nReligion Important\n\\(\\beta = -23.6\\)\nRace X Religion\n\\(\\beta =34.2\\)\nPrediction\n\n\n\n\nA\n1\n0\n1\n0\n\n\n\nB\n1\n0\n0\n0\n\n\n\nC\n1\n1\n1\n1\n\n\n\nD\n1\n1\n0\n0"
+  },
+  {
+    "objectID": "Slides/slides_14.html#continuous-x-dichotomous-interactions",
+    "href": "Slides/slides_14.html#continuous-x-dichotomous-interactions",
+    "title": "Interactions",
+    "section": "Continuous x dichotomous interactions",
+    "text": "Continuous x dichotomous interactions\nWhat if one of the variables is continuous?\n\nThe basic intuition won’t really change!"
+  },
+  {
+    "objectID": "Slides/slides_14.html#continuous-by-continuous-interactions",
+    "href": "Slides/slides_14.html#continuous-by-continuous-interactions",
+    "title": "Interactions",
+    "section": "Continuous by Continuous interactions",
+    "text": "Continuous by Continuous interactions\n\nThe same math applies for continuous x continuous interactions, but they’re harder to visualize.\n(the workbook has you creating 3-d plots for this, but ymmv)"
+  },
+  {
+    "objectID": "Slides/slides_14.html#next-up",
+    "href": "Slides/slides_14.html#next-up",
+    "title": "Interactions",
+    "section": "Next up",
+    "text": "Next up\n\nRegression assumptions\nLogistic regression\nPaper discussion"
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-01.html",
+    "href": "Weeks/Week 01/Week-01.html",
+    "title": "Week 1",
     "section": "",
-    "text": "Use the codebook below to get additional information about variables in the survey data.\n\nNote and suggestions\n\nVariables names beginning with meta_ contain metadata about respondents. These are things like their web browser, the amount of time they spent on the survey, and their unique response ID.\npid_summary is a 7-category measure of party ID that was created using the method we discussed in week 1: people are first asked for their party ID. Those who say they prefer Democrats or Republicans are asked about the strength of their party identification, and self-described independents are asked whether they “lean” toward one party or another, which gives us an ordinal measure of party ranging from Strong Democrat to Strong Republican.\nrace_ethnicity_summary is re-coded from the original race and ethnicity questions and made to resemble the race/ethnicity question on the ANES. The survey allowed respondents to check multiple boxes for their racial identity, which is why there are a series of dummy variables (race_1, race_2…), for each racial category. The survey also asked about Hispanic ethnicity in a separate question. So race_ethnicity_summary combines these responses into a single categorical variable with separate categories for multiracial and Hispanic respondents.\nVariables that end with OTHER_TEXT store the answers to questions where respondents picked an “Other” option. For instance: if someone said they preferred “someone else” in the 2024 election, their write-in preference is in the variable votechoice24_OTHER_TEXT. In most cases, these responses aren’t going to be useful for your analyses because only a handful of people gave any answer.\nNote that many of these questions allow respondents to give a response of not sure. You’ll want to make a decision about how you plan to handle these. One option might be to drop them entirely. Another option might be to combine the not sure responses with another response category. How you choose to handle this is up to you, but just keep in mind that you need to make some kind of decision here because keeping them as is will make ordinal variables no longer ordinal.\n\n\n\nCodebook\n\n\n\n\n\n\n\n\n\nColumn name\nQuestion\nVariable type\nValues\nMissing\n\n\n\n\nmetadata_StartDate\nStart Date\nDate\nRange: 2026-02-23 to 2026-03-12\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Duration__in_seconds_\nDuration (in seconds)\nnumeric\nRange: 78-465819\n\nValid N: 1017;\nNAs: 0\n\n\nResponseId\nResponse ID\ncharacter\n1017 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Browser\nBrowser\ncharacter\n16 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Version\nBrowser Version\ncharacter\n88 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Operating_System\nOperating System\ncharacter\n6 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nmetadata_Resolution\nScreen Resolution\ncharacter\n83 unique values\n\nValid N: 1017;\nNAs: 0\n\n\nrace_ethnicity_summary\nRace/Ethnicity summary\nfactor\nValues:\n\nAmerican Indian/Native American or Alaska Native, non-Hispanic\nAsian, non-Hispanic\nBlack, non-Hispanic\nMultiple races, non-Hispanic\nOther/Refused/NA\nNative Hawaiian or Other Pacific Islander, non-Hispanic\nWhite, non-Hispanic\nHispanic\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_1\nWhite or Caucasian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_2\nBlack or African American\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_3\nAmerican Indian/Native American or Alaska Native\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_4\nAsian\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_5\nNative Hawaiian or Other Pacific Islander\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_6\nOther\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nrace_dummy_7\nPrefer not to say\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 1017;\nNAs: 0\n\n\nethnicity\nAre you of Spanish, Hispanic, or Latino origin?\nfactor\nValues:\n\nYes\nNo\n\n\nValid N: 1015;\nNAs: 2\n\n\neducation\nWhat is the highest level of education you have completed?\nfactor\nValues:\n\nSome high school or less\nHigh school diploma or GED\nSome college, but no degree\nAssociates or technical degree\nBachelor’s degree\nGraduate or professional degree (MA, MS, MBA, PhD, JD, MD, DDS etc.)\nPrefer not to say\n\n\nValid N: 1015;\nNAs: 2\n\n\nincome\nWhat was your total household income before taxes during the past 12 months?\nfactor\nValues:\n\nLess than $25,000\n$25,000-$49,999\n$50,000-$74,999\n$75,000-$99,999\n$100,000-$149,999\n$150,000 or more\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nage\nHow old are you (in years)?\nnumeric\nRange: 16-83\n\nValid N: 988;\nNAs: 29\n\n\nsex_gender\nHow do you describe yourself? - Selected Choice\nfactor\nValues:\n\nMale\nFemale\nNon-binary / third gender\nPrefer to self-describe\nPrefer not to say\n\n\nValid N: 1013;\nNAs: 4\n\n\nsex_gender_OTHER_TEXT\nHow do you describe yourself? - Prefer to self-describe - Text\ncharacter\n4 unique values\n\nValid N: 3;\nNAs: 1014\n\n\nwealthtax\nDo you support or oppose a 2% annual tax on the net worth over $50 million?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 985;\nNAs: 32\n\n\ngun_redflag_laws\nDo you support or oppose creating red flag laws that allow a court to temporarily remove guns from people that are believed to pose a danger to themself or others?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nown_greenland\nDo you support or oppose the U.S. using military force to take control of Greenland?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 987;\nNAs: 30\n\n\nmaduro_policy\nDo you support or oppose the U.S. using military force to overthrow Venezuelan President Nicolás Maduro?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nun_closer\nDo you support or oppose the U.S. building stronger relationships with international organizations like the United Nations?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nwho_closer\nDo you support or oppose U.S. re-joining the World Health Organization (WHO)?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 986;\nNAs: 31\n\n\ntariffs\nDo you support or oppose substantially increasing tariffs on goods imported from most countries that trade with the U.S.?\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 988;\nNAs: 29\n\n\nvoted24\nDid you vote in the 2024 presidential election?\nfactor\nValues:\n\nNo\nYes\n\n\nValid N: 998;\nNAs: 19\n\n\nwouldvote24\nIf you had voted in the 2024 election, who would you have voted for? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 458;\nNAs: 559\n\n\nwouldvote24_OTHER_TEXT\nIf you had voted in the 2024 election, who would you have voted for? - Someone else - Text\ncharacter\n17 unique values\n\nValid N: 19;\nNAs: 998\n\n\nvotechoice24\nWho did you vote for in the 2024 election? - Selected Choice\nfactor\nValues:\n\nKamala Harris\nDonald Trump\nSomeone else\n\n\nValid N: 446;\nNAs: 571\n\n\nvotechoice24_OTHER_TEXT\nWho did you vote for in the 2024 election? - Someone else - Text\ncharacter\n22 unique values\n\nValid N: 30;\nNAs: 987\n\n\nplan_to_vote28\nDo you plan to vote in the 2028 presidential election?\nfactor\nValues:\n\nNo\nMaybe\nYes\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot\nIf the 2026 election for Congress were being held today, which party’s candidate would you vote for in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\nNot sure\n\n\nValid N: 996;\nNAs: 21\n\n\ngeneric_ballot_lean\nAs of today, do you lean more toward the Democratic Party’s candidate or the Republican Party’s candidate in your congressional district?\nfactor\nValues:\n\nThe Democratic Party's candidate\nThe Republican Party's candidate\nSomeone else\n\n\nValid N: 152;\nNAs: 865\n\n\nelectoral_college\nThinking for a moment about the way in which the president is elected in this country, which would you prefer:\nfactor\nValues:\n\nAmend the Constitution so the candidate who receives the most total votes nationwide wins the election\nKeep the current system, in which the candidate who wins the most votes in the Electoral College wins the election\nNeither\n\n\nValid N: 991;\nNAs: 26\n\n\nabortion_views\nWhen it comes to abortion, which of these options comes closest to your view?\nfactor\nValues:\n\nIt should be legal under any circumstances\nIt should be legal under most circumstances\nIt should be legal only in a few circumstances\nIt should be illegal in all circumstances\n\n\nValid N: 972;\nNAs: 45\n\n\nwrongtrack\nOn a scale of 0 to 10, with 0 meaning \"on the wrong track\" and 10 meaning \"headed in the right direction\", how would you rate the current state of affairs in the United States?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\njobmarket\nOn a scale from 0 to 10 with 0 indicating \"Awful\" and 10 indicating \"Excellent\", would you rate Donald Trump's performance as president?\nnumeric\nRange: 0-10\n\nValid N: 988;\nNAs: 29\n\n\npolicy_electionlaws\nWould you support or oppose the following policies or reforms? - Changing election laws to make it easier for third party candidates to win elections\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_more_reps\nWould you support or oppose the following policies or reforms? - Increasing the number of Congress members from 435.\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_termlimits\nWould you support or oppose the following policies or reforms? - Establishing term limits for Supreme Court justices\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\npolicy_socialism\nWould you support or oppose the following policies or reforms? - Adopting a socialist system of government\nfactor\nValues:\n\nStrongly oppose\nOppose\nSomewhat oppose\nNeither support nor oppose\nSomewhat support\nSupport\nStrongly support\nNot sure\n\n\nValid N: 990;\nNAs: 27\n\n\nspendgov_healthcare\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Medicare and Medicaid\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_education\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Education\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_border\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Border Security\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_disease\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Disease prevention\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_counterterrorism\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Counterterrorism\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_aid_to_poor\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Assistance to poor people\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nspendgov_israel\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Aid to Israel\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 980;\nNAs: 37\n\n\nspendgov_environment\nHere are some things the government spends money on. For each item, please indicate whether you think the government should be spending more or less on that issue. - Environmental protection\nfactor\nValues:\n\nMuch less\nModerately less\nSlightly less\nAbout the same\nSlightly more\nModerately more\nMuch more\nNot sure\n\n\nValid N: 979;\nNAs: 38\n\n\nleft_right_scale\nIn general, how would you describe your own political views?\nfactor\nValues:\n\nFar left\nLeft\nCenter-left\nCenter\nCenter-right\nRight\nFar right\nNot sure\n\n\nValid N: 1007;\nNAs: 10\n\n\nsystem_works_forme\nOn a scale from 0 to 10, how well do you think the political system in your country works for people like you?\nnumeric\nRange: 0-10\n\nValid N: 1003;\nNAs: 14\n\n\npid\nGenerally speaking, do you think of yourself as a - Selected Choice\nfactor\nValues:\n\nDemocrat\nRepublican\nIndependent\nNot sure\nOther\n\n\nValid N: 1008;\nNAs: 9\n\n\npid_OTHER_TEXT\nGenerally speaking, do you think of yourself as a - Other - Text\ncharacter\n34 unique values\n\nValid N: 60;\nNAs: 957\n\n\npidstrength\nGenerally speaking, do you think of yourself as a\nfactor\nValues:\n\nStrong [choice from pid question]\nNot very strong [choice from pid question]\n\n\nValid N: 600;\nNAs: 417\n\n\npidlean\nDo you think of yourself as closer to the Democratic or the Republican Party?\nfactor\nValues:\n\nCloser to the Democratic party\nCloser to the Republican party\nCloser to neither party\n\n\nValid N: 384;\nNAs: 633\n\n\npid_summary\nParty ID summary\nfactor\nValues:\n\nStrong Democrat\nNot strong Democrat\nIndependent Democrat\nIndependent\nIndependent Republican\nNot strong Republican\nStrong Republican\n\n\nValid N: 984;\nNAs: 33\n\n\ndemoc_quality\nHow would you rate the quality of democracy in the United States?\nnumeric\nRange: 0-10\n\nValid N: 1000;\nNAs: 17\n\n\nimmig_priority\nDo you agree or disagree with the following statement? \"When jobs are scarce, employers should give priority to American people over immigrants.\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\nforeign_aid\nThe U.S. dedicates about $40 billion to foreign aid each year. That's about 0.24% of the national income, or around $119 per person. Would you say the amount the U.S. spends on foreign aid each year is too much, too little, or about right?\nfactor\nValues:\n\nFar too little\nModerately too little\nSlightly too little\nNeither too much nor too little\nSlightly too much\nModerately too much\nFar too much\n\n\nValid N: 892;\nNAs: 125\n\n\nworld_citizen\nWould you say you agree or disagree with the following statement \"I see myself as a world citizen\"?\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 897;\nNAs: 120\n\n\nprioritize_us\nDo you agree or disagree with the following statement? \"America's leaders should focus on solving our problems in this country, even if it means other countries are worse off\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 974;\nNAs: 43\n\n\nenviro_jobs\nDo you agree or disagree with the following statement? \"Economic growth and creating jobs should be the top priority, even if the environment suffers to some extent. \"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 980;\nNAs: 37\n\n\nparis_climate\nDo you agree or disagree with the following statement? \"The U.S. should rejoin the Paris Climate agreement\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 895;\nNAs: 122\n\n\namerican_pride\nDo you agree or disagree with the following statement? \"I'm proud to be an American\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 972;\nNAs: 45\n\n\ninfluence_politics\nDo you agree or disagree with the following statement? \"Our system of government allows ordinary people to have a say in politics\"\nfactor\nValues:\n\nStrongly disagree\nDisagree\nSomewhat disagree\nNeither agree nor disagree\nSomewhat agree\nAgree\nStrongly agree\n\n\nValid N: 977;\nNAs: 40\n\n\ntrust_fed\nHow much of the time do you think you can trust these groups to do the right thing? - The federal government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 970;\nNAs: 47\n\n\ntrust_localgov\nHow much of the time do you think you can trust these groups to do the right thing? - Your local government\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 965;\nNAs: 52\n\n\ntrust_relig\nHow much of the time do you think you can trust these groups to do the right thing? - Religious leaders\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 920;\nNAs: 97\n\n\ntrust_media\nHow much of the time do you think you can trust these groups to do the right thing? - The media\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 974;\nNAs: 43\n\n\ntrust_police\nHow much of the time do you think you can trust these groups to do the right thing? - Police\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 971;\nNAs: 46\n\n\ntrust_fam\nHow much of the time do you think you can trust these groups to do the right thing? - Your family and friends\nfactor\nValues:\n\nNever\nSometimes\nAbout half the time\nMost of the time\nAlways\n\n\nValid N: 972;\nNAs: 45\n\n\ntrust_americans\nHow much trust and confidence do you have in the American people as a whole when it comes to making judgments under our democratic system about the issues facing our country?\nfactor\nValues:\n\nNone at all\nNot very much\nA fair amount\nA great deal\n\n\nValid N: 955;\nNAs: 62\n\n\nsm_news\nHow often would you say you use social media apps like TikTok, Facebook, or Instagram to learn more about politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 976;\nNAs: 41\n\n\npol_news\nHow often would you say you read, watch, or listen to news about U.S. politics?\nfactor\nValues:\n\nNever\nOnce a week\n2-3 times a week\n4-6 times a week\nDaily\n\n\nValid N: 979;\nNAs: 38\n\n\nsm_effects\nDo you believe that social media has a positive or negative influence on American politics?\nfactor\nValues:\n\nExtremely negative\nSomewhat negative\nNeither positive nor negative\nSomewhat positive\nExtremely positive\n\n\nValid N: 970;\nNAs: 47\n\n\ndiscuss_views\nHow often do you discuss politics with people who hold opposing views?\nfactor\nValues:\n\nNever\nRarely\nSometimes\nOften\nAll the time\n\n\nValid N: 989;\nNAs: 28\n\n\nft_ice\nHow do you feel about the following groups or individuals? - Immigration and Customs Enforcement (ICE)\nnumeric\nRange: 0-100\n\nValid N: 980;\nNAs: 37\n\n\nft_congress\nHow do you feel about the following groups or individuals? - Congress\nnumeric\nRange: 0-89\n\nValid N: 939;\nNAs: 78\n\n\nft_trump\nHow do you feel about the following groups or individuals? - Donald Trump\nnumeric\nRange: 0-100\n\nValid N: 979;\nNAs: 38\n\n\nft_badbunny\nHow do you feel about the following groups or individuals? - Bad Bunny\nnumeric\nRange: 0-100\n\nValid N: 927;\nNAs: 90\n\n\nft_scotus\nHow do you feel about the following groups or individuals? - The Supreme Court\nnumeric\nRange: 0-100\n\nValid N: 946;\nNAs: 71\n\n\nft_vance\nHow do you feel about the following groups or individuals? - J.D. Vance\nnumeric\nRange: 0-100\n\nValid N: 949;\nNAs: 68\n\n\nft_immigrants\nHow do you feel about the following groups or individuals? - Immigrants\nnumeric\nRange: 0-100\n\nValid N: 976;\nNAs: 41\n\n\nft_business\nHow do you feel about the following groups or individuals? - Big business\nnumeric\nRange: 0-100\n\nValid N: 952;\nNAs: 65\n\n\nft_unions\nHow do you feel about the following groups or individuals? - Labor unions\nnumeric\nRange: 0-100\n\nValid N: 916;\nNAs: 101\n\n\nft_natguard\nHow do you feel about the following groups or individuals? - The National Guard\nnumeric\nRange: 0-100\n\nValid N: 871;\nNAs: 146\n\n\nft_police\nHow do you feel about the following groups or individuals? - Police\nnumeric\nRange: 0-100\n\nValid N: 972;\nNAs: 45\n\n\nft_noem\nHow do you feel about the following groups or individuals? - Kristi Noem (Secretary of the Department of Homeland Security)\nnumeric\nRange: 0-100\n\nValid N: 821;\nNAs: 196"
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-template.html",
-    "href": "Weeks/Week 01/Week-template.html",
-    "title": "Week",
-    "section": "",
-    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process."
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-template.html#lecture-slides",
-    "href": "Weeks/Week 01/Week-template.html#lecture-slides",
-    "title": "Week",
-    "section": "Lecture slides",
-    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides."
-  },
-  {
-    "objectID": "Weeks/Week 01/Week-template.html#to-do",
-    "href": "Weeks/Week 01/Week-template.html#to-do",
-    "title": "Week",
-    "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information."
-  },
-  {
-    "objectID": "Weeks/Week 03/Week-03.html",
-    "href": "Weeks/Week 03/Week-03.html",
-    "title": "Week 3",
-    "section": "",
-    "text": "This week, we’re finishing up the discussion of description and moving on to understanding how to propose a theory and a testable hypothesis.",
+    "text": "Welcome to GVPT 201! I hope everyone enjoyed the snow day. This week, we’re talking about the process of turning complex concepts into something measurable, and what can go wrong in the process.",
     "crumbs": [
       "Weeks",
-      "Week 3"
+      "Week 1"
     ]
   },
   {
-    "objectID": "Weeks/Week 03/Week-03.html#lecture-slides",
-    "href": "Weeks/Week 03/Week-03.html#lecture-slides",
-    "title": "Week 3",
+    "objectID": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "href": "Weeks/Week 01/Week-01.html#lecture-slides",
+    "title": "Week 1",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nIntroductionsLecture 1\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n&lt;a href=\"/Slides/slides_01.html\"&gt;&lt;/a&gt;\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 01/Week-01.html#to-do",
+    "href": "Weeks/Week 01/Week-01.html#to-do",
+    "title": "Week 1",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 1 of the textbook.\nInstall R and R-Studio by Friday so you’re ready for discussion sections.\nBe sure you’re checking the ELMS page for critical information.",
+    "crumbs": [
+      "Weeks",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 02/Week-02.html",
+    "href": "Weeks/Week 02/Week-02.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "This week we’re looking at ways to describe, measure, and visualize central tendency and variation in data.",
+    "crumbs": [
+      "Weeks",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 02/Week-02.html#lecture-slides",
+    "href": "Weeks/Week 02/Week-02.html#lecture-slides",
+    "title": "Week 2",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "Weeks/Week 03/Week-03.html#to-do",
-    "href": "Weeks/Week 03/Week-03.html#to-do",
-    "title": "Week 3",
+    "objectID": "Weeks/Week 02/Week-02.html#to-do",
+    "href": "Weeks/Week 02/Week-02.html#to-do",
+    "title": "Week 2",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 3 and 4 of the textbook\nWorkbook homework 2 is due on February 12th.",
+    "text": "To-Do\n\nRead chapter 2 of the textbook.\nWorkbook homework 1 is due on February 9th.\nSubmit a survey question by February 9th.",
     "crumbs": [
       "Weeks",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "Weeks/Week 05/Week-05.html",
-    "href": "Weeks/Week 05/Week-05.html",
-    "title": "Week 5",
+    "objectID": "Weeks/Week 04/Week-04.html",
+    "href": "Weeks/Week 04/Week-04.html",
+    "title": "Week 4",
     "section": "",
-    "text": "This week, we’re continuing the discussion of research design from last week and digging into the details of analyzing survey data. Time permitting, we’ll also start looking at using controlled comparisons to account for confounding in observational data.",
+    "text": "This week, we’re continuing the discussion of hypotheses and looking at some ways to show quantitative evidence for a hypothesis.",
     "crumbs": [
       "Weeks",
-      "Week 5"
+      "Week 4"
     ]
   },
   {
-    "objectID": "Weeks/Week 05/Week-05.html#lecture-slides",
-    "href": "Weeks/Week 05/Week-05.html#lecture-slides",
-    "title": "Week 5",
+    "objectID": "Weeks/Week 04/Week-04.html#lecture-slides",
+    "href": "Weeks/Week 04/Week-04.html#lecture-slides",
+    "title": "Week 4",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 5"
+      "Week 4"
     ]
   },
   {
-    "objectID": "Weeks/Week 05/Week-05.html#to-do",
-    "href": "Weeks/Week 05/Week-05.html#to-do",
-    "title": "Week 5",
+    "objectID": "Weeks/Week 04/Week-04.html#to-do",
+    "href": "Weeks/Week 04/Week-04.html#to-do",
+    "title": "Week 4",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 6 in the textbook\nWorkbook homework 4 is due on February 26th.\nThe class survey is live! Take it yourself and be sure you distribute it through your social media. You can find links on the “verification of survey distribution” assignment on ELMS.",
+    "text": "To-Do\n\nContinue reading Chapters 4 and 5 in the textbook\nWorkbook homework 3 is due on February 19th.",
     "crumbs": [
       "Weeks",
-      "Week 5"
+      "Week 4"
     ]
   },
   {
-    "objectID": "Weeks/Week 09/Week-09.html",
-    "href": "Weeks/Week 09/Week-09.html",
-    "title": "Week 9",
+    "objectID": "Weeks/Week 06/Week-06.html",
+    "href": "Weeks/Week 06/Week-06.html",
+    "title": "Week 6",
     "section": "",
-    "text": "This week, continuing to discuss the basics of statistical inference: p-values, confidence intervals, and the central limit theorem.",
+    "text": "This week, we’re finishing up the discussion of controlled comparisons, and dipping our feet into some of the basic concepts for statistical inference.",
     "crumbs": [
       "Weeks",
-      "Week 9"
+      "Week 6"
     ]
   },
   {
-    "objectID": "Weeks/Week 09/Week-09.html#lecture-slides",
-    "href": "Weeks/Week 09/Week-09.html#lecture-slides",
-    "title": "Week 9",
+    "objectID": "Weeks/Week 06/Week-06.html#lecture-slides",
+    "href": "Weeks/Week 06/Week-06.html#lecture-slides",
+    "title": "Week 6",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 9"
+      "Week 6"
     ]
   },
   {
-    "objectID": "Weeks/Week 09/Week-09.html#to-do",
-    "href": "Weeks/Week 09/Week-09.html#to-do",
-    "title": "Week 9",
+    "objectID": "Weeks/Week 06/Week-06.html#to-do",
+    "href": "Weeks/Week 06/Week-06.html#to-do",
+    "title": "Week 6",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 8 in the textbook\nWorkbook Homework 7 due March 26th.\nFirst survey analysis is due April 3rd.",
+    "text": "To-Do\n\nRead chapter 7 in the textbook\nWorkbook Homework 5 due March 5th\nSurvey distribution assignment due on March 6th.\nMidterm March 11. Review session on March 9th.",
     "crumbs": [
       "Weeks",
-      "Week 9"
+      "Week 6"
     ]
   },
   {
-    "objectID": "Weeks/Week 11/Week-11.html",
-    "href": "Weeks/Week 11/Week-11.html",
-    "title": "Week 11",
+    "objectID": "Weeks/Week 10/Week-10.html",
+    "href": "Weeks/Week 10/Week-10.html",
+    "title": "Week 10",
     "section": "",
-    "text": "This week, we’ll talk about tests for categorical variables, and start discussing correlation and regression.",
+    "text": "This week, we’ll talk about using p-values and confidence intervals to determine whether an estimate is statistically significant, and we’ll talk about some of the strengths and limitations of this approach.",
     "crumbs": [
       "Weeks",
-      "Week 11"
+      "Week 10"
     ]
   },
   {
-    "objectID": "Weeks/Week 11/Week-11.html#lecture-slides",
-    "href": "Weeks/Week 11/Week-11.html#lecture-slides",
-    "title": "Week 11",
+    "objectID": "Weeks/Week 10/Week-10.html#lecture-slides",
+    "href": "Weeks/Week 10/Week-10.html#lecture-slides",
+    "title": "Week 10",
     "section": "Lecture slides",
     "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
     "crumbs": [
       "Weeks",
-      "Week 11"
+      "Week 10"
     ]
   },
   {
-    "objectID": "Weeks/Week 11/Week-11.html#to-do",
-    "href": "Weeks/Week 11/Week-11.html#to-do",
-    "title": "Week 11",
+    "objectID": "Weeks/Week 10/Week-10.html#to-do",
+    "href": "Weeks/Week 10/Week-10.html#to-do",
+    "title": "Week 10",
     "section": "To-Do",
-    "text": "To-Do\n\nRead chapter 11 in the textbok\nWorkbook Homework 8 is due April 9th.",
+    "text": "To-Do\n\nRead chapters 9 and 10 in the textbook\nWorkbook Homework 8 is due April 9th.\nFirst survey analysis is due April 3rd.",
     "crumbs": [
       "Weeks",
-      "Week 11"
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 12/Week-12.html",
+    "href": "Weeks/Week 12/Week-12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "This week, we’ll continue discussing linear regression and look at adding additional controls and assessing model fit and statistical significance.",
+    "crumbs": [
+      "Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 12/Week-12.html#lecture-slides",
+    "href": "Weeks/Week 12/Week-12.html#lecture-slides",
+    "title": "Week 12",
+    "section": "Lecture slides",
+    "text": "Lecture slides\n\nMondayWednesday\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.\n\n\n\n\n\n\n\n\nClick here to view full screen. You can use your keypad to navigate the slides.",
+    "crumbs": [
+      "Weeks",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "Weeks/Week 12/Week-12.html#to-do",
+    "href": "Weeks/Week 12/Week-12.html#to-do",
+    "title": "Week 12",
+    "section": "To-Do",
+    "text": "To-Do\n\nRead chapter 12 in the textbok\nWorkbook Homework 9 is due April 16th.",
+    "crumbs": [
+      "Weeks",
+      "Week 12"
     ]
   },
   {
@@ -3074,35 +3646,99 @@
     "href": "final_paper_tips.html",
     "title": "Final paper FAQs",
     "section": "",
-    "text": "You aren’t required to include citations to any outside material. However, if you are using ideas or quotations from an outside source then you should cite that material. Any standard citation format (APA, MLA, Chicago) is fine as long as you’re consistent."
+    "text": "You aren’t required to include citations to any outside material. However, if you are using ideas or quotations from an outside source then you should cite that material. Any standard citation format (APA, MLA, Chicago) is fine as long as you’re consistent.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
+  },
+  {
+    "objectID": "final_paper_tips.html#do-i-need-to-include-citations",
+    "href": "final_paper_tips.html#do-i-need-to-include-citations",
+    "title": "Final paper FAQs",
+    "section": "",
+    "text": "You aren’t required to include citations to any outside material. However, if you are using ideas or quotations from an outside source then you should cite that material. Any standard citation format (APA, MLA, Chicago) is fine as long as you’re consistent.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
   },
   {
     "objectID": "final_paper_tips.html#what-variables-should-i-use",
     "href": "final_paper_tips.html#what-variables-should-i-use",
     "title": "Final paper FAQs",
     "section": "What variables should I use?",
-    "text": "What variables should I use?\nThis is (almost) entirely up to you! Remember that there’s a detailed codebook on the course website that describes each variable and its values. As long as you can use a linear or logistic model for it, you can use it.\nHowever, there are a few things you should probably consider when selecting variables:\n\nVariable types: for a linear model, your dependent variable should be numeric or you should be able to treat it as numeric (5 or more ordered categories). Your independent variables can be numeric, ordinal or categorical.\nInterest and intuition: you’re not necessarily being graded on the novelty of plausibility of your theory, but you’ll find its easier to write a paper if you can make an argument for why you think a relationship would exist between your selected variables.\nConceptual/Operational definitions: You should try to make your operational definition match your conceptual definition as closely as possible. You have some wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump."
+    "text": "What variables should I use?\nThis is (almost) entirely up to you! Remember that there’s a detailed codebook on the course website that describes each variable and its values. As long as you can use a linear or logistic model for it, you can use it.\nHowever, there are a few things you should probably consider when selecting variables:\n\nVariable types: for a linear model, your dependent variable should be numeric or you should be able to treat it as numeric (5 or more ordered categories). Your independent variables can be numeric, ordinal or categorical.\nInterest and intuition: you’re not necessarily being graded on the novelty of plausibility of your theory, but you’ll find its easier to write a paper if you can make an argument for why you think a relationship would exist between your selected variables.\nConceptual/Operational definitions: You should try to make your operational definition match your conceptual definition as closely as possible. You have some wiggle room here: you might use views on the Paris Climate accords as a rough proxy for people’s concern about climate change, but you would need to be open about the fact that this is only an indirect measure for the thing you’re theorizing about. On the other hand, you should avoid using an indirect measure if there’s a clearly better option available. For example: if your theory is all about party identification, you should probably use the variable that asks directly about party ID instead of a variable that asks about how feelings towards Trump.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
   },
   {
     "objectID": "final_paper_tips.html#my-results-werent-statistically-significant-what-should-i-do",
     "href": "final_paper_tips.html#my-results-werent-statistically-significant-what-should-i-do",
     "title": "Final paper FAQs",
     "section": "My results weren’t statistically significant! What should I do?",
-    "text": "My results weren’t statistically significant! What should I do?\nYou are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine.\nIf you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. and then acknowledge that your results don’t support your hypothesis. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are:\n\nyou’re wrong\nthere’s not enough data\nthere’s uncontrolled confounding1\nsampling bias\n\nYou don’t need to give a definitive explanation, just show you’re thinking about your results and that you understand what it means to reject or not reject the null hypothesis."
+    "text": "My results weren’t statistically significant! What should I do?\nYou are not obligated to find statistically significant results. As long as you make a reasonable argument for why your hypothesis is worth testing, this is completely fine.\nIf you do find that your hypothesis isn’t supported, you still need to interpret the coefficients, plot the results etc. and then acknowledge that your results don’t support your hypothesis. In the concluding section of the paper, you would also want to talk about why you think your hypothesis wasn’t supported. A few plausible reasons are:\n\nyou’re wrong\nthere’s not enough data\nthere’s uncontrolled confounding1\nsampling bias\n\nYou don’t need to give a definitive explanation, just show you’re thinking about your results and that you understand what it means to reject or not reject the null hypothesis.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
   },
   {
     "objectID": "final_paper_tips.html#how-can-i-make-sure-my-code-is-replicable",
     "href": "final_paper_tips.html#how-can-i-make-sure-my-code-is-replicable",
     "title": "Final paper FAQs",
     "section": "How can I make sure my code is replicable?",
-    "text": "How can I make sure my code is replicable?\nBefore submitting your R-code, its a good idea to double-check and make sure everything runs properly. The best way to do this is:\n\nRestart R and clear the environment. To restart R, you can press Ctrl + Shift + F10, or just close and reopen R-Studio.\nClear the environment, just press the little broom 🧹 icon in the environment pane at the top right, or enter the following command into the console:\n\n\nrm(list = ls())\n\n\nRun each line of code in your script, in order, one line at a time. Watch the console to make sure no error messages pop up and that you see your expected output."
+    "text": "How can I make sure my code is replicable?\nBefore submitting your R-code, its a good idea to double-check and make sure everything runs properly. The best way to do this is:\n\nRestart R and clear the environment. To restart R, you can press Ctrl + Shift + F10, or just close and reopen R-Studio.\nClear the environment, just press the little broom 🧹 icon in the environment pane at the top right, or enter the following command into the console:\n\n\nrm(list = ls())\n\n\nRun each line of code in your script, in order, one line at a time. Watch the console to make sure no error messages pop up and that you see your expected output.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
+  },
+  {
+    "objectID": "final_paper_tips.html#can-i-use-ai-to-write-my-paper-or-code",
+    "href": "final_paper_tips.html#can-i-use-ai-to-write-my-paper-or-code",
+    "title": "Final paper FAQs",
+    "section": "Can I use AI to write my paper or code?",
+    "text": "Can I use AI to write my paper or code?\nYou can use AI tools (ChatGPT, Claude, Gemini) to brainstorm or to proofread your paper. Under no circumstances should you submit code or writing that you didn’t write yourself.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
+  },
+  {
+    "objectID": "final_paper_tips.html#how-should-i-format-my-plots-and-tables",
+    "href": "final_paper_tips.html#how-should-i-format-my-plots-and-tables",
+    "title": "Final paper FAQs",
+    "section": "How should I format my plots and tables?",
+    "text": "How should I format my plots and tables?\nIf you copy output directly from R into a word processor, you’ll end up with something that looks like this:\n\n\n\nAvoid this! Copying output directly from the R console will usually give you very wonky text.\n\n\nThis is not great. Most word processors use variable width fonts. These are make prose text more readable, but they mess up the alignment in plots and tables. Instead of just copy-pasting the output, you either:\n\nCreate a table and enter the values yourself.\nUse an R function to create formatted regression output.\n\nOption 2 will probably be the easiest approach for most of you. Fortunately, you can get formatted output for most RCPA3 functions by adding the printC=TRUE optional command to a function.\nFor instance, instead of running:\n\n# Running without printC\n\nlibrary(RCPA3)\nmodel&lt;-regC(carfatal ~ urban, data=states)\nmodel\n\nI would just add printC=TRUE as an additional argument:\n\n# Running the model with printC = TRUE\nlibrary(RCPA3)\nmodel&lt;-regC(carfatal ~ urban, data=states, printC=TRUE)\nmodel\n\nWhen you do this, you’ll see some text show up in the console that looks like:\nStatement appended to Table.Output.Apr1126.html in C:/Users/neilb/Documents/UMD/GVPT201/GVPT201 Spring 2026\nGo into the file location listed in this output and you should see a file called something like Table.Output.Apr1126.html. Click it and you should see formatted regression output. From here, you can actually just copy the coefficients table and paste it into a Word or Google doc, and it should come through looking fine.\n\n\n\n\n\n\nAlternatives to RCPA3\n\n\n\nIf you’re comfortable working with R packages and syntax, there are lots of alternatives you could use to create formatted regression output. I personally like modelsummary.",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
+  },
+  {
+    "objectID": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
+    "href": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
+    "title": "Final paper FAQs",
+    "section": "What is the most important stuff to tell readers?",
+    "text": "What is the most important stuff to tell readers?\nResist the temptation to write your analysis as a minute-by-minute account of everything you did to put the paper together. You should tell readers the things they need to know to understand your analysis; you don’t need to tell them everything you did to conduct your analysis.\nFor instance, here’s an example of extraneous detail:\n\n\nExtraneous Detail\n\n\nMy variable was initially called paris_climate, but I recoded it to a numeric variable and called it paris_climate_numeric\n\n\n\n\nIt’s important to tell readers when your treating ordinal variables as numeric, but they typically don’t need to know what a variable used to be called in R to interpret any part of your analysis. Instead, you can just say something like “We asked respondents about whether they agreed or disagreed with the U.S. re-joining the Paris climate accords. Possible responses ranged from Strongly Disagree to Strongly Agree. For the analysis, these values were recoded to a 7-point numeric scale, with 1 indicating ‘strong disagreement’ and 7 indicating ‘strong agreement’”",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
   },
   {
     "objectID": "final_paper_tips.html#footnotes",
     "href": "final_paper_tips.html#footnotes",
     "title": "Final paper FAQs",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nIf you think there’s uncontrolled confounding and it comes from a variable that was measured on the survey, you might as well test it and say what you found! But it’s entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case it’s fine to say “I suspect this matters, but I can’t test it with the available data”↩︎"
+    "text": "Footnotes\n\n\nIf you think there’s uncontrolled confounding and it comes from a variable that was measured on the survey, you might as well test it and say what you found! But it’s entirely possible that there’s some other confounding variable that wasn’t included in the data, in which case it’s fine to say “I suspect this matters, but I can’t test it with the available data”↩︎",
+    "crumbs": [
+      "Final paper",
+      "Final paper FAQs"
+    ]
   },
   {
     "objectID": "final_survey_information.html",
@@ -3193,437 +3829,199 @@
     "text": "na.rm=T is an optional command that will allow us to calculate summary statistics for data that has missing values. When an observation has some missing values, R will use a special NA value as a placeholder for that cell. This is a problem when we want to calculate a summary statistic because NA doesn’t have any mathematical meaning: its just non-existent data.\nBy default, taking the mean, median, sum etc. from a vector with any NA values will just return NA:\n\nmean(world$gdp.growth)\n\n[1] NA\n\n\nSo, adding na.rm=T will just tell R to ignore any NA values and perform the calculation only on the valid observations:\n\nmean(world$gdp.growth, na.rm=T)\n\n[1] 2.982785"
   },
   {
-    "objectID": "final_paper_tips.html#do-i-need-to-include-citations",
-    "href": "final_paper_tips.html#do-i-need-to-include-citations",
-    "title": "Final paper FAQs",
-    "section": "",
-    "text": "You aren’t required to include citations to any outside material. However, if you are using ideas or quotations from an outside source then you should cite that material. Any standard citation format (APA, MLA, Chicago) is fine as long as you’re consistent."
+    "objectID": "Slides/slides_15.html#variables-must-vary",
+    "href": "Slides/slides_15.html#variables-must-vary",
+    "title": "Linear regression Wrap-up",
+    "section": "1. Variables must vary",
+    "text": "1. Variables must vary"
   },
   {
-    "objectID": "final_paper_tips.html#can-i-use-ai-to-write-my-paper-or-code",
-    "href": "final_paper_tips.html#can-i-use-ai-to-write-my-paper-or-code",
-    "title": "Final paper FAQs",
-    "section": "Can I use AI to write my paper or code?",
-    "text": "Can I use AI to write my paper or code?\nYou can use AI tools (ChatGPT, Claude, Gemini) to brainstorm or to proofread your paper. Under no circumstances should you submit code or writing that you didn’t write yourself."
+    "objectID": "Slides/slides_15.html#things-should-be-linear",
+    "href": "Slides/slides_15.html#things-should-be-linear",
+    "title": "Linear regression Wrap-up",
+    "section": "2. Things should be linear",
+    "text": "2. Things should be linear"
   },
   {
-    "objectID": "final_paper_tips.html#how-should-i-format-my-plots-and-tables",
-    "href": "final_paper_tips.html#how-should-i-format-my-plots-and-tables",
-    "title": "Final paper FAQs",
-    "section": "How should I format my plots and tables?",
-    "text": "How should I format my plots and tables?\nIf you copy output directly from R into a word processor, you’ll end up with something that looks like this:\n\n\n\nAvoid this! Copying output directly from the R console will usually give you very wonky text.\n\n\nThis is not great. Most word processors use variable width fonts. These are make prose text more readable, but they mess up the alignment in plots and tables. Instead of just copy-pasting the output, you either:\n\nCreate a table and enter the values yourself.\nUse an R function to create formatted regression output.\n\nOption 2 will probably be the easiest approach for most of you. Fortunately, you can get formatted output for most RCPA3 functions by adding the printC=TRUE optional command to a function.\nFor instance, instead of running:\n\n# Running without printC\n\nlibrary(RCPA3)\nmodel&lt;-regC(carfatal ~ urban, data=states)\nmodel\n\nI would just add printC=TRUE as an additional argument:\n\n# Running the model with printC = TRUE\nlibrary(RCPA3)\nmodel&lt;-regC(carfatal ~ urban, data=states, printC=TRUE)\nmodel\n\nWhen you do this, you’ll see some text show up in the console that looks like:\nStatement appended to Table.Output.Apr1126.html in C:/Users/neilb/Documents/UMD/GVPT201/GVPT201 Spring 2026\nGo into the file location listed in this output and you should see a file called something like Table.Output.Apr1126.html. Click it and you should see formatted regression output. From here, you can actually just copy the coefficients table and paste it into a Word or Google doc, and it should come through looking fine.\n\n\n\n\n\n\nAlternatives to RCPA3\n\n\n\nIf you’re comfortable working with R packages and syntax, there are lots of alternatives you could use to create formatted regression output. I personally like modelsummary."
+    "objectID": "Slides/slides_15.html#no-omitted-variable-bias.",
+    "href": "Slides/slides_15.html#no-omitted-variable-bias.",
+    "title": "Linear regression Wrap-up",
+    "section": "3. No omitted variable bias.",
+    "text": "3. No omitted variable bias."
   },
   {
-    "objectID": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
-    "href": "final_paper_tips.html#what-is-the-most-important-stuff-to-tell-readers",
-    "title": "Final paper FAQs",
-    "section": "What is the most important stuff to tell readers?",
-    "text": "What is the most important stuff to tell readers?\nResist the temptation to write your analysis as a minute-by-minute account of everything you did to put the paper together. You should tell readers the things they need to know to understand your analysis; you don’t need to tell them everything you did to conduct your analysis.\nFor instance, here’s an example of extraneous detail:\n\n\nExtraneous Detail\n\n\nMy variable was initially called paris_climate, but I recoded it to a numeric variable and called it paris_climate_numeric\n\n\n\n\nIt’s important to tell readers when your treating ordinal variables as numeric, but they typically don’t need to know what a variable used to be called in R to interpret any part of your analysis. Instead, you can just say something like “We asked respondents about whether they agreed or disagreed with the U.S. re-joining the Paris climate accords. Possible responses ranged from Strongly Disagree to Strongly Agree. For the analysis, these values were recoded to a 7-point numeric scale, with 1 indicating ‘strong disagreement’ and 7 indicating ‘strong agreement’”"
+    "objectID": "Slides/slides_16.html#logistic-regression-1",
+    "href": "Slides/slides_16.html#logistic-regression-1",
+    "title": "Chapter 9: Logistic Regression",
+    "section": "Logistic Regression",
+    "text": "Logistic Regression\n\n\n\n\nLogistic regression models the effect of X on Y using a logistic function instead of a line.\nThe logistic function is an S-shaped curve that can never reach 0 or 1.\nIts relationship to the probability of an event is non-linear, which means that the effect of a one unit change in X will not be the same at all values of X."
   },
   {
-    "objectID": "Slides/slides_12.html#linear-regression-model",
-    "href": "Slides/slides_12.html#linear-regression-model",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Linear Regression model",
-    "text": "Linear Regression model\n\n\n\nMy dependent variable is % voter turnout in a state\nMy independent variable is the partisan lean in that state. (lower values indicate a state is more evenly divided between Republicans and Democrats)\nWhat is the effect of a one unit increase on voter turnout?\nWhat is the % turnout in a state where partisan lean is zero?\n\n\n\n\n\n\n\n\nterm\nestimate\n\n\n\n\n(Intercept)\n65.1\n\n\npartisan_lean\n-0.4"
+    "objectID": "Slides/slides_16.html#logistic-regression-2",
+    "href": "Slides/slides_16.html#logistic-regression-2",
+    "title": "Chapter 9: Logistic Regression",
+    "section": "Logistic Regression",
+    "text": "Logistic Regression\n\nThe coefficient in a logit model represents the estimated effect of a one unit change in the independent variable on the logged-odds of the dependent variable occurring.\n\n\\[\nlog(\\frac{p}{1-p}) = \\beta_0 + \\beta_1 X_1 + \\beta_2X_2 ...\n\\]\n\nSo:\n\nWhat are “odds”?\nWhat are “logged odds”?"
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients",
-    "text": "Uncertainty in coefficients\nHow much should we trust our estimates here?"
+    "objectID": "Slides/slides_16.html#what-are-odds",
+    "href": "Slides/slides_16.html#what-are-odds",
+    "title": "Chapter 9: Logistic Regression",
+    "section": "What are odds?",
+    "text": "What are odds?\nSo, what are “odds”?"
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-1",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients",
-    "text": "Uncertainty in coefficients\n\n\\(\\hat{\\beta_1}\\) (the estimated coefficient) is an estimate just like a sample mean. So it can be “off” the true value due to random chance.\nThe “null hypothesis” in this scenario is that the actual slope of this line is 0.\nIn this case: can we rule out the possibility that random error would give us a coefficient absolutely greater than what we see in our sample? And can we identify a range that we’re fairly certain contains the correct value for \\(\\beta_1\\)?\n\n\n\n\n\n\n\nterm\nestimate\n\n\n\n\n(Intercept)\n65.1\n\n\npartisan_lean\n-0.4"
+    "objectID": "Slides/slides_16.html#what-are-logged-odds",
+    "href": "Slides/slides_16.html#what-are-logged-odds",
+    "title": "Chapter 9: Logistic Regression",
+    "section": "What are logged odds?",
+    "text": "What are logged odds?"
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-2",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients-2",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients",
-    "text": "Uncertainty in coefficients\nLucky for us: the central limit theorem applies to regression coefficients! We just need to get an estimate of the standard error of \\(\\beta_1\\)"
+    "objectID": "Slides/slides_16.html#logit-with-two-or-more-variables",
+    "href": "Slides/slides_16.html#logit-with-two-or-more-variables",
+    "title": "Chapter 9: Logistic Regression",
+    "section": "Logit with two or more variables",
+    "text": "Logit with two or more variables\nWhen we have a single binary independent variable, the logit model and linear probability model are basically interchangeable.\n\nLogit is useful, though, when we go back to our more complicated model that includes an additional IV for political knowledge."
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients: sources of error",
-    "text": "Uncertainty in coefficients: sources of error\nWe to get the standard error for the regression coefficient.\nBeyond the sample size, we need to think about two additional sources of error for \\(\\hat{\\beta_1}\\)"
+    "objectID": "Slides/slides_15.html#the-model-must-be-correct",
+    "href": "Slides/slides_15.html#the-model-must-be-correct",
+    "title": "Linear regression Wrap-up",
+    "section": "3. The model must be correct",
+    "text": "3. The model must be correct"
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-1",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients: sources of error",
-    "text": "Uncertainty in coefficients: sources of error\nFirst: more variability around the regression line means more uncertainty around our coefficient estimates.\n\n\n\n\nIntuitively: if there’s a lot of “noise” around Y, then its harder to estimate things precisely.\n\n\n\n\n\n\n\n\n\n\n\n\nBoth lines have the same slope, but the left panel shows a lot less variability than the right panel. The standard error for the regression on the left would be smaller."
+    "objectID": "Slides/slides_15.html#surmountable-problems-independence-normality-and-constant-variance",
+    "href": "Slides/slides_15.html#surmountable-problems-independence-normality-and-constant-variance",
+    "title": "Linear regression Wrap-up",
+    "section": "4. Surmountable problems: independence, normality, and constant variance",
+    "text": "4. Surmountable problems: independence, normality, and constant variance\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n\nAnscombe’s Quartet: an example of fitting a line to non-linear data\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI"
   },
   {
-    "objectID": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-2",
-    "href": "Slides/slides_12.html#uncertainty-in-coefficients-sources-of-error-2",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Uncertainty in coefficients: sources of error",
-    "text": "Uncertainty in coefficients: sources of error\nSecond: More variability in the independent variable means less uncertainty.\n\n\n\n\nLess intuitive!\nbut errors have more influence when X has less variability"
+    "objectID": "Slides/slides_15.html#why-do-states-target-civilians-in-war",
+    "href": "Slides/slides_15.html#why-do-states-target-civilians-in-war",
+    "title": "Linear regression Wrap-up",
+    "section": "Why do states target civilians in war?",
+    "text": "Why do states target civilians in war?\n\n\n\nData from (Valentino, Huth, and Croco 2006)"
   },
   {
-    "objectID": "Slides/slides_12.html#standard-error-of-a-slope",
-    "href": "Slides/slides_12.html#standard-error-of-a-slope",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Standard error of a slope",
-    "text": "Standard error of a slope\n\\(S_{yx}\\) represents the “standard error of the regression”. Note that the numerator here is the same as the error sum of squares.\n\\[\nS_{yx} = \\sqrt{\\frac{\\sum{(\\hat{y_i} - y_i)^2}}{n-2}}\n\\]\n\nThe denominator here accounts for the amount of variation in X. Note that more variability in X means that we will have a smaller standard error.\n\\[\nSE(\\beta_1) = \\frac{s_{yx}}{\\sqrt{\\sum^n_{i=1}{(X_i -\\bar{X})^2}}}\n\\]"
+    "objectID": "Slides/slides_15.html#state-targeting-of-civilians",
+    "href": "Slides/slides_15.html#state-targeting-of-civilians",
+    "title": "Linear regression Wrap-up",
+    "section": "State targeting of civilians",
+    "text": "State targeting of civilians"
   },
   {
-    "objectID": "Slides/slides_12.html#standard-error-of-the-intercept",
-    "href": "Slides/slides_12.html#standard-error-of-the-intercept",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Standard error of the intercept",
-    "text": "Standard error of the intercept\nWe can also calculate the standard error for the intercept, but generally speaking we don’t care because we rarely test hypotheses about the intercept.\n\\[\nSE(\\hat{\\beta}_0) = s_{yx} \\times \\sqrt{\\frac{1}{n}+\\frac{\\bar{X}^2}{\\sum_{i=1}^n(X_i-\\bar{X})^2}}\n\\]"
+    "objectID": "Slides/slides_15.html#why-do-states-target-civilians-in-war-1",
+    "href": "Slides/slides_15.html#why-do-states-target-civilians-in-war-1",
+    "title": "Linear regression Wrap-up",
+    "section": "Why do states target civilians in war?",
+    "text": "Why do states target civilians in war?\n\n\n\n\nResearch Question: Why do some states engage in deliberate attacks on civilian populations during wartime? Why do some states refrain from doing this? Do international laws deter this kind of attack?\n\n\n\n\nWe see a great deal of variation in the number of civilians killed during war. Many wars see negligible deliberate civilian targeting, others see lots."
   },
   {
-    "objectID": "Slides/slides_12.html#standard-error-of-a-slope-1",
-    "href": "Slides/slides_12.html#standard-error-of-a-slope-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Standard error of a slope",
-    "text": "Standard error of a slope\nBack to our model…"
+    "objectID": "Slides/slides_15.html#why-do-states-target-civilians-in-war-2",
+    "href": "Slides/slides_15.html#why-do-states-target-civilians-in-war-2",
+    "title": "Linear regression Wrap-up",
+    "section": "Why do states target civilians in war?",
+    "text": "Why do states target civilians in war?\nSome potential explanations:\n\n\nInternational law/treaties: signing the Geneva Convention should decrease civilian targeting.\nRegime type: democracies should be less likely to target civilians.\nRacial or religious differences: civilian targeting will be more likely when the adversaries are mostly from different racial or religious groups.\nStrategy: conflicts involving counter-insurgency, wars of attrition, with goals of conquest, or especially long lasting wars will see more civilian targeting."
   },
   {
-    "objectID": "Slides/slides_12.html#confidence-interval-for-a-slope",
-    "href": "Slides/slides_12.html#confidence-interval-for-a-slope",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Confidence Interval for a slope",
-    "text": "Confidence Interval for a slope\nFrom here, things aren’t that different from what we already know.\n\n\n\nGet a rough estimate of the 95% confidence interval for the coefficient by doubling the standard error and then adding and subtracting it from the estimate.\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nlower 95% CI\nupper 95% CI\n\n\n\n\n(Intercept)\n65.08\n1.60\n61.88\n68.29\n\n\npartisan_lean\n-0.37\n0.17\n-0.72\n-0.03"
+    "objectID": "Slides/slides_15.html#state-targeting-of-civilians-1",
+    "href": "Slides/slides_15.html#state-targeting-of-civilians-1",
+    "title": "Linear regression Wrap-up",
+    "section": "State targeting of civilians",
+    "text": "State targeting of civilians\n\n\n\n\nModel 3 tests an interaction with regime type and treaty status. Is the effect of treaty status significantly different for democracies?\n\n\n\n\nModel 4 tests an interaction with regime type and strategy. Is the effect of an attrition/counter-insurgency strategy significantly different for democracies?"
   },
   {
-    "objectID": "Slides/slides_12.html#p.value-for-a-slope",
-    "href": "Slides/slides_12.html#p.value-for-a-slope",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "P.value for a slope",
-    "text": "P.value for a slope\nOr calculate a t-statistic by dividing the estimate by its standard error, then find the associated p-value:\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\n\n\n\n\n(Intercept)\n65.08\n1.60\n40.65\n0.00\n\n\npartisan_lean\n-0.37\n0.17\n-2.15\n0.04"
+    "objectID": "Slides/slides_15.html#state-targeting-of-civilians-2",
+    "href": "Slides/slides_15.html#state-targeting-of-civilians-2",
+    "title": "Linear regression Wrap-up",
+    "section": "State targeting of civilians",
+    "text": "State targeting of civilians\nUltimately, the strategic explanations (and controls) appear to have the most support here."
   },
   {
-    "objectID": "Slides/slides_12.html#statistical-significance-for-a-slope",
-    "href": "Slides/slides_12.html#statistical-significance-for-a-slope",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Statistical Significance for a slope",
-    "text": "Statistical Significance for a slope\nCan we reject the null hypothesis that the coefficient for partisan_lean is actually 0?\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\nlower 95% CI\nupper 95% CI\n\n\n\n\n(Intercept)\n65.08\n1.60\n40.65\n0.00\n61.88\n68.29\n\n\npartisan_lean\n-0.37\n0.17\n-2.15\n0.04\n-0.72\n-0.03"
+    "objectID": "Slides/slides_15.html#other-issues-autocorrelation-normality-and-constant-variance",
+    "href": "Slides/slides_15.html#other-issues-autocorrelation-normality-and-constant-variance",
+    "title": "Linear regression Wrap-up",
+    "section": "4. Other issues: autocorrelation, normality, and constant variance",
+    "text": "4. Other issues: autocorrelation, normality, and constant variance"
   },
   {
-    "objectID": "Slides/slides_12.html#regression-output-in-r",
-    "href": "Slides/slides_12.html#regression-output-in-r",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Regression output in R",
-    "text": "Regression output in R\n\n\n\n\nIV absolute value of the Cook Partisan Voting Index in a state in 2020\nDV % voter turnout in a state\n\n\n\n\nstates$absolute_cook_index &lt;- abs(states$cook.index)\nregC(vep20.turnout ~ absolute_cook_index, data=states)"
+    "objectID": "Slides/slides_15.html#why-do-states-target-civilians-in-war-3",
+    "href": "Slides/slides_15.html#why-do-states-target-civilians-in-war-3",
+    "title": "Linear regression Wrap-up",
+    "section": "Why do states target civilians in war?",
+    "text": "Why do states target civilians in war?\n\nCases: all interstate wars from 1900 to 2003.\nUnit of analysis: each observation represents a “side” in a single conflict (so one row for the U.S. in Vietnam, and another row for Vietnam).\nDependent Variable: logged number of civilian fatalities committed by this side.\nIndependent Variables: treaty status, regime type, racial/religious differences, variables reflecting war strategy/goals and duration.\nAdditional controls: relative capabilities, population."
   },
   {
-    "objectID": "Slides/slides_12.html#r-squared-model-fit",
-    "href": "Slides/slides_12.html#r-squared-model-fit",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "R-squared: model fit",
-    "text": "R-squared: model fit\nWe often want to talk about how well a model “fits” the data. \\(R^2\\) is one way to evaluate this.\n\n\n\\(R^2\\) value is the proportion of variance in Y explained by variance in our independent variables.\n\\(R^2\\) will always range from 0 to 1. Its a proportion. A score of 1 would mean that our model perfectly predicts Y.\nYou can think of \\(R^2\\) as a measure of how well the model predicts outcomes."
+    "objectID": "Slides/slides_15.html#references",
+    "href": "Slides/slides_15.html#references",
+    "title": "Linear regression Wrap-up",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n \n\n\n\nAnscombe’s Quartet: an example of fitting a line to non-linear data\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI\nDependent Variable: Support for Trump’s efforts to end DEI\n\n\n\nValentino, Benjamin, Paul Huth, and Sarah Croco. 2006. “Covenants Without the Sword International Law and the Protection of Civilians in Times of War.” World Politics 58 (3): 339–77."
   },
   {
-    "objectID": "Slides/slides_12.html#r-squared",
-    "href": "Slides/slides_12.html#r-squared",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "R-squared",
-    "text": "R-squared\n\n\n\n\nCalculating the error sum of squares was part of fitting the regression line\n\n\n\n\nThe total sum of squares is just a measure of all the variance in Y.\n\n\n\n\nSo, taking \\(\\frac{TSS-ESS}{TSS}\\) should give us a measure of the variance explained relative to the total variance.\n\n\n\n\nAbout 19% of the variation in voter turnout is explained by variation in the independent variable."
+    "objectID": "Slides/slides_15.html#some-requirements-for-regression-to-work-1",
+    "href": "Slides/slides_15.html#some-requirements-for-regression-to-work-1",
+    "title": "Linear regression Wrap-up",
+    "section": "Some requirements for regression to “work”",
+    "text": "Some requirements for regression to “work”\n\nRegression relies on a lot of assumptions, but some of these are more important than others.\nYou can’t necessarily “fix” all of these problems, but you should think about them and try to mitigate them."
   },
   {
-    "objectID": "Slides/slides_12.html#r-squared-1",
-    "href": "Slides/slides_12.html#r-squared-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "R-squared",
-    "text": "R-squared\n\n\n\n\nNote that our output also includes “Adjusted R-squared”\nAdjusted R-squared accounts for a tendency of normal R-squared stats to increase even when we include bad predictors in our model.\nThe two values will usually remain close, and the interpretation is more-or-less the same.\n\n\n\n\nregC(vep20.turnout ~ absolute_cook_index, data=states)"
+    "objectID": "Slides/slides_15.html#some-requirements-for-regression-to-work-2",
+    "href": "Slides/slides_15.html#some-requirements-for-regression-to-work-2",
+    "title": "Linear regression Wrap-up",
+    "section": "Some requirements for regression to “work”",
+    "text": "Some requirements for regression to “work”\nInstead of giving an exhaustive list, we’ll focus on some of the problems that are most likely to come up in your analyses for this class:\n\n\nVariables must vary.\nThings should be linear (even if we have to force them)\nNo omitted variable bias."
   },
   {
-    "objectID": "Slides/slides_12.html#r-squared-values",
-    "href": "Slides/slides_12.html#r-squared-values",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "R-squared values",
-    "text": "R-squared values\n\nKeep in mind: \\(R^2\\) can be high even if X has a weak effect and low when X has a strong effect. It depends, in part, on how much variability there is in the dependent variable."
+    "objectID": "Slides/slides_15.html#autocorrelation",
+    "href": "Slides/slides_15.html#autocorrelation",
+    "title": "Linear regression Wrap-up",
+    "section": "4. Autocorrelation",
+    "text": "4. Autocorrelation"
   },
   {
-    "objectID": "Slides/slides_12.html#checking-for-confounders",
-    "href": "Slides/slides_12.html#checking-for-confounders",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Checking for confounders",
-    "text": "Checking for confounders\n\n\n\nOn closer examination, I notice that a lot of states with fewer college grads are in the low turnout group.\nSo is it possible that education is a confounding variable here?"
+    "objectID": "Slides/slides_15.html#other-issues",
+    "href": "Slides/slides_15.html#other-issues",
+    "title": "Linear regression Wrap-up",
+    "section": "4. Other issues",
+    "text": "4. Other issues\n\nThese are less important for your final paper but the book discusses them in some detail, so I’m including a little information on them here.\nThese are mostly surmountable problems."
   },
   {
-    "objectID": "Slides/slides_12.html#checking-for-confounders-1",
-    "href": "Slides/slides_12.html#checking-for-confounders-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Checking for confounders",
-    "text": "Checking for confounders\nRunning a second regression model suggests there’s some kind of relationship here.\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\n\n\n\n\n(Intercept)\n44.0\n3.9\n11.2\n\n\nba.or.more\n0.7\n0.1\n6.2"
+    "objectID": "Slides/slides_15.html#conditional-unusualness",
+    "href": "Slides/slides_15.html#conditional-unusualness",
+    "title": "Linear regression Wrap-up",
+    "section": "Conditional unusualness",
+    "text": "Conditional unusualness\n\n\n\nData: Varieties of Democracy (V-DEM)\nDV: Liberal-Democracy Score in most recent year available\nIV: per-capita GDP in the same year\n\n\nRed is the original model, black is the model after excluding the two observations highlighted in red\n\n\nWhat’s going on here? Does it make sense to drop these observations?"
   },
   {
-    "objectID": "Slides/slides_12.html#multiple-regression",
-    "href": "Slides/slides_12.html#multiple-regression",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\n\nIn the past, we handled this by splitting up the data into groups, but - we would lose a lot of statistical power if we split up the data like this.\nInstead, we’re going to account for this potential confounding variable by mathematically “holding constant” for the other variables in the model."
+    "objectID": "Slides/slides_15.html#cooks-distance",
+    "href": "Slides/slides_15.html#cooks-distance",
+    "title": "Linear regression Wrap-up",
+    "section": "Cook’s Distance",
+    "text": "Cook’s Distance\nHow big is the problem?\nOne way to quantify an outlier is to calculate the effect of dropping an observation on the results. Cooks D for observation i is:\n\\[D_i = \\frac{\\sum^n_{j=1}(\\hat{Y_j} - \\hat{Y_{j(i)}})^2}{MSE}\\]\n\n\\(\\hat{Y_j}\\) the prediction for observation j from the full regression\n\\(\\hat{Y_{j(i)}}\\) the prediction for observation j after eliminating observation i\n\\(MSE\\) the mean squared error of the regression\n\nSo, higher values mean that observation i is exerting more influence on our results.\n\nA rule of thumb suggests examining outliers that have a D value over \\(4/n\\) where \\(n\\) is the number of observations"
   },
   {
-    "objectID": "Slides/slides_12.html#multiple-regression-1",
-    "href": "Slides/slides_12.html#multiple-regression-1",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\nRemember that this was the formula for a prediction of Y\n\\[\n\\hat{y} = \\alpha + \\beta_1x\n\\]\nWhen we consider the actual values of Y, we’ve got this error term that represents the distance between the prediction and the observation:\n\\[\ny_i = \\alpha + \\beta_1x + \\epsilon\n\\]"
+    "objectID": "Slides/slides_15.html#cooks-distance-1",
+    "href": "Slides/slides_15.html#cooks-distance-1",
+    "title": "Linear regression Wrap-up",
+    "section": "Cook’s Distance",
+    "text": "Cook’s Distance"
   },
   {
-    "objectID": "Slides/slides_12.html#multiple-regression-2",
-    "href": "Slides/slides_12.html#multiple-regression-2",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\nIn a sense, a regression model splits the data up into two categories:\n\\[\ny_i = \\alpha + \\beta_1x_i + \\epsilon_i\n\\]\n\n\n\\(\\alpha + \\beta_1x\\) represents the part of Y that we can explain with our model.\n\\(\\epsilon\\) represents the part of Y that is not explained by our model."
+    "objectID": "Slides/slides_15.html#so-what-should-be-done-here",
+    "href": "Slides/slides_15.html#so-what-should-be-done-here",
+    "title": "Linear regression Wrap-up",
+    "section": "So what should be done here?",
+    "text": "So what should be done here?\nDon’t just drop stuff! First consider:\n\nCheck for errors. (if some joker told a survey taker they were 120 years old, then you can probably justify dropping them, but then you might want to check for other bad responses)\nConsider transforming variables. For continuous positive numbers, the natural log can make things far more normal\nModel it. Especially if you can come up with a systematic explanation for why certain observations are weird."
   },
   {
-    "objectID": "Slides/slides_12.html#multiple-regression-3",
-    "href": "Slides/slides_12.html#multiple-regression-3",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\nSo what do I get if I subtract \\(\\hat{y}\\) from each observation in my original model?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstate\n% BA or more\nTurnout\nPredicted Turnout\nObserved - Predicted\n\n\n\n\nAL\n26.3\n63.1\n63.6\n-0.5\n\n\nHI\n33.6\n57.5\n69.0\n-11.5\n\n\nMA\n45.0\n72.1\n77.5\n-5.4\n\n\nNM\n27.7\n61.3\n64.6\n-3.3\n\n\nSD\n29.7\n66.0\n66.1\n-0.1\n\n\n\n\n\n\n\n\nObserved and predicted turnout in select states"
-  },
-  {
-    "objectID": "Slides/slides_12.html#multiple-regression-4",
-    "href": "Slides/slides_12.html#multiple-regression-4",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\n\n\n\n\n\\(Y - \\hat{Y}\\) would leave me with a measure of turnout that is no longer correlated with education levels.\n\n\n\n\nI could do the same thing with the absolute Cook Index by estimating the effect of Education on Cook Index and then taking the residual from that model.\n\n\n\n\nNow, if I run my original regression on these residuals, I get an estimate of the effect of absolute Cook Index after removing the effect of education."
-  },
-  {
-    "objectID": "Slides/slides_12.html#multiple-regression-5",
-    "href": "Slides/slides_12.html#multiple-regression-5",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression",
-    "text": "Multiple Regression\nWe don’t need to do all this by hand. Instead, we can add additional controls by just adding a + sign followed by an additional variable:\n\n\nregC(vep20.turnout ~ absolute_cook_index +  ba.or.more, data=states)"
-  },
-  {
-    "objectID": "Slides/slides_12.html#multiple-regression-interpretation",
-    "href": "Slides/slides_12.html#multiple-regression-interpretation",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression: interpretation",
-    "text": "Multiple Regression: interpretation\n\n\n\n\nThe intercept term now represents the expected value when ALL predictors are equal to zero\n\n\n\n\nEach slope represent the effect of a one unit change in that variable controlling for everything else in the model\n\n\n\n\nThe \\(R^2\\) statistic represents the amount of variation in Y explained variation in all of the IVs."
-  },
-  {
-    "objectID": "Slides/slides_12.html#multiple-regression-comparing-models",
-    "href": "Slides/slides_12.html#multiple-regression-comparing-models",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Multiple Regression: comparing models",
-    "text": "Multiple Regression: comparing models"
-  },
-  {
-    "objectID": "Slides/slides_12.html#notes",
-    "href": "Slides/slides_12.html#notes",
-    "title": "Chapter 8: Correlation and Regression",
-    "section": "Notes",
-    "text": "Notes\n\nThere’s a lab + extra credit opportunity posted on ELMS. You must complete one survey to recieve credit. You may complete up to 8 more to receive 4 points of extra credit on the 2nd midterm.\nThere is a separate GVPT Experimental Lab assignment that you should be hearing about shortly. The contact person is Woohyeon Kim. Please remember that this is a separate assignment that is also required.\nIf you prefer to complete an alternate assignment, please notify me asap."
-  },
-  {
-    "objectID": "Slides/slides_13.html#remember",
-    "href": "Slides/slides_13.html#remember",
-    "title": "Regression Continued",
-    "section": "Remember",
-    "text": "Remember\n\n\nCoefficients represent the effect of a one-unit increase in the IV on the expected value of the DV. It’s important to pay attention to what a “one unit” change would mean in terms of the IV (Is it a percent? A dollar? A thousand dollars?) and the DV.\nEach coefficient in a regression will have its own standard error and p.value. Some coefficients may be significant and others might not be.\nWhen you include additional variables in a model, interpret the coefficient as the effect of a one unit change in X controlling for everything else in the model."
-  },
-  {
-    "objectID": "Slides/slides_13.html#reading-a-regression-table",
-    "href": "Slides/slides_13.html#reading-a-regression-table",
-    "title": "Regression Continued",
-    "section": "Reading a regression table",
-    "text": "Reading a regression table\n\nWe’ll look at an example of a table of regressions that you might see in a published academic article and walk through how to interpret it.\nNot all tables will be the same, but there are some conventions that are somewhat consistent across different outlets."
-  },
-  {
-    "objectID": "Slides/slides_13.html#reading-a-regression-table-1",
-    "href": "Slides/slides_13.html#reading-a-regression-table-1",
-    "title": "Regression Continued",
-    "section": "Reading a regression table",
-    "text": "Reading a regression table\n\n\n\nRegression table on the right comes from a 2006 paper by Daniel Kono titled Optimal Obfuscation: Democracy and Trade Policy Transparency Kono (2006)\nKono argues that democracy prompts states to reduce “transparent barriers” to trade but replace them with less transparent barriers.\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
-  },
-  {
-    "objectID": "Slides/slides_13.html#theoretical-argument",
-    "href": "Slides/slides_13.html#theoretical-argument",
-    "title": "Regression Continued",
-    "section": "Theoretical argument",
-    "text": "Theoretical argument\nKono’s basic argument:\n\n\nPoliticians want votes and money.\nSpecial interest groups want to be protected from trade, so having trade barriers is a way to get campaign donations.\nTrade barriers make things more expensive, but voters don’t always know who to blame for high prices. This is especially true when the barriers and more complicated.\nPoliticians in democracies prefer non-tariff barriers (such as stringent quality controls, licenses, or quotas) because they can please special interests but voters don’t understand them."
-  },
-  {
-    "objectID": "Slides/slides_13.html#expectations",
-    "href": "Slides/slides_13.html#expectations",
-    "title": "Regression Continued",
-    "section": "Expectations",
-    "text": "Expectations\n\nCountries that are more democratic will have lower tariffs.\nCountries that are more democratic will have higher non-tariff barriers."
-  },
-  {
-    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis",
-    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis",
-    "title": "Regression Continued",
-    "section": "Using a model to test a hypothesis",
-    "text": "Using a model to test a hypothesis\nSo how do we get to this?\n\n\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
-  },
-  {
-    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-1",
-    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-1",
-    "title": "Regression Continued",
-    "section": "Using a model to test a hypothesis",
-    "text": "Using a model to test a hypothesis\n\n\n\n\nPolity is a measure of democracy. Higher values = more democracy. This is our main IV.\n\n\n\n\nNot all variables are included in all models. So you see blanks when those controls are omitted from one model.\n\n\n\n\nThis model contains a number of additional controls beyond the main IV. (note: ln means the natural log was taken, and \\(\\Delta\\) means his variable is the change from a previous period.)\n\n\n\n\nAsterisks are a common way to give a quick indication of statistical significance."
-  },
-  {
-    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-2",
-    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-2",
-    "title": "Regression Continued",
-    "section": "Using a model to test a hypothesis",
-    "text": "Using a model to test a hypothesis\n\n\n\nKono includes “electoral competition” as an alternative measure of his IV. If the theory is correct, you would expect it to apply more strongly in countries that had more electoral competition."
-  },
-  {
-    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-3",
-    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-3",
-    "title": "Regression Continued",
-    "section": "Using a model to test a hypothesis",
-    "text": "Using a model to test a hypothesis\nFinally, we’ve got hypotheses about different dependent variables. So there are models for three different dependent variables.\nKono argued that tariffs would decrease as democracy increased, but non-tariff barriers (Core NTB and Quality NTB) would go up. Are these result consistent with this hypothesis?"
-  },
-  {
-    "objectID": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-4",
-    "href": "Slides/slides_13.html#using-a-model-to-test-a-hypothesis-4",
-    "title": "Regression Continued",
-    "section": "Using a model to test a hypothesis",
-    "text": "Using a model to test a hypothesis\n\n\n\n\n\n\n\nKono, Daniel Y. “Optimal obfuscation: Democracy and trade policy transparency.” American Political Science Review 100.3 (2006): 369-384."
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-from-a-model-1",
-    "href": "Slides/slides_13.html#predictions-from-a-model-1",
-    "title": "Regression Continued",
-    "section": "Predictions from a model",
-    "text": "Predictions from a model\nGoing back to our formula:\n\\[\n\\hat{y} = \\alpha + \\beta_1x_1\n\\]\n\n\\[\n\\text{Dem %} = 1.6 + 5.8 \\times \\text{Median income (\\$10,000)}\n\\]\n\n\n\\[\n\\text{Dem %} = 1.6 + 5.8 \\times 7 = 42.2\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-a-control",
-    "href": "Slides/slides_13.html#predictions-with-a-control",
-    "title": "Regression Continued",
-    "section": "Predictions with a control",
-    "text": "Predictions with a control\n\n\n\n\nI’ll add a control variable for the % of the state population over the age of 25.\nNotice the change in the intercept, as well as a small change in the coefficient for median income.\nNow what is the predicted value of the DV when 70% of the population is over 25 and the median income is 70,000?\n\n\n\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nModel 1\n Model 2\n\n\n\n\nIntercept\n1.6\n−120.4***\n\n\n\n(6.7)\n(26.0)\n\n\nMedian income ($10,000)\n5.8***\n5.1***\n\n\n\n(0.9)\n(0.7)\n\n\nover 25\n\n1.8***\n\n\n\n\n(0.4)\n\n\nNum.Obs.\n50\n50\n\n\nR2\n0.491\n0.659\n\n\nR2 Adj.\n0.481\n0.645\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-a-control-1",
-    "href": "Slides/slides_13.html#predictions-with-a-control-1",
-    "title": "Regression Continued",
-    "section": "Predictions with a control",
-    "text": "Predictions with a control\nGoing back to our formula:\n\\[\n\\hat{y} = \\alpha + \\beta_1x_1 + \\beta_2x_2\n\\]\n\n\\[\n\\text{Dem %} = -120.4 + 5.1 \\times \\text{Median income (\\$10,000)} + 1.8 \\times \\text{% over 25}\n\\]\n\n\nSo now we plug in those values:\n\\[\n\\text{Dem %} = -120.4 + 5.1 \\times 7 + 1.8 \\times 70 = 41.3\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-a-dummy-variable",
-    "href": "Slides/slides_13.html#predictions-with-a-dummy-variable",
-    "title": "Regression Continued",
-    "section": "Predictions with a dummy variable",
-    "text": "Predictions with a dummy variable\n\n\n\n\nI’ve added variable that is equal to 1 if a states is in the northeast, and 0 otherwise.\nHow should I interpret this? It’s technically still the effect of a one-unit increase in the IV, but in this case there’s a more straightforward interpretation.\n\n\n\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nDummy model\n\n\n\n\nIntercept\n44.5***\n\n\n\n(1.4)\n\n\nNortheastern state\n11.9***\n\n\n\n(3.4)\n\n\nNum.Obs.\n50\n\n\nR2\n0.204\n\n\nR2 Adj.\n0.188\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-a-dummy-variable-1",
-    "href": "Slides/slides_13.html#predictions-with-a-dummy-variable-1",
-    "title": "Regression Continued",
-    "section": "Predictions with a dummy variable",
-    "text": "Predictions with a dummy variable\nBack to the formula\n\\[\n\\hat{y} = \\alpha + \\beta_1x_1\n\\]\n\n\\[\n\\text{Dem %} = 44.5 + \\text{Northeastern State} \\times 11.9\n\\]\n\n\nIf we plug in a “1” here, we get the prediction for northeastern states.\n\\[\n\\text{Dem %} = 44.5 + 1 \\times 11.9  = 56.4\n\\]\n\n\nIf we plug in a “0” here, we get the prediction for every other region\n\\[\n\\text{Dem %} = 44.5 + 0 \\times 11.9 = 44.5\n\\]"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\nWhat if I have a variable that takes on more than 2 categories? For example: what if I want to include all the regions of the US?\n\n\n\n\n\nState\nRegion\n\n\n\n\nAlabama\nSouth\n\n\nMaine\nNortheast\n\n\nOhio\nMidwest\n\n\nColorado\nWest\n\n\n\n\n\nWe can handle this by making a dummy variable for all of the categories. These tables have the same info:\n\n\n\nState\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nAlabama\n1\n0\n0\n0\n\n\nMaine\n0\n1\n0\n0\n\n\nOhio\n0\n0\n1\n0\n\n\nColorado\n0\n0\n0\n1"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-1",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-1",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\nregC(dem_percent ~ region, data=election)\n\n\n\nR will actually do this “dummifying” process automatically when we include a categorical variable in a model. But you might notice something missing here.\n\nBut what happened to the Midwest?? Does R hate the heartland??\n\n\n\n\n\n\n\n\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nRegion model\n\n\n\n\nIntercept\n43.6***\n\n\n\n(2.6)\n\n\nregion: Northeast\n12.8**\n\n\n\n(4.0)\n\n\nregion: South\n−1.3\n\n\n\n(3.5)\n\n\nregion: West\n4.3\n\n\n\n(3.7)\n\n\nNum.Obs.\n50\n\n\nR2\n0.251\n\n\nR2 Adj.\n0.202\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-2",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-2",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\n\nR has to drop one of the four categories to avoid what’s called the “dummy trap”\nIf we’re already accounting for “South”, “Northeast”, and “West”, then “Midwest” is always 1, so “a one unit change in X” never happens.\nR chooses to drop the Midwest because it’s first alphabetically, but we have to drop something.\n\n\n\n\n\n\nState\nSouth\nNortheast\nMidwest\nWest\n\n\n\n\nOhio\n0\n0\n1\n0"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-3",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-3",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\nTechnically, the Midwest is still represented here, it’s just represented by the intercept term.\nAnd all of the coefficients should be interpreted as being the difference between the excluded category (Midwest) and that dummy.\n\n\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nRegion model\n\n\n\n\nIntercept\n43.6***\n\n\n\n(2.6)\n\n\nregion: Northeast\n12.8**\n\n\n\n(4.0)\n\n\nregion: South\n−1.3\n\n\n\n(3.5)\n\n\nregion: West\n4.3\n\n\n\n(3.7)\n\n\nNum.Obs.\n50\n\n\nR2\n0.251\n\n\nR2 Adj.\n0.202\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-4",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-4",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\n\nThink of the excluded category as the baseline.\n\n\n\n\nAnd think of each coefficient as representing the difference between that category and the excluded group."
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-5",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-5",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\nGoing back to the equation for each prediction, we can think of our model as looking like this.\n\\[\n\\text{Dem %} = 43.6 + (\\text{Northeast}\\times 12.8) + (\\text{South} \\times -1.3) + (\\text{West} \\times 4.3)\n\\]\n\nSo, if we want the prediction for the Northeast, we can get it by plugging in the values for each coefficient:\n\\(\\text{Dem %} = 43.6 + (1\\times 12.8) + (0 \\times -1.3) + (0 \\times 4.3)\\)\n\n\nOr, even more simply\n\\(\\text{Dem %} = 43.6 + 12.8 = 56.4\\)"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-6",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-6",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\\[\n\\text{Dem %} = 43.6 + (\\text{Northeast}\\times 12.8) + (\\text{South} \\times -1.3) + (\\text{West} \\times 4.3)\n\\]\n\n\n\\(\\text{Northeast %} = 43.6 + 12.8 = 56.4\\)\n\\(\\text{South %} = 43.6 -1.3 = 42.3\\)\n\\(\\text{West %} = 43.6 +  4.3 = 47.9\\)\n\\(\\text{Midwest %} = 43.6\\)"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-7",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-7",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\nNote that choosing to exclude a different group will change the coefficients AND the p-values. In essence, each p-value tells you whether that coefficient is different from the excluded group."
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-8",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-8",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\nYou can use the relevel function to change the category that’s automatically excluded from the regression results.\n\n\n\n# Make the excluded category South\nelection$region&lt;-relevel(election$region, ref=\"South\")\nregC(dem_percent ~ region, data=election)"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-9",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-9",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nvs. Midwest\nvs. Northeast\nvs. South\nvs. West\n\n\n\n\nIntercept\n43.6***\n56.4***\n42.3***\n47.9***\n\n\n\n(2.6)\n(3.0)\n(2.3)\n(2.5)\n\n\nregion: Midwest\n\n−12.8**\n1.3\n−4.3\n\n\n\n\n(4.0)\n(3.5)\n(3.7)\n\n\nregion: Northeast\n12.8**\n\n14.1***\n8.4*\n\n\n\n(4.0)\n\n(3.8)\n(4.0)\n\n\nregion: South\n−1.3\n−14.1***\n\n−5.6\n\n\n\n(3.5)\n(3.8)\n\n(3.4)\n\n\nregion: West\n4.3\n−8.4*\n5.6\n\n\n\n\n(3.7)\n(4.0)\n(3.4)\n\n\n\nNum.Obs.\n50\n50\n50\n50\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-10",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-10",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\nWhen we add more variables, the intercept is still the expectation when everything is 0.\nIn model 2, the intercept represents the prediction for Dem % when everyone in the state is under 25 in the Midwest\n\n\n\n\n\n\nDV: Harris 2024 vote share\n\n\n\nRegion only\n Region and over 25\n\n\n\n\nIntercept\n47.9***\n−83.1+\n\n\n\n(2.5)\n(42.7)\n\n\nover 25\n\n1.9**\n\n\n\n\n(0.6)\n\n\nregion: Midwest\n−4.3\n−2.5\n\n\n\n(3.7)\n(3.4)\n\n\nregion: Northeast\n8.4*\n3.2\n\n\n\n(4.0)\n(4.0)\n\n\nregion: South\n−5.6\n−5.2\n\n\n\n(3.4)\n(3.1)\n\n\nNum.Obs.\n50\n50\n\n\n\n + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001"
-  },
-  {
-    "objectID": "Slides/slides_13.html#types-of-relationship",
-    "href": "Slides/slides_13.html#types-of-relationship",
-    "title": "Regression Continued",
-    "section": "Types of relationship",
-    "text": "Types of relationship\nWe talked about three general ways that more than two variables could be related in a controlled comparison.\n\n\nSpurious: controlling for Z removes or reverses the effect of X on Y\nAdditive: Z and X impact Y independently\nInteractive: the effect of X depends on values of Z"
-  },
-  {
-    "objectID": "Slides/slides_13.html#model",
-    "href": "Slides/slides_13.html#model",
-    "title": "Regression Continued",
-    "section": "Model",
-    "text": "Model\nLinear regression assumes… linearity. We can use a linear model to test for an interactive relationship, but only if we actually add an interaction term to the model:"
-  },
-  {
-    "objectID": "Slides/slides_13.html#predictions-with-multiple-dummies-11",
-    "href": "Slides/slides_13.html#predictions-with-multiple-dummies-11",
-    "title": "Regression Continued",
-    "section": "Predictions with multiple dummies",
-    "text": "Predictions with multiple dummies\n\n\n\nThe coefficients on the other dummies are still the difference from the excluded category, but you could also think of them as separate Y-intercepts for each region."
+    "objectID": "Slides/slides_15.html#so-what-should-be-done-here-1",
+    "href": "Slides/slides_15.html#so-what-should-be-done-here-1",
+    "title": "Linear regression Wrap-up",
+    "section": "So what should be done here?",
+    "text": "So what should be done here?\nHere’s the result after logging GDP and including a control variable for logged oil revenues"
   }
 ]
