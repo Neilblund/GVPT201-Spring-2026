@@ -4987,8 +4987,9 @@ margin: 20px;
 <p>First, you’ll want to import the final survey data and load the RCPA3 package, which you can do by running this code:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RCPA3)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>survey <span class="ot">&lt;-</span><span class="fu">readRDS</span>(<span class="fu">url</span>(<span class="st">&#39;https://github.com/Neilblund/GVPT-201-Site/raw/refs/heads/main/Rdata/survey_fmted.rds&#39;</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>loc <span class="ot">&lt;-</span> <span class="fu">url</span>(<span class="st">&#39;https://github.com/Neilblund/GVPT201-Spring-2026/raw/refs/heads/master/Data/survey_data.rds&#39;</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>gvpt_survey<span class="ot">&lt;-</span><span class="fu">readRDS</span>(loc)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Next, you’ll need to do any required re-coding to make your variables useful or to simplify your analyses. For example, you might need to:</p>
 <ul>
