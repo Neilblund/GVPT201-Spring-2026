@@ -1602,7 +1602,7 @@ margin-right: 0; }
 <li><p><strong>Additional controls</strong>: relative capabilities, population.</p></li>
 </ul>
 </section>
-<section id="state-targeting-of-civilians" class="slide level3">
+<section id="state-targeting-of-civilians" class="title-slide slide level3 center">
 <h3>State targeting of civilians</h3>
 <div class="center">
 <div class="cell">
@@ -1616,6 +1616,7 @@ margin-right: 0; }
 </div>
 </div>
 </section>
+
 
 <section id="state-targeting-of-civilians-1" class="title-slide slide level2 center">
 <h2>State targeting of civilians</h2>
@@ -1703,7 +1704,7 @@ margin-right: 0; }
 <h2>1. Variables must vary</h2>
 
 </section>
-<section id="variables-must-vary-1" class="slide level3">
+<section id="variables-must-vary-1" class="title-slide slide level3 center">
 <h3>Variables must vary</h3>
 <ul>
 <li>Regression models asks “what happens to Y when X changes?”. At a minimum, that means both X and Y should change.</li>
@@ -1714,7 +1715,8 @@ margin-right: 0; }
 </ul>
 </div>
 </section>
-<section id="variables-must-vary-2" class="slide level3">
+
+<section id="variables-must-vary-2" class="title-slide slide level3 center">
 <h3>Variables must vary</h3>
 <p>For instance, the DV in this model is 2020 turnout, and I’ve included controls for Biden’s share of the two party vote and Trump’s share of the two party vote…</p>
 <div class="cell">
@@ -1731,7 +1733,8 @@ margin-right: 0; }
 <p>So what happened here?</p>
 </div>
 </section>
-<section id="variables-must-vary-3" class="slide level3">
+
+<section id="variables-must-vary-3" class="title-slide slide level3 center">
 <h3>Variables must vary</h3>
 <div>
 <ul>
@@ -1751,14 +1754,16 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="variables-must-vary-4" class="slide level3">
+
+<section id="variables-must-vary-4" class="title-slide slide level3 center">
 <h3>Variables must vary</h3>
 <ul>
 <li><p>This problem is called “perfect multicollinearity”, and it makes a regression model intractable, which is why R automatically drops perfectly collinear variables.</p></li>
 <li><p>Near-perfect collinearity (X <em>almost</em> perfectly predicts Z) can also be a problem, but usually this comes up when we include variables that are <em>almost</em> exact copies.</p></li>
 </ul>
 </section>
-<section id="variables-must-vary-5" class="slide level3">
+
+<section id="variables-must-vary-5" class="title-slide slide level3 center">
 <h3>Variables must vary</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1779,7 +1784,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="variability" class="slide level3">
+
+<section id="variability" class="title-slide slide level3 center">
 <h3>Variability</h3>
 <ul>
 <li><p>Avoid including <em>redundant</em> variables in a model.</p></li>
@@ -1788,11 +1794,12 @@ margin-right: 0; }
 </ul>
 </section>
 
+
 <section id="things-should-be-linear" class="title-slide slide level2 center">
 <h2>2. Things should be linear</h2>
 
 </section>
-<section id="linearity" class="slide level3">
+<section id="linearity" class="title-slide slide level3 center">
 <h3>Linearity</h3>
 <p>Linear regression fits straight lines, but many relationships are non-linear.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -1806,7 +1813,8 @@ margin-right: 0; }
 </figure>
 </div>
 </section>
-<section id="linearity-1" class="slide level3">
+
+<section id="linearity-1" class="title-slide slide level3 center">
 <h3>Linearity</h3>
 <p>In practice, this is less of a problem than it might appear at first glance: we can <em>make</em> things linear by coding variables differently. For example:</p>
 <div>
@@ -1817,7 +1825,8 @@ margin-right: 0; }
 </ul>
 </div>
 </section>
-<section id="linearity-2" class="slide level3">
+
+<section id="linearity-2" class="title-slide slide level3 center">
 <h3>Linearity</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1849,7 +1858,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="linearity-in-categorical-variables" class="slide level3">
+
+<section id="linearity-in-categorical-variables" class="title-slide slide level3 center">
 <h3>Linearity in categorical variables</h3>
 <p>We’ll often treated ordered variables <em>as if</em> they’re actually numeric, but the effect of X on Y may not actually be linear in the population.</p>
 <div class="fragment">
@@ -1864,7 +1874,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="ordinal-variables-as-numbers" class="slide level3">
+
+<section id="ordinal-variables-as-numbers" class="title-slide slide level3 center">
 <h3>Ordinal variables as numbers</h3>
 <p>If we remove the “Other” category, we can convert <code>partyid</code> to a number and then treat it as an interval-level variable.</p>
 <div class="cell">
@@ -1880,7 +1891,8 @@ margin-right: 0; }
 </figure>
 </div>
 </section>
-<section id="ordinal-variables-as-numbers-1" class="slide level3">
+
+<section id="ordinal-variables-as-numbers-1" class="title-slide slide level3 center">
 <h3>Ordinal variables as numbers</h3>
 <p>We can use the numeric variable in a regression model without too much of a problem:</p>
 <div class="cell">
@@ -1897,7 +1909,8 @@ margin-right: 0; }
 </figure>
 </div>
 </section>
-<section id="ordinal-variables-as-numbers-2" class="slide level3">
+
+<section id="ordinal-variables-as-numbers-2" class="title-slide slide level3 center">
 <h3>Ordinal variables as numbers</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1920,7 +1933,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="ordinal-variables" class="slide level3">
+
+<section id="ordinal-variables" class="title-slide slide level3 center">
 <h3>Ordinal variables</h3>
 <p>What if we’re really skeptical that the effect is numeric?</p>
 <p>We have two* options.</p>
@@ -1932,7 +1946,8 @@ margin-right: 0; }
 </ul>
 </div>
 </section>
-<section id="ordinal-variables-option-1" class="slide level3">
+
+<section id="ordinal-variables-option-1" class="title-slide slide level3 center">
 <h3>Ordinal variables: Option 1</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1968,7 +1983,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="ordinal-variables-option-2" class="slide level3">
+
+<section id="ordinal-variables-option-2" class="title-slide slide level3 center">
 <h3>Ordinal variables: Option 2</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1998,7 +2014,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="nominal-variables" class="slide level3">
+
+<section id="nominal-variables" class="title-slide slide level3 center">
 <h3>Nominal variables</h3>
 <ul>
 <li>If our variables are nominal, then we obviously can’t treat them as numeric! But we can either make a single dummy variable and compare one group vs. the rest:</li>
@@ -2022,7 +2039,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="linearity-3" class="slide level3">
+
+<section id="linearity-3" class="title-slide slide level3 center">
 <h3>Linearity</h3>
 <p>For simplicity’s sake:</p>
 <ul>
@@ -2032,18 +2050,20 @@ margin-right: 0; }
 </ul>
 </section>
 
+
 <section id="the-model-must-be-correct" class="title-slide slide level2 center">
 <h2>3. The model must be correct</h2>
 
 </section>
-<section id="correct-models-and-bias" class="slide level3">
+<section id="correct-models-and-bias" class="title-slide slide level3 center">
 <h3>Correct models and bias</h3>
 <ul>
 <li><p>In order for regression to produce accurate, unbiased estimates of the effect of an independent variable on the dependent variable, we need to correctly account for all confounding variables.</p></li>
 <li><p>(In observational data, this is really hard to get right. You’re not expected to do it in this class, but you should be aware of some of the limitations this imposes on how you interpret your results.)</p></li>
 </ul>
 </section>
-<section id="omitted-variables" class="slide level3">
+
+<section id="omitted-variables" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2101,7 +2121,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-1" class="slide level3">
+
+<section id="omitted-variables-1" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <p>Using simulated data: the actual equation here is: <span class="math inline">\(Y = 3X + -3Z + \text{error}\)</span></p>
 <div class="fragment">
@@ -2117,7 +2138,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-2" class="slide level3">
+
+<section id="omitted-variables-2" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <p><span class="math inline">\(Y = 3X + -3Z + \text{error}\)</span></p>
 <p>Yes (within a small rounding error!)</p>
@@ -2131,7 +2153,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-3" class="slide level3">
+
+<section id="omitted-variables-3" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2152,7 +2175,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-4" class="slide level3">
+
+<section id="omitted-variables-4" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <p>When Z is correlated with X, we’re no longer able to estimate the effect of X correctly unless we control for Z</p>
 <div class="cell" data-layout-align="center">
@@ -2165,7 +2189,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-5" class="slide level3">
+
+<section id="omitted-variables-5" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2188,21 +2213,24 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="omitted-variables-6" class="slide level3">
+
+<section id="omitted-variables-6" class="title-slide slide level3 center">
 <h3>Omitted variables</h3>
 <ul>
 <li><p>A key difficulty here: we can’t control for everything! We can never have more predictors than observations, and models usually start to produce meaningless results well before that point.</p></li>
 <li><p>This is why it’s hard to show causal relationships with observational research.</p></li>
 </ul>
 </section>
-<section id="bad-controls" class="slide level3">
+
+<section id="bad-controls" class="title-slide slide level3 center">
 <h3>Bad controls</h3>
 <ul>
 <li><p>It’s also possible for the inclusion of some controls to introduce bias rather than alleviate it. One way this can happen is when controlling for something that is actually a consequence of the independent or dependent variable.</p></li>
 <li><p>A classic example would be estimating the effects of education on earnings, while trying to control for “occupation”.</p></li>
 </ul>
 </section>
-<section id="bad-controls-1" class="slide level3">
+
+<section id="bad-controls-1" class="title-slide slide level3 center">
 <h3>Bad controls</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2326,7 +2354,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="finding-the-right-model" class="slide level3">
+
+<section id="finding-the-right-model" class="title-slide slide level3 center">
 <h3>Finding the right model</h3>
 <div>
 <ul>
@@ -2337,6 +2366,7 @@ margin-right: 0; }
 </div>
 </section>
 
+
 <section id="other-issues" class="title-slide slide level2 center">
 <h2>4. Other issues</h2>
 <ul>
@@ -2344,14 +2374,15 @@ margin-right: 0; }
 <li><p>These are mostly surmountable problems.</p></li>
 </ul>
 </section>
-<section id="heteroskedasticity" class="slide level3">
+<section id="heteroskedasticity" class="title-slide slide level3 center">
 <h3>Heteroskedasticity</h3>
 <ul>
 <li><p>OLS assumes that the error term <span class="math inline">\(\epsilon\)</span> has a constant variance across levels of the independent variables (homoskedasticity)</p></li>
 <li><p>In some cases, however, the variance in the error term might increase or decrease as the IVs increase in value.</p></li>
 </ul>
 </section>
-<section id="heteroskedasticity-1" class="slide level3">
+
+<section id="heteroskedasticity-1" class="title-slide slide level3 center">
 <h3>Heteroskedasticity</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2383,7 +2414,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="heteroskedasticity-2" class="slide level3">
+
+<section id="heteroskedasticity-2" class="title-slide slide level3 center">
 <h3>Heteroskedasticity</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2425,7 +2457,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="heteroskedasticity-3" class="slide level3">
+
+<section id="heteroskedasticity-3" class="title-slide slide level3 center">
 <h3>Heteroskedasticity</h3>
 <ul>
 <li><p>Heteroskedasticity can artificially deflate standard errors. So the biggest concern are false positives.</p></li>
@@ -2433,7 +2466,8 @@ margin-right: 0; }
 <li><p>Fortunately, we have a number of strategies for estimating standard errors that are “robust” to this kind of problem.</p></li>
 </ul>
 </section>
-<section id="autocorrelation" class="slide level3">
+
+<section id="autocorrelation" class="title-slide slide level3 center">
 <h3>Autocorrelation</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2457,14 +2491,16 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="autocorrelation-1" class="slide level3">
+
+<section id="autocorrelation-1" class="title-slide slide level3 center">
 <h3>Autocorrelation</h3>
 <ul>
 <li><p>As with heteroskedasticity, there are ways to adjust standard errors to account for the lack of independence between individual observations.</p></li>
 <li><p>Time trends can also be a source of omitted variable bias, and so time series models will often attempt to “control” for the effect of time.</p></li>
 </ul>
 </section>
-<section id="outliers" class="slide level3">
+
+<section id="outliers" class="title-slide slide level3 center">
 <h3>Outliers</h3>
 <p>What is a regression outlier?</p>
 <ul>
@@ -2473,6 +2509,7 @@ margin-right: 0; }
 <li><p>We’re usually most concerned about their potential to unduly influence results.</p></li>
 </ul>
 </section>
+
 
 <section id="conditional-unusualness" class="title-slide slide level2 center">
 <h2>Conditional unusualness</h2>
@@ -4067,7 +4104,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

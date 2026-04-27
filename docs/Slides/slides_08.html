@@ -1517,14 +1517,15 @@ margin-right: 0; }
 </ul>
 </div>
 </section>
-<section id="review-null-hypothesis-significance-testing-1" class="slide level3">
+<section id="review-null-hypothesis-significance-testing-1" class="title-slide slide level3 center">
 <h3>Review: Null hypothesis significance testing</h3>
 <p>We used Fisher’s exact test to determine the probability of guessing <span class="math inline">\(N\)</span> cups correctly if the null hypothesis were true.</p>
 <div class="fragment">
 <p>We’ll see how this same basic logic can be extended to questions about a sample average or proportion.</p>
 </div>
 </section>
-<section id="review-type-i-and-ii-error" class="slide level3">
+
+<section id="review-type-i-and-ii-error" class="title-slide slide level3 center">
 <h3>Review: Type I and II error</h3>
 <p>When trying to make a judgement about <span class="math inline">\(H_0\)</span>, there are two ways to be wrong:</p>
 <div class="columns">
@@ -1568,7 +1569,8 @@ margin-right: 0; }
 <p>We try to choose methods that minimize the chances of a <strong>Type I error</strong></p>
 </div>
 </section>
-<section id="review-null-vs.-alternative-hypothesis" class="slide level3">
+
+<section id="review-null-vs.-alternative-hypothesis" class="title-slide slide level3 center">
 <h3>Review: Null vs. Alternative Hypothesis</h3>
 <p>There are really two “sides” of our hypothesis:</p>
 <p><strong><em>Alternative/Research hypothesis</em></strong> (<span class="math inline">\(H_a\)</span>): “X and Y are related”, “X influences Y”, or “this outcome is not random”</p>
@@ -1582,7 +1584,8 @@ margin-right: 0; }
 <p>If <span class="math inline">\(H_0\)</span>, we’ll <strong>reject the null</strong> and say our result is statistically significant. If our test finds <span class="math inline">\(H_0\)</span> is still plausible, we’ll <strong>fail to reject the null</strong> and say our result is not statistically significant.</p>
 </div>
 </section>
-<section id="review-p-values-and-null-hypothesis-testing" class="slide level3">
+
+<section id="review-p-values-and-null-hypothesis-testing" class="title-slide slide level3 center">
 <h3>Review: P-Values and null hypothesis testing</h3>
 <p>The basic framework:</p>
 <ul>
@@ -1592,6 +1595,7 @@ margin-right: 0; }
 </ul>
 </section>
 
+
 <section id="tests-for-a-single-proportion" class="title-slide slide level2 center">
 <h2>Tests for a single proportion</h2>
 <p>In the past, polls have found that a majority of the public <strong>opposed</strong> abolishing ICE.</p>
@@ -1599,14 +1603,15 @@ margin-right: 0; }
 <p><strong><em>Alternative hypothesis</em></strong> (<span class="math inline">\(H_a\)</span>): Support for abolishing ICE is greater than 50% (<span class="math inline">\(\rho_{\text{support} \gt .50}\)</span>)</p>
 <p><strong><em>Null hypothesis</em></strong> <span class="math inline">\(H_0\)</span>: Support for abolishing ICE is less than or equal to 50% (<span class="math inline">\(\rho_{\text{support} \leq .50}\)</span>)</p>
 </section>
-<section id="tests-for-a-single-proportion-1" class="slide level3">
+<section id="tests-for-a-single-proportion-1" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p>Imagine we took a survey of 1,500 people to settle this question, and we decide that we’ll reject the null hypothesis of our p.value is less than .05</p>
 <div class="fragment">
 <p>Before we look at any data, we have everything we need to visualize the sampling distribution when the population proportion is 50% (which would be a “best case” scenario for the null hypothesis) at this sample size.</p>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-2" class="slide level3">
+
+<section id="tests-for-a-single-proportion-2" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1629,7 +1634,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-3" class="slide level3">
+
+<section id="tests-for-a-single-proportion-3" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p>Imagine I draw my sample, and support for abolishing ICE is 51%. What’s the probability of a result at least this high under the null?</p>
 <div class="cell">
@@ -1642,7 +1648,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-4" class="slide level3">
+
+<section id="tests-for-a-single-proportion-4" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p>To calculate this, we’ll need to get a Z-score for the difference between our observed sample proportion and the proportion under the null.</p>
 <p><span class="math display">\[
@@ -1660,7 +1667,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 \]</span></p>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-5" class="slide level3">
+
+<section id="tests-for-a-single-proportion-5" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p><span class="math inline">\(Z  = \frac{.51 - .50}{0.013} = 0.769\)</span></p>
 <div class="columns">
@@ -1685,11 +1693,13 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-6" class="slide level3">
+
+<section id="tests-for-a-single-proportion-6" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p>What value would I need to see before I rejected the null hypothesis at the .05 level?</p>
 </section>
-<section id="tests-for-a-single-proportion-7" class="slide level3">
+
+<section id="tests-for-a-single-proportion-7" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1713,7 +1723,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-8" class="slide level3">
+
+<section id="tests-for-a-single-proportion-8" class="title-slide slide level3 center">
 <h3>Tests for a single proportion</h3>
 <p>Note that value needed to reach p&lt;.05 will grow or shrink depending on my sample size, even for the same null hypothesis:</p>
 <table>
@@ -1754,6 +1765,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </table>
 </section>
 
+
 <section id="directional-hypotheses" class="title-slide slide level2 center">
 <h2>Directional hypotheses</h2>
 <ul>
@@ -1761,7 +1773,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>What if our null hypothesis is that support is greater than 50% instead of less than 50%?</p></li>
 </ul>
 </section>
-<section id="directional-hypotheses-1" class="slide level3">
+<section id="directional-hypotheses-1" class="title-slide slide level3 center">
 <h3>Directional hypotheses</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1781,7 +1793,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="directional-hypotheses-2" class="slide level3">
+
+<section id="directional-hypotheses-2" class="title-slide slide level3 center">
 <h3>Directional hypotheses</h3>
 <p>We would reject the null if <span class="math inline">\(0.013 \times 1.645  = 0.021\)</span> below 50 or <span class="math inline">\(.479\)</span> (<span class="math inline">\(47.9\%\)</span>)</p>
 <div class="cell">
@@ -1795,6 +1808,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </section>
 
+
 <section id="two-tailed-tests" class="title-slide slide level2 center">
 <h2>Two-tailed tests</h2>
 <ul>
@@ -1802,7 +1816,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>This is commonly called a “two tailed test”</p></li>
 </ul>
 </section>
-<section id="two-tailed-tests-1" class="slide level3">
+<section id="two-tailed-tests-1" class="title-slide slide level3 center">
 <h3>Two-tailed tests</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1823,7 +1837,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="two-tailed-tests-2" class="slide level3">
+
+<section id="two-tailed-tests-2" class="title-slide slide level3 center">
 <h3>Two-tailed tests</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1845,6 +1860,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </section>
 
+
 <section id="confidence-intervals" class="title-slide slide level2 center">
 <h2>Confidence intervals</h2>
 <ul>
@@ -1852,7 +1868,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>If something is significant under the p.value method it will also be significant under an equivalent confidence interval method, and vice-versa.</p></li>
 </ul>
 </section>
-<section id="confidence-intervals-and-null-hypothesis-testing" class="slide level3">
+<section id="confidence-intervals-and-null-hypothesis-testing" class="title-slide slide level3 center">
 <h3>Confidence Intervals and null hypothesis testing</h3>
 <ul>
 <li><p>Step 1: State a null hypothesis and a confidence level (for instance: 90%, 95% or 99%)</p></li>
@@ -1860,11 +1876,13 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>Step 3: If the confidence interval doesn’t contain the null hypothesis, you can reject the null.</p></li>
 </ul>
 </section>
-<section id="confidence-intervals-and-null-hypothesis-testing-1" class="slide level3">
+
+<section id="confidence-intervals-and-null-hypothesis-testing-1" class="title-slide slide level3 center">
 <h3>Confidence Intervals and null hypothesis testing</h3>
 <p>Testing with a 95% confidence interval is equivalent to testing a two-tailed p.value with <span class="math inline">\(\alpha = .05\)</span>, so we’ll use that as our confidence level and null hypothesis here.</p>
 </section>
-<section id="confidence-intervals-and-null-hypothesis-testing-2" class="slide level3">
+
+<section id="confidence-intervals-and-null-hypothesis-testing-2" class="title-slide slide level3 center">
 <h3>Confidence Intervals and null hypothesis testing</h3>
 <div>
 <ul>
@@ -1877,7 +1895,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </ul>
 </div>
 </section>
-<section id="confidence-intervals-and-null-hypothesis-testing-3" class="slide level3">
+
+<section id="confidence-intervals-and-null-hypothesis-testing-3" class="title-slide slide level3 center">
 <h3>Confidence Intervals and null hypothesis testing</h3>
 <p>The lower bound of the 95% confidence interval is touching the null hypothesis, so we fail to reject the null here.</p>
 <div class="center">
@@ -1892,7 +1911,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="confidence-intervals-and-null-hypothesis-testing-4" class="slide level3">
+
+<section id="confidence-intervals-and-null-hypothesis-testing-4" class="title-slide slide level3 center">
 <h3>Confidence Intervals and null hypothesis testing</h3>
 <p>We would reject the null at the 95% confidence level if we got estimates <span class="math inline">\(\leq .47\)</span> or <span class="math inline">\(\geq .53\)</span>. So this is the same result we got from the p-value approach at <span class="math inline">\(\alpha =.05\)</span> in a two-tailed test.</p>
 <div class="center">
@@ -1908,6 +1928,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </section>
 
+
 <section id="tests-for-a-single-proportion-in-r" class="title-slide slide level2 center">
 <h2>Tests for a single proportion in R</h2>
 <ul>
@@ -1916,7 +1937,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>So what is the probability of getting an error of <span class="math inline">\(\pm17\)</span> in a sample with 1,316 people?</p></li>
 </ul>
 </section>
-<section id="tests-for-a-single-proportion-in-r-1" class="slide level3">
+<section id="tests-for-a-single-proportion-in-r-1" class="title-slide slide level3 center">
 <h3>Tests for a single proportion in R</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1938,7 +1959,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-in-r-2" class="slide level3">
+
+<section id="tests-for-a-single-proportion-in-r-2" class="title-slide slide level3 center">
 <h3>Tests for a single proportion in R</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1997,7 +2019,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="tests-for-a-single-proportion-in-r-3" class="slide level3">
+
+<section id="tests-for-a-single-proportion-in-r-3" class="title-slide slide level3 center">
 <h3>Tests for a single proportion in R</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">testpropsC</span>(<span class="at">x1=</span> survey<span class="sc">$</span>voted24, <span class="at">x2 =</span> .<span class="dv">59</span>, <span class="at">response=</span><span class="st">&#39;Yes&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2014,7 +2037,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="a-one-sample-test-of-proportions-confidence-interval-method" class="slide level3">
+
+<section id="a-one-sample-test-of-proportions-confidence-interval-method" class="title-slide slide level3 center">
 <h3>A one sample test of proportions: confidence interval method</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2029,7 +2053,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="a-one-sample-test-of-proportions-confidence-interval-method-1" class="slide level3">
+
+<section id="a-one-sample-test-of-proportions-confidence-interval-method-1" class="title-slide slide level3 center">
 <h3>A one sample test of proportions: confidence interval method</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2047,7 +2072,8 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </div>
 </section>
-<section id="sample-error" class="slide level3">
+
+<section id="sample-error" class="title-slide slide level3 center">
 <h3>Sample error</h3>
 <div>
 <ul>
@@ -2057,6 +2083,7 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 </div>
 </section>
 
+
 <section id="two-sample-proportions" class="title-slide slide level2 center">
 <h2>Two sample proportions</h2>
 <ul>
@@ -2065,14 +2092,15 @@ Z  = \frac{.51 - .50}{0.013} = 0.769
 <li><p>These are examples of two sample tests, where we’re trying to determine whether and observed difference between to groups is the result of random sampling error.</p></li>
 </ul>
 </section>
-<section id="two-sample-proportions-1" class="slide level3">
+<section id="two-sample-proportions-1" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <ul>
 <li><p>The same basic logic applies, but with the distinction that we’re measuring a difference between two samples that were themselves measured with error (as opposed to just comparing a sample to a theoretical population value)</p></li>
 <li><p>So, we need to create a measure of the standard error of the <em>difference</em> between two groups.</p></li>
 </ul>
 </section>
-<section id="two-sample-proportions-2" class="slide level3">
+
+<section id="two-sample-proportions-2" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <p><span class="math display">\[
 \begin{align}
@@ -2085,14 +2113,16 @@ n_b &amp;= \text{Sample size for group b}\\
 \end{align}
 \]</span></p>
 </section>
-<section id="two-sample-proportions-3" class="slide level3">
+
+<section id="two-sample-proportions-3" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <p>From here, we would just calculate a Z-score for the difference between group a and group b:</p>
 <p><span class="math display">\[
 Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}  
 \]</span> And then we would apply the same logic we used for a p.value or confidence interval in a one sample test.</p>
 </section>
-<section id="two-sample-proportions-4" class="slide level3">
+
+<section id="two-sample-proportions-4" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2105,7 +2135,8 @@ Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}
 </div>
 </div>
 </section>
-<section id="two-sample-proportions-5" class="slide level3">
+
+<section id="two-sample-proportions-5" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2121,7 +2152,8 @@ Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}
 </div>
 </div>
 </section>
-<section id="two-sample-proportions-6" class="slide level3">
+
+<section id="two-sample-proportions-6" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2137,7 +2169,8 @@ Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}
 </div>
 </div>
 </section>
-<section id="two-sample-proportions-7" class="slide level3">
+
+<section id="two-sample-proportions-7" class="title-slide slide level3 center">
 <h3>Two sample proportions</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">testpropsC</span>(<span class="at">x1 =</span> inquisition, <span class="at">x2=</span>plague, <span class="at">response=</span><span class="st">&#39;favorable&#39;</span>, <span class="at">data=</span>yougov_data, <span class="at">printC=</span><span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2156,7 +2189,8 @@ Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}
 </div>
 </div>
 </section>
-<section id="two-sample-proportions-confidence-interval-method" class="slide level3">
+
+<section id="two-sample-proportions-confidence-interval-method" class="title-slide slide level3 center">
 <h3>Two sample proportions: confidence interval method</h3>
 <p>Again: the confidence interval method will give us the same result here. Instead of looking for a p-value less .05 we can ask “does the 95% confidence interval for the difference contain zero”?</p>
 <div class="fragment">
@@ -2183,6 +2217,7 @@ Z_\text{diff} = \frac{p_a  - p_b}{SE_\text{difference}}
 </div>
 </div>
 </section>
+
 </section>
     </div>
   </div>
@@ -3645,7 +3680,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

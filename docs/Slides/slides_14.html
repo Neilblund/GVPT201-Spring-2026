@@ -3907,14 +3907,15 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </ul>
 </div>
 </section>
-<section id="setting-up-an-interaction" class="slide level3">
+<section id="setting-up-an-interaction" class="title-slide slide level3 center">
 <h3>Setting up an interaction</h3>
 <p>How do I set this up?</p>
 <div class="fragment">
 <p>(Spoiler: R actually makes this very easy, but understanding how we’d do it ourselves is helpful for interpreting the results)</p>
 </div>
 </section>
-<section id="setting-up-an-interaction-1" class="slide level3">
+
+<section id="setting-up-an-interaction-1" class="title-slide slide level3 center">
 <h3>Setting up an interaction</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -3956,7 +3957,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="setting-up-an-interaction-2" class="slide level3">
+
+<section id="setting-up-an-interaction-2" class="title-slide slide level3 center">
 <h3>Setting up an interaction</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -3998,7 +4000,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="setting-up-an-interaction-3" class="slide level3">
+
+<section id="setting-up-an-interaction-3" class="title-slide slide level3 center">
 <h3>Setting up an interaction</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4050,7 +4053,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="setting-up-an-interaction-4" class="slide level3">
+
+<section id="setting-up-an-interaction-4" class="title-slide slide level3 center">
 <h3>Setting up an interaction</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4100,7 +4104,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="setting-up-an-interaction-in-r" class="slide level3">
+
+<section id="setting-up-an-interaction-in-r" class="title-slide slide level3 center">
 <h3>Setting up an interaction in R</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">regC</span>(ft.harris.post <span class="sc">~</span> black <span class="sc">*</span> religion_important, <span class="at">data=</span>data, <span class="at">printC=</span><span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -4113,6 +4118,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
+
 
 <section id="interpreting-the-results" class="title-slide slide level2 center">
 <h2>Interpreting the results</h2>
@@ -4132,7 +4138,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interpreting-the-results-1" class="slide level3">
+<section id="interpreting-the-results-1" class="title-slide slide level3 center">
 <h3>Interpreting the results 1</h3>
 <div class="columns">
 <p><code>(Intercept)</code> represents the expectation for non-religious white people (<code>religion_important = 0</code>; <code>black = 0</code>)</p><div class="column" style="width:50%;">
@@ -4150,7 +4156,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interpreting-the-results-2" class="slide level3">
+
+<section id="interpreting-the-results-2" class="title-slide slide level3 center">
 <h3>Interpreting the results 2</h3>
 <div class="columns">
 <p>The coefficient on <code>black</code> is the <strong>difference</strong> between black non-religious vs. white non-religious people.</p><div class="column" style="width:50%;">
@@ -4168,7 +4175,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interpreting-the-results-3" class="slide level3">
+
+<section id="interpreting-the-results-3" class="title-slide slide level3 center">
 <h3>Interpreting the results 3</h3>
 <p>The coefficient on <code>religion_important</code> is the effect of religion for white people.</p>
 <div class="columns">
@@ -4187,7 +4195,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interpreting-the-results-4" class="slide level3">
+
+<section id="interpreting-the-results-4" class="title-slide slide level3 center">
 <h3>Interpreting the results 4</h3>
 <p><code>black:religion_important</code> is the <strong>difference</strong> between the slopes for white religious vs. black religious people.</p>
 <div class="columns">
@@ -4206,7 +4215,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interpreting-the-results-p-value" class="slide level3">
+
+<section id="interpreting-the-results-p-value" class="title-slide slide level3 center">
 <h3>Interpreting the results: p-value</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4221,6 +4231,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
+
 
 <section id="interaction-effects-3" class="title-slide slide level2 center">
 <h2>Interaction effects</h2>
@@ -4289,7 +4300,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </table>
 </div>
 </section>
-<section id="interaction-effects-4" class="slide level3">
+<section id="interaction-effects-4" class="title-slide slide level3 center">
 <h3>Interaction effects</h3>
 <p>As with a dummy variable regression, the best way to avoid getting tripped up is to lay out the formula and start making some predictions.</p>
 <p><span class="math display">\[
@@ -4354,7 +4365,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </tbody>
 </table>
 </section>
-<section id="interaction-effects-using-predict" class="slide level3">
+
+<section id="interaction-effects-using-predict" class="title-slide slide level3 center">
 <h3>Interaction effects: using predict</h3>
 <p>R’s <code>predict</code> function can also be helpful here. Assign your regression to a variable, then create a data frame with a hypothetical case. Pass the data frame to the <code>newdata=</code> argument:</p>
 <div class="cell">
@@ -4371,7 +4383,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="interaction-effects-using-predict-1" class="slide level3">
+
+<section id="interaction-effects-using-predict-1" class="title-slide slide level3 center">
 <h3>Interaction effects: using predict</h3>
 <p>You can get predictions for multiple scenarios at the same time:</p>
 <div class="cell">
@@ -4395,7 +4408,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="example-of-using-predict-to-get-model-predictions" class="slide level3">
+
+<section id="example-of-using-predict-to-get-model-predictions" class="title-slide slide level3 center">
 <h3>Example of using predict to get model predictions</h3>
 <p>Here’s a full example of getting predictions for a regression with an interaction term using the predict function:</p>
 <div class="cell">
@@ -4434,7 +4448,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <span id="cb7-33"><a></a><span class="co"># rather than the effect of not being harassed.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="interaction-effects-5" class="slide level3">
+
+<section id="interaction-effects-5" class="title-slide slide level3 center">
 <h3>Interaction effects</h3>
 <p>Keep in mind:</p>
 <div>
@@ -4445,6 +4460,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </section>
 
+
 <section id="continuous-x-dichotomous-interactions" class="title-slide slide level2 center">
 <h2>Continuous x dichotomous interactions</h2>
 <p>What if one of the variables is continuous?</p>
@@ -4452,7 +4468,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <p>The basic intuition won’t really change!</p>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-1" class="slide level3">
+<section id="continuous-x-dichotomous-interactions-1" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4472,7 +4488,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-2" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-2" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
@@ -4484,7 +4501,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-3" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-3" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <p>As with the previous case, the interaction term is literally the result of multiplying treaty status X press freedom:</p>
 <div class="cell">
@@ -4535,7 +4553,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <p>And our model will include both constituent terms AND the interaction.</p>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-4" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-4" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4620,12 +4639,14 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-5" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-5" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <p>Once again: the basic math here doesn’t change. Just plug in some values to the formula to get a sense for how things change.</p>
 <p><span class="math inline">\(\hat{y} = 10.4 + (-0.1 \times \text{Press}) + (7.3 \times \text{ICC} ) + (-0.1 \times \text{Interaction})\)</span></p>
 </section>
-<section id="continuous-x-dichotomous-interactions-6" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-6" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <p>Given this model, what would be the expected effect if China signed the ICC? And what would be the effect if the U.S. did so?</p>
 <div class="cell">
@@ -4678,7 +4699,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-7" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-7" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <p><span class="math inline">\(\hat{y} = 10.4 + (-0.1 \times \text{Press}) + (7.3 \times \text{ICC} ) + (-0.1 \times \text{Interaction})\)</span></p>
 <div class="cell">
@@ -4740,7 +4762,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <p>Why is one effect negative and the other positive??</p>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-8" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-8" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <div class="columns">
 <div class="column" style="width:%50;">
@@ -4766,7 +4789,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-x-dichotomous-interactions-9" class="slide level3">
+
+<section id="continuous-x-dichotomous-interactions-9" class="title-slide slide level3 center">
 <h3>Continuous x dichotomous interactions</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>cases<span class="ot">&lt;-</span><span class="fu">data.frame</span>(</span>
@@ -4826,13 +4850,15 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <p>(there are some differences here from the previous page due to rounding)</p>
 </div>
 </section>
-<section id="interactions" class="slide level3">
+
+<section id="interactions" class="title-slide slide level3 center">
 <h3>Interactions</h3>
 <ul>
 <li><p>Again: the math is not changing, just the intepretation.</p></li>
 <li><p>The implications of an interactive model aren’t always obvious from a coefficient. It usually makes sense to plug in some hypotheticals and test them out.</p></li>
 </ul>
 </section>
+
 
 <section id="continuous-by-continuous-interactions" class="title-slide slide level2 center">
 <h2>Continuous by Continuous interactions</h2>
@@ -4841,7 +4867,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 <li><p>(the workbook has you creating 3-d plots for this, but ymmv)</p></li>
 </ul>
 </section>
-<section id="continuous-by-continuous-interactions-1" class="slide level3 nostretch">
+<section id="continuous-by-continuous-interactions-1" class="title-slide slide level3 nostretch center">
 <h3>Continuous by Continuous interactions</h3>
 <div class="r-stack">
 <div class="fragment fade-in-then-out">
@@ -4864,11 +4890,13 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-by-continuous-interactions-2" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-2" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <p>In general, I think it’s much easier to plug in some values and think about what changes.</p>
 </section>
-<section id="continuous-by-continuous-interactions-3" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-3" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -4889,7 +4917,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
-<section id="continuous-by-continuous-interactions-4" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-4" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <p>Model:</p>
 <p><span class="math display">\[
@@ -4907,7 +4936,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </ul>
 </div>
 </section>
-<section id="continuous-by-continuous-interactions-5" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-5" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <p>Model:</p>
 <p><span class="math display">\[
@@ -4923,14 +4953,16 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </ul>
 </div>
 </section>
-<section id="continuous-by-continuous-interactions-6" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-6" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <p>Model:</p>
 <p><span class="math display">\[
 68.5 + (5.8\times\text{GDPPC 10K}) + (4.1 \times \text{Oil}) +  (-1.0 \times \text{Oil} \times \text{GDPPC 10K})
 \]</span> The difference in effects is <span class="math inline">\(4.8 - 5.8 = -1\)</span>, which matches our interaction effect.</p>
 </section>
-<section id="continuous-by-continuous-interactions-7" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-7" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <p>Model:</p>
 <p><span class="math display">\[
@@ -4948,7 +4980,8 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 \end{align*}
 \]</span></p>
 </section>
-<section id="continuous-by-continuous-interactions-8" class="slide level3">
+
+<section id="continuous-by-continuous-interactions-8" class="title-slide slide level3 center">
 <h3>Continuous by Continuous interactions</h3>
 <div class="center">
 <div class="cell">
@@ -4962,6 +4995,7 @@ e.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeo
 </div>
 </div>
 </section>
+
 
 <section id="next-up" class="title-slide slide level2 center">
 <h2>Next up</h2>
@@ -6453,7 +6487,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

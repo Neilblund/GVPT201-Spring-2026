@@ -1519,7 +1519,7 @@ margin-right: 0; }
 </figure>
 </div>
 </section>
-<section id="one-sample-t-test-1" class="slide level3">
+<section id="one-sample-t-test-1" class="title-slide slide level3 center">
 <h3>One sample T-Test</h3>
 <p>I want to know if people are, on average, “warm” towards capitalists. I survey 100 people and get an average feeling thermometer score for “capitalists” was 54.3. Is it plausible that the actual population feeling thermometer score is actually 50 or below?</p>
 <ul>
@@ -1530,7 +1530,8 @@ margin-right: 0; }
 <p>My alpha here is .05, so I’ll reject the null if there’s a less than 5% chance of seeing a result this high if the null is true.</p>
 </div>
 </section>
-<section id="one-sample-t-test-2" class="slide level3">
+
+<section id="one-sample-t-test-2" class="title-slide slide level3 center">
 <h3>One sample T-Test</h3>
 <p>Imagine the null is true, then the sampling distribution of sample means would be centered at 50 with a standard error equal to <span class="math inline">\(\frac{\sigma}{\sqrt{n}}\)</span></p>
 <div class="cell">
@@ -1543,7 +1544,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="one-sample-t-test-3" class="slide level3">
+
+<section id="one-sample-t-test-3" class="title-slide slide level3 center">
 <h3>One sample T-Test</h3>
 <p>Our <strong>observed</strong> value is 54.3. So, we’re basically asking: what is the probability of getting a result of 54.3 or greater if the population mean is 50?</p>
 <div class="cell">
@@ -1556,7 +1558,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="one-sample-t-test-p-value-method" class="slide level3 scrollable">
+
+<section id="one-sample-t-test-p-value-method" class="title-slide slide level3 center scrollable">
 <h3>One sample T-Test: P-value method</h3>
 <ol type="1">
 <li><p>Calculate the difference between my observed value and the null value we’re assuming (50)</p></li>
@@ -1564,7 +1567,8 @@ margin-right: 0; }
 <li><p>Calculate a T-statistic for this <strong>difference</strong> (<span class="math inline">\(T = \frac{\text{difference}}{SE}\)</span>) and get the associated p.value</p></li>
 </ol>
 </section>
-<section id="one-sample-t-test-p-value-method-1" class="slide level3 scrollable">
+
+<section id="one-sample-t-test-p-value-method-1" class="title-slide slide level3 center scrollable">
 <h3>One sample T-Test: P-value method</h3>
 <div>
 <ol type="1">
@@ -1589,7 +1593,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="one-sample-t-test-p-value-method-2" class="slide level3">
+
+<section id="one-sample-t-test-p-value-method-2" class="title-slide slide level3 center">
 <h3>One sample T-Test: P-value method</h3>
 <p>Note that, if I flip my hypothesis I get a different answer:</p>
 <p><span class="math inline">\(H_a:\)</span> the population mean is less than 50</p>
@@ -1606,7 +1611,8 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="one-sample-t-test-p-value-method-3" class="slide level3">
+
+<section id="one-sample-t-test-p-value-method-3" class="title-slide slide level3 center">
 <h3>One sample T-Test: P-value method</h3>
 <p>And a two-tailed test will double my p-value:</p>
 <p><span class="math inline">\(H_a:\)</span> the population mean is not 50</p>
@@ -1623,12 +1629,14 @@ margin-right: 0; }
 </div>
 </div>
 </section>
-<section id="one-sample-t-test-confidence-interval-method" class="slide level3">
+
+<section id="one-sample-t-test-confidence-interval-method" class="title-slide slide level3 center">
 <h3>One sample T-Test Confidence interval method</h3>
 <p>I could also test this hypothesis using a confidence interval. The two methods are based on the same assumptions, so they which you choose is mostly a matter of preference.</p>
 <p>If the confidence range contains the null hypothesis value, then we fail to reject the null at that level.</p>
 </section>
-<section id="one-sample-t-test-confidence-interval-method-1" class="slide level3">
+
+<section id="one-sample-t-test-confidence-interval-method-1" class="title-slide slide level3 center">
 <h3>One sample T-Test Confidence interval method</h3>
 <p>A p-value of &lt;.05 in a <strong>one-tailed test</strong> corresponds to a 90% confidence interval. The required T-score at 99 degrees of freedom is 1.67.</p>
 <p><span class="math display">\[
@@ -1641,11 +1649,13 @@ margin-right: 0; }
 \]</span></p>
 </div>
 </section>
-<section id="two-sample-test" class="slide level3">
+
+<section id="two-sample-test" class="title-slide slide level3 center">
 <h3>Two-Sample Test</h3>
 <p>In a two sample test, I want to know if a pair of estimates are significantly different from one another.</p>
 </section>
-<section id="two-sample-test-1" class="slide level3">
+
+<section id="two-sample-test-1" class="title-slide slide level3 center">
 <h3>Two-Sample Test</h3>
 <p>“Right to work” laws prohibit agreements that require employees of a unionized company to pay dues (even if they don’t join a union). States that have right to work laws have lower unionization rates, but is it plausible this difference is the result of random sampling error?</p>
 <div class="columns">
@@ -2101,7 +2111,8 @@ N = 16<span class="gt_footnote_marks" style="white-space:nowrap;font-style:itali
 </div>
 </div>
 </section>
-<section id="two-sample-test-2" class="slide level3 scrollable">
+
+<section id="two-sample-test-2" class="title-slide slide level3 center scrollable">
 <h3>Two-Sample Test</h3>
 <p>For a P-value:</p>
 <ol type="1">
@@ -2110,7 +2121,8 @@ N = 16<span class="gt_footnote_marks" style="white-space:nowrap;font-style:itali
 <li>Calculate a T-score, and get an associated P-value at the appropriate degrees of freedom.</li>
 </ol>
 </section>
-<section id="two-sample-test-3" class="slide level3">
+
+<section id="two-sample-test-3" class="title-slide slide level3 center">
 <h3>Two-Sample Test</h3>
 <p>The difference: <span class="math inline">\((11.7 - 6.1 = 5.6)\)</span></p>
 <div class="fragment">
@@ -2120,7 +2132,8 @@ SE_{\text{diff}} = \sqrt{\frac{\sigma^2_{\text{group 1}}}{n_\text{group 1}} + \f
 \]</span></p>
 </div>
 </section>
-<section id="two-sample-test-4" class="slide level3">
+
+<section id="two-sample-test-4" class="title-slide slide level3 center">
 <h3>Two-Sample Test</h3>
 <p><span class="math display">\[
 SE_{\text{diff}} = \sqrt{\frac{4.9^2}{34} + \frac{2.3^2}{16}} = 1.02
@@ -2139,7 +2152,8 @@ T = \frac{5.61}{1.02} = 5.52
 <p>Degrees of freedom here is different depending on your assumptions about the samples, but an okay approximation for our purposes is: <span class="math inline">\(n_1-1 + n_2-1 = 48\)</span></p>
 </div>
 </section>
-<section id="two-sample-test-5" class="slide level3">
+
+<section id="two-sample-test-5" class="title-slide slide level3 center">
 <h3>Two-Sample Test</h3>
 <p>The probability of a T-score &lt; 5.61 (at DF = 48):</p>
 <div class="cell">
@@ -2166,7 +2180,8 @@ T = \frac{5.61}{1.02} = 5.52
 </div>
 </div>
 </section>
-<section id="two-sample-test-in-r" class="slide level3">
+
+<section id="two-sample-test-in-r" class="title-slide slide level3 center">
 <h3>Two-Sample Test: in R</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -2183,6 +2198,7 @@ T = \frac{5.61}{1.02} = 5.52
 </div>
 </div>
 </section>
+
 </section>
 <section>
 <section id="cautions-about-hypothesis-testing" class="title-slide slide level1 center">
@@ -3895,7 +3911,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
