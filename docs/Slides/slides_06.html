@@ -1999,7 +1999,6 @@ The error is .5 - 0.51 = 0.01</code></pre>
 <li class="fragment">(We can make some simple assumptions here to get a “worst case scenario” for a survey statistic.)</li>
 </ul>
 </div>
-<p>:::</p>
 </section>
 
 <section id="the-standard-error" class="title-slide slide level2 center" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
@@ -2154,7 +2153,7 @@ p = \text{the proportion}
 <section id="the-margin-of-error-3" class="title-slide slide level2 center">
 <h2>The Margin of error</h2>
 <p>So what is the margin of error on a poll?</p>
-<p>Its a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories.</p>
+<p>It’s a 95% confidence interval for a worst case scenario where there’s a 50/50 split on a question with two response categories.</p>
 </section>
 
 <section id="the-central-limit-theorem-2" class="title-slide slide level2 center">
@@ -2179,16 +2178,13 @@ p = \text{the proportion}
 \]</span></p>
 <p><span class="math display">\[ \text{upper 95% confidence boundary} = \bar{x} + 1.96  \text{ standard errors} \]</span></p>
 <div class="fragment">
-<p>Sometimes we’ll just round this to “2” because its usually good enough.</p>
+<p>We’ll often just round this to “2” for back-of-the-envelope calculations.</p>
 </div>
 </section>
 </section>
 <section id="next-questions" class="title-slide slide level1 center">
 <h1>Next questions:</h1>
-<ul>
-<li><p>The margin of error is a worst case scenario. Its convenient to have one number that can apply to the entire survey, but we can generally be more precise with our confidence intervals.</p></li>
-<li><p>We often want to estimate confidence for things that aren’t proportions, so how do we do this without knowing the population value for <span class="math inline">\(\sigma\)</span>?</p></li>
-</ul>
+<p>We often want to estimate confidence for things that aren’t proportions, so how do we do this without knowing the population value for <span class="math inline">\(\sigma\)</span>?</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -3677,7 +3673,7 @@ window.QuartoSupport = function () {
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;
